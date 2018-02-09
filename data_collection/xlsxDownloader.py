@@ -4,6 +4,7 @@ from lxml import html
 from lxml import etree
 from bs4 import BeautifulSoup
 from StringIO import StringIO
+from optparse import OptionParser
 from pymongo import MongoClient
 from HTMLParser import HTMLParser
 from openpyxl import load_workbook
@@ -65,15 +66,23 @@ def downloadXlxs(xlxs_links, ticker):
 		break
 	
 
+
 def initializer():
-    print "Version 2.0.1"
-    client = MongoClient('localhost', 12345)
-    if(client):
-        print "Connected to MonogClient: localhost port 12345"
-    ticker = sys.argv[1]
-    topLevelLinks = createTopLevelURLs(ticker)
-    parseLinks = createParseableUrls(topLevelLinks)
-    downloadXlxs(parseLinks, ticker)
+	cli_parser = OptionParser(
+		usage='usage: %prog <input.xlsx> [output.json]'
+		)
+	(options, args) = cli_parser.parse_args()
+    # Input file checks
+	if len(args) < 1:
+		cli_parser.error("You have to supply at least 1 argument")
+	print "Version 2.0.1"
+	client = MongoClient('localhost', 12345)
+	if(client):
+		print "Connected to MonogClient: localhost port 12345"
+	ticker = sys.argv[1]
+	topLevelLinks = createTopLevelURLs(ticker)
+	parseLinks = createParseableUrls(topLevelLinks)
+	downloadXlxs(parseLinks, ticker)
 
 if __name__ == '__main__':
 	initializer()
