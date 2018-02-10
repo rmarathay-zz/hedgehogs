@@ -50,15 +50,17 @@ def createParseableUrls(top_level_links):
 def downloadXlxs(xlxs_links, ticker):
 	print "Downloading .xlxs files..."
 	os.chdir('fin_data')
+	#If directory already exist, will throw OSError
 	try:
 		os.mkdir(ticker)
 	except OSError as err:
-		cwd = os.getcwd()
+		cwd = os.getcwd() #current working directory
 		files = glob.glob(cwd + '/'+ ticker + '/*')
+		#remove contents of directory
 		for f in files:
    			os.remove(f)
-   		os.rmdir(ticker)
-		os.mkdir(ticker)
+   		os.rmdir(ticker) #delete directory
+		os.mkdir(ticker) #make new directory with same name
 	os.chdir(ticker)
 	for i in range(0,len(xlxs_links)):
 		file = wget.download(xlxs_links[i], "")
