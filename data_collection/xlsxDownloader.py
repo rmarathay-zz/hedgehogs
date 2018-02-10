@@ -17,6 +17,7 @@ import sys, os
 import wget
 import pandas
 import xlrd
+import glob
 
 from import_hedgehogs import Link
 from import_hedgehogs import Data
@@ -49,7 +50,15 @@ def createParseableUrls(top_level_links):
 def downloadXlxs(xlxs_links, ticker):
 	print "Downloading .xlxs files..."
 	os.chdir('fin_data')
-	os.mkdir(ticker)
+	try:
+		os.mkdir(ticker)
+	except OSError as err:
+		cwd = os.getcwd()
+		files = glob.glob(cwd + '/'+ ticker + '/*')
+		for f in files:
+   			os.remove(f)
+   		os.rmdir(ticker)
+		os.mkdir(ticker)
 	os.chdir(ticker)
 	for i in range(0,len(xlxs_links)):
 		file = wget.download(xlxs_links[i], "")
