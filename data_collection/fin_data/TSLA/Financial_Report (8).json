@@ -1,0 +1,3475 @@
+[
+    {
+        "title": "Document and Entity Information", 
+        "Document And Entity Information [Abstract]": {
+            "Document Type": {
+                "value": "10-Q", 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }, 
+            "Amendment Flag": {
+                "value": "false", 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }, 
+            "Document Period End Date": {
+                "value": "31-Mar-15", 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }, 
+            "Document Fiscal Year Focus": {
+                "value": 2015, 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }, 
+            "Document Fiscal Period Focus": {
+                "value": "Q1", 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }, 
+            "Trading Symbol": {
+                "value": "TSLA", 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }, 
+            "Entity Registrant Name": {
+                "value": "TESLA MOTORS INC", 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }, 
+            "Entity Central Index Key": {
+                "value": 1318605, 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }, 
+            "Current Fiscal Year End Date": {
+                "value": -19, 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }, 
+            "Entity Filer Category": {
+                "value": "Large Accelerated Filer", 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }, 
+            "Entity Common Stock, Shares Outstanding": {
+                "value": 126403793, 
+                "date": "apr 30 2015"
+            }
+        }
+    }, 
+    {
+        "title": "Condensed Consolidated Balance Sheets (USD $)", 
+        "In Thousands, unless otherwise specified Current assets": {
+            "Cash and cash equivalents": [
+                {
+                    "value": 1510076, 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 1905713, 
+                    "date": "dec 31 2014"
+                }
+            ], 
+            "Restricted cash and marketable securities": [
+                {
+                    "value": 20693, 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 17947, 
+                    "date": "dec 31 2014"
+                }
+            ], 
+            "Accounts receivable": [
+                {
+                    "value": 200052, 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 226604, 
+                    "date": "dec 31 2014"
+                }
+            ], 
+            "Inventory": [
+                {
+                    "value": 1054840, 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 953675, 
+                    "date": "dec 31 2014"
+                }
+            ], 
+            "Prepaid expenses and other current assets": [
+                {
+                    "value": 135756, 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 94718, 
+                    "date": "dec 31 2014"
+                }
+            ], 
+            "Total current assets": [
+                {
+                    "value": 2921417, 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 3198657, 
+                    "date": "dec 31 2014"
+                }
+            ], 
+            "Operating lease vehicles, net": [
+                {
+                    "value": 912061, 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 766744, 
+                    "date": "dec 31 2014"
+                }
+            ], 
+            "Property, plant and equipment, net": [
+                {
+                    "value": 2224191, 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 1829267, 
+                    "date": "dec 31 2014"
+                }
+            ], 
+            "Restricted cash": [
+                {
+                    "value": 13846, 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 11374, 
+                    "date": "dec 31 2014"
+                }
+            ], 
+            "Other assets": [
+                {
+                    "value": 48515, 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 43209, 
+                    "date": "dec 31 2014"
+                }
+            ], 
+            "Total assets": [
+                {
+                    "value": 6120030, 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 5849251, 
+                    "date": "dec 31 2014"
+                }
+            ]
+        }, 
+        "Current liabilities": {
+            "Accounts payable": [
+                {
+                    "value": 732331, 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 777946, 
+                    "date": "dec 31 2014"
+                }
+            ], 
+            "Accrued liabilities": [
+                {
+                    "value": 353768, 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 268884, 
+                    "date": "dec 31 2014"
+                }
+            ], 
+            "Deferred revenue": [
+                {
+                    "value": 226474, 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 191651, 
+                    "date": "dec 31 2014"
+                }
+            ], 
+            "Capital lease obligations, current portion": [
+                {
+                    "value": 9622, 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 9532, 
+                    "date": "dec 31 2014"
+                }
+            ], 
+            "Customer deposits": [
+                {
+                    "value": 249476, 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 257587, 
+                    "date": "dec 31 2014"
+                }
+            ], 
+            "Convertible senior notes and other debt": [
+                {
+                    "value": 620710, 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 601566, 
+                    "date": "dec 31 2014"
+                }
+            ], 
+            "Total current liabilities": [
+                {
+                    "value": 2192381, 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 2107166, 
+                    "date": "dec 31 2014"
+                }
+            ], 
+            "Capital lease obligations, less current portion": [
+                {
+                    "value": 11265, 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 12267, 
+                    "date": "dec 31 2014"
+                }
+            ], 
+            "Deferred revenue, less current portion": [
+                {
+                    "value": 312850, 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 292271, 
+                    "date": "dec 31 2014"
+                }
+            ], 
+            "Convertible senior notes and other debt, less current portion": [
+                {
+                    "value": 1888672, 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 1806518, 
+                    "date": "dec 31 2014"
+                }
+            ], 
+            "Resale value guarantee": [
+                {
+                    "value": 606221, 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 487879, 
+                    "date": "dec 31 2014"
+                }
+            ], 
+            "Other long-term liabilities": [
+                {
+                    "value": 228367, 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 173244, 
+                    "date": "dec 31 2014"
+                }
+            ], 
+            "Total liabilities": [
+                {
+                    "value": 5239756, 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 4879345, 
+                    "date": "dec 31 2014"
+                }
+            ], 
+            "Commitments and contingencies (Note 9)": [
+                {
+                    "value": "  ", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": "  ", 
+                    "date": "dec 31 2014"
+                }
+            ], 
+            "Convertible senior notes (Notes 6)": [
+                {
+                    "value": 54277, 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 58196, 
+                    "date": "dec 31 2014"
+                }
+            ]
+        }, 
+        "Stockholders' equity:": {
+            "Preferred stock; $0.001 par value; 100,000,000 shares authorized; no shares issued and outstanding": [
+                {
+                    "value": "  ", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": "  ", 
+                    "date": "dec 31 2014"
+                }
+            ], 
+            "Common stock; $0.001 par value; 2,000,000,000 shares authorized as of March 31, 2015 and December 31, 2014, respectively; 126,362,303 and 125,687,607 shares issued and outstanding as of March 31, 2015 and December 31, 2014, respectively": [
+                {
+                    "value": 126, 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 126, 
+                    "date": "dec 31 2014"
+                }
+            ], 
+            "Additional paid-in capital": [
+                {
+                    "value": 2429677, 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 2345266, 
+                    "date": "dec 31 2014"
+                }
+            ], 
+            "Accumulated other comprehensive loss": [
+                {
+                    "value": -15965, 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": -22, 
+                    "date": "dec 31 2014"
+                }
+            ], 
+            "Accumulated deficit": [
+                {
+                    "value": -1587841, 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": -1433660, 
+                    "date": "dec 31 2014"
+                }
+            ], 
+            "Total stockholders' equity": [
+                {
+                    "value": 825997, 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 911710, 
+                    "date": "dec 31 2014"
+                }
+            ], 
+            "Total liabilities and stockholders' equity": [
+                {
+                    "value": 6120030, 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 5849251, 
+                    "date": "dec 31 2014"
+                }
+            ]
+        }
+    }, 
+    {
+        "title": "Condensed Consolidated Balance Sheets (Parenthetical) (USD $)", 
+        "Statement Of Financial Position [Abstract]": {
+            "Preferred stock par value": [
+                {
+                    "value": 0.001, 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 0.001, 
+                    "date": "dec 31 2014"
+                }
+            ], 
+            "Preferred stock shares authorized": [
+                {
+                    "value": 100000000, 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 100000000, 
+                    "date": "dec 31 2014"
+                }
+            ], 
+            "Preferred stock shares issued": [
+                {
+                    "value": 0, 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 0, 
+                    "date": "dec 31 2014"
+                }
+            ], 
+            "Preferred stock shares outstanding": [
+                {
+                    "value": 0, 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 0, 
+                    "date": "dec 31 2014"
+                }
+            ], 
+            "Common stock par value": [
+                {
+                    "value": 0.001, 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 0.001, 
+                    "date": "dec 31 2014"
+                }
+            ], 
+            "Common stock shares authorized": [
+                {
+                    "value": 2000000000, 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 2000000000, 
+                    "date": "dec 31 2014"
+                }
+            ], 
+            "Common stock shares issued": [
+                {
+                    "value": 126362303, 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 125687607, 
+                    "date": "dec 31 2014"
+                }
+            ], 
+            "Common stock shares outstanding": [
+                {
+                    "value": 126362303, 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 125687607, 
+                    "date": "dec 31 2014"
+                }
+            ]
+        }
+    }, 
+    {
+        "title": "Condensed Consolidated Statements of Operations (USD $) In Thousands, except Share data, unless otherwise specified", 
+        "Revenues": {
+            "Automotive": [
+                {
+                    "value": 893320, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 588871, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Services and other": [
+                {
+                    "value": 46560, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 31671, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Total revenues": [
+                {
+                    "value": 939880, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 620542, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ]
+        }, 
+        "Cost of revenues": {
+            "Automotive": [
+                {
+                    "value": 631745, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 436254, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Services and other": [
+                {
+                    "value": 48062, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 29160, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Total cost of revenues": [
+                {
+                    "value": 679807, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 465414, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Gross profit": [
+                {
+                    "value": 260073, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 155128, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ]
+        }, 
+        "Operating expenses": {
+            "Research and development": [
+                {
+                    "value": 167154, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 81544, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Selling, general and administrative": [
+                {
+                    "value": 195365, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 117551, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Total operating expenses": [
+                {
+                    "value": 362519, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 199095, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Loss from operations": [
+                {
+                    "value": -102446, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": -43967, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Interest income": [
+                {
+                    "value": 184, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 141, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Interest expense": [
+                {
+                    "value": -26574, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": -11883, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Other income (expense), net": [
+                {
+                    "value": -22305, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 6718, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Loss before income taxes": [
+                {
+                    "value": -151141, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": -48991, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Provision for income taxes": [
+                {
+                    "value": 3040, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 809, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Net loss": [
+                {
+                    "value": -154181, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": -49800, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Net loss per share of common stock, basic and diluted": [
+                {
+                    "value": -1.22, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": -0.4, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Weighted average shares used in computing net loss per share of common stock, basic and diluted": [
+                {
+                    "value": 125946657, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 123472782, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ]
+        }
+    }, 
+    {
+        "title": "Condensed Consolidated Statements of Comprehensive Loss (USD $) In Thousands, unless otherwise specified", 
+        "Statement Of Income And Comprehensive Income [Abstract]": {
+            "Net loss": [
+                {
+                    "value": -154181, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": -49800, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ]
+        }, 
+        "Other comprehensive loss, net of tax:": {
+            "Unrealized net gain on short-term marketable securities": {
+                "value": 204, 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }, 
+            "Foreign currency translation adjustment": {
+                "value": -16147, 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }, 
+            "Other comprehensive loss": {
+                "value": -15943, 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }, 
+            "Comprehensive loss": [
+                {
+                    "value": -170124, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": -49800, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ]
+        }
+    }, 
+    {
+        "title": "Condensed Consolidated Statements of Cash Flows (USD $) In Thousands, unless otherwise specified", 
+        "Cash Flows From Operating Activities": {
+            "Net loss": [
+                {
+                    "value": -154181, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": -49800, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ]
+        }, 
+        "Adjustments to reconcile net loss to net cash provided by (used in) operating activities:": {
+            "Depreciation and amortization": [
+                {
+                    "value": 77112, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 44268, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Stock-based compensation": [
+                {
+                    "value": 43026, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 37038, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Amortization of discount on convertible debt": [
+                {
+                    "value": 17941, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 8493, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Inventory write-downs": [
+                {
+                    "value": 5901, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 1578, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Fixed asset disposal": {
+                "value": 2753, 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }, 
+            "Other non-cash operating activities": [
+                {
+                    "value": 2862, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 2561, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Foreign currency transaction (gain) loss": [
+                {
+                    "value": 27977, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": -1909, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ]
+        }, 
+        "Changes in operating assets and liabilities": {
+            "Accounts receivable": [
+                {
+                    "value": 2175, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": -23721, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Inventories and operating lease vehicles": [
+                {
+                    "value": -307209, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": -198594, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Prepaid expenses and other current assets": [
+                {
+                    "value": -43475, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": -11429, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Other assets": [
+                {
+                    "value": -6055, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 153, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Accounts payable": [
+                {
+                    "value": -43242, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 78257, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Accrued liabilities": [
+                {
+                    "value": 90735, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 19280, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Deferred revenue": [
+                {
+                    "value": 50729, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 50394, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Customer deposits": [
+                {
+                    "value": -3012, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 34981, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Resale value guarantee": [
+                {
+                    "value": 62712, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 54318, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Other long-term liabilities": [
+                {
+                    "value": 41457, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 12855, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Net cash provided by (used in) operating activities": [
+                {
+                    "value": -131794, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 58723, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ]
+        }, 
+        "Cash Flows From Investing Activities": {
+            "Purchases of property and equipment excluding capital leases": [
+                {
+                    "value": -426060, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": -141364, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "(Increase) decrease in other restricted cash": [
+                {
+                    "value": -6284, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 1295, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Purchases of short-term marketable securities": {
+                "value": -189111, 
+                "date": "mar 31 2014"
+            }, 
+            "Net cash used in investing activities": [
+                {
+                    "value": -432344, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": -329180, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ]
+        }, 
+        "Cash Flows From Financing Activities": {
+            "Collateralized lease borrowing": {
+                "value": 77961, 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }, 
+            "Proceeds from issuance of convertible and other debt": [
+                {
+                    "value": 77661, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 2000000, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Proceeds from exercise of stock options and other stock issuances": [
+                {
+                    "value": 35218, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 35726, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Principal payments on capital leases and other debt": [
+                {
+                    "value": -3726, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": -2545, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Common stock and convertible other debt issuance costs": [
+                {
+                    "value": -958, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": -30302, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Proceeds from issuance of warrants": {
+                "value": 338400, 
+                "date": "mar 31 2014"
+            }, 
+            "Purchase of convertible note hedges": {
+                "value": -524720, 
+                "date": "mar 31 2014"
+            }, 
+            "Net cash provided by financing activities": [
+                {
+                    "value": 186156, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 1816559, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Effect of exchange rate changes on cash and cash equivalents": [
+                {
+                    "value": -17655, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 1917, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Net increase (decrease) in cash and cash equivalents": [
+                {
+                    "value": -395637, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 1548019, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Cash and cash equivalents at beginning of period": [
+                {
+                    "value": 1905713, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 845889, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Cash and cash equivalents at end of period": [
+                {
+                    "value": 1510076, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 2393908, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ]
+        }, 
+        "Supplemental noncash investing activities": {
+            "Acquisition of property and equipment included in accounts payable and accrued liabilities": [
+                {
+                    "value": 235582, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 36835, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Estimated fair market value of facilities under build-to-suit lease": {
+                "value": 29212, 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }
+        }
+    }, 
+    {
+        "title": "Overview of the Company", 
+        "Accounting Policies [Abstract]": {
+            "Overview of the Company": {
+                "value": "1. Overview of the Company", 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }
+        }
+    }, 
+    {
+        "title": "Summary of Significant Accounting Policies", 
+        "Accounting Policies [Abstract]": {
+            "Summary of Significant Accounting Policies": {
+                "value": "2. Summary of Significant Accounting Policies", 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }
+        }
+    }, 
+    {
+        "title": "Balance Sheet Components", 
+        "Organization Consolidation And Presentation Of Financial Statements [Abstract]": {
+            "Balance Sheet Components": {
+                "value": "3. Balance Sheet Components", 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }
+        }
+    }, 
+    {
+        "title": "Fair Value of Financial Instruments", 
+        "Fair Value Disclosures [Abstract]": {
+            "Fair Value of Financial Instruments": {
+                "value": "4. Fair Value of Financial Instruments", 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }
+        }
+    }, 
+    {
+        "title": "Customer Deposits", 
+        "Other Liabilities Disclosure [Abstract]": {
+            "Customer Deposits": {
+                "value": "5. Customer Deposits", 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }
+        }
+    }, 
+    {
+        "title": "Convertible and Long-term Debt Obligations", 
+        "Debt Disclosure [Abstract]": {
+            "Convertible and Long-term Debt Obligations": {
+                "value": "6. Convertible and Long-term Debt Obligations", 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }
+        }
+    }, 
+    {
+        "title": "Equity Incentive Plans", 
+        "Disclosure Of Compensation Related Costs Sharebased Payments [Abstract]": {
+            "Equity Incentive Plans": {
+                "value": "7. Equity Incentive Plans", 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }
+        }
+    }, 
+    {
+        "title": "Commitments and Contingencies", 
+        "Commitments And Contingencies Disclosure [Abstract]": {
+            "Commitments and Contingencies": {
+                "value": "8. Commitments and Contingencies", 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }
+        }
+    }, 
+    {
+        "title": "Summary of Significant Accounting Policies (Policies)", 
+        "Accounting Policies [Abstract]": {
+            "Basis of Consolidation": {
+                "value": "Basis of Consolidation", 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }, 
+            "Use of Estimates": {
+                "value": "Use of Estimates", 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }, 
+            "Unaudited Interim Financial Statements": {
+                "value": "Unaudited Interim Financial Statements", 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }, 
+            "Recent Accounting Pronouncements": {
+                "value": "Recent Accounting Pronouncements", 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }, 
+            "Revenue Recognition": {
+                "value": "Revenue Recognition", 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }, 
+            "Warranties": {
+                "value": "Warranties", 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }, 
+            "Inventory Valuation": {
+                "value": "Inventory Valuation", 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }, 
+            "Concentration of Risk": {
+                "value": "Concentration of Risk", 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }, 
+            "Stock-Based Compensation": {
+                "value": "Stock-Based Compensation", 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }, 
+            "Net Loss per Share of Common Stock": {
+                "value": "Net Loss per Share of Common Stock", 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }, 
+            "Uncertain Tax Positions": {
+                "value": "Uncertain Tax Positions", 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }
+        }
+    }, 
+    {
+        "title": "Summary of Significant Accounting Policies (Tables)", 
+        "Accounting Policies [Abstract]": {
+            "Schedule of Account Activity Related to Resale Value Guarantee Program": {
+                "value": "Account activity related to our resale value guarantee program consisted of the following for the periods presented (in thousands):", 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }, 
+            "Schedule of Accrued Warranty Activity": {
+                "value": "Accrued warranty activity consisted of the following for the periods presented (in thousands):", 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }, 
+            "Schedule of Potential Weighted Common Shares Outstanding that were Excluded from Computation of Diluted Net Loss per Share of Common Stock": {
+                "value": "The following table presents the potential weighted common shares outstanding that were excluded from the computation of diluted net loss per share of common stock for the periods presented. Anti-dilutive share counts for the twelve months ended December 31, 2014 have been updated.", 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }
+        }
+    }, 
+    {
+        "title": "Balance Sheet Components (Tables)", 
+        "Organization Consolidation And Presentation Of Financial Statements [Abstract]": {
+            "Schedule of Inventory": {
+                "value": "As of March 31, 2015 and December 31, 2014, our inventory consisted of the following (in thousands):", 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }, 
+            "Schedule of Property, Plant and Equipment, Net": {
+                "value": "As of March 31, 2015 and December 31, 2014, our property, plant and equipment, net, consisted of the following (in thousands):", 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }, 
+            "Schedule of Accrued Liabilities": {
+                "value": "As of March 31, 2015 and December 31, 2014, our accrued liabilities consisted of the following (in thousands):", 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }
+        }
+    }, 
+    {
+        "title": "Fair Value of Financial Instruments (Tables)", 
+        "Fair Value Disclosures [Abstract]": {
+            "Schedule of Fair Value Hierarchy of Financial Assets Carried at Fair Value": {
+                "value": "As of March 31, 2015 and December 31, 2014, the fair value hierarchy for our financial assets that are carried at fair value was as follows (in thousands):", 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }, 
+            "Available-for-Sale Marketable Securities": {
+                "value": "Our available-for-sale marketable securities classified by security type as of March 31, 2015 and December 31, 2014 consisted of the following (in thousands):", 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }
+        }
+    }, 
+    {
+        "title": "Convertible and Long-term Debt Obligations (Tables)", 
+        "Debt Disclosure [Abstract]": {
+            "Schedule of Debt Discounts": {
+                "value": "In accordance with accounting guidance on embedded conversion features, we valued and bifurcated the conversion option associated with the notes from the respective host debt instrument and initially recorded the conversion option for the 2018, 2019, and 2021 Notes in stockholders’ equity. The resulting debt discounts on the 2019 Notes, 2021 Notes, and 2018 Notes are being amortized to interest expense at the effective interest rate over the contractual terms of the notes.", 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }, 
+            "Schedule of Aggregate Amount of Interest Expense Recognized": {
+                "value": "The following table presents the aggregate amount of interest expense recognized on the warehouse line of credit, 2018 Notes, 2019 Notes, and 2021 Notes relating to the contractual interest coupon and amortization of the debt issuance costs and debt discount.", 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }
+        }
+    }, 
+    {
+        "title": "Equity Incentive Plans (Tables)", 
+        "Disclosure Of Compensation Related Costs Sharebased Payments [Abstract]": {
+            "Summary of Stock-Based Compensation Expense": {
+                "value": "The following table summarizes our stock-based compensation expense by line item in the condensed consolidated statements of operations (in thousands):", 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }
+        }
+    }, 
+    {
+        "title": "Summary of Significant Accounting Policies - Additional Information (Detail) (USD $)", 
+        "Summary Of Significant Accounting Policies [Line Items]": {
+            "Adjustment attributable to current rate translation of non-monetary assets": {
+                "value": 10000000, 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }, 
+            "Resale value guarantee": [
+                {
+                    "value": 606221000, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 487879000, 
+                    "date": "dec 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Automotive revenues": [
+                {
+                    "value": 893320000, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 588871000, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Warranty costs incurred for resale value guarantee": [
+                {
+                    "value": 1800000, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 1200000, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Increase in warranty reserve": [
+                {
+                    "value": 10762000, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 8120000, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Unrecognized tax benefits": [
+                {
+                    "value": 47800000, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 41400000, 
+                    "date": "dec 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Unrecognized tax benefits that would not affect effective tax rate": [
+                {
+                    "value": 45200000, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 39100000, 
+                    "date": "dec 31 2014", 
+                    "time": "3 months ended"
+                }
+            ]
+        }, 
+        "2018 Notes [Member] Summary Of Significant Accounting Policies [Line Items]": {
+            "Convertible notes, conversion price": {
+                "value": 124.52, 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }
+        }, 
+        "2019 Notes [Member] Summary Of Significant Accounting Policies [Line Items]": {
+            "Convertible notes, conversion price": {
+                "value": 359.87, 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }
+        }, 
+        "2021 Notes [Member] Summary Of Significant Accounting Policies [Line Items]": {
+            "Convertible notes, conversion price": {
+                "value": 359.87, 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }
+        }, 
+        "Accounts Receivable [Member] | Customer A [Member] Summary Of Significant Accounting Policies [Line Items]": {
+            "Accounts receivable in excess of 10% of total accounts receivable": {
+                "value": 0.23, 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }
+        }, 
+        "Accounts Receivable [Member] | Customer B [Member] Summary Of Significant Accounting Policies [Line Items]": {
+            "Accounts receivable in excess of 10% of total accounts receivable": {
+                "value": 0.1, 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }
+        }, 
+        "Deferred lease revenue [Member] Summary Of Significant Accounting Policies [Line Items]": {
+            "Deferred upfront payments": [
+                {
+                    "value": 14800000, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 9400000, 
+                    "date": "dec 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Automotive revenues": {
+                "value": 6600000, 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }
+        }, 
+        "Sales To Leasing Companies With Guarantee [Member] Summary Of Significant Accounting Policies [Line Items]": {
+            "Deferred upfront payments": [
+                {
+                    "value": 17200000, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 0, 
+                    "date": "dec 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Resale value guarantee": [
+                {
+                    "value": 76700000, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 19600000, 
+                    "date": "dec 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Maximum repurchase price of vehicles under resale value arrangement": {
+                "value": 55400000, 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }
+        }, 
+        "Model S [Member] Summary Of Significant Accounting Policies [Line Items]": {
+            "Deferred upfront payments": [
+                {
+                    "value": 16700000, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 14400000, 
+                    "date": "dec 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Resale agreement term": {
+                "value": "36 months", 
+                "time": "1 months ended", 
+                "date": "apr 30 2014"
+            }
+        }, 
+        "Autopilot software upgrades [Member] Summary Of Significant Accounting Policies [Line Items]": {
+            "Deferred upfront payments": [
+                {
+                    "value": 1200000, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 1500000, 
+                    "date": "dec 31 2014", 
+                    "time": "3 months ended"
+                }
+            ]
+        }, 
+        "Vehicle maintenance and service plans [Member] Summary Of Significant Accounting Policies [Line Items]": {
+            "Deferred upfront payments": [
+                {
+                    "value": 43800000, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 39700000, 
+                    "date": "dec 31 2014", 
+                    "time": "3 months ended"
+                }
+            ]
+        }, 
+        "Supercharger network [Member] Summary Of Significant Accounting Policies [Line Items]": {
+            "Deferred upfront payments": [
+                {
+                    "value": 29100000, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 25600000, 
+                    "date": "dec 31 2014", 
+                    "time": "3 months ended"
+                }
+            ]
+        }
+    }, 
+    {
+        "title": "Summary of Significant Accounting Policies - Schedule of Account Activity Related to Resale Value Guarantee Program (Detail) (USD $) In Thousands, unless otherwise specified", 
+        "Operating Lease Vehicles": {
+            "Net increase in operating lease vehicles under the resale value guarantee program": [
+                {
+                    "value": 307209, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 198594, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ]
+        }, 
+        "Resale Value Guarantee": {
+            "Resale value guarantee liabilityb_x0014_beginning of period": [
+                {
+                    "value": 487879, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 236298, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Net increase in resale value guarantee": [
+                {
+                    "value": 124112, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 55602, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Reclassification from long-term to short-term collateralized borrowing": {
+                "value": -644, 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }, 
+            "Additional revenue recorded in automotive revenue as a result of early cancellation of resale value guarantee": [
+                {
+                    "value": -1070, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": -1283, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Release of resale value guarantee resulting from return of vehicle under trade-in program": {
+                "value": -4056, 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }, 
+            "Resale value guarantee liabilityb_x0014_end of period": [
+                {
+                    "value": 606221, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 290617, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ]
+        }, 
+        "Resale Value Guarantee [Member] Operating Lease Vehicles": {
+            "Operating lease vehicles under the resale value guarantee programb_x0014_beginning of period": [
+                {
+                    "value": 684590, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 376979, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Net increase in operating lease vehicles under the resale value guarantee program": [
+                {
+                    "value": 139791, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 84515, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Depreciation expense recorded in cost of automotive revenues": [
+                {
+                    "value": -22041, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": -12402, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Additional depreciation expense recorded in cost of automotive revenues as a result of early cancellation of resale value guarantee": [
+                {
+                    "value": -4396, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": -2060, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Reclassifications to inventory resulting from return of vehicle under trade-in program": {
+                "value": -5233, 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }, 
+            "Operating lease vehicles under the resale value guarantee programb_x0014_end of period": [
+                {
+                    "value": 792711, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 447032, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ]
+        }, 
+        "Deferred Revenue": {
+            "Deferred revenue related to the resale value guarantee programb_x0014_beginning of period": [
+                {
+                    "value": 381096, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 230856, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Net increase in deferred revenue related to Model S deliveries with resale value guarantee and reclassification of collateralized borrowing from long-term to short-term": [
+                {
+                    "value": 91694, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 63070, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Amortization of deferred revenue recorded in automotive revenue": [
+                {
+                    "value": -44980, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": -21779, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Additional revenue recorded in automotive revenue as a result of early cancellation of resale value guarantee": [
+                {
+                    "value": -909, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": -1441, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Release of deferred revenue resulting from return of vehicle under trade-in program": {
+                "value": -2797, 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }, 
+            "Deferred revenue related to the resale value guarantee programb_x0014_end of period": [
+                {
+                    "value": 424104, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 270706, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ]
+        }
+    }, 
+    {
+        "title": "Summary of Significant Accounting Policies - Schedule of Accrued Warranty Activity (Detail) (USD $) In Thousands, unless otherwise specified", 
+        "Standard Product Warranty Disclosure [Abstract]": {
+            "Accrued warrantyb_x0014_beginning of period": [
+                {
+                    "value": 129043, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 53182, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Warranty costs incurred": [
+                {
+                    "value": -11786, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": -9300, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Net changes in liability for pre-existing warranties, including expirations": [
+                {
+                    "value": 10762, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 8120, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Provision for warranty": [
+                {
+                    "value": 27282, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 19930, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Accrued warrantyb_x0014_end of period": [
+                {
+                    "value": 155301, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 71932, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ]
+        }
+    }, 
+    {
+        "title": "Summary of Significant Accounting Policies - Schedule of Potential Weighted Common Shares Outstanding that were Excluded from Computation of Diluted Net Loss per Share of Common Stock (Detail)", 
+        "Employee share based awards [Member] Antidilutive Securities Excluded From Computation Of Earnings Per Share [Line Items]": {
+            "Potential common shares excluded from computation of net loss per share": [
+                {
+                    "value": 15711086, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 14288189, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }, 
+                {
+                    "value": 14729749, 
+                    "time": "12 months ended", 
+                    "date": "dec 31 2014"
+                }
+            ]
+        }, 
+        "Convertible senior notes [Member] Antidilutive Securities Excluded From Computation Of Earnings Per Share [Line Items]": {
+            "Potential common shares excluded from computation of net loss per share": [
+                {
+                    "value": 2040822, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 2015267, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }, 
+                {
+                    "value": 2344998, 
+                    "time": "12 months ended", 
+                    "date": "dec 31 2014"
+                }
+            ]
+        }, 
+        "Warrant issued in May 2013 [Member] Antidilutive Securities Excluded From Computation Of Earnings Per Share [Line Items]": {
+            "Potential common shares excluded from computation of net loss per share": [
+                {
+                    "value": 471339, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 433479, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }, 
+                {
+                    "value": 921985, 
+                    "time": "12 months ended", 
+                    "date": "dec 31 2014"
+                }
+            ]
+        }
+    }, 
+    {
+        "title": "Balance Sheet Components - Schedule of Inventory (Detail) (USD $)", 
+        "In Thousands, unless otherwise specified Inventory Disclosure [Abstract]": {
+            "Raw materials": [
+                {
+                    "value": 370553, 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 392292, 
+                    "date": "dec 31 2014"
+                }
+            ], 
+            "Work in process": [
+                {
+                    "value": 63058, 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 56114, 
+                    "date": "dec 31 2014"
+                }
+            ], 
+            "Finished goods": [
+                {
+                    "value": 492645, 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 397318, 
+                    "date": "dec 31 2014"
+                }
+            ], 
+            "Service parts": [
+                {
+                    "value": 128584, 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 107951, 
+                    "date": "dec 31 2014"
+                }
+            ], 
+            "Total": [
+                {
+                    "value": 1054840, 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 953675, 
+                    "date": "dec 31 2014"
+                }
+            ]
+        }
+    }, 
+    {
+        "title": "Balance Sheet Components - Schedule of Property, Plant and Equipment, Net (Detail) (USD $)", 
+        "In Thousands, unless otherwise specified Property Plant And Equipment [Line Items]": {
+            "Property, plant and equipment, gross": [
+                {
+                    "value": 2566577, 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 2121857, 
+                    "date": "dec 31 2014"
+                }
+            ], 
+            "Less: Accumulated depreciation and amortization": [
+                {
+                    "value": -342386, 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": -292590, 
+                    "date": "dec 31 2014"
+                }
+            ], 
+            "Property, plant and equipment, net": [
+                {
+                    "value": 2224191, 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 1829267, 
+                    "date": "dec 31 2014"
+                }
+            ]
+        }, 
+        "Machinery, equipment and office furniture [Member] Property Plant And Equipment [Line Items]": {
+            "Property, plant and equipment, gross": [
+                {
+                    "value": 819794, 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 720746, 
+                    "date": "dec 31 2014"
+                }
+            ]
+        }, 
+        "Construction in progress [Member] Property Plant And Equipment [Line Items]": {
+            "Property, plant and equipment, gross": [
+                {
+                    "value": 763628, 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 572125, 
+                    "date": "dec 31 2014"
+                }
+            ]
+        }, 
+        "Leasehold improvements [Member] Property Plant And Equipment [Line Items]": {
+            "Property, plant and equipment, gross": [
+                {
+                    "value": 310235, 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 230270, 
+                    "date": "dec 31 2014"
+                }
+            ]
+        }, 
+        "Tooling [Member] Property Plant And Equipment [Line Items]": {
+            "Property, plant and equipment, gross": [
+                {
+                    "value": 308082, 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 295906, 
+                    "date": "dec 31 2014"
+                }
+            ]
+        }, 
+        "Building and building improvements Property Plant And Equipment [Line Items]": {
+            "Property, plant and equipment, gross": [
+                {
+                    "value": 198024, 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 154362, 
+                    "date": "dec 31 2014"
+                }
+            ]
+        }, 
+        "Computer equipment and software [Member] Property Plant And Equipment [Line Items]": {
+            "Property, plant and equipment, gross": [
+                {
+                    "value": 114824, 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 98970, 
+                    "date": "dec 31 2014"
+                }
+            ]
+        }, 
+        "Land [Member] Property Plant And Equipment [Line Items]": {
+            "Property, plant and equipment, gross": [
+                {
+                    "value": 51990, 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 49478, 
+                    "date": "dec 31 2014"
+                }
+            ]
+        }
+    }, 
+    {
+        "title": "Balance Sheet Components - Additional Information (Detail) (USD $)", 
+        "Balance Sheet Components [Line Items]": {
+            "Interest expense capitalized": [
+                {
+                    "value": 8300000, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 1200000, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Property, plant and equipment, net": [
+                {
+                    "value": 2224191000, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 1829267000, 
+                    "date": "dec 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Accrued liabilities": [
+                {
+                    "value": 353768000, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 268884000, 
+                    "date": "dec 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Other long-term liabilities": [
+                {
+                    "value": 228367000, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 173244000, 
+                    "date": "dec 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Depreciation and amortization expense": [
+                {
+                    "value": 52100000, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 28900000, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Total property and equipment assets under capital lease": [
+                {
+                    "value": 34800000, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 33400000, 
+                    "date": "dec 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Accumulated depreciation related to assets under capital lease": [
+                {
+                    "value": 14700000, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 12800000, 
+                    "date": "dec 31 2014", 
+                    "time": "3 months ended"
+                }
+            ]
+        }, 
+        "Build To Suit Arrangements [Member] Balance Sheet Components [Line Items]": {
+            "Property, plant and equipment, net": [
+                {
+                    "value": 61500000, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 52400000, 
+                    "date": "dec 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Accrued liabilities": [
+                {
+                    "value": 0, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 21000000, 
+                    "date": "dec 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Other long-term liabilities": [
+                {
+                    "value": 61300000, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 31400000, 
+                    "date": "dec 31 2014", 
+                    "time": "3 months ended"
+                }
+            ]
+        }, 
+        "Gigafactory [Member] Balance Sheet Components [Line Items]": {
+            "Costs related to construction activities": {
+                "value": 146200000, 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }
+        }
+    }, 
+    {
+        "title": "Balance Sheet Components - Schedule of Accrued Liabilities (Detail) (USD $)", 
+        "In Thousands, unless otherwise specified Payables And Accruals [Abstract]": {
+            "Taxes payable": [
+                {
+                    "value": 83739, 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 71229, 
+                    "date": "dec 31 2014"
+                }
+            ], 
+            "Accrued purchases": [
+                {
+                    "value": 146952, 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 68547, 
+                    "date": "dec 31 2014"
+                }
+            ], 
+            "Payroll and related costs": [
+                {
+                    "value": 66544, 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 54492, 
+                    "date": "dec 31 2014"
+                }
+            ], 
+            "Other": [
+                {
+                    "value": 56533, 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 74616, 
+                    "date": "dec 31 2014"
+                }
+            ], 
+            "Total": [
+                {
+                    "value": 353768, 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 268884, 
+                    "date": "dec 31 2014"
+                }
+            ]
+        }
+    }, 
+    {
+        "title": "Fair Value of Financial Instruments - Schedule of Fair Value Hierarchy of Financial Assets Carried at Fair Value (Detail) (USD $)", 
+        "In Thousands, unless otherwise specified Fair Value Assets And Liabilities Measured On Recurring And Nonrecurring Basis [Line Items]": {
+            "Financial assets, Fair Value": [
+                {
+                    "value": 890987, 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 1292019, 
+                    "date": "dec 31 2014"
+                }
+            ]
+        }, 
+        "Level I [Member] Fair Value Assets And Liabilities Measured On Recurring And Nonrecurring Basis [Line Items]": {
+            "Financial assets, Fair Value": [
+                {
+                    "value": 890987, 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 1292019, 
+                    "date": "dec 31 2014"
+                }
+            ]
+        }, 
+        "Money market funds [Member] Fair Value Assets And Liabilities Measured On Recurring And Nonrecurring Basis [Line Items]": {
+            "Financial assets, Fair Value": [
+                {
+                    "value": 874305, 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 1275346, 
+                    "date": "dec 31 2014"
+                }
+            ]
+        }, 
+        "Money market funds [Member] | Level I [Member] Fair Value Assets And Liabilities Measured On Recurring And Nonrecurring Basis [Line Items]": {
+            "Financial assets, Fair Value": [
+                {
+                    "value": 874305, 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 1275346, 
+                    "date": "dec 31 2014"
+                }
+            ]
+        }, 
+        "U.S. treasury bills [Member] Fair Value Assets And Liabilities Measured On Recurring And Nonrecurring Basis [Line Items]": {
+            "Financial assets, Fair Value": [
+                {
+                    "value": 16682, 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 16673, 
+                    "date": "dec 31 2014"
+                }
+            ]
+        }, 
+        "U.S. treasury bills [Member] | Level I [Member] Fair Value Assets And Liabilities Measured On Recurring And Nonrecurring Basis [Line Items]": {
+            "Financial assets, Fair Value": [
+                {
+                    "value": 16682, 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 16673, 
+                    "date": "dec 31 2014"
+                }
+            ]
+        }
+    }, 
+    {
+        "title": "Fair Value of Financial Instruments - Available-for-Sale Marketable Securities (Detail) (U.S. treasury bills [Member], USD $)", 
+        "In Thousands, unless otherwise specified U.S. treasury bills [Member] Schedule of Available-for-sale Securities [Line Items]": {
+            "Amortized Cost": [
+                {
+                    "value": 16478, 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 16695, 
+                    "date": "dec 31 2014"
+                }
+            ], 
+            "Gross Unrealized Gains": {
+                "value": 204, 
+                "date": "mar 31 2015"
+            }, 
+            "Gross Unrealized Losses": {
+                "value": -22, 
+                "date": "dec 31 2014"
+            }, 
+            "Fair Value": [
+                {
+                    "value": 16682, 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 16673, 
+                    "date": "dec 31 2014"
+                }
+            ]
+        }
+    }, 
+    {
+        "title": "Fair Value of Financial Instruments - Additional Information (Detail) (USD $)", 
+        "Debt Instrument [Line Items]": {
+            "Carrying value of warehouse facility liability": {
+                "value": 77700000, 
+                "date": "mar 31 2015"
+            }
+        }, 
+        "2018 Notes [Member] Debt Instrument [Line Items]": {
+            "Estimated fair value of notes": [
+                {
+                    "value": 1060000000, 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 1220000000, 
+                    "date": "dec 31 2014"
+                }
+            ], 
+            "Principal amount of convertible senior notes": [
+                {
+                    "value": 659762000, 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 659762000, 
+                    "date": "dec 31 2014"
+                }
+            ]
+        }, 
+        "2019 Notes [Member] Debt Instrument [Line Items]": {
+            "Estimated fair value of notes": [
+                {
+                    "value": 807300000, 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 852200000, 
+                    "date": "dec 31 2014"
+                }
+            ], 
+            "Principal amount of convertible senior notes": [
+                {
+                    "value": 920000000, 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 920000000, 
+                    "date": "dec 31 2014"
+                }
+            ]
+        }, 
+        "2021 Notes [Member] Debt Instrument [Line Items]": {
+            "Estimated fair value of notes": [
+                {
+                    "value": 1170000000, 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 1250000000, 
+                    "date": "dec 31 2014"
+                }
+            ], 
+            "Principal amount of convertible senior notes": [
+                {
+                    "value": 1380000000, 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 1380000000, 
+                    "date": "dec 31 2014"
+                }
+            ]
+        }
+    }, 
+    {
+        "title": "Customer Deposits - Additional Information (Detail) (USD $)", 
+        "In Thousands, unless otherwise specified Other Liabilities Disclosure [Abstract]": {
+            "Customer deposits": [
+                {
+                    "value": 249476, 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 257587, 
+                    "date": "dec 31 2014"
+                }
+            ]
+        }
+    }, 
+    {
+        "title": "Convertible and Long-term Debt Obligations - 0.25% and 1.25% Convertible Senior Notes and Bond Hedge and Warrant Transactions - Additional Information (Detail) (USD $)", 
+        "Debt Instrument [Line Items]": {
+            "Debt instrument interest rate and payment description": {
+                "value": "The interest rates are fixed at 0.25% and 1.25% per annum and are payable semi-annually in arrears on March 1 and September 1 of each year, commencing on September 1, 2014.", 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }, 
+            "Payment for purchase of common stock": [
+                {
+                    "value": 5600000, 
+                    "time": "1 months ended", 
+                    "date": "mar 31 2014"
+                }, 
+                {
+                    "value": 5600000, 
+                    "date": "mar 31 2014", 
+                    "time": "1 months ended"
+                }
+            ], 
+            "Common stock purchase price": [
+                {
+                    "value": 359.87, 
+                    "time": "1 months ended", 
+                    "date": "mar 31 2014"
+                }, 
+                {
+                    "value": 359.87, 
+                    "date": "mar 31 2014", 
+                    "time": "1 months ended"
+                }
+            ], 
+            "Hedge transactions": {
+                "value": 524700000, 
+                "time": "1 months ended", 
+                "date": "mar 31 2014"
+            }, 
+            "Proceeds from issuance of warrants": {
+                "value": 338400000, 
+                "date": "mar 31 2014"
+            }, 
+            "Common stock price to conversion price, percentage": {
+                "value": 1.3, 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }, 
+            "Debt instrument convertible trading days": {
+                "value": 20, 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }, 
+            "Debt instrument convertible consecutive trading days": {
+                "value": "30 days", 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }
+        }, 
+        "Warrants [Member] Debt Instrument [Line Items]": {
+            "Hedge transactions": {
+                "value": 78700000, 
+                "time": "1 months ended", 
+                "date": "apr 30 2014"
+            }, 
+            "Proceeds from issuance of warrants": {
+                "value": 50800000, 
+                "time": "1 months ended", 
+                "date": "apr 30 2014"
+            }
+        }, 
+        "0.25% Convertible senior notes due 2019 [Member] Debt Instrument [Line Items]": {
+            "Principal amount of convertible senior notes": [
+                {
+                    "value": 800000000, 
+                    "time": "1 months ended", 
+                    "date": "mar 31 2014"
+                }, 
+                {
+                    "value": 800000000, 
+                    "date": "mar 31 2014", 
+                    "time": "1 months ended"
+                }, 
+                {
+                    "value": 120000000, 
+                    "time": "1 months ended", 
+                    "date": "apr 30 2014"
+                }
+            ], 
+            "Debt instrument interest rate": [
+                {
+                    "value": 0.0025, 
+                    "time": "1 months ended", 
+                    "date": "mar 31 2014"
+                }, 
+                {
+                    "value": 0.0025, 
+                    "date": "mar 31 2014", 
+                    "time": "1 months ended"
+                }
+            ], 
+            "Proceeds from convertible senior notes, net of underwriting discounts and offering costs": {
+                "value": 905800000, 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }, 
+            "Debt issuance costs": {
+                "value": 14200000, 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }, 
+            "Debt instrument maturity year": {
+                "value": 2019, 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }, 
+            "Shares issued under warrants": [
+                {
+                    "value": 2200000, 
+                    "time": "1 months ended", 
+                    "date": "mar 31 2014"
+                }, 
+                {
+                    "value": 2200000, 
+                    "date": "mar 31 2014", 
+                    "time": "1 months ended"
+                }, 
+                {
+                    "value": 300000, 
+                    "time": "1 months ended", 
+                    "date": "apr 30 2014"
+                }
+            ], 
+            "Exercise price of warrant": [
+                {
+                    "value": 512.66, 
+                    "time": "1 months ended", 
+                    "date": "mar 31 2014"
+                }, 
+                {
+                    "value": 512.66, 
+                    "date": "mar 31 2014", 
+                    "time": "1 months ended"
+                }, 
+                {
+                    "value": 512.66, 
+                    "time": "1 months ended", 
+                    "date": "apr 30 2014"
+                }
+            ]
+        }, 
+        "0.25% Convertible senior notes due 2019 [Member] | Minimum [Member] | Warrants [Member] Debt Instrument [Line Items]": {
+            "Conversion price per share": {
+                "value": 359.87, 
+                "time": "1 months ended", 
+                "date": "apr 30 2014"
+            }
+        }, 
+        "0.25% Convertible senior notes due 2019 [Member] | Maximum [Member] | Warrants [Member] Debt Instrument [Line Items]": {
+            "Conversion price per share": {
+                "value": 512.66, 
+                "time": "1 months ended", 
+                "date": "apr 30 2014"
+            }
+        }, 
+        "1.25% Convertible senior notes due 2021 [Member] Debt Instrument [Line Items]": {
+            "Principal amount of convertible senior notes": [
+                {
+                    "value": 1200000000, 
+                    "time": "1 months ended", 
+                    "date": "mar 31 2014"
+                }, 
+                {
+                    "value": 1200000000, 
+                    "date": "mar 31 2014", 
+                    "time": "1 months ended"
+                }, 
+                {
+                    "value": 180000000, 
+                    "time": "1 months ended", 
+                    "date": "apr 30 2014"
+                }
+            ], 
+            "Debt instrument interest rate": [
+                {
+                    "value": 0.0125, 
+                    "time": "1 months ended", 
+                    "date": "mar 31 2014"
+                }, 
+                {
+                    "value": 0.0125, 
+                    "date": "mar 31 2014", 
+                    "time": "1 months ended"
+                }
+            ], 
+            "Proceeds from convertible senior notes, net of underwriting discounts and offering costs": {
+                "value": 1360000000, 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }, 
+            "Debt issuance costs": {
+                "value": 21400000, 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }, 
+            "Debt instrument maturity year": {
+                "value": 2021, 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }, 
+            "Shares issued under warrants": [
+                {
+                    "value": 3300000, 
+                    "time": "1 months ended", 
+                    "date": "mar 31 2014"
+                }, 
+                {
+                    "value": 3300000, 
+                    "date": "mar 31 2014", 
+                    "time": "1 months ended"
+                }, 
+                {
+                    "value": 500000, 
+                    "time": "1 months ended", 
+                    "date": "apr 30 2014"
+                }
+            ], 
+            "Exercise price of warrant": [
+                {
+                    "value": 560.64, 
+                    "time": "1 months ended", 
+                    "date": "mar 31 2014"
+                }, 
+                {
+                    "value": 560.64, 
+                    "date": "mar 31 2014", 
+                    "time": "1 months ended"
+                }, 
+                {
+                    "value": 560.64, 
+                    "time": "1 months ended", 
+                    "date": "apr 30 2014"
+                }
+            ], 
+            "Proceeds from issuance of warrants": {
+                "value": 338400000, 
+                "time": "1 months ended", 
+                "date": "mar 31 2014"
+            }
+        }, 
+        "1.25% Convertible senior notes due 2021 [Member] | Minimum [Member] | Warrants [Member] Debt Instrument [Line Items]": {
+            "Conversion price per share": {
+                "value": 359.87, 
+                "time": "1 months ended", 
+                "date": "apr 30 2014"
+            }
+        }, 
+        "1.25% Convertible senior notes due 2021 [Member] | Maximum [Member] | Warrants [Member] Debt Instrument [Line Items]": {
+            "Conversion price per share": {
+                "value": 560.64, 
+                "time": "1 months ended", 
+                "date": "apr 30 2014"
+            }
+        }, 
+        "0.25% and 1.25% Convertible Senior Notes and Bond Hedge and Warrant Transactions [Member] Debt Instrument [Line Items]": {
+            "Convertible principal amount": {
+                "value": 1000, 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }, 
+            "Convertible instrument, shares issued": {
+                "value": 2.7788, 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }, 
+            "Convertible notes, conversion price": {
+                "value": 359.87, 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }
+        }, 
+        "0.25% and 1.25% Convertible Senior Notes and Bond Hedge and Warrant Transactions [Member] | Scenario, Forecast [Member] Debt Instrument [Line Items]": {
+            "Common stock price to conversion price, percentage": {
+                "value": 1.3, 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }, 
+            "Debt instrument convertible trading days": {
+                "value": 20, 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }, 
+            "Debt instrument convertible consecutive trading days": {
+                "value": "30 days", 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }
+        }
+    }, 
+    {
+        "title": "Convertible and Long-term Debt Obligations - 1.50% Convertible Senior Notes and Bond Hedge and Warrant Transactions - Additional Information (Detail) (USD $)", 
+        "Debt Instrument [Line Items]": {
+            "Payment for purchase of common stock": [
+                {
+                    "value": 5600000, 
+                    "time": "1 months ended", 
+                    "date": "mar 31 2014"
+                }, 
+                {
+                    "value": 5600000, 
+                    "date": "mar 31 2014", 
+                    "time": "1 months ended"
+                }
+            ], 
+            "Common stock purchase price": [
+                {
+                    "value": 359.87, 
+                    "time": "1 months ended", 
+                    "date": "mar 31 2014"
+                }, 
+                {
+                    "value": 359.87, 
+                    "date": "mar 31 2014", 
+                    "time": "1 months ended"
+                }
+            ], 
+            "Hedge transactions": {
+                "value": 524700000, 
+                "time": "1 months ended", 
+                "date": "mar 31 2014"
+            }, 
+            "Proceeds from issuance of warrants": {
+                "value": 338400000, 
+                "date": "mar 31 2014"
+            }, 
+            "Common stock price to conversion price, percentage": {
+                "value": 1.3, 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }, 
+            "Debt instrument convertible trading days": {
+                "value": 20, 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }, 
+            "Debt instrument convertible consecutive trading days": {
+                "value": "30 days", 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }, 
+            "Equity component of convertible debt": [
+                {
+                    "value": 54277000, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 58196000, 
+                    "date": "dec 31 2014", 
+                    "time": "3 months ended"
+                }
+            ]
+        }, 
+        "Warrants [Member] Debt Instrument [Line Items]": {
+            "Hedge transactions": {
+                "value": 78700000, 
+                "time": "1 months ended", 
+                "date": "apr 30 2014"
+            }, 
+            "Proceeds from issuance of warrants": {
+                "value": 50800000, 
+                "time": "1 months ended", 
+                "date": "apr 30 2014"
+            }
+        }, 
+        "1.50% Convertible senior notes due 2018 [Member] Debt Instrument [Line Items]": {
+            "Aggregate principal amount of Notes": [
+                {
+                    "value": 659800000, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 660000000
+                }
+            ], 
+            "Debt instrument interest rate": {
+                "value": 0.015
+            }, 
+            "Debt instrument maturity year": {
+                "value": 2018, 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }, 
+            "Proceeds from convertible senior notes, net of underwriting discounts and offering costs": {
+                "value": 648000000
+            }, 
+            "Debt issuance costs": {
+                "value": 12000000
+            }, 
+            "Debt instrument interest payment description": {
+                "value": "payable semi-annually in arrears on June 1 and December 1 of each year, commencing on December 1, 2013", 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }, 
+            "Convertible principal amount": {
+                "value": 1000, 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }, 
+            "Convertible instrument, shares issued": {
+                "value": 8.0306, 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }, 
+            "Convertible notes, conversion price": {
+                "value": 124.52, 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }, 
+            "Payment for purchase of common stock": {
+                "value": 5300000, 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }, 
+            "Common stock purchase price": {
+                "value": 124.52, 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }, 
+            "Hedge transactions": {
+                "value": 177500000, 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }, 
+            "Shares issued under warrants": {
+                "value": 5300000, 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }, 
+            "Exercise price of warrant": {
+                "value": 184.48, 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }, 
+            "Notes carrying value": {
+                "value": 605500000, 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }, 
+            "Equity component of convertible debt": {
+                "value": 54300000, 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }
+        }, 
+        "1.50% Convertible senior notes due 2018 [Member] | Warrants [Member] Debt Instrument [Line Items]": {
+            "Proceeds from issuance of warrants": {
+                "value": 120300000, 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }
+        }, 
+        "1.50% Convertible senior notes due 2018 [Member] | Warrants [Member] | Minimum [Member] Debt Instrument [Line Items]": {
+            "Conversion price per share": {
+                "value": 124.52, 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }
+        }, 
+        "1.50% Convertible senior notes due 2018 [Member] | Warrants [Member] | Maximum [Member] Debt Instrument [Line Items]": {
+            "Conversion price per share": {
+                "value": 184.48, 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }
+        }
+    }, 
+    {
+        "title": "Convertible and Long-term Debt Obligations - 1.50% Convertible Senior Notes and Bond Hedge and Warrant Transactions - Schedule of Debt Discounts (Detail) (USD $) In Thousands, unless otherwise specified", 
+        "Debt Instrument [Line Items]": {
+            "Carrying amount of equity component": [
+                {
+                    "value": 54277, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 58196, 
+                    "date": "dec 31 2014", 
+                    "time": "3 months ended"
+                }
+            ]
+        }, 
+        "2018 Notes [Member] Debt Instrument [Line Items]": {
+            "Carrying value": [
+                {
+                    "value": 605485, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 601566, 
+                    "date": "dec 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Unamortized discount": [
+                {
+                    "value": 54277, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 58196, 
+                    "date": "dec 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Principal amount of convertible senior notes": [
+                {
+                    "value": 659762, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 659762, 
+                    "date": "dec 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Remaining amortization period (years)": {
+                "value": "2 years 10 months 24 days", 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }, 
+            "Effective interest rate on liability component": {
+                "value": 0.0429, 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }, 
+            "Carrying amount of equity component": {
+                "value": 82800, 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }, 
+            "If converted value in excess of par value": {
+                "value": 340432, 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }
+        }, 
+        "2019 Notes [Member] Debt Instrument [Line Items]": {
+            "Carrying value": [
+                {
+                    "value": 768488, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 759891, 
+                    "date": "dec 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Unamortized discount": [
+                {
+                    "value": 151512, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 160109, 
+                    "date": "dec 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Principal amount of convertible senior notes": [
+                {
+                    "value": 920000, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 920000, 
+                    "date": "dec 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Remaining amortization period (years)": {
+                "value": "3 years 8 months 12 days", 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }, 
+            "Effective interest rate on liability component": {
+                "value": 0.0489, 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }, 
+            "Carrying amount of equity component": {
+                "value": 188100, 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }
+        }, 
+        "2021 Notes [Member] Debt Instrument [Line Items]": {
+            "Carrying value": [
+                {
+                    "value": 1057749, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 1046627, 
+                    "date": "dec 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Unamortized discount": [
+                {
+                    "value": 322251, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 333373, 
+                    "date": "dec 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Principal amount of convertible senior notes": [
+                {
+                    "value": 1380000, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 1380000, 
+                    "date": "dec 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Remaining amortization period (years)": {
+                "value": "5 years 8 months 12 days", 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }, 
+            "Effective interest rate on liability component": {
+                "value": 0.0596, 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }, 
+            "Carrying amount of equity component": {
+                "value": 369400, 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }
+        }
+    }, 
+    {
+        "title": "Convertible and Long-term Debt Obligations - Warehouse Line of Credit - Additional Information (Detail) (Warehouse Facility [Member], USD $) In Millions, unless otherwise specified", 
+        "Debt Instrument [Line Items]": {
+            "Secured asset based line of credit": [
+                {
+                    "value": 100, 
+                    "time": "1 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 100, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }
+            ], 
+            "Warehouse agreement borrowings, outstanding": [
+                {
+                    "value": 77, 
+                    "time": "1 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 77, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }
+            ], 
+            "Interest rate at variable rate on undrawn amount": {
+                "value": 0.005, 
+                "time": "1 months ended", 
+                "date": "mar 31 2015"
+            }, 
+            "Line of credit facility, expiration date": {
+                "value": "31-Mar-17", 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }
+        }, 
+        "LIBOR [Member] Debt Instrument [Line Items]": {
+            "Line of credit, additional interest rate": {
+                "value": 0.0165, 
+                "time": "1 months ended", 
+                "date": "mar 31 2015"
+            }
+        }, 
+        "Maximum [Member] Debt Instrument [Line Items]": {
+            "Borrowings limits of present value": {
+                "value": 0.72, 
+                "time": "1 months ended", 
+                "date": "mar 31 2015"
+            }
+        }
+    }, 
+    {
+        "title": "Convertible and Long-term Debt Obligations - 1.50% Convertible Senior Notes and Bond Hedge and Warrant Transactions - Schedule of Aggregate Amount of Interest Expense Recognized (Detail) (USD $) In Thousands, unless otherwise specified", 
+        "Debt Disclosure [Abstract]": {
+            "Contractual interest coupon": [
+                {
+                    "value": 7307, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 3652, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Amortization of debt issuance costs": [
+                {
+                    "value": 1530, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 736, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Amortization of debt discount": [
+                {
+                    "value": 23638, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 8492, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Total": [
+                {
+                    "value": 32475, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 12880, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ]
+        }
+    }, 
+    {
+        "title": "Equity Incentive Plans - Additional Information (Detail) (USD $)", 
+        "Share Based Compensation Arrangement By Share Based Payment Award [Line Items]": {
+            "Aggregate number of vehicle production": {
+                "value": 100000, 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }, 
+            "Stock-based compensation": [
+                {
+                    "value": 43026000, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 37038000, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ]
+        }, 
+        "2012 CEO Grant [Member] Share Based Compensation Arrangement By Share Based Payment Award [Line Items]": {
+            "Number of vesting tranches": {
+                "value": 6, 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }, 
+            "Stock-based compensation": [
+                {
+                    "value": 1400000, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 10000000, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Number of stock options granted": {
+                "value": 5274901, 
+                "time": "1 months ended", 
+                "date": "aug 31 2012"
+            }, 
+            "CEO Grant consists of number of vesting tranches": {
+                "value": 10, 
+                "time": "1 months ended", 
+                "date": "aug 31 2012"
+            }, 
+            "Market capitalization": {
+                "value": 4000000000, 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }, 
+            "Initial market capitalization": {
+                "value": 3200000000, 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }, 
+            "Cash compensation received by CEO": {
+                "value": 0, 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }
+        }, 
+        "First Model X Production Vehicle [Member] Share Based Compensation Arrangement By Share Based Payment Award [Line Items]": {
+            "Portion of stock options scheduled to vest upon successful completion of performance objectives": {
+                "value": 0.0025, 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }
+        }, 
+        "12-month period [Member] Share Based Compensation Arrangement By Share Based Payment Award [Line Items]": {
+            "Portion of stock options scheduled to vest upon successful completion of performance objectives": {
+                "value": 0.0025, 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }, 
+            "Aggregate number of vehicle production": {
+                "value": 100000, 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }
+        }, 
+        "First Gen III Production Vehicle [Member] Share Based Compensation Arrangement By Share Based Payment Award [Line Items]": {
+            "Portion of stock options scheduled to vest upon successful completion of performance objectives": {
+                "value": 0.0025, 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }
+        }, 
+        "Three year period [Member] Share Based Compensation Arrangement By Share Based Payment Award [Line Items]": {
+            "Portion of stock options scheduled to vest upon successful completion of performance objectives": {
+                "value": 0.0025, 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }, 
+            "Gross margin": {
+                "value": 0.3, 
+                "time": "3 months ended", 
+                "date": "mar 31 2015"
+            }
+        }, 
+        "Performance-based Stock Option Grant [Member] Share Based Compensation Arrangement By Share Based Payment Award [Line Items]": {
+            "Number of stock options granted": {
+                "value": 1073000, 
+                "date": "jan 31 2014"
+            }, 
+            "Number of vesting tranches": {
+                "value": 4, 
+                "date": "jan 31 2014"
+            }, 
+            "Stock-based compensation": [
+                {
+                    "value": 3700000, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 2900000, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ]
+        }
+    }, 
+    {
+        "title": "Equity Incentive Plans - Summary of Stock-Based Compensation Expense (Detail) (USD $) In Thousands, unless otherwise specified", 
+        "Employee Service Share Based Compensation Allocation Of Recognized Period Costs [Line Items]": {
+            "Stock-based compensation expense": [
+                {
+                    "value": 43026, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 37038, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ]
+        }, 
+        "Cost of sales [Member] Employee Service Share Based Compensation Allocation Of Recognized Period Costs [Line Items]": {
+            "Stock-based compensation expense": [
+                {
+                    "value": 4601, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 3106, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ]
+        }, 
+        "Research and development [Member] Employee Service Share Based Compensation Allocation Of Recognized Period Costs [Line Items]": {
+            "Stock-based compensation expense": [
+                {
+                    "value": 19792, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 13545, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ]
+        }, 
+        "Selling, general and administrative [Member] Employee Service Share Based Compensation Allocation Of Recognized Period Costs [Line Items]": {
+            "Stock-based compensation expense": [
+                {
+                    "value": 18633, 
+                    "time": "3 months ended", 
+                    "date": "mar 31 2015"
+                }, 
+                {
+                    "value": 20387, 
+                    "date": "mar 31 2014", 
+                    "time": "3 months ended"
+                }
+            ]
+        }
+    }
+]
