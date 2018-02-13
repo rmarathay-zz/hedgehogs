@@ -1,4 +1,4 @@
-# hedgehogs
+# Hedgehogs
 
 ## How to run
 * Clone the repository
