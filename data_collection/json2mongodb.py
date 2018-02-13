@@ -6,7 +6,8 @@ import json
 import collections
 import sys
 
-HOST = '45.55.48.43'
+#HOST = '45.55.48.43'
+HOST = 'localhost:27017'
 PORT = 27017
 DB = 'SEC_EDGAR'
 COLLECTION = sys.argv[1]
