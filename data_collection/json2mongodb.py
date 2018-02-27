@@ -10,6 +10,7 @@ HOST = '45.55.48.43'
 PORT = 27017
 DB = 'SEC_EDGAR'
 COLLECTION = sys.argv[1]
+username = sys.argv[2]
 
 
 class OrderedDictWithKeyEscaping(collections.OrderedDict):
@@ -22,12 +23,16 @@ class OrderedDictWithKeyEscaping(collections.OrderedDict):
 
 def save_to_mongodb(input_file_name):
     with open(input_file_name) as fp:
+        print fp
         json_ = json.load(fp, encoding='utf-8', object_pairs_hook=OrderedDictWithKeyEscaping)
 
-    client = MongoClient(HOST, PORT)
+
+    client = MongoClient(HOST, PORT, username=username , password= '123', authMechanism ='SCRAM-SHA-1')
+    #client.admin.authenticate('jgeorge','123',source= 'SEC_EDGAR')
     db = client[DB]
     collection = db[COLLECTION]
     collection.insert_many(json_)
+
 
 
 def main():
