@@ -1,5 +1,5 @@
 FROM python:2.7.14-stretch
-ADD . /code
-WORKDIR /code
+ADD . /data_collection
+WORKDIR /data_collection
 RUN pip install -r requirements.txt
 CMD ["python", "app.py"]
