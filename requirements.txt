@@ -1,0 +1,9 @@
+lxml
+bs4
+pymongo
+pycurl
+xlrd
+StringIO
+optparse
+pandas
+urllib2
