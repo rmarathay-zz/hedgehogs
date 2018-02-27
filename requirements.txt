@@ -3,6 +3,8 @@ bs4
 pymongo
 pycurl
 xlrd
-optparse
+argparse
 pandas
-urllib2
+wget
+html2text
+openpyxl
