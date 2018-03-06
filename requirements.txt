@@ -1,0 +1,10 @@
+lxml
+bs4
+pymongo
+pycurl
+xlrd
+argparse
+pandas
+wget
+html2text
+openpyxl

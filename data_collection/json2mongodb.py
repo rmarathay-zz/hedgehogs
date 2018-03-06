@@ -11,14 +11,12 @@ PORT = 27017
 DB = 'SEC_EDGAR'
 
 
-
 class OrderedDictWithKeyEscaping(collections.OrderedDict):
     def __setitem__(self, key, value, dict_setitem=dict.__setitem__):
         # MongoDB complains when keys contain dots, so we call json.load with
         # a modified OrderedDict class which escapes dots in keys on the fly
         key = key.replace('.', '<DOT>')
         super(OrderedDictWithKeyEscaping, self).__setitem__(key, value, dict_setitem=dict.__setitem__)
-
 
 def save_to_mongodb(input_file_name,collectionID,usernameID):
     with open(input_file_name) as fp:
@@ -31,8 +29,6 @@ def save_to_mongodb(input_file_name,collectionID,usernameID):
     db = client[DB]
     collection = db[collectionID]
     collection.insert_many(json_)
-
-
 
 def main():
     cli_parser = OptionParser(
@@ -50,7 +46,6 @@ def main():
     COLLECTION = sys.argv[1]
     username = sys.argv[2]
     save_to_mongodb(input_file_name,COLLECTION,username)
-
 
 if __name__ == "__main__":
 

@@ -1,6 +1,6 @@
 # Use this script to download xlsx 
 
-declare -a tickers=('A' 'AAL' 'AAP' 'AAPL' 'ABBV' 'GOOG' 'TRV' 'TSLA')
+declare -a tickers=('T')
 
 for ticker in "${tickers[@]}"
 do
