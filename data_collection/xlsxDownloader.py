@@ -32,7 +32,6 @@ def createTopLevelURLs(ticker):
 		top_level_links.append(str(doc['href']))
 	return top_level_links
 
-
 def createParseableUrls(top_level_links):
 	header_link = "https://www.sec.gov"
 	return_list = []
@@ -64,8 +63,6 @@ def downloadXlxs(xlxs_links, ticker):
 			print '\n'
 			break
 		break
-	
-
 
 def initializer():
 	cli_parser = OptionParser(
