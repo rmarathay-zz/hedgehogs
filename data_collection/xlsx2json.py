@@ -362,6 +362,7 @@ def convert(input_file_name, output_file_name):
 
     # Main json list
     json_result = []
+    sheets = ["Document and Entity Information","Condensed Consolidated Financ37","CONDENSED CONSOLIDATED STATEME3"]
     for sheet_name in sheet_names:
         # The block below was specified by Ranjit, but unfortunately
         # the ~2009 files when parsed return completely empty json objects
@@ -370,6 +371,8 @@ def convert(input_file_name, output_file_name):
         #     # the "Document and Entity Information" sheet should be always
         #     # included, and for the remaining sheets, only those with all caps
         #     continue
+        if not sheet_name in sheets:
+            continue
         myprint('Processing sheet:')
         myprint(sheet_name)
         sheet = wb[sheet_name]
