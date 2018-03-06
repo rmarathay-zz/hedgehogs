@@ -352,6 +352,9 @@ def parse_sheet(sheet):
 
 def convert(input_file_name, output_file_name):
     """Main function for converting xlsx files to json"""
+    goodSheets = {"Document and Entity Information","CONDENSED CONSOLIDATED STATEME3",
+    "Condensed Consolidated Financ37",}
+
     myprint('Parsing workbook %s' % input_file_name)
     wb = openpyxl.load_workbook(
         input_file_name,
@@ -363,17 +366,21 @@ def convert(input_file_name, output_file_name):
     # Main json list
     json_result = []
     for sheet_name in sheet_names:
-        # The block below was specified by Ranjit, but unfortunately
-        # the ~2009 files when parsed return completely empty json objects
-        # if sheet_name != 'Document and Entity Information'\
-        #         and sheet_name.upper() != sheet_name:
-        #     # the "Document and Entity Information" sheet should be always
-        #     # included, and for the remaining sheets, only those with all caps
-        #     continue
-        myprint('Processing sheet:')
-        myprint(sheet_name)
-        sheet = wb[sheet_name]
-        json_result.append(parse_sheet(sheet))
+        if(sheet_name in goodSheets):
+            print sheet_name
+            # The block below was specified by Ranjit, but unfortunately
+            # the ~2009 files when parsed return completely empty json objects
+            # if sheet_name != 'Document and Entity Information'\
+            #         and sheet_name.upper() != sheet_name:
+            #     # the "Document and Entity Information" sheet should be always
+            #     # included, and for the remaining sheets, only those with all caps
+            #     continue
+            myprint('Processing sheet:')
+            myprint(sheet_name)
+            sheet = wb[sheet_name]
+            json_result.append(parse_sheet(sheet))
+        else:
+            continue
 
     with io.open(output_file_name, 'w', encoding='utf-8') as output_file:
         output_file.write(
