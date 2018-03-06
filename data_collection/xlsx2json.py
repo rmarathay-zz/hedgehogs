@@ -352,6 +352,7 @@ def parse_sheet(sheet):
 
 def convert(input_file_name, output_file_name):
     """Main function for converting xlsx files to json"""
+
     myprint('Parsing workbook %s' % input_file_name)
     wb = openpyxl.load_workbook(
         input_file_name,
