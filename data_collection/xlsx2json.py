@@ -363,7 +363,7 @@ def convert(input_file_name, output_file_name):
 
     # Main json list
     json_result = []
-    sheets = ["Document and Entity Information","Condensed Consolidated Financ37","CONDENSED CONSOLIDATED STATEME3"]
+    sheets = ["CONDENSED CONSOLIDATED STATEME7","Document and Entity Information","Condensed Consolidated Financ37","CONDENSED CONSOLIDATED STATEME3","CONDESED CONSOLIDATED BALANCE"]
     for sheet_name in sheet_names:
         # The block below was specified by Ranjit, but unfortunately
         # the ~2009 files when parsed return completely empty json objects
@@ -378,6 +378,16 @@ def convert(input_file_name, output_file_name):
         myprint(sheet_name)
         sheet = wb[sheet_name]
         json_result.append(parse_sheet(sheet))
+    i = 0
+    for i in range(len(json_result)):
+        if json_result[i]["title"] == "Condensed Consolidated Financial Statement Details - Property, Plant and Equipment, Net (Details) - USD ($) $ in Millions":
+            break
+    entry = {}
+    correct_pair =json_result[i]["Property, Plant and Equipment [Line Items]"]
+    pp_e = correct_pair["Gross property, plant and equipment"]
+    amor = correct_pair["Accumulated depreciation and amortization"]
+    entry["capital expenditures - USD ($) $ in Millions"] = pp_e[0]["value"]-pp_e[1]["value"]+ abs(amor[0]["value"])
+    json_result.append(entry)
 
     with io.open(output_file_name, 'w', encoding='utf-8') as output_file:
         output_file.write(

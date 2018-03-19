@@ -1,0 +1,71 @@
+[
+    {
+        "title": "Document and Entity Information - shares", 
+        "Document and Entity Information [Abstract]": {
+            "Entity Registrant Name": {
+                "value": "AGILENT TECHNOLOGIES INC.", 
+                "time": "6 months ended", 
+                "date": "apr 30 2017"
+            }, 
+            "Entity Central Index Key": {
+                "value": 1090872, 
+                "time": "6 months ended", 
+                "date": "apr 30 2017"
+            }, 
+            "Current Fiscal Year End Date": {
+                "value": "--10-31", 
+                "time": "6 months ended", 
+                "date": "apr 30 2017"
+            }, 
+            "Entity Well-known Seasoned Issuer": {
+                "value": "Yes", 
+                "time": "6 months ended", 
+                "date": "apr 30 2017"
+            }, 
+            "Entity Voluntary Filers": {
+                "value": "No", 
+                "time": "6 months ended", 
+                "date": "apr 30 2017"
+            }, 
+            "Entity Current Reporting Status": {
+                "value": "Yes", 
+                "time": "6 months ended", 
+                "date": "apr 30 2017"
+            }, 
+            "Entity Filer Category": {
+                "value": "Large Accelerated Filer", 
+                "time": "6 months ended", 
+                "date": "apr 30 2017"
+            }, 
+            "Entity Common Stock, Shares Outstanding": {
+                "value": 321337443, 
+                "date": "may 31 2017"
+            }, 
+            "Document Fiscal Year Focus": {
+                "value": 2017, 
+                "time": "6 months ended", 
+                "date": "apr 30 2017"
+            }, 
+            "Document Fiscal Period Focus": {
+                "value": "Q2", 
+                "time": "6 months ended", 
+                "date": "apr 30 2017"
+            }, 
+            "Document Type": {
+                "value": "10-Q", 
+                "time": "6 months ended", 
+                "date": "apr 30 2017"
+            }, 
+            "Amendment Flag": {
+                "value": "false", 
+                "time": "6 months ended", 
+                "date": "apr 30 2017"
+            }, 
+            "Document Period End Date": {
+                "value": "Apr. 30,\n\t\t2017", 
+                "time": "6 months ended", 
+                "date": "apr 30 2017"
+            }
+        }
+    }
+]

@@ -1,0 +1,679 @@
+[
+    {
+        "title": "Document and Entity Information - shares shares in Thousands", 
+        "Document And Entity Information [Abstract]": {
+            "Document Type": {
+                "value": "10-Q", 
+                "time": "3 months ended", 
+                "date": "dec 30 2017"
+            }, 
+            "Amendment Flag": {
+                "value": "false", 
+                "time": "3 months ended", 
+                "date": "dec 30 2017"
+            }, 
+            "Document Period End Date": {
+                "value": "Dec. 30,\n\t\t2017", 
+                "time": "3 months ended", 
+                "date": "dec 30 2017"
+            }, 
+            "Document Fiscal Year Focus": {
+                "value": 2018, 
+                "time": "3 months ended", 
+                "date": "dec 30 2017"
+            }, 
+            "Document Fiscal Period Focus": {
+                "value": "Q1", 
+                "time": "3 months ended", 
+                "date": "dec 30 2017"
+            }, 
+            "Trading Symbol": {
+                "value": "AAPL", 
+                "time": "3 months ended", 
+                "date": "dec 30 2017"
+            }, 
+            "Entity Registrant Name": {
+                "value": "APPLE INC", 
+                "time": "3 months ended", 
+                "date": "dec 30 2017"
+            }, 
+            "Entity Central Index Key": {
+                "value": 320193, 
+                "time": "3 months ended", 
+                "date": "dec 30 2017"
+            }, 
+            "Current Fiscal Year End Date": {
+                "value": "--09-29", 
+                "time": "3 months ended", 
+                "date": "dec 30 2017"
+            }, 
+            "Entity Filer Category": {
+                "value": "Large Accelerated Filer", 
+                "time": "3 months ended", 
+                "date": "dec 30 2017"
+            }, 
+            "Entity Common Stock, Shares Outstanding": {
+                "value": 5074013, 
+                "date": "jan 19 2018"
+            }
+        }
+    }, 
+    {
+        "title": "CONDENSED CONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME (Unaudited) - USD ($) $ in Millions", 
+        "Statement of Comprehensive Income [Abstract]": {
+            "Net income": [
+                {
+                    "value": 20065, 
+                    "time": "3 months ended", 
+                    "date": "dec 30 2017"
+                }, 
+                {
+                    "value": 17891, 
+                    "date": "dec 31 2016", 
+                    "time": "3 months ended"
+                }
+            ]
+        }, 
+        "Other comprehensive income/(loss):": {
+            "Change in foreign currency translation, net of tax effects of $(1) and $76, respectively": [
+                {
+                    "value": 40, 
+                    "time": "3 months ended", 
+                    "date": "dec 30 2017"
+                }, 
+                {
+                    "value": -375, 
+                    "date": "dec 31 2016", 
+                    "time": "3 months ended"
+                }
+            ]
+        }, 
+        "Change in unrealized gains/losses on derivative instruments:": {
+            "Change in fair value of derivatives, net of tax benefit/(expense) of $(66) and $(228), respectively": [
+                {
+                    "value": 88, 
+                    "time": "3 months ended", 
+                    "date": "dec 30 2017"
+                }, 
+                {
+                    "value": 1468, 
+                    "date": "dec 31 2016", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Adjustment for net (gains)/losses realized and included in net income, net of tax expense/(benefit) of $(21) and $(211), respectively": [
+                {
+                    "value": 102, 
+                    "time": "3 months ended", 
+                    "date": "dec 30 2017"
+                }, 
+                {
+                    "value": 306, 
+                    "date": "dec 31 2016", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Total change in unrealized gains/losses on derivative instruments, net of tax": [
+                {
+                    "value": 190, 
+                    "time": "3 months ended", 
+                    "date": "dec 30 2017"
+                }, 
+                {
+                    "value": 1774, 
+                    "date": "dec 31 2016", 
+                    "time": "3 months ended"
+                }
+            ]
+        }, 
+        "Change in unrealized gains/losses on marketable securities:": {
+            "Change in fair value of marketable securities, net of tax benefit/(expense) of $464 and $989, respectively": [
+                {
+                    "value": -846, 
+                    "time": "3 months ended", 
+                    "date": "dec 30 2017"
+                }, 
+                {
+                    "value": -1808, 
+                    "date": "dec 31 2016", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Adjustment for net (gains)/losses realized and included in net income, net of tax expense/(benefit) of $41 and $(11), respectively": [
+                {
+                    "value": -75, 
+                    "time": "3 months ended", 
+                    "date": "dec 30 2017"
+                }, 
+                {
+                    "value": 20, 
+                    "date": "dec 31 2016", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Total change in unrealized gains/losses on marketable securities, net of tax": [
+                {
+                    "value": -921, 
+                    "time": "3 months ended", 
+                    "date": "dec 30 2017"
+                }, 
+                {
+                    "value": -1788, 
+                    "date": "dec 31 2016", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Total other comprehensive income/(loss)": [
+                {
+                    "value": -691, 
+                    "time": "3 months ended", 
+                    "date": "dec 30 2017"
+                }, 
+                {
+                    "value": -389, 
+                    "date": "dec 31 2016", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Total comprehensive income": [
+                {
+                    "value": 19374, 
+                    "time": "3 months ended", 
+                    "date": "dec 30 2017"
+                }, 
+                {
+                    "value": 17502, 
+                    "date": "dec 31 2016", 
+                    "time": "3 months ended"
+                }
+            ]
+        }
+    }, 
+    {
+        "title": "CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS (Unaudited) - USD ($) $ in Millions", 
+        "Statement of Cash Flows [Abstract]": {
+            "Cash and cash equivalents, beginning of the period": [
+                {
+                    "value": 20289, 
+                    "time": "3 months ended", 
+                    "date": "dec 30 2017"
+                }, 
+                {
+                    "value": 20484, 
+                    "date": "dec 31 2016", 
+                    "time": "3 months ended"
+                }
+            ]
+        }, 
+        "Operating activities:": {
+            "Net income": [
+                {
+                    "value": 20065, 
+                    "time": "3 months ended", 
+                    "date": "dec 30 2017"
+                }, 
+                {
+                    "value": 17891, 
+                    "date": "dec 31 2016", 
+                    "time": "3 months ended"
+                }
+            ]
+        }, 
+        "Adjustments to reconcile net income to cash generated by operating activities:": {
+            "Depreciation and amortization": [
+                {
+                    "value": 2745, 
+                    "time": "3 months ended", 
+                    "date": "dec 30 2017"
+                }, 
+                {
+                    "value": 2987, 
+                    "date": "dec 31 2016", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Share-based compensation expense": [
+                {
+                    "value": 1296, 
+                    "time": "3 months ended", 
+                    "date": "dec 30 2017"
+                }, 
+                {
+                    "value": 1256, 
+                    "date": "dec 31 2016", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Deferred income tax expense/(benefit)": [
+                {
+                    "value": -33737, 
+                    "time": "3 months ended", 
+                    "date": "dec 30 2017"
+                }, 
+                {
+                    "value": 1452, 
+                    "date": "dec 31 2016", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Other": [
+                {
+                    "value": -11, 
+                    "time": "3 months ended", 
+                    "date": "dec 30 2017"
+                }, 
+                {
+                    "value": -274, 
+                    "date": "dec 31 2016", 
+                    "time": "3 months ended"
+                }
+            ]
+        }, 
+        "Changes in operating assets and liabilities:": {
+            "Accounts receivable, net": [
+                {
+                    "value": -5570, 
+                    "time": "3 months ended", 
+                    "date": "dec 30 2017"
+                }, 
+                {
+                    "value": 1697, 
+                    "date": "dec 31 2016", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Inventories": [
+                {
+                    "value": 434, 
+                    "time": "3 months ended", 
+                    "date": "dec 30 2017"
+                }, 
+                {
+                    "value": -580, 
+                    "date": "dec 31 2016", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Vendor non-trade receivables": [
+                {
+                    "value": -9660, 
+                    "time": "3 months ended", 
+                    "date": "dec 30 2017"
+                }, 
+                {
+                    "value": -375, 
+                    "date": "dec 31 2016", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Other current and non-current assets": [
+                {
+                    "value": -197, 
+                    "time": "3 months ended", 
+                    "date": "dec 30 2017"
+                }, 
+                {
+                    "value": -1446, 
+                    "date": "dec 31 2016", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Accounts payable": [
+                {
+                    "value": 14588, 
+                    "time": "3 months ended", 
+                    "date": "dec 30 2017"
+                }, 
+                {
+                    "value": 2460, 
+                    "date": "dec 31 2016", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Deferred revenue": [
+                {
+                    "value": 791, 
+                    "time": "3 months ended", 
+                    "date": "dec 30 2017"
+                }, 
+                {
+                    "value": 42, 
+                    "date": "dec 31 2016", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Other current and non-current liabilities": [
+                {
+                    "value": 37549, 
+                    "time": "3 months ended", 
+                    "date": "dec 30 2017"
+                }, 
+                {
+                    "value": 2124, 
+                    "date": "dec 31 2016", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Cash generated by operating activities": [
+                {
+                    "value": 28293, 
+                    "time": "3 months ended", 
+                    "date": "dec 30 2017"
+                }, 
+                {
+                    "value": 27234, 
+                    "date": "dec 31 2016", 
+                    "time": "3 months ended"
+                }
+            ]
+        }, 
+        "Investing activities:": {
+            "Purchases of marketable securities": [
+                {
+                    "value": -41272, 
+                    "time": "3 months ended", 
+                    "date": "dec 30 2017"
+                }, 
+                {
+                    "value": -54272, 
+                    "date": "dec 31 2016", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Proceeds from maturities of marketable securities": [
+                {
+                    "value": 14048, 
+                    "time": "3 months ended", 
+                    "date": "dec 30 2017"
+                }, 
+                {
+                    "value": 6525, 
+                    "date": "dec 31 2016", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Proceeds from sales of marketable securities": [
+                {
+                    "value": 16801, 
+                    "time": "3 months ended", 
+                    "date": "dec 30 2017"
+                }, 
+                {
+                    "value": 32166, 
+                    "date": "dec 31 2016", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Payments made in connection with business acquisitions, net": [
+                {
+                    "value": -173, 
+                    "time": "3 months ended", 
+                    "date": "dec 30 2017"
+                }, 
+                {
+                    "value": -17, 
+                    "date": "dec 31 2016", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Payments for acquisition of property, plant and equipment": [
+                {
+                    "value": -2810, 
+                    "time": "3 months ended", 
+                    "date": "dec 30 2017"
+                }, 
+                {
+                    "value": -3334, 
+                    "date": "dec 31 2016", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Payments for acquisition of intangible assets": [
+                {
+                    "value": -154, 
+                    "time": "3 months ended", 
+                    "date": "dec 30 2017"
+                }, 
+                {
+                    "value": -86, 
+                    "date": "dec 31 2016", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Payments for strategic investments, net": [
+                {
+                    "value": -94, 
+                    "time": "3 months ended", 
+                    "date": "dec 30 2017"
+                }, 
+                {
+                    "value": 0, 
+                    "date": "dec 31 2016", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Other": [
+                {
+                    "value": 64, 
+                    "time": "3 months ended", 
+                    "date": "dec 30 2017"
+                }, 
+                {
+                    "value": -104, 
+                    "date": "dec 31 2016", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Cash used in investing activities": [
+                {
+                    "value": -13590, 
+                    "time": "3 months ended", 
+                    "date": "dec 30 2017"
+                }, 
+                {
+                    "value": -19122, 
+                    "date": "dec 31 2016", 
+                    "time": "3 months ended"
+                }
+            ]
+        }, 
+        "Financing activities:": {
+            "Payments for taxes related to net share settlement of equity awards": [
+                {
+                    "value": -1038, 
+                    "time": "3 months ended", 
+                    "date": "dec 30 2017"
+                }, 
+                {
+                    "value": -629, 
+                    "date": "dec 31 2016", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Payments for dividends and dividend equivalents": [
+                {
+                    "value": -3339, 
+                    "time": "3 months ended", 
+                    "date": "dec 30 2017"
+                }, 
+                {
+                    "value": -3130, 
+                    "date": "dec 31 2016", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Repurchases of common stock": [
+                {
+                    "value": -10095, 
+                    "time": "3 months ended", 
+                    "date": "dec 30 2017"
+                }, 
+                {
+                    "value": -10851, 
+                    "date": "dec 31 2016", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Proceeds from issuance of term debt, net": [
+                {
+                    "value": 6969, 
+                    "time": "3 months ended", 
+                    "date": "dec 30 2017"
+                }, 
+                {
+                    "value": 0, 
+                    "date": "dec 31 2016", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Change in commercial paper, net": [
+                {
+                    "value": 2, 
+                    "time": "3 months ended", 
+                    "date": "dec 30 2017"
+                }, 
+                {
+                    "value": 2385, 
+                    "date": "dec 31 2016", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Cash used in financing activities": [
+                {
+                    "value": -7501, 
+                    "time": "3 months ended", 
+                    "date": "dec 30 2017"
+                }, 
+                {
+                    "value": -12225, 
+                    "date": "dec 31 2016", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Increase/(Decrease) in cash and cash equivalents": [
+                {
+                    "value": 7202, 
+                    "time": "3 months ended", 
+                    "date": "dec 30 2017"
+                }, 
+                {
+                    "value": -4113, 
+                    "date": "dec 31 2016", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Cash and cash equivalents, end of the period": [
+                {
+                    "value": 27491, 
+                    "time": "3 months ended", 
+                    "date": "dec 30 2017"
+                }, 
+                {
+                    "value": 16371, 
+                    "date": "dec 31 2016", 
+                    "time": "3 months ended"
+                }
+            ]
+        }, 
+        "Supplemental cash flow disclosure:": {
+            "Cash paid for income taxes, net": [
+                {
+                    "value": 3551, 
+                    "time": "3 months ended", 
+                    "date": "dec 30 2017"
+                }, 
+                {
+                    "value": 3510, 
+                    "date": "dec 31 2016", 
+                    "time": "3 months ended"
+                }
+            ], 
+            "Cash paid for interest": [
+                {
+                    "value": 623, 
+                    "time": "3 months ended", 
+                    "date": "dec 30 2017"
+                }, 
+                {
+                    "value": 497, 
+                    "date": "dec 31 2016", 
+                    "time": "3 months ended"
+                }
+            ]
+        }
+    }, 
+    {
+        "title": "Condensed Consolidated Financial Statement Details - Property, Plant and Equipment, Net (Details) - USD ($) $ in Millions", 
+        "Property, Plant and Equipment [Line Items]": {
+            "Gross property, plant and equipment": [
+                {
+                    "value": 77110, 
+                    "date": "dec 30 2017"
+                }, 
+                {
+                    "value": 75076, 
+                    "date": "sep 30 2017"
+                }
+            ], 
+            "Accumulated depreciation and amortization": [
+                {
+                    "value": -43431, 
+                    "date": "dec 30 2017"
+                }, 
+                {
+                    "value": -41293, 
+                    "date": "sep 30 2017"
+                }
+            ], 
+            "Total property, plant and equipment, net": [
+                {
+                    "value": 33679, 
+                    "date": "dec 30 2017"
+                }, 
+                {
+                    "value": 33783, 
+                    "date": "sep 30 2017"
+                }
+            ]
+        }, 
+        "Land and buildings Property, Plant and Equipment [Line Items]": {
+            "Gross property, plant and equipment": [
+                {
+                    "value": 14189, 
+                    "date": "dec 30 2017"
+                }, 
+                {
+                    "value": 13587, 
+                    "date": "sep 30 2017"
+                }
+            ]
+        }, 
+        "Machinery, equipment and internal-use software Property, Plant and Equipment [Line Items]": {
+            "Gross property, plant and equipment": [
+                {
+                    "value": 55479, 
+                    "date": "dec 30 2017"
+                }, 
+                {
+                    "value": 54210, 
+                    "date": "sep 30 2017"
+                }
+            ]
+        }, 
+        "Leasehold improvements Property, Plant and Equipment [Line Items]": {
+            "Gross property, plant and equipment": [
+                {
+                    "value": 7442, 
+                    "date": "dec 30 2017"
+                }, 
+                {
+                    "value": 7279, 
+                    "date": "sep 30 2017"
+                }
+            ]
+        }
+    }, 
+    {
+        "capital expenditures - USD ($) $ in Millions": 45465
+    }
+]
