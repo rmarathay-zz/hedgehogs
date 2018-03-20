@@ -3,13 +3,29 @@
 
 
 from lxml import html
+from lxml import etree
+from optparse import OptionParser
+from openpyxl import load_workbook
 from bs4 import BeautifulSoup
+from io import StringIO
+from pymongo import MongoClient
+from collections import OrderedDict as OD
+import io
 import urllib
 import pycurl
-from StringIO import StringIO
-from pymongo import MongoClient
+import html2text
+import sys
+import os
+import wget
+import xlrd
+import pandas
 import datetime
 import pprint
+import string
+import re
+import json
+import openpyxl
+
 
 class Data():
     def __init__(self, name, url):
@@ -28,11 +44,11 @@ class Data():
 
     def printItems(self):
         for item in self.data:
-            print item, self.data[item]
+            print(item, self.data[item])
 
     def printKeys(self):
         for k in self.data.keys():
-            print k
+            print(k)
 
     def getKeys(self):
         keys = [ ]
@@ -41,7 +57,7 @@ class Data():
         return keys
 
     def getValue(self,key):
-        print self.data[key]
+        print(self.data[key])
 
     def getData(self):
         return self.data
@@ -58,11 +74,26 @@ class Link():
         return self.name
 
     def getHTML(self):
-        buffer = StringIO()
-        c = pycurl.Curl()
-        c.setopt(c.URL, self.getUrl())
-        c.setopt(c.WRITEDATA, buffer)
-        c.perform()
-        c.close()
-        body = buffer.getvalue()
-        return body
+        fp = urllib.request.urlopen(self.getUrl())
+        _bytes = fp.read()
+        _str = _bytes.decode("utf8")
+        return _str
+#         buffer = StringIO()
+#         c = pycurl.Curl()
+#         c.setopt(c.URL, self.getUrl())
+#         c.setopt(c.WRITEDATA, buffer)
+#         c.perform()
+#         c.close()
+#         body = buffer.getvalue()
+#        return body
+class MongoConnection():
+    def __init__(self, username, password):
+        self.MONGO_HOST = "45.55.48.43"
+        self.MONGO_PORT = 27107
+        self.MONGO_DB0 = "admin"
+        self.MONGO_DB1 = "SEC_EDGAR"
+        self.MONGO_USER = username
+        self.MONGO_PASS = password
+    def connect(self):
+        client = MongoClient(MONGO_HOST, MONGO_PORT, username=MONGO_USER, password=MONGO_PASS, authMechanism='SCRAM-SHA-1')
+        db = client[MONGO_DB1]

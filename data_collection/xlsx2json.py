@@ -1,15 +1,6 @@
 #-*- coding: utf-8 -*-
-import os
-import io
-import re
-from optparse import OptionParser
-from collections import OrderedDict as OD
-import json
-import string
-import pprint
-import datetime
 
-import openpyxl
+from import_hedgehogs import *
 
 # Dictionary {1: 'A', 2: 'B', ...}
 # Note: we are limiting the allowed columns from A to Z
@@ -27,9 +18,9 @@ RE_PATTERN_YEAR_WORD = re.compile(r'^\d\d\d\d$')
 MONTHS = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'july', 'aug', 'sep', 'oct', 'nov', 'dec']
 
 # Should be changed to str for Python 3+
-BASE_STRING_CLASS = unicode
+BASE_STRING_CLASS = str
 # Should be changed to str for Python 3+
-STRING_CLASS = unicode
+STRING_CLASS = str
 
 
 class InvalidRow(Exception):
@@ -271,7 +262,7 @@ def parse_row(sheet, row):
                 months_ended_old = row_element['time']
             row_elements.append(row_element)
         except InvalidCell as e:
-            myprint(e.message)
+            myprint(e)
     return row_elements
 
 
@@ -298,7 +289,7 @@ def parse_sheet(sheet):
         try:
             row_elements = parse_row(sheet, row)
         except InvalidRow as e:
-            myprint(e.message)
+            myprint(e)
             row_elements_old = []
             continue
         if len(row_elements) == 1:
@@ -358,7 +349,7 @@ def convert(input_file_name, output_file_name):
         guess_types=False,
         data_only=True
     )
-    sheet_names = wb.get_sheet_names()
+    sheet_names = wb.sheetnames
 
     # Main json list
     json_result = []
@@ -377,12 +368,13 @@ def convert(input_file_name, output_file_name):
 
     with io.open(output_file_name, 'w', encoding='utf-8') as output_file:
         output_file.write(
-            unicode(
+            str(
                 json.dumps(
                     json_result,
                     indent=JSON_INDENT,
-                    ensure_ascii=False,
-                    encoding='utf-8'
+# Commented out because str is python3 and accounts for encoding specifications
+#                     ensure_ascii=False,
+#                     encoding='utf-8'
                 )
             )
         )
@@ -415,7 +407,6 @@ def main():
         os.remove(output_file_name)
 
     convert(input_file_name, output_file_name)
-
 
 if __name__ == "__main__":
     main()
