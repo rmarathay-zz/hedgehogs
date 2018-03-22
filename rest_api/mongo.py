@@ -2,6 +2,7 @@ from flask import Flask
 from flask import jsonify
 from flask import request
 from flask_pymongo import PyMongo
+import requests
 
 app = Flask(__name__)
 
@@ -15,6 +16,15 @@ app.config['MONGO_URI'] = 'mongodb://45.55.48.43:27017/SEC_EDGAR'
 mongo = PyMongo(app)
 
 
-@app.route('/')
-def hello():
-	return 'Hello, World!'
+@app.route('/test', methods=['GET'])
+def get_all_inputs():
+    inputs = mongo.db.test
+    output = []
+#     for q in fin_data.find():
+#         output.append(q.name)
+    return jsonify({'result' : output})
+# def hello():
+# 	return 'Hello, World!'
+
+if __name__ == '__main__':
+    app.run(debug=True)
