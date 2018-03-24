@@ -1,0 +1,4394 @@
+[
+    {
+        "title": "Document And Entity Information",
+        "Document And Entity Information [Abstract]": {
+            "Entity Registrant Name": {
+                "value": "NETFLIX INC",
+                "time": "9 months ended",
+                "date": "sep 30 2014"
+            },
+            "Entity Central Index Key": {
+                "value": "0001065280",
+                "time": "9 months ended",
+                "date": "sep 30 2014"
+            },
+            "Current Fiscal Year End Date": {
+                "value": "--12-31",
+                "time": "9 months ended",
+                "date": "sep 30 2014"
+            },
+            "Entity Filer Category": {
+                "value": "Large Accelerated Filer",
+                "time": "9 months ended",
+                "date": "sep 30 2014"
+            },
+            "Document Type": {
+                "value": "10-Q",
+                "time": "9 months ended",
+                "date": "sep 30 2014"
+            },
+            "Document Period End Date": {
+                "value": "30-Sep-14",
+                "time": "9 months ended",
+                "date": "sep 30 2014"
+            },
+            "Document Fiscal Year Focus": {
+                "value": 2014,
+                "time": "9 months ended",
+                "date": "sep 30 2014"
+            },
+            "Document Fiscal Period Focus": {
+                "value": "Q3",
+                "time": "9 months ended",
+                "date": "sep 30 2014"
+            },
+            "Amendment Flag": {
+                "value": "false",
+                "time": "9 months ended",
+                "date": "sep 30 2014"
+            },
+            "Entity Common Stock, Shares Outstanding": {
+                "value": 60246379,
+                "time": "9 months ended",
+                "date": "sep 30 2014"
+            }
+        }
+    },
+    {
+        "title": "Consolidated Statements Of Operations (USD $) In Thousands, except Per Share data, unless otherwise specified",
+        "Income Statement [Abstract]": {
+            "Revenues": [
+                {
+                    "value": 1409432,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 1105999,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 4019928,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 3199332,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Cost of revenues": [
+                {
+                    "value": 954394,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 798900,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 2738428,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 2296526,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Marketing": [
+                {
+                    "value": 145654,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 108228,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 403515,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 341925,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Technology and development": [
+                {
+                    "value": 120953,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 95540,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 346445,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 280641,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "General and administrative": [
+                {
+                    "value": 78024,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 46211,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 193938,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 134181,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Operating income": [
+                {
+                    "value": 110407,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 57120,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 337602,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 146059,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ]
+        },
+        "Other income (expense):": {
+            "Interest expense": [
+                {
+                    "value": -13486,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": -7436,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": -36866,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": -21704,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Interest and other income (expense)": [
+                {
+                    "value": 616,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": -193,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 3117,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": -2156,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Loss on extinguishment of debt": [
+                {
+                    "value": 0,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 0,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 0,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": -25129,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Income before income taxes": [
+                {
+                    "value": 97537,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 49491,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 303853,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 97070,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Provision for income taxes": [
+                {
+                    "value": 38242,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 17669,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 120425,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 33088,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Net income": [
+                {
+                    "value": 59295,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 31822,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 183428,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 63982,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ]
+        },
+        "Earnings per share:": {
+            "Basic (in dollars per share)": [
+                {
+                    "value": 0.99,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 0.54,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 3.06,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 1.11,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Diluted (in dollars per share)": [
+                {
+                    "value": 0.96,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 0.52,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 2.97,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 1.06,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ]
+        },
+        "Weighted-average common shares outstanding:": {
+            "Basic (in shares)": [
+                {
+                    "value": 60171,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 59108,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 59996,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 57769,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Diluted (in shares)": [
+                {
+                    "value": 61820,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 60990,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 61669,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 60578,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Consolidated Statements of Comprehensive Income (USD $) In Thousands, unless otherwise specified",
+        "Statement of Comprehensive Income [Abstract]": {
+            "Net income": [
+                {
+                    "value": 59295,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 31822,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 183428,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 63982,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ]
+        },
+        "Other comprehensive income (loss):": {
+            "Foreign currency translation adjustments": [
+                {
+                    "value": -4354,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 2409,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": -1975,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 150,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Change in unrealized gains (losses) on available-for-sale securities, net of tax of $(313), $515, $28, and $(936), respectively": [
+                {
+                    "value": -503,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 825,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 45,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": -1499,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Total other comprehensive income (loss)": [
+                {
+                    "value": -4857,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 3234,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": -1930,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": -1349,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Comprehensive income": [
+                {
+                    "value": 54438,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 35056,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 181498,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 62633,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Consolidated Statements of Comprehensive Income (Parenthetical) (USD $) In Thousands, unless otherwise specified",
+        "Statement of Comprehensive Income [Abstract]": {
+            "Change in unrealized gains (losses) on available for sale securities, tax": [
+                {
+                    "value": -313,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 515,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 28,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": -936,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Consolidated Statements Of Cash Flows (USD $) In Thousands, unless otherwise specified",
+        "Cash flows from operating activities:": {
+            "Net income": [
+                {
+                    "value": 59295,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 31822,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 183428,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 63982,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ]
+        },
+        "Adjustments to reconcile net income to net cash (used in) provided by operating activities:": {
+            "Additions to streaming content library": [
+                {
+                    "value": -1202484,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": -878314,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": -2765197,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": -2063709,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Change in streaming content liabilities": [
+                {
+                    "value": 346752,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 310191,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 467355,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 327175,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Amortization of streaming content library": [
+                {
+                    "value": 686154,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 553394,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 1925926,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 1549384,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Amortization of DVD content library": [
+                {
+                    "value": 18269,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 17546,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 51313,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 53492,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Depreciation and amortization of property, equipment and intangibles": [
+                {
+                    "value": 14357,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 11452,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 39716,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 35529,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Stock-based compensation expense": [
+                {
+                    "value": 29878,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 18477,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 84988,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 54178,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Excess tax benefits from stock-based compensation": [
+                {
+                    "value": -21060,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": -20492,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": -68420,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": -52475,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Other non-cash items": [
+                {
+                    "value": 3360,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 1994,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 8807,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 4932,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Loss on extinguishment of debt": [
+                {
+                    "value": 0,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 0,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 0,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 25129,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Deferred taxes": [
+                {
+                    "value": -7892,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": -2424,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": -37564,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": -11212,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ]
+        },
+        "Changes in operating assets and liabilities:": {
+            "Other current assets": [
+                {
+                    "value": 12960,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 9920,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 27341,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 37955,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Accounts payable": [
+                {
+                    "value": 13003,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": -5877,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 32729,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 6004,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Accrued expenses": [
+                {
+                    "value": -6980,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": -11451,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 51586,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": -5089,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Deferred revenue": [
+                {
+                    "value": 11626,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 9252,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 37189,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 26351,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Other non-current assets and liabilities": [
+                {
+                    "value": 5323,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": -10797,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 15747,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 4760,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Net cash (used in) provided by operating activities": [
+                {
+                    "value": -37439,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 34693,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 54944,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 56386,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ]
+        },
+        "Cash flows from investing activities:": {
+            "Acquisition of DVD content library": [
+                {
+                    "value": -15530,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": -15471,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": -51425,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": -50687,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Purchases of property and equipment": [
+                {
+                    "value": -21032,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": -10828,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": -54235,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": -31034,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Other assets": [
+                {
+                    "value": 341,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": -1329,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 1765,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 3808,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Purchases of short-term investments": [
+                {
+                    "value": -123883,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": -116116,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": -355337,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": -497789,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Proceeds from sale of short-term investments": [
+                {
+                    "value": 107568,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 81185,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 340278,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 196392,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Proceeds from maturities of short-term investments": [
+                {
+                    "value": 32125,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 48890,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 127229,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 58720,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Net cash (used in) provided by investing activities": [
+                {
+                    "value": -20411,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": -13669,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 8275,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": -320590,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ]
+        },
+        "Cash flows from financing activities:": {
+            "Proceeds from issuance of common stock": [
+                {
+                    "value": 9877,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 25561,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 56794,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 93553,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Proceeds from issuance of debt": [
+                {
+                    "value": 0,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 0,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 400000,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 500000,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Issuance costs": [
+                {
+                    "value": 0,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 0,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": -7080,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": -9414,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Redemption of debt": [
+                {
+                    "value": 0,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 0,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 0,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": -219362,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Excess tax benefits from stock-based compensation": [
+                {
+                    "value": 21060,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 20492,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 68420,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 52475,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Principal payments of lease financing obligations": [
+                {
+                    "value": -275,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": -258,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": -813,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": -916,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Net cash provided by financing activities": [
+                {
+                    "value": 30662,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 45795,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 517321,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 416336,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Effect of exchange rate changes on cash and cash equivalents": [
+                {
+                    "value": -3839,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 1559,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": -2288,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": -3367,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Net (decrease) increase in cash and cash equivalents": [
+                {
+                    "value": -31027,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 68378,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 578252,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 148765,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Cash and cash equivalents, beginning of period": [
+                {
+                    "value": 1214244,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 370678,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 604965,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 290291,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Cash and cash equivalents, end of period": [
+                {
+                    "value": 1183217,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 439056,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 1183217,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 439056,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Consolidated Balance Sheets (USD $)",
+        "In Thousands, unless otherwise specified Current assets:": {
+            "Cash and cash equivalents": [
+                {
+                    "value": 1183217,
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 604965,
+                    "date": "dec 31 2013"
+                }
+            ],
+            "Short-term investments": [
+                {
+                    "value": 483602,
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 595440,
+                    "date": "dec 31 2013"
+                }
+            ],
+            "Current content library, net": [
+                {
+                    "value": 2006981,
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 1706421,
+                    "date": "dec 31 2013"
+                }
+            ],
+            "Other current assets": [
+                {
+                    "value": 149682,
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 151937,
+                    "date": "dec 31 2013"
+                }
+            ],
+            "Total current assets": [
+                {
+                    "value": 3823482,
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 3058763,
+                    "date": "dec 31 2013"
+                }
+            ],
+            "Non-current content library, net": [
+                {
+                    "value": 2631882,
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 2091071,
+                    "date": "dec 31 2013"
+                }
+            ],
+            "Property and equipment, net": [
+                {
+                    "value": 144147,
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 133605,
+                    "date": "dec 31 2013"
+                }
+            ],
+            "Other non-current assets": [
+                {
+                    "value": 178818,
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 129124,
+                    "date": "dec 31 2013"
+                }
+            ],
+            "Total assets": [
+                {
+                    "value": 6778329,
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 5412563,
+                    "date": "dec 31 2013"
+                }
+            ]
+        },
+        "Current liabilities:": {
+            "Current content liabilities": [
+                {
+                    "value": 2074766,
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 1775983,
+                    "date": "dec 31 2013"
+                }
+            ],
+            "Accounts payable": [
+                {
+                    "value": 150374,
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 108435,
+                    "date": "dec 31 2013"
+                }
+            ],
+            "Accrued expenses": [
+                {
+                    "value": 70559,
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 54018,
+                    "date": "dec 31 2013"
+                }
+            ],
+            "Deferred revenue": [
+                {
+                    "value": 252956,
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 215767,
+                    "date": "dec 31 2013"
+                }
+            ],
+            "Total current liabilities": [
+                {
+                    "value": 2548655,
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 2154203,
+                    "date": "dec 31 2013"
+                }
+            ],
+            "Non-current content liabilities": [
+                {
+                    "value": 1510403,
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 1345590,
+                    "date": "dec 31 2013"
+                }
+            ],
+            "Long-term debt": [
+                {
+                    "value": 900000,
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 500000,
+                    "date": "dec 31 2013"
+                }
+            ],
+            "Other non-current liabilities": [
+                {
+                    "value": 94397,
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 79209,
+                    "date": "dec 31 2013"
+                }
+            ],
+            "Total liabilities": [
+                {
+                    "value": 5053455,
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 4079002,
+                    "date": "dec 31 2013"
+                }
+            ]
+        },
+        "Commitments and contingencies (Note 10) Stockholders\u00e2\u20ac\u2122 equity:": {
+            "Common stock, $0.001 par value; 160,000,000 shares authorized at September 30, 2014 and December 31, 2013; 60,246,379 and 59,607,001 issued and outstanding at September 30, 2014 and December 31, 2013, respectively": [
+                {
+                    "value": 60,
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 60,
+                    "date": "dec 31 2013"
+                }
+            ],
+            "Additional paid-in capital": [
+                {
+                    "value": 987256,
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 777441,
+                    "date": "dec 31 2013"
+                }
+            ],
+            "Accumulated other comprehensive income": [
+                {
+                    "value": 1645,
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 3575,
+                    "date": "dec 31 2013"
+                }
+            ],
+            "Retained earnings": [
+                {
+                    "value": 735913,
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 552485,
+                    "date": "dec 31 2013"
+                }
+            ],
+            "Total stockholders\u00e2\u20ac\u2122 equity": [
+                {
+                    "value": 1724874,
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 1333561,
+                    "date": "dec 31 2013"
+                }
+            ],
+            "Total liabilities and stockholders\u00e2\u20ac\u2122 equity": [
+                {
+                    "value": 6778329,
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 5412563,
+                    "date": "dec 31 2013"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Consolidated Balance Sheets (Parenthetical) (USD $)",
+        "Statement of Financial Position [Abstract]": {
+            "Common stock, par value": [
+                {
+                    "value": 0.001,
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 0.001,
+                    "date": "dec 31 2013"
+                }
+            ],
+            "Common stock, shares authorized": [
+                {
+                    "value": 160000000,
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 160000000,
+                    "date": "dec 31 2013"
+                }
+            ],
+            "Common stock, shares issued": [
+                {
+                    "value": 60246379,
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 59607001,
+                    "date": "dec 31 2013"
+                }
+            ],
+            "Common stock, shares outstanding": [
+                {
+                    "value": 60246379,
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 59607001,
+                    "date": "dec 31 2013"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Basis of Presentation and Summary of Significant Accounting Policies",
+        "Organization, Consolidation and Presentation of Financial Statements [Abstract] Basis of Presentation and Summary of Significant Accounting Policies": {}
+    },
+    {
+        "title": "Reclassifications",
+        "Organization, Consolidation and Presentation of Financial Statements [Abstract] Reclassifications": {}
+    },
+    {
+        "title": "Earnings Per Share",
+        "Earnings Per Share [Abstract] Earnings Per Share": {}
+    },
+    {
+        "title": "Short-term Investments",
+        "Short-Term Investments And Fair Value Measurement [Abstract] Short-term Investments": {}
+    },
+    {
+        "title": "Balance Sheet Components",
+        "Balance Sheet Components Disclosure [Abstract] Balance Sheet Components": {}
+    },
+    {
+        "title": "Long-term Debt",
+        "Debt Disclosure [Abstract] Long-term Debt": {}
+    },
+    {
+        "title": "Stockholders' Equity",
+        "Stockholders' Equity and Stock-based Compensation Disclosure [Abstract] Stockholders' Equity": {}
+    },
+    {
+        "title": "Accumulated Other Comprehensive Income",
+        "Equity [Abstract] Accumulated Other Comprehensive Income": {}
+    },
+    {
+        "title": "Income Taxes",
+        "Income Tax Disclosure [Abstract] Income Taxes": {}
+    },
+    {
+        "title": "Commitments and Contingencies",
+        "Commitments and Contingencies Disclosure [Abstract] Commitments and Contingencies": {}
+    },
+    {
+        "title": "Segment Information",
+        "Segment Reporting [Abstract] Segment Information": {}
+    },
+    {
+        "title": "Basis of Presentation and Summary of Significant Accounting Policies (Policies)",
+        "Organization, Consolidation and Presentation of Financial Statements [Abstract] Use of Estimates": {}
+    },
+    {
+        "title": "Earnings Per Share (Tables)",
+        "Schedule of Antidilutive Securities Excluded from Computation of Earnings Per Share": {}
+    },
+    {
+        "title": "Short-term Investments (Tables)",
+        "Estimated Fair Value Of Short-Term Investments By Contractual Maturity": {}
+    },
+    {
+        "title": "Balance Sheet Components (Tables)",
+        "Property And Equipment, Net": {}
+    },
+    {
+        "title": "Stockholders' Equity (Tables)",
+        "Summary Of Assumptions Used To Value Stock Option Grants Using Lattice-Binomial Model": {}
+    },
+    {
+        "title": "Accumulated Other Comprehensive Income (Tables)",
+        "Equity [Abstract] Schedule of Changes in Accumulated Other Comprehensive Income": {}
+    },
+    {
+        "title": "Commitments and Contingencies (Tables)",
+        "Commitments and Contingencies Disclosure [Abstract] Expected Timing Of Payments For Commitments": {}
+    },
+    {
+        "title": "Segment Information (Tables)",
+        "Information On Reportable Segments And Reconciliation To Consolidated Net Income": {}
+    },
+    {
+        "title": "Basis of Presentation and Summary of Significant Accounting Policies (Details)",
+        "Organization, Consolidation and Presentation of Financial Statements [Abstract]": {
+            "Number of Operating Segments": {
+                "value": 3,
+                "time": "9 months ended",
+                "date": "sep 30 2014"
+            }
+        }
+    },
+    {
+        "title": "Reclassifications - Schedule of Marketing and General and Administrative Expenses Reclassified (Details) (Marketing Expenses Reclassified to Costs of Revenues [Member], USD $) In Millions, unless otherwise specified",
+        "Marketing Expenses Reclassified to Costs of Revenues [Member]": {
+            "Costs of free trials allocated to marketing reclassified to cost of revenues": [
+                {
+                    "value": 7.9,
+                    "time": "3 months ended",
+                    "date": "sep 30 2013"
+                },
+                {
+                    "value": 25.1,
+                    "time": "9 months ended",
+                    "date": "sep 30 2013"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Earnings Per Share - Computation Of Net Income Per Share (Details) (USD $) In Thousands, except Per Share data, unless otherwise specified",
+        "Basic earnings per share:": {
+            "Net income": [
+                {
+                    "value": 59295,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 31822,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 183428,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 63982,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Weighted-average common shares outstanding": [
+                {
+                    "value": 60171,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 59108,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 59996,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 57769,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Basic earnings per share (in dollars per share)": [
+                {
+                    "value": 0.99,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 0.54,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 3.06,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 1.11,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ]
+        },
+        "Diluted earnings per share:": {
+            "Net income": [
+                {
+                    "value": 59295,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 31822,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 183428,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 63982,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Senior Convertible Notes interest expense, net of tax": [
+                {
+                    "value": 0,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 0,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 0,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 49,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Numerator for diluted earnings per share": [
+                {
+                    "value": 59295,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 31822,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 183428,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 64031,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ]
+        },
+        "Shares used in computation:": {
+            "Weighted-average common shares outstanding": [
+                {
+                    "value": 60171,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 59108,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 59996,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 57769,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Senior Convertible Notes shares": [
+                {
+                    "value": 0,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 0,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 0,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 956,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Employee stock options": [
+                {
+                    "value": 1649,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 1882,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 1673,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 1853,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Weighted-average number of shares - Diluted": [
+                {
+                    "value": 61820,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 60990,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 61669,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 60578,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Diluted earnings per share (in dollars per share)": [
+                {
+                    "value": 0.96,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 0.52,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 2.97,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 1.06,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Earnings Per Share - Schedule of Antidilutive Securities Excluded from Computation of Earnings Per Share (Details) (Employee stock options [Member]) In Thousands, unless otherwise specified",
+        "Employee stock options [Member] Antidilutive Securities Excluded from Computation of Earnings Per Share [Line Items]": {
+            "Employee stock options": [
+                {
+                    "value": 53,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 12,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 64,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 260,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Short-term Investments - Available-For-Sale Securities Reported At Fair Value (Details) (USD $)",
+        "In Thousands, unless otherwise specified Schedule of Available-for-sale Securities [Line Items]": {
+            "Total, Amortized Cost": [
+                {
+                    "value": 1671783,
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 1204938,
+                    "date": "dec 31 2013"
+                }
+            ],
+            "Total, Unrealized Gains": [
+                {
+                    "value": 895,
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 1761,
+                    "date": "dec 31 2013"
+                }
+            ],
+            "Total, Unrealized Losses": [
+                {
+                    "value": -152,
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": -1092,
+                    "date": "dec 31 2013"
+                }
+            ],
+            "Total, Estimated Fair Value": [
+                {
+                    "value": 1672526,
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 1205607,
+                    "date": "dec 31 2013"
+                }
+            ]
+        },
+        "Cash and Cash Equivalents [Member] Schedule of Available-for-sale Securities [Line Items]": {
+            "Total, Estimated Fair Value": [
+                {
+                    "value": 1183200,
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 605000,
+                    "date": "dec 31 2013"
+                }
+            ]
+        },
+        "Short-term Investments [Member] Schedule of Available-for-sale Securities [Line Items]": {
+            "Total, Estimated Fair Value": [
+                {
+                    "value": 483600,
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 595400,
+                    "date": "dec 31 2013"
+                }
+            ]
+        },
+        "Non-current Assets [Member] Schedule of Available-for-sale Securities [Line Items]": {
+            "Total, Estimated Fair Value": [
+                {
+                    "value": 5700,
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 5200,
+                    "date": "dec 31 2013"
+                }
+            ]
+        },
+        "Level 1 Securities [Member] | Money market funds [Member] Schedule of Available-for-sale Securities [Line Items]": {
+            "Cash, Money market and Government and agency securities classified as cash equivalents, Amortized Cost": [
+                {
+                    "value": 122936,
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 126208,
+                    "date": "dec 31 2013"
+                }
+            ],
+            "Cash, Money market and Government and agency securities classified as cash equivalents, Gross Unrealized Gains": [
+                {
+                    "value": 0,
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 0,
+                    "date": "dec 31 2013"
+                }
+            ],
+            "Cash, Money market and Government and agency securities classified as cash equivalents, Gross Unrealized Losses": [
+                {
+                    "value": 0,
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 0,
+                    "date": "dec 31 2013"
+                }
+            ],
+            "Cash, Money market and Government and agency securities classified as cash equivalents, Estimated Fair Value": [
+                {
+                    "value": 122936,
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 126208,
+                    "date": "dec 31 2013"
+                }
+            ]
+        },
+        "Level 2 Securities [Member] | Corporate debt securities [Member] Schedule of Available-for-sale Securities [Line Items]": {
+            "Available-for-sale Securities, Amortized Cost": [
+                {
+                    "value": 292410,
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 316465,
+                    "date": "dec 31 2013"
+                }
+            ],
+            "Available-for-sale Securities, Gross Unrealized Gains": [
+                {
+                    "value": 718,
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 1245,
+                    "date": "dec 31 2013"
+                }
+            ],
+            "Available-for-sale Securities, Gross Unrealized Losses": [
+                {
+                    "value": -99,
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": -654,
+                    "date": "dec 31 2013"
+                }
+            ],
+            "Available-for-sale Securities, Estimated Fair Value": [
+                {
+                    "value": 293029,
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 317056,
+                    "date": "dec 31 2013"
+                }
+            ]
+        },
+        "Level 2 Securities [Member] | Government securities [Member] Schedule of Available-for-sale Securities [Line Items]": {
+            "Available-for-sale Securities, Amortized Cost": [
+                {
+                    "value": 166991,
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 143812,
+                    "date": "dec 31 2013"
+                }
+            ],
+            "Available-for-sale Securities, Gross Unrealized Gains": [
+                {
+                    "value": 169,
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 287,
+                    "date": "dec 31 2013"
+                }
+            ],
+            "Available-for-sale Securities, Gross Unrealized Losses": [
+                {
+                    "value": -53,
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": -18,
+                    "date": "dec 31 2013"
+                }
+            ],
+            "Available-for-sale Securities, Estimated Fair Value": [
+                {
+                    "value": 167107,
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 144081,
+                    "date": "dec 31 2013"
+                }
+            ]
+        },
+        "Level 2 Securities [Member] | Asset and mortgage-backed securities [Member] Schedule of Available-for-sale Securities [Line Items]": {
+            "Available-for-sale Securities, Amortized Cost": [
+                {
+                    "value": 370,
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 93118,
+                    "date": "dec 31 2013"
+                }
+            ],
+            "Available-for-sale Securities, Gross Unrealized Gains": [
+                {
+                    "value": 0,
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 229,
+                    "date": "dec 31 2013"
+                }
+            ],
+            "Available-for-sale Securities, Gross Unrealized Losses": [
+                {
+                    "value": 0,
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": -418,
+                    "date": "dec 31 2013"
+                }
+            ],
+            "Available-for-sale Securities, Estimated Fair Value": [
+                {
+                    "value": 370,
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 92929,
+                    "date": "dec 31 2013"
+                }
+            ]
+        },
+        "Level 2 Securities [Member] | Certificates of deposits and commercial paper [Member] Schedule of Available-for-sale Securities [Line Items]": {
+            "Available-for-sale Securities, Amortized Cost": {
+                "value": 6605,
+                "date": "sep 30 2014"
+            },
+            "Available-for-sale Securities, Gross Unrealized Gains": {
+                "value": 0,
+                "date": "sep 30 2014"
+            },
+            "Available-for-sale Securities, Gross Unrealized Losses": {
+                "value": 0,
+                "date": "sep 30 2014"
+            },
+            "Available-for-sale Securities, Estimated Fair Value": {
+                "value": 6605,
+                "date": "sep 30 2014"
+            }
+        },
+        "Level 2 Securities [Member] | Certificates of deposit [Member] Schedule of Available-for-sale Securities [Line Items]": {
+            "Available-for-sale Securities, Amortized Cost": {
+                "value": 23425,
+                "date": "dec 31 2013"
+            },
+            "Available-for-sale Securities, Gross Unrealized Gains": {
+                "value": 0,
+                "date": "dec 31 2013"
+            },
+            "Available-for-sale Securities, Gross Unrealized Losses": {
+                "value": 0,
+                "date": "dec 31 2013"
+            },
+            "Available-for-sale Securities, Estimated Fair Value": {
+                "value": 23425,
+                "date": "dec 31 2013"
+            }
+        },
+        "Level 2 Securities [Member] | Agency securities [Member] Schedule of Available-for-sale Securities [Line Items]": {
+            "Available-for-sale Securities, Amortized Cost": [
+                {
+                    "value": 16483,
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 17951,
+                    "date": "dec 31 2013"
+                }
+            ],
+            "Available-for-sale Securities, Gross Unrealized Gains": [
+                {
+                    "value": 8,
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 0,
+                    "date": "dec 31 2013"
+                }
+            ],
+            "Available-for-sale Securities, Gross Unrealized Losses": [
+                {
+                    "value": 0,
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": -2,
+                    "date": "dec 31 2013"
+                }
+            ],
+            "Available-for-sale Securities, Estimated Fair Value": [
+                {
+                    "value": 16491,
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 17949,
+                    "date": "dec 31 2013"
+                }
+            ]
+        },
+        "Cash [Member] Schedule of Available-for-sale Securities [Line Items]": {
+            "Cash, Money market and Government and agency securities classified as cash equivalents, Amortized Cost": [
+                {
+                    "value": 1065988,
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 483959,
+                    "date": "dec 31 2013"
+                }
+            ],
+            "Cash, Money market and Government and agency securities classified as cash equivalents, Gross Unrealized Gains": [
+                {
+                    "value": 0,
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 0,
+                    "date": "dec 31 2013"
+                }
+            ],
+            "Cash, Money market and Government and agency securities classified as cash equivalents, Gross Unrealized Losses": [
+                {
+                    "value": 0,
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 0,
+                    "date": "dec 31 2013"
+                }
+            ],
+            "Cash, Money market and Government and agency securities classified as cash equivalents, Estimated Fair Value": [
+                {
+                    "value": 1065988,
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 483959,
+                    "date": "dec 31 2013"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Short-term Investments - Estimated Fair Value Of Short-Term Investments By Contractual Maturity (Details) (USD $)",
+        "In Thousands, unless otherwise specified Short-Term Investments And Fair Value Measurement [Abstract]": {
+            "Due within one year": {
+                "value": 112361,
+                "date": "sep 30 2014"
+            },
+            "Due after one year and through 5 years": {
+                "value": 371241,
+                "date": "sep 30 2014"
+            },
+            "Total short-term investments": {
+                "value": 483602,
+                "date": "sep 30 2014"
+            }
+        }
+    },
+    {
+        "title": "Balance Sheet Components - Components of Content Library (Details) (USD $)",
+        "In Thousands, unless otherwise specified Balance Sheet Components Disclosure [Abstract]": {
+            "Total content library, gross": [
+                {
+                    "value": 8013370,
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 6474688,
+                    "date": "dec 31 2013"
+                }
+            ],
+            "Accumulated amortization": [
+                {
+                    "value": -3374507,
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": -2677196,
+                    "date": "dec 31 2013"
+                }
+            ],
+            "Total content library, net": [
+                {
+                    "value": 4638863,
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 3797492,
+                    "date": "dec 31 2013"
+                }
+            ],
+            "Current content library, net": [
+                {
+                    "value": 2006981,
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 1706421,
+                    "date": "dec 31 2013"
+                }
+            ],
+            "Non-current content library, net": [
+                {
+                    "value": 2631882,
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 2091071,
+                    "date": "dec 31 2013"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Balance Sheet Components - Property And Equipment And Accumulated Depreciation (Details) (USD $) In Thousands, unless otherwise specified",
+        "Property, Plant and Equipment [Line Items]": {
+            "Property and equipment, gross": [
+                {
+                    "value": 396554,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 357196,
+                    "date": "dec 31 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Less: Accumulated depreciation": [
+                {
+                    "value": -252407,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": -223591,
+                    "date": "dec 31 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Property and equipment, net": [
+                {
+                    "value": 144147,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 133605,
+                    "date": "dec 31 2013",
+                    "time": "9 months ended"
+                }
+            ]
+        },
+        "Computer equipment [Member] Property, Plant and Equipment [Line Items]": {
+            "Property, Plant and Equipment, Useful Life": {
+                "value": "3 years",
+                "time": "9 months ended",
+                "date": "sep 30 2014"
+            },
+            "Property and equipment, gross": [
+                {
+                    "value": 138814,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 102867,
+                    "date": "dec 31 2013",
+                    "time": "9 months ended"
+                }
+            ]
+        },
+        "Operations and other equipment [Member] Property, Plant and Equipment [Line Items]": {
+            "Property, Plant and Equipment, Useful Life": {
+                "value": "5 years",
+                "time": "9 months ended",
+                "date": "sep 30 2014"
+            },
+            "Property and equipment, gross": [
+                {
+                    "value": 89144,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 96361,
+                    "date": "dec 31 2013",
+                    "time": "9 months ended"
+                }
+            ]
+        },
+        "Software [Member] Property, Plant and Equipment [Line Items]": {
+            "Property, Plant and Equipment, Useful Life": {
+                "value": "3 years",
+                "time": "9 months ended",
+                "date": "sep 30 2014"
+            },
+            "Property and equipment, gross": [
+                {
+                    "value": 36933,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 36439,
+                    "date": "dec 31 2013",
+                    "time": "9 months ended"
+                }
+            ]
+        },
+        "Furniture and fixtures [Member] Property, Plant and Equipment [Line Items]": {
+            "Property, Plant and Equipment, Useful Life": {
+                "value": "3 years",
+                "time": "9 months ended",
+                "date": "sep 30 2014"
+            },
+            "Property and equipment, gross": [
+                {
+                    "value": 25008,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 21011,
+                    "date": "dec 31 2013",
+                    "time": "9 months ended"
+                }
+            ]
+        },
+        "Building [Member] Property, Plant and Equipment [Line Items]": {
+            "Property, Plant and Equipment, Useful Life": {
+                "value": "30 years",
+                "time": "9 months ended",
+                "date": "sep 30 2014"
+            },
+            "Property and equipment, gross": [
+                {
+                    "value": 40681,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 40681,
+                    "date": "dec 31 2013",
+                    "time": "9 months ended"
+                }
+            ]
+        },
+        "Leasehold improvements [Member] Property, Plant and Equipment [Line Items]": {
+            "Property and equipment, gross": [
+                {
+                    "value": 55160,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 51194,
+                    "date": "dec 31 2013",
+                    "time": "9 months ended"
+                }
+            ]
+        },
+        "Capital work-in-progress [Member] Property, Plant and Equipment [Line Items]": {
+            "Property and equipment, gross": [
+                {
+                    "value": 10814,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 8643,
+                    "date": "dec 31 2013",
+                    "time": "9 months ended"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Long-term Debt - Senior Convertible Notes - Narrative (Details) (Director [Member], Convertible Debt [Member], Senior Convertible Note [Member], USD $) Share data in Millions, except Per Share data, unless otherwise specified",
+        "Debt Instrument [Line Items]": {
+            "Long-term debt due to related party": [
+                {
+                    "value": 200000000,
+                    "time": "1 months ended",
+                    "date": "apr 30 2013"
+                },
+                {
+                    "value": 200000000,
+                    "date": "nov 30 2011",
+                    "time": "1 months ended"
+                }
+            ],
+            "Interest rate": {
+                "value": 0,
+                "date": "nov 30 2011"
+            },
+            "Weighted average price of common stock": {
+                "value": 111.54,
+                "time": "0 months ended"
+            },
+            "Common stock, shares issued": {
+                "value": 2.3,
+                "time": "1 months ended",
+                "date": "apr 30 2013"
+            },
+            "Common stock conversion ratio": {
+                "value": 11.6553,
+                "time": "1 months ended",
+                "date": "apr 30 2013"
+            },
+            "Fair value at conversion": {
+                "value": 217,
+                "time": "1 months ended",
+                "date": "apr 30 2013"
+            }
+        },
+        "Minimum [Member] Debt Instrument [Line Items]": {
+            "Trading days prior to conversion date required for conversion": {
+                "value": "50 days",
+                "time": "0 months ended"
+            }
+        },
+        "Maximum [Member] Debt Instrument [Line Items]": {
+            "Trading days prior to conversion date required for conversion": {
+                "value": "65 days",
+                "time": "0 months ended"
+            }
+        }
+    },
+    {
+        "title": "Long-term Debt - Senior Notes - Narrative (Details) (USD $)",
+        "Debt Instrument [Line Items]": {
+            "Face amount": [
+                {
+                    "value": 500000000,
+                    "date": "feb 28 2013"
+                },
+                {
+                    "value": 200000000,
+                    "time": "3 months ended",
+                    "date": "mar 31 2013"
+                },
+                {
+                    "value": 400000000,
+                    "date": "feb 28 2014",
+                    "time": "3 months ended"
+                }
+            ],
+            "Interest rate": [
+                {
+                    "value": 0.0538,
+                    "date": "feb 28 2013"
+                },
+                {
+                    "value": 0.085,
+                    "time": "3 months ended",
+                    "date": "mar 31 2013"
+                },
+                {
+                    "value": 0.0575,
+                    "date": "feb 28 2014",
+                    "time": "3 months ended"
+                }
+            ],
+            "Redemption prices, percent of outstanding principal": [
+                {
+                    "value": 1.01,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 1.01,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                }
+            ],
+            "Repayments": [
+                {
+                    "value": 0,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 0,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 0,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 219362000,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                },
+                {
+                    "value": 224500000,
+                    "time": "3 months ended",
+                    "date": "mar 31 2013"
+                }
+            ],
+            "Make-whole premium": {
+                "value": 19400000,
+                "time": "3 months ended",
+                "date": "mar 31 2013"
+            },
+            "Interest payable": {
+                "value": 5100000,
+                "time": "3 months ended",
+                "date": "mar 31 2013"
+            },
+            "Loss on extinguishment of debt": [
+                {
+                    "value": 0,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 0,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 0,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": -25129000,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                },
+                {
+                    "value": 25100000,
+                    "time": "3 months ended",
+                    "date": "mar 31 2013"
+                }
+            ],
+            "Write off of unamortized deferred financing costs": {
+                "value": 4200000,
+                "time": "3 months ended",
+                "date": "mar 31 2013"
+            },
+            "Senior notes, fair value": [
+                {
+                    "value": 510000000,
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 506300000,
+                    "date": "dec 31 2013"
+                },
+                {
+                    "value": 412000000,
+                    "date": "sep 30 2014"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Stockholders' Equity - Narrative (Details) (USD $) Share data in Millions, except Per Share data, unless otherwise specified",
+        "Components of Stockholders' Equity [Line Items]": {
+            "Total intrinsic value of options exercised": [
+                {
+                    "value": 60300000,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 64500000,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 208000000,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 182800000,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Proceeds from issuance of common stock": [
+                {
+                    "value": 9877000,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 25561000,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 56794000,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 93553000,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Number of employee groups": {
+                "value": 2,
+                "time": "9 months ended",
+                "date": "sep 30 2014"
+            },
+            "Weighted-average fair value of employee stock options granted per share": [
+                {
+                    "value": 236.96,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 136.78,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 217.23,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 100.08,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Stock-based compensation expense": [
+                {
+                    "value": 29900000,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 18500000,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 85000000,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 54200000,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Income tax benefit": [
+                {
+                    "value": 11400000,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 7100000,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 32500000,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 20800000,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ]
+        },
+        "2011 Stock Plan [Member] Components of Stockholders' Equity [Line Items]": {
+            "Shares reserved for future issuance": [
+                {
+                    "value": 3,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 3,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Stockholders' Equity - Summary Of Activity Related To Stock Option Plans (Details) (USD $) In Thousands, except Share data, unless otherwise specified",
+        "Share-based Compensation Arrangement by Share-based Payment Award, Options, Outstanding [Roll Forward]": {
+            "Shares Available for Grant, Beginning Balance": {
+                "value": 3406317,
+                "time": "9 months ended",
+                "date": "sep 30 2014"
+            },
+            "Options Outstanding, Number of Shares, Beginning Balance": {
+                "value": 3526898,
+                "time": "9 months ended",
+                "date": "sep 30 2014"
+            },
+            "Options Outstanding, Number of Shares, Granted": {
+                "value": 391239,
+                "time": "9 months ended",
+                "date": "sep 30 2014"
+            },
+            "Options Outstanding, Number of Shares, Exercised": {
+                "value": -639378,
+                "time": "9 months ended",
+                "date": "sep 30 2014"
+            },
+            "Shares Available for Grant, Ending Balance": {
+                "value": 3015078,
+                "time": "9 months ended",
+                "date": "sep 30 2014"
+            },
+            "Options Outstanding, Number of Shares, Ending Balance": {
+                "value": 3278759,
+                "time": "9 months ended",
+                "date": "sep 30 2014"
+            },
+            "Options Outstanding, Number of Shares, Vested and exercisable": {
+                "value": 3278759,
+                "time": "9 months ended",
+                "date": "sep 30 2014"
+            }
+        },
+        "Share-based Compensation Arrangement by Share-based Payment Award, Options, Outstanding, Weighted Average Exercise Price [Roll Forward]": {
+            "Options Outstanding, Weighted-Average Exercise Price, Beginning Balance": {
+                "value": 95.25,
+                "time": "9 months ended",
+                "date": "sep 30 2014"
+            },
+            "Options Outstanding, Weighted-Average Exercise Price, Granted": {
+                "value": 409.7,
+                "time": "9 months ended",
+                "date": "sep 30 2014"
+            },
+            "Options Outstanding, Weighted-Average Exercise Price, Exercised": {
+                "value": 88.82,
+                "time": "9 months ended",
+                "date": "sep 30 2014"
+            },
+            "Options Outstanding, Weighted-Average Exercise Price, Ending Balance": {
+                "value": 134.02,
+                "time": "9 months ended",
+                "date": "sep 30 2014"
+            },
+            "Options Outstanding, Weighted-Average Exercise Price, Vested and exercisable": {
+                "value": 134.02,
+                "time": "9 months ended",
+                "date": "sep 30 2014"
+            }
+        },
+        "Share-based Compensation Arrangement by Share-based Payment Award, Options, Additional Disclosures [Abstract]": {
+            "Weighted-Average Remaining Contractual Term, Ending Balance": {
+                "value": "5 years 11 months 19 days",
+                "time": "9 months ended",
+                "date": "sep 30 2014"
+            },
+            "Weighted-Average Remaining Contractual Term, Vested and exercisable": {
+                "value": "5 years 11 months 19 days",
+                "time": "9 months ended",
+                "date": "sep 30 2014"
+            },
+            "Aggregate Intrinsic Value, Ending Balance": {
+                "value": 1041797,
+                "time": "9 months ended",
+                "date": "sep 30 2014"
+            },
+            "Aggregate Intrinsic Value, Vested and exercisable": {
+                "value": 1041797,
+                "time": "9 months ended",
+                "date": "sep 30 2014"
+            }
+        }
+    },
+    {
+        "title": "Stockholders' Equity - Summary Of Assumptions Used To Value Stock Option Grants Using Lattice-Binomial Model (Details)",
+        "Stockholders' Equity and Stock-based Compensation Disclosure [Abstract]": {
+            "Dividend yield": [
+                {
+                    "value": 0,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 0,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 0,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 0,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Expected volatility, minimum": [
+                {
+                    "value": 0.43,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 0.51,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Expected volatility": [
+                {
+                    "value": 0.43,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 0.51,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                }
+            ],
+            "Expected volatility, maximum": [
+                {
+                    "value": 0.48,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 0.54,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Risk free interest rate, minimum": [
+                {
+                    "value": 0.0252,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 0.0187,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Risk-free interest rate": [
+                {
+                    "value": 0.0252,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 0.0255,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                }
+            ],
+            "Risk free interest rate, maximum": [
+                {
+                    "value": 0.0283,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 0.0255,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Suboptimal exercise factor, minimum": [
+                {
+                    "value": 2.68,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 2.43,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 2.66,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 2.33,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Suboptimal exercise factor, maximum": [
+                {
+                    "value": 4.57,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 3.79,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 4.57,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 3.79,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Accumulated Other Comprehensive Income (Details) (USD $) In Thousands, unless otherwise specified",
+        "Accumulated Other Comprehensive Income (Loss) [Roll Forward]": {
+            "Beginning balance": [
+                {
+                    "value": 6502,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 3575,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                }
+            ],
+            "Other comprehensive income before reclassifications": [
+                {
+                    "value": -4545,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": -1368,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                }
+            ],
+            "Amounts reclassified from accumulated other comprehensive income": [
+                {
+                    "value": -312,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": -562,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                }
+            ],
+            "Net increase in other comprehensive income": [
+                {
+                    "value": -4857,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": -1930,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                }
+            ],
+            "Ending balance": [
+                {
+                    "value": 1645,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 1645,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                }
+            ]
+        },
+        "Foreign currency [Member] Accumulated Other Comprehensive Income (Loss) [Roll Forward]": {
+            "Beginning balance": [
+                {
+                    "value": 5532,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 3153,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                }
+            ],
+            "Other comprehensive income before reclassifications": [
+                {
+                    "value": -4354,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": -1975,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                }
+            ],
+            "Amounts reclassified from accumulated other comprehensive income": [
+                {
+                    "value": 0,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 0,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                }
+            ],
+            "Net increase in other comprehensive income": [
+                {
+                    "value": -4354,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": -1975,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                }
+            ],
+            "Ending balance": [
+                {
+                    "value": 1178,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 1178,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                }
+            ]
+        },
+        "Change in unrealized gains on available-for-sale securities [Member] Accumulated Other Comprehensive Income (Loss) [Roll Forward]": {
+            "Beginning balance": [
+                {
+                    "value": 970,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 422,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                }
+            ],
+            "Other comprehensive income before reclassifications": [
+                {
+                    "value": -191,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 607,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                }
+            ],
+            "Amounts reclassified from accumulated other comprehensive income": [
+                {
+                    "value": -312,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": -562,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                }
+            ],
+            "Net increase in other comprehensive income": [
+                {
+                    "value": -503,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 45,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                }
+            ],
+            "Ending balance": [
+                {
+                    "value": 467,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 467,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Income Taxes (Details) (USD $) In Millions, unless otherwise specified",
+        "Income Tax Disclosure [Abstract]": {
+            "Effective tax rates": [
+                {
+                    "value": 0.39,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 0.36,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 0.4,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 0.34,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "2012 Federal R&D credit recognized": {
+                "value": 3.1,
+                "date": "mar 31 2013"
+            },
+            "Unrecognized tax benefits": [
+                {
+                    "value": 83.1,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 83.1,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 68.2,
+                    "date": "dec 31 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Reduction in provision for income taxes due to impact of effective tax rate": [
+                {
+                    "value": 68.6,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 68.6,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                }
+            ],
+            "Gross interest and penalties accrued": [
+                {
+                    "value": 4.6,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 4.6,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                }
+            ],
+            "Deferred tax assets, other current assets": [
+                {
+                    "value": 14.9,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 14.9,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 21.5,
+                    "date": "dec 31 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Deferred tax assets, other non-current assets": [
+                {
+                    "value": 113.2,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 113.2,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 69.1,
+                    "date": "dec 31 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Income tax benefits attributable to the exercise of employee stock options recorded directly to Additional paid-in-capital": [
+                {
+                    "value": 21,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 19.7,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 68.1,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 51.1,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Commitments and Contingencies - Streaming Content - Narrative (Details) (USD $)",
+        "Contractual Obligation [Line Items]": {
+            "Total streaming content obligations": [
+                {
+                    "value": 8857227000,
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 7252161000,
+                    "date": "dec 31 2013"
+                }
+            ],
+            "Unrecorded streaming obligations": [
+                {
+                    "value": 5300000000,
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 4200000000,
+                    "date": "dec 31 2013"
+                }
+            ]
+        },
+        "Current Content Liabilities [Member] Contractual Obligation [Line Items]": {
+            "Recorded streaming obligations": [
+                {
+                    "value": 2100000000,
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 1800000000,
+                    "date": "dec 31 2013"
+                }
+            ]
+        },
+        "Non-current Content Liabilities [Member] Contractual Obligation [Line Items]": {
+            "Recorded streaming obligations": [
+                {
+                    "value": 1500000000,
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 1300000000,
+                    "date": "dec 31 2013"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Commitments and Contingencies - Expected Timing Of Payments For Commitments (Details) (USD $)",
+        "In Thousands, unless otherwise specified Commitments and Contingencies Disclosure [Abstract]": {
+            "Less than one year": [
+                {
+                    "value": 3574129,
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 2972325,
+                    "date": "dec 31 2013"
+                }
+            ],
+            "Due after one year and through 3 years": [
+                {
+                    "value": 4176621,
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 3266907,
+                    "date": "dec 31 2013"
+                }
+            ],
+            "Due after 3 years and through 5 years": [
+                {
+                    "value": 1071238,
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 929645,
+                    "date": "dec 31 2013"
+                }
+            ],
+            "Due after 5 years": [
+                {
+                    "value": 35239,
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 83284,
+                    "date": "dec 31 2013"
+                }
+            ],
+            "Total streaming content obligations": [
+                {
+                    "value": 8857227,
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 7252161,
+                    "date": "dec 31 2013"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Commitments and Contingencies - Legal Proceedings - Narrative (Details) (Pending Litigation [Member])",
+        "Loss Contingencies [Line Items]": {
+            "Loss Contingency, Pending Claims, Number": [
+                {
+                    "value": 1,
+                    "date": "apr 02 2012"
+                },
+                {
+                    "value": 1,
+                    "date": "feb 29 2012"
+                },
+                {
+                    "value": 1,
+                    "date": "feb 24 2012"
+                },
+                {
+                    "value": 1,
+                    "date": "feb 13 2012"
+                },
+                {
+                    "value": 1,
+                    "date": "jan 27 2012"
+                },
+                {
+                    "value": 1,
+                    "date": "jan 13 2012"
+                },
+                {
+                    "value": 1
+                },
+                {
+                    "value": 1,
+                    "date": "feb 09 2012"
+                },
+                {
+                    "value": 1,
+                    "date": "nov 23 2011"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Segment Information - Narrative (Details)",
+        "Segment Reporting [Abstract]": {
+            "Number of Operating Segments": {
+                "value": 3,
+                "time": "9 months ended",
+                "date": "sep 30 2014"
+            }
+        }
+    },
+    {
+        "title": "Segment Information - Long-lived Assets by Geographical Areas (Details) (USD $)",
+        "In Thousands, unless otherwise specified United States [Member] Revenues from External Customers and Long-Lived Assets [Line Items]": {
+            "Long-Lived Assets": [
+                {
+                    "value": 131839,
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 126455,
+                    "date": "dec 31 2013"
+                }
+            ]
+        },
+        "International [Member] Revenues from External Customers and Long-Lived Assets [Line Items]": {
+            "Long-Lived Assets": [
+                {
+                    "value": 12308,
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 7150,
+                    "date": "dec 31 2013"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Segment Information - Information On Reportable Segments And Reconciliation To Consolidated Net Income (Details) (USD $) In Thousands, unless otherwise specified",
+        "Segment Reporting Information [Line Items]": {
+            "Total members at end of period": [
+                {
+                    "value": 0,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 0,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 0,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 0,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Revenues": [
+                {
+                    "value": 1409432,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 1105999,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 4019928,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 3199332,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Cost of revenues": [
+                {
+                    "value": 954394,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 798900,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 2738428,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 2296526,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Marketing": [
+                {
+                    "value": 145654,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 108228,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 403515,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 341925,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Contribution profit (loss)": [
+                {
+                    "value": 309384,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 198871,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 877985,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 560881,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Other operating expenses": [
+                {
+                    "value": 198977,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 141751,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 540383,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 414822,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Operating income": [
+                {
+                    "value": 110407,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 57120,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 337602,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 146059,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Other income (expense)": [
+                {
+                    "value": -12870,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": -7629,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": -33749,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": -48989,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Provision for income taxes": [
+                {
+                    "value": 38242,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 17669,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 120425,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 33088,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Net income": [
+                {
+                    "value": 59295,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 31822,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 183428,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 63982,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Amortization of content library": [
+                {
+                    "value": 704423,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 570940,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 1977239,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 1602876,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Total content library, net": [
+                {
+                    "value": 4638863,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 4638863,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 3797492,
+                    "date": "dec 31 2013",
+                    "time": "9 months ended"
+                }
+            ]
+        },
+        "Domestic Streaming [Member] Segment Reporting Information [Line Items]": {
+            "Total members at end of period": [
+                {
+                    "value": 37219000,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 31092000,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 37219000,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 31092000,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Revenues": [
+                {
+                    "value": 877150,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 701083,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 2513992,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 2010821,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Cost of revenues": [
+                {
+                    "value": 565251,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 473965,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 1628568,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 1366897,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Marketing": [
+                {
+                    "value": 61045,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 60637,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 206030,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 194779,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Contribution profit (loss)": [
+                {
+                    "value": 250854,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 166481,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 679394,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 449145,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Amortization of content library": [
+                {
+                    "value": 433266,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 363787,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 1229477,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 1043976,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Total content library, net": [
+                {
+                    "value": 3334646,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 3334646,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 2973023,
+                    "date": "dec 31 2013",
+                    "time": "9 months ended"
+                }
+            ]
+        },
+        "International Streaming [Member] Segment Reporting Information [Line Items]": {
+            "Total members at end of period": [
+                {
+                    "value": 15843000,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 9188000,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 15843000,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 9188000,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Revenues": [
+                {
+                    "value": 345685,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 183051,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 920264,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 490972,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Cost of revenues": [
+                {
+                    "value": 291942,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 209811,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 803906,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 561103,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Marketing": [
+                {
+                    "value": 84609,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 47537,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 197485,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 146919,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Contribution profit (loss)": [
+                {
+                    "value": -30866,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": -74297,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": -81127,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": -217050,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Amortization of content library": [
+                {
+                    "value": 252888,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 189607,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 696449,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 505408,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Total content library, net": [
+                {
+                    "value": 1276686,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 1276686,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 804690,
+                    "date": "dec 31 2013",
+                    "time": "9 months ended"
+                }
+            ]
+        },
+        "Domestic DVD [Member] Segment Reporting Information [Line Items]": {
+            "Total members at end of period": [
+                {
+                    "value": 5986000,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 7148000,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 5986000,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 7148000,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Revenues": [
+                {
+                    "value": 186597,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 221865,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 585672,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 697539,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Cost of revenues": [
+                {
+                    "value": 97201,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 115124,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 305954,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 368526,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Marketing": [
+                {
+                    "value": 0,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 54,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 0,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 227,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Contribution profit (loss)": [
+                {
+                    "value": 89396,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 106687,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 279718,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 328786,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Amortization of content library": [
+                {
+                    "value": 18269,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 17546,
+                    "date": "sep 30 2013",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 51313,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 53492,
+                    "date": "sep 30 2013",
+                    "time": "9 months ended"
+                }
+            ],
+            "Total content library, net": [
+                {
+                    "value": 27531,
+                    "time": "3 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 27531,
+                    "time": "9 months ended",
+                    "date": "sep 30 2014"
+                },
+                {
+                    "value": 19779,
+                    "date": "dec 31 2013",
+                    "time": "9 months ended"
+                }
+            ]
+        }
+    }
+]

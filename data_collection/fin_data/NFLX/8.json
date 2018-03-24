@@ -1,0 +1,4123 @@
+[
+    {
+        "title": "Document And Entity Information",
+        "Document And Entity Information [Abstract]": {
+            "Entity Registrant Name": {
+                "value": "NETFLIX INC",
+                "time": "9 months ended"
+            },
+            "Entity Central Index Key": {
+                "value": 1065280,
+                "time": "9 months ended"
+            },
+            "Current Fiscal Year End Date": {
+                "value": "--12-31",
+                "time": "9 months ended"
+            },
+            "Entity Filer Category": {
+                "value": "Large Accelerated Filer",
+                "time": "9 months ended"
+            },
+            "Document Type": {
+                "value": "10-Q",
+                "time": "9 months ended"
+            },
+            "Document Period End Date": {
+                "value": "Sep. 30,\n\t\t2016",
+                "time": "9 months ended"
+            },
+            "Document Fiscal Year Focus": {
+                "value": 2016,
+                "time": "9 months ended"
+            },
+            "Document Fiscal Period Focus": {
+                "value": "Q3",
+                "time": "9 months ended"
+            },
+            "Amendment Flag": {
+                "value": "false",
+                "time": "9 months ended"
+            },
+            "Entity Common Stock, Shares Outstanding": {
+                "value": 429145023,
+                "time": "9 months ended"
+            }
+        }
+    },
+    {
+        "title": "Consolidated Statements of Operations (Unaudited) - USD ($) shares in Thousands, $ in Thousands",
+        "Income Statement [Abstract]": {
+            "Revenues": [
+                {
+                    "value": 2290188,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 1738355,
+                    "date": "sep 30 2015",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 6353128,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 4956178,
+                    "date": "sep 30 2015",
+                    "time": "9 months ended"
+                }
+            ],
+            "Cost of revenues": [
+                {
+                    "value": 1532844,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 1173958,
+                    "date": "sep 30 2015",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 4375482,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 3342111,
+                    "date": "sep 30 2015",
+                    "time": "9 months ended"
+                }
+            ],
+            "Marketing": [
+                {
+                    "value": 282043,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 208102,
+                    "date": "sep 30 2015",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 706082,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 599919,
+                    "date": "sep 30 2015",
+                    "time": "9 months ended"
+                }
+            ],
+            "Technology and development": [
+                {
+                    "value": 216099,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 171762,
+                    "date": "sep 30 2015",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 626907,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 469929,
+                    "date": "sep 30 2015",
+                    "time": "9 months ended"
+                }
+            ],
+            "General and administrative": [
+                {
+                    "value": 153166,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 110892,
+                    "date": "sep 30 2015",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 418798,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 298287,
+                    "date": "sep 30 2015",
+                    "time": "9 months ended"
+                }
+            ],
+            "Operating income": [
+                {
+                    "value": 106036,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 73641,
+                    "date": "sep 30 2015",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 225859,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 245932,
+                    "date": "sep 30 2015",
+                    "time": "9 months ended"
+                }
+            ]
+        },
+        "Other income (expense):": {
+            "Interest expense": [
+                {
+                    "value": -35536,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": -35333,
+                    "date": "sep 30 2015",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": -106528,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": -97287,
+                    "date": "sep 30 2015",
+                    "time": "9 months ended"
+                }
+            ],
+            "Interest and other income (expense)": [
+                {
+                    "value": 8627,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 3930,
+                    "date": "sep 30 2015",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 50907,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": -27491,
+                    "date": "sep 30 2015",
+                    "time": "9 months ended"
+                }
+            ],
+            "Income before income taxes": [
+                {
+                    "value": 79127,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 42238,
+                    "date": "sep 30 2015",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 170238,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 121154,
+                    "date": "sep 30 2015",
+                    "time": "9 months ended"
+                }
+            ],
+            "Provision for income taxes": [
+                {
+                    "value": 27610,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 12806,
+                    "date": "sep 30 2015",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 50308,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 41691,
+                    "date": "sep 30 2015",
+                    "time": "9 months ended"
+                }
+            ],
+            "Net income": [
+                {
+                    "value": 51517,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 29432,
+                    "date": "sep 30 2015",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 119930,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 79463,
+                    "date": "sep 30 2015",
+                    "time": "9 months ended"
+                }
+            ]
+        },
+        "Earnings per share:": {
+            "Basic (in dollars per share)": [
+                {
+                    "value": 0.12,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 0.07,
+                    "date": "sep 30 2015",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 0.28,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 0.19,
+                    "date": "sep 30 2015",
+                    "time": "9 months ended"
+                }
+            ],
+            "Diluted (in dollars per share)": [
+                {
+                    "value": 0.12,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 0.07,
+                    "date": "sep 30 2015",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 0.27,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 0.18,
+                    "date": "sep 30 2015",
+                    "time": "9 months ended"
+                }
+            ]
+        },
+        "Weighted-average common shares outstanding:": {
+            "Basic (in shares)": [
+                {
+                    "value": 428937,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 426869,
+                    "date": "sep 30 2015",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 428514,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 425289,
+                    "date": "sep 30 2015",
+                    "time": "9 months ended"
+                }
+            ],
+            "Diluted (in shares)": [
+                {
+                    "value": 438389,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 437606,
+                    "date": "sep 30 2015",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 438180,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 435849,
+                    "date": "sep 30 2015",
+                    "time": "9 months ended"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Consolidated Statements of Comprehensive Income (Unaudited) - USD ($) $ in Thousands",
+        "Statement of Comprehensive Income [Abstract]": {
+            "Net income": [
+                {
+                    "value": 51517,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 29432,
+                    "date": "sep 30 2015",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 119930,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 79463,
+                    "date": "sep 30 2015",
+                    "time": "9 months ended"
+                }
+            ]
+        },
+        "Other comprehensive income (loss):": {
+            "Foreign currency translation adjustments": [
+                {
+                    "value": 2357,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 302,
+                    "date": "sep 30 2015",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 5453,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": -33628,
+                    "date": "sep 30 2015",
+                    "time": "9 months ended"
+                }
+            ],
+            "Change in unrealized gains (losses) on available-for-sale securities, net of tax of $(412), $(45), $810 and $113, respectively": [
+                {
+                    "value": -676,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": -72,
+                    "date": "sep 30 2015",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 1325,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 184,
+                    "date": "sep 30 2015",
+                    "time": "9 months ended"
+                }
+            ],
+            "Total other comprehensive income (loss)": [
+                {
+                    "value": 1681,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 230,
+                    "date": "sep 30 2015",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 6778,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": -33444,
+                    "date": "sep 30 2015",
+                    "time": "9 months ended"
+                }
+            ],
+            "Comprehensive income": [
+                {
+                    "value": 53198,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 29662,
+                    "date": "sep 30 2015",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 126708,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 46019,
+                    "date": "sep 30 2015",
+                    "time": "9 months ended"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Consolidated Statements of Comprehensive Income (Parenthetical) - USD ($) $ in Thousands",
+        "Statement of Comprehensive Income [Abstract]": {
+            "Change in unrealized gains on available-for-sale securities, tax": [
+                {
+                    "value": -412,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": -45,
+                    "date": "sep 30 2015",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 810,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 113,
+                    "date": "sep 30 2015",
+                    "time": "9 months ended"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Consolidated Statements of Cash Flows (Unaudited) - USD ($) $ in Thousands",
+        "Cash flows from operating activities:": {
+            "Net income": [
+                {
+                    "value": 51517,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 29432,
+                    "date": "sep 30 2015",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 119930,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 79463,
+                    "date": "sep 30 2015",
+                    "time": "9 months ended"
+                }
+            ]
+        },
+        "Adjustments to reconcile net income to net cash used in operating activities:": {
+            "Additions to streaming content assets": [
+                {
+                    "value": -2442080,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": -1304466,
+                    "date": "sep 30 2015",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": -6550445,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": -4221326,
+                    "date": "sep 30 2015",
+                    "time": "9 months ended"
+                }
+            ],
+            "Change in streaming content liabilities": [
+                {
+                    "value": 529885,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 104684,
+                    "date": "sep 30 2015",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 1674125,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 922163,
+                    "date": "sep 30 2015",
+                    "time": "9 months ended"
+                }
+            ],
+            "Amortization of streaming content assets": [
+                {
+                    "value": 1224108,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 871403,
+                    "date": "sep 30 2015",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 3457990,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 2443521,
+                    "date": "sep 30 2015",
+                    "time": "9 months ended"
+                }
+            ],
+            "Amortization of DVD content assets": [
+                {
+                    "value": 19284,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 18589,
+                    "date": "sep 30 2015",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 59746,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 60587,
+                    "date": "sep 30 2015",
+                    "time": "9 months ended"
+                }
+            ],
+            "Depreciation and amortization of property, equipment and intangibles": [
+                {
+                    "value": 14410,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 16047,
+                    "date": "sep 30 2015",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 43339,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 46795,
+                    "date": "sep 30 2015",
+                    "time": "9 months ended"
+                }
+            ],
+            "Stock-based compensation expense": [
+                {
+                    "value": 43495,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 32834,
+                    "date": "sep 30 2015",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 130029,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 88865,
+                    "date": "sep 30 2015",
+                    "time": "9 months ended"
+                }
+            ],
+            "Excess tax benefits from stock-based compensation": [
+                {
+                    "value": -12762,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": -37726,
+                    "date": "sep 30 2015",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": -37401,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": -106154,
+                    "date": "sep 30 2015",
+                    "time": "9 months ended"
+                }
+            ],
+            "Other non-cash items": [
+                {
+                    "value": 9682,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 10866,
+                    "date": "sep 30 2015",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 31479,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 23854,
+                    "date": "sep 30 2015",
+                    "time": "9 months ended"
+                }
+            ],
+            "Deferred taxes": [
+                {
+                    "value": 14338,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": -29417,
+                    "date": "sep 30 2015",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": -20141,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": -70691,
+                    "date": "sep 30 2015",
+                    "time": "9 months ended"
+                }
+            ]
+        },
+        "Changes in operating assets and liabilities:": {
+            "Other current assets": [
+                {
+                    "value": 10250,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 66695,
+                    "date": "sep 30 2015",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 48649,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 81448,
+                    "date": "sep 30 2015",
+                    "time": "9 months ended"
+                }
+            ],
+            "Accounts payable": [
+                {
+                    "value": 27810,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 6762,
+                    "date": "sep 30 2015",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 16707,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 2584,
+                    "date": "sep 30 2015",
+                    "time": "9 months ended"
+                }
+            ],
+            "Accrued expenses": [
+                {
+                    "value": 28957,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 10883,
+                    "date": "sep 30 2015",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 72288,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 88429,
+                    "date": "sep 30 2015",
+                    "time": "9 months ended"
+                }
+            ],
+            "Deferred revenue": [
+                {
+                    "value": 30230,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 27985,
+                    "date": "sep 30 2015",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 80485,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 55153,
+                    "date": "sep 30 2015",
+                    "time": "9 months ended"
+                }
+            ],
+            "Other non-current assets and liabilities": [
+                {
+                    "value": -11065,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": -20540,
+                    "date": "sep 30 2015",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": -43604,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 615,
+                    "date": "sep 30 2015",
+                    "time": "9 months ended"
+                }
+            ],
+            "Net cash used in operating activities": [
+                {
+                    "value": -461941,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": -195969,
+                    "date": "sep 30 2015",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": -916824,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": -504694,
+                    "date": "sep 30 2015",
+                    "time": "9 months ended"
+                }
+            ]
+        },
+        "Cash flows from investing activities:": {
+            "Acquisition of DVD content assets": [
+                {
+                    "value": -17249,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": -14467,
+                    "date": "sep 30 2015",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": -58380,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": -57159,
+                    "date": "sep 30 2015",
+                    "time": "9 months ended"
+                }
+            ],
+            "Purchases of property and equipment": [
+                {
+                    "value": -27366,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": -37820,
+                    "date": "sep 30 2015",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": -46605,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": -78394,
+                    "date": "sep 30 2015",
+                    "time": "9 months ended"
+                }
+            ],
+            "Change in other assets": [
+                {
+                    "value": 125,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": -3760,
+                    "date": "sep 30 2015",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 676,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": -4174,
+                    "date": "sep 30 2015",
+                    "time": "9 months ended"
+                }
+            ],
+            "Purchases of short-term investments": [
+                {
+                    "value": -128136,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": -66444,
+                    "date": "sep 30 2015",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": -181590,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": -225333,
+                    "date": "sep 30 2015",
+                    "time": "9 months ended"
+                }
+            ],
+            "Proceeds from sale of short-term investments": [
+                {
+                    "value": 171747,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 43887,
+                    "date": "sep 30 2015",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 198687,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 144247,
+                    "date": "sep 30 2015",
+                    "time": "9 months ended"
+                }
+            ],
+            "Proceeds from maturities of short-term investments": [
+                {
+                    "value": 24855,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 31125,
+                    "date": "sep 30 2015",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 112555,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 82182,
+                    "date": "sep 30 2015",
+                    "time": "9 months ended"
+                }
+            ],
+            "Net cash provided by (used in) investing activities": [
+                {
+                    "value": 23976,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": -47479,
+                    "date": "sep 30 2015",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 25343,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": -138631,
+                    "date": "sep 30 2015",
+                    "time": "9 months ended"
+                }
+            ]
+        },
+        "Cash flows from financing activities:": {
+            "Proceeds from issuance of common stock": [
+                {
+                    "value": 3819,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 35089,
+                    "date": "sep 30 2015",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 11587,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 69809,
+                    "date": "sep 30 2015",
+                    "time": "9 months ended"
+                }
+            ],
+            "Proceeds from issuance of debt": [
+                {
+                    "value": 0,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 0,
+                    "date": "sep 30 2015",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 0,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 1500000,
+                    "date": "sep 30 2015",
+                    "time": "9 months ended"
+                }
+            ],
+            "Issuance costs": [
+                {
+                    "value": 0,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 0,
+                    "date": "sep 30 2015",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 0,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": -17629,
+                    "date": "sep 30 2015",
+                    "time": "9 months ended"
+                }
+            ],
+            "Excess tax benefits from stock-based compensation": [
+                {
+                    "value": 12762,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 37726,
+                    "date": "sep 30 2015",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 37401,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 106154,
+                    "date": "sep 30 2015",
+                    "time": "9 months ended"
+                }
+            ],
+            "Other financing activities": [
+                {
+                    "value": 58,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": -61,
+                    "date": "sep 30 2015",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 170,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": -599,
+                    "date": "sep 30 2015",
+                    "time": "9 months ended"
+                }
+            ],
+            "Net cash provided by financing activities": [
+                {
+                    "value": 16639,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 72754,
+                    "date": "sep 30 2015",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 49158,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 1657735,
+                    "date": "sep 30 2015",
+                    "time": "9 months ended"
+                }
+            ],
+            "Effect of exchange rate changes on cash and cash equivalents": [
+                {
+                    "value": -441,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": -7741,
+                    "date": "sep 30 2015",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 2151,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": -12581,
+                    "date": "sep 30 2015",
+                    "time": "9 months ended"
+                }
+            ],
+            "Net (decrease) increase in cash and cash equivalents": [
+                {
+                    "value": -421767,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": -178435,
+                    "date": "sep 30 2015",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": -840172,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 1001829,
+                    "date": "sep 30 2015",
+                    "time": "9 months ended"
+                }
+            ],
+            "Cash and cash equivalents, beginning of period": [
+                {
+                    "value": 1390925,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 2293872,
+                    "date": "sep 30 2015",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 1809330,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 1113608,
+                    "date": "sep 30 2015",
+                    "time": "9 months ended"
+                }
+            ],
+            "Cash and cash equivalents, end of period": [
+                {
+                    "value": 969158,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 2115437,
+                    "date": "sep 30 2015",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 969158,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 2115437,
+                    "date": "sep 30 2015",
+                    "time": "9 months ended"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Consolidated Balance Sheets (Unaudited) - USD ($) $ in Thousands",
+        "Current assets:": {
+            "Cash and cash equivalents": [
+                {
+                    "value": 969158,
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 1809330,
+                    "date": "dec 31 2015"
+                }
+            ],
+            "Short-term investments": [
+                {
+                    "value": 374098,
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 501385,
+                    "date": "dec 31 2015"
+                }
+            ],
+            "Current content assets, net": [
+                {
+                    "value": 3632399,
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 2905998,
+                    "date": "dec 31 2015"
+                }
+            ],
+            "Other current assets": [
+                {
+                    "value": 218238,
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 215127,
+                    "date": "dec 31 2015"
+                }
+            ],
+            "Total current assets": [
+                {
+                    "value": 5193893,
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 5431840,
+                    "date": "dec 31 2015"
+                }
+            ],
+            "Non-current content assets, net": [
+                {
+                    "value": 6677674,
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 4312817,
+                    "date": "dec 31 2015"
+                }
+            ],
+            "Property and equipment, net": [
+                {
+                    "value": 191876,
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 173412,
+                    "date": "dec 31 2015"
+                }
+            ],
+            "Other non-current assets": [
+                {
+                    "value": 283895,
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 284802,
+                    "date": "dec 31 2015"
+                }
+            ],
+            "Total assets": [
+                {
+                    "value": 12347338,
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 10202871,
+                    "date": "dec 31 2015"
+                }
+            ]
+        },
+        "Current liabilities:": {
+            "Current content liabilities": [
+                {
+                    "value": 3497214,
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 2789023,
+                    "date": "dec 31 2015"
+                }
+            ],
+            "Accounts payable": [
+                {
+                    "value": 285753,
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 253491,
+                    "date": "dec 31 2015"
+                }
+            ],
+            "Accrued expenses": [
+                {
+                    "value": 201232,
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 140389,
+                    "date": "dec 31 2015"
+                }
+            ],
+            "Deferred revenue": [
+                {
+                    "value": 427206,
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 346721,
+                    "date": "dec 31 2015"
+                }
+            ],
+            "Total current liabilities": [
+                {
+                    "value": 4411405,
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 3529624,
+                    "date": "dec 31 2015"
+                }
+            ],
+            "Non-current content liabilities": [
+                {
+                    "value": 2975189,
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 2026360,
+                    "date": "dec 31 2015"
+                }
+            ],
+            "Long-term debt": [
+                {
+                    "value": 2373966,
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 2371362,
+                    "date": "dec 31 2015"
+                }
+            ],
+            "Other non-current liabilities": [
+                {
+                    "value": 57812,
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 52099,
+                    "date": "dec 31 2015"
+                }
+            ],
+            "Total liabilities": [
+                {
+                    "value": 9818372,
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 7979445,
+                    "date": "dec 31 2015"
+                }
+            ],
+            "Commitments and contingencies (Note 6)": [
+                {
+                    "value": " ",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": " ",
+                    "date": "dec 31 2015"
+                }
+            ]
+        },
+        "Stockholders\u2019 equity:": {
+            "Common stock, $0.001 par value; 4,990,000,000 shares authorized at September 30, 2016 and December 31, 2015; 429,145,023 and 427,940,440 issued and outstanding at September 30, 2016 and December 31, 2015, respectively": [
+                {
+                    "value": 1503641,
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 1324809,
+                    "date": "dec 31 2015"
+                }
+            ],
+            "Accumulated other comprehensive loss": [
+                {
+                    "value": -36530,
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": -43308,
+                    "date": "dec 31 2015"
+                }
+            ],
+            "Retained earnings": [
+                {
+                    "value": 1061855,
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 941925,
+                    "date": "dec 31 2015"
+                }
+            ],
+            "Total stockholders\u2019 equity": [
+                {
+                    "value": 2528966,
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 2223426,
+                    "date": "dec 31 2015"
+                }
+            ],
+            "Total liabilities and stockholders\u2019 equity": [
+                {
+                    "value": 12347338,
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 10202871,
+                    "date": "dec 31 2015"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Consolidated Balance Sheets (Parenthetical) - $ / shares",
+        "Statement of Financial Position [Abstract]": {
+            "Common stock, par value (dollars per share)": [
+                {
+                    "value": 0.001,
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 0.001,
+                    "date": "dec 31 2015"
+                }
+            ],
+            "Common stock, shares authorized (shares)": [
+                {
+                    "value": 4990000000,
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 4990000000,
+                    "date": "dec 31 2015"
+                }
+            ],
+            "Common stock, shares issued (shares)": [
+                {
+                    "value": 429145023,
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 427940440,
+                    "date": "dec 31 2015"
+                }
+            ],
+            "Common stock, shares outstanding (shares)": [
+                {
+                    "value": 429145023,
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 427940440,
+                    "date": "dec 31 2015"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Basis of Presentation and Summary of Significant Accounting Policies",
+        "Organization, Consolidation and Presentation of Financial Statements [Abstract]": {
+            "Basis of Presentation and Summary of Significant Accounting Policies": {
+                "value": "Basis of Presentation and Summary of Significant Accounting Policies The accompanying consolidated interim financial statements of Netflix, Inc. and its wholly owned subsidiaries (the \u201cCompany\u201d) have been prepared in conformity with accounting principles generally accepted in the United States (\u201cU.S.\u201d) and are consistent in all material respects with those applied in the Company\u2019s Annual Report on Form 10-K for the year ended December 31, 2015 filed with the Securities and Exchange Commission (the \u201cSEC\u201d) on January 28, 2016. The preparation of consolidated financial statements in conformity with U.S. generally accepted accounting principles (\u201cGAAP\u201d) requires management to make estimates and judgments that affect the amounts reported in the consolidated financial statements and accompanying notes. Significant items subject to such estimates and assumptions include the streaming content asset amortization policy; the recognition and measurement of income tax assets and liabilities; and the valuation of stock-based compensation. The Company bases its estimates on historical experience and on various other assumptions that the Company believes to be reasonable under the circumstances. On a regular basis, the Company evaluates the assumptions, judgments and estimates. Actual results may differ from these estimates. The interim financial information is unaudited, but reflects all normal recurring adjustments that are, in the opinion of management, necessary to fairly present the information set forth herein. The interim financial statements should be read in conjunction with the audited financial statements and related notes included in the Company\u2019s Annual Report on Form 10-K for the year ended December 31, 2015 . Interim results are not necessarily indicative of the results for a full year. The Company has three reportable segments: Domestic streaming, International streaming and Domestic DVD, all of which derive revenue from monthly membership fees. See Note 10 for further detail on the Company's segments. There have been no material changes in the Company\u2019s significant accounting policies as compared to the significant accounting policies described in the Company\u2019s Annual Report on Form 10-K for the year ended December 31, 2015 . Certain prior year amounts on the Consolidated Statements of Cash Flow have been reclassified to conform to the current year presentation. Specifically, the Company reclassified prepaid content from \"Other current assets\" on the Consolidated Balance Sheets to \"Current content assets, net\". The impact of reclassification on the cash flow resulted in a decrease in \"Other current assets\" and \"Additions to streaming content assets\" of $4.5 million in the three months ended September 30, 2015 , and an increase in \"Other current assets\" and \"Additions to streaming content assets\" of $26.8 million for the nine months ended September 30, 2015 . In the third quarter of 2016, the Company changed the amortization method of certain types of content given changes in estimated viewing patterns of this content. The effect of this change in estimate on operating income, net income and basic and diluted earnings per share was not material for the three and nine months ended September 30, 2016. In May 2014, the Financial Accounting Standards Board (\"FASB\") issued Accounting Standards Update (\"ASU\") 2014-09, Revenue from Contracts with Customers (Topic 606) which amended the existing accounting standards for revenue recognition. ASU 2014-09 establishes principles for recognizing revenue upon the transfer of promised goods or services to customers, in an amount that reflects the expected consideration received in exchange for those goods or services. In July 2015, the FASB deferred the effective date for annual reporting periods beginning after December 15, 2017 (including interim reporting periods within those periods). Early adoption is permitted to the original effective date for annual reporting periods beginning after December 15, 2016 (including interim reporting periods within those periods). The amendments may be applied retrospectively to each prior period (full retrospective) or retrospectively with the cumulative effect recognized as of the date of initial application (modified retrospective). The Company will adopt ASU 2014-09 in the first quarter of 2018 and apply the full retrospective approach. The Company does not expect the impact on its consolidated financial statements to be material. In February 2016, the FASB issued ASU 2016-02, Leases (Topic 842) in order to increase transparency and comparability among organizations by recognizing lease assets and lease liabilities on the balance sheet for those leases classified as operating leases under previous GAAP. ASU 2016-02 requires that a lessee should recognize a liability to make lease payments (the lease liability) and a right-of-use asset representing its right to use the underlying asset for the lease term on the balance sheet. ASU 2016-02 is effective for fiscal years beginning after December 15, 2018 (including interim periods within those periods) using a modified retrospective approach and early adoption is permitted. The Company will adopt ASU 2016-02 in the first quarter of 2019 and is currently in the process of evaluating the impact of adoption of the ASU on its consolidated financial statements. In March 2016, the FASB issued ASU 2016-09, Improvements to Employee Share-Based Payment Accounting , which amends Accounting Standards Codification (\"ASC\") Topic 718, Compensation \u2013 Stock Compensation . ASU 2016-09 simplifies several aspects of the accounting for share-based payment transactions, including the income tax consequences, classification of awards as either equity or liabilities, and classification on the statement of cash flows. ASU 2016-09 is effective for fiscal years beginning after December 15, 2016, and interim periods within those fiscal years and early adoption is permitted. The Company will adopt ASU 2016-09 in the first quarter of 2017 and is currently in the process of evaluating the impact of adoption of the ASU on its consolidated financial statements.",
+                "time": "9 months ended",
+                "date": "sep 30 2016"
+            }
+        }
+    },
+    {
+        "title": "Earnings Per Share",
+        "Earnings Per Share [Abstract]": {
+            "Earnings Per Share": {
+                "value": "Earnings Per Share Basic earnings per share is computed using the weighted-average number of outstanding shares of common stock during the period. Diluted earnings per share is computed using the weighted-average number of outstanding shares of common stock and, when dilutive, potential common shares outstanding during the period. Potential common shares consist of incremental shares issuable upon the assumed exercise of stock options. The computation of earnings per share is as follows: Three Months Ended Nine Months Ended September 30, September 30, September 30, September 30, (in thousands, except per share data) Basic earnings per share: Net income $ 51,517 $ 29,432 $ 119,930 $ 79,463 Shares used in computation: Weighted-average common shares outstanding 428,937 426,869 428,514 425,289 Basic earnings per share $ 0.12 $ 0.07 $ 0.28 $ 0.19 Diluted earnings per share: Net income $ 51,517 $ 29,432 $ 119,930 $ 79,463 Shares used in computation: Weighted-average common shares outstanding 428,937 426,869 428,514 425,289 Employee stock options 9,452 10,737 9,666 10,560 Weighted-average number of shares 438,389 437,606 438,180 435,849 Diluted earnings per share $ 0.12 $ 0.07 $ 0.27 $ 0.18 Employee stock options with exercise prices greater than the average market price of the common stock were excluded from the diluted calculation as their inclusion would have been anti-dilutive. The following table summarizes the potential common shares excluded from the diluted calculation: Three Months Ended Nine Months Ended September 30, September 30, September 30, September 30, (in thousands) Employee stock options 2,559 130 1,942 668",
+                "time": "9 months ended",
+                "date": "sep 30 2016"
+            }
+        }
+    },
+    {
+        "title": "Short-term Investments",
+        "Short-Term Investments And Fair Value Measurement [Abstract]": {
+            "Short-term Investments": {
+                "value": "Short-term Investments The Company\u2019s investment policy is consistent with the definition of available-for-sale securities. The Company does not buy and hold securities principally for the purpose of selling them in the near future. The Company\u2019s policy is focused on the preservation of capital, liquidity and investment return. From time to time, the Company may sell certain securities but the objectives are generally not to generate profits on short-term differences in price. The following tables summarize, by major security type, the Company\u2019s assets that are measured at fair value on a recurring basis, the category using the fair value hierarchy and where they are classified on the Consolidated Balance Sheets: As of September 30, 2016 Amortized Gross Gross Estimated Cash and cash equivalents Short-term investments Non-current assets (1) (in thousands) Cash $ 920,513 $ \u2014 $ \u2014 $ 920,513 $ 917,936 $ \u2014 $ 2,577 Level 1 securities: Money market funds 52,737 \u2014 \u2014 52,737 51,222 \u2014 1,515 Level 2 securities: Corporate debt securities 220,826 770 (68 ) 221,528 \u2014 221,528 \u2014 Government securities 110,860 159 \u2014 111,019 \u2014 111,019 \u2014 Certificates of deposit/commercial paper 9,817 \u2014 \u2014 9,817 9,817 Agency securities 31,770 4 (40 ) 31,734 \u2014 31,734 \u2014 Total $ 1,346,523 $ 933 $ (108 ) $ 1,347,348 $ 969,158 $ 374,098 $ 4,092 As of December 31, 2015 Amortized Cost Gross Unrealized Gains Gross Unrealized Losses Estimated Fair Value Cash and cash equivalents Short-term investments Non-current assets (1) (in thousands) Cash $ 1,708,220 $ \u2014 $ \u2014 $ 1,708,220 $ 1,706,592 $ \u2014 $ 1,628 Level 1 securities: Money market funds 107,199 \u2014 \u2014 107,199 102,738 \u2014 4,461 Level 2 securities: Corporate debt securities 240,867 154 (409 ) 240,612 \u2014 240,612 \u2014 Government securities 235,252 \u2014 (1,046 ) 234,206 \u2014 234,206 \u2014 Agency securities 26,576 \u2014 (9 ) 26,567 \u2014 26,567 \u2014 Total $ 2,318,114 $ 154 $ (1,464 ) $ 2,316,804 $ 1,809,330 $ 501,385 $ 6,089 (1) Primarily restricted cash that is related to workers compensation deposits and letter of credit agreements. Fair value is a market-based measurement that is determined based on the assumptions that market participants would use in pricing an asset or liability. The hierarchy level assigned to each security in the Company\u2019s available-for-sale portfolio and cash equivalents is based on its assessment of the transparency and reliability of the inputs used in the valuation of such instrument at the measurement date. The fair value of available-for-sale securities and cash equivalents included in the Level 1 category is based on quoted prices that are readily and regularly available in an active market. The fair value of available-for-sale securities included in the Level 2 category is based on observable inputs, such as quoted prices for similar assets at the measurement date; quoted prices in markets that are not active; or other inputs that are observable, either directly or indirectly. These values were obtained from an independent pricing service and were evaluated using pricing models that vary by asset class and may incorporate available trade, bid and other market information and price quotes from well-established independent pricing vendors and broker-dealers. The Company's procedures include controls to ensure that appropriate fair values are recorded, such as comparing prices obtained from multiple independent sources. See Note 5 to the consolidated financial statements for further information regarding the fair value of the Company\u2019s senior notes. The Company does not intend to sell the investments that are in an unrealized loss position and it is not likely that the Company will be required to sell any investments before recovery of their amortized cost basis. As such, the Company does not consider those investments with an unrealized loss to be other-than-temporarily impaired at September 30, 2016 or December 31, 2015, respectively. There were no material other-than-temporary impairments or credit losses related to available-for-sale securities in the three and nine months ended September 30, 2016 and 2015 , respectively. In addition, there were no material gross realized gains or losses in the three and nine months ended September 30, 2016 and 2015 , respectively. The estimated fair value of short-term investments by contractual maturity as of September 30, 2016 is as follows: (in thousands) Due within one year $ 80,355 Due after one year and through five years 293,743 Total short-term investments $ 374,098",
+                "time": "9 months ended",
+                "date": "sep 30 2016"
+            }
+        }
+    },
+    {
+        "title": "Balance Sheet Components",
+        "Balance Sheet Components Disclosure [Abstract]": {
+            "Balance Sheet Components": {
+                "value": "Balance Sheet Components Content Assets Content assets consisted of the following: As of September 30, December 31, (in thousands) Licensed content, net $ 9,248,120 $ 6,827,119 Produced content, net Released, less amortization 194,621 61,515 In production 802,552 279,013 In development 40,154 24,651 1,037,327 365,179 DVD, net 24,626 26,517 Total $ 10,310,073 $ 7,218,815 Current content assets, net $ 3,632,399 $ 2,905,998 Non-current content assets, net $ 6,677,674 $ 4,312,817 Produced content is included in \"Non-current content assets, net\" on the Consolidated Balance Sheets. Certain original content, such as House of Cards, is licensed and therefore not included in produced content. Of the produced content that has been released, approximately 28% and 82% , is expected to be amortized over the next twelve and thirty-six months, respectively. The amount of accrued participations and residuals to be paid during the next twelve months is not material. Property and Equipment, Net Property and equipment and accumulated depreciation consisted of the following: As of September 30, December 31, Estimated Useful Lives (in thousands) Information technology assets $ 206,957 $ 194,054 3 years Furniture and fixtures 32,255 30,914 3 years Building 40,681 40,681 30 years Leasehold improvements 108,820 107,793 Over life of lease DVD operations equipment 76,248 88,471 5 years Capital work-in-progress 40,997 8,845 Property and equipment, gross 505,958 470,758 Less: Accumulated depreciation (314,082 ) (297,346 ) Property and equipment, net $ 191,876 $ 173,412 The increase in capital work-in-progress is primarily related to leasehold improvements for the Company's expanded headquarters in Los Gatos, California and the Company's new office space in Los Angeles, California.",
+                "time": "9 months ended",
+                "date": "sep 30 2016"
+            }
+        }
+    },
+    {
+        "title": "Long-term Debt",
+        "Debt Disclosure [Abstract]": {
+            "Long-term Debt": {
+                "value": "Long-term Debt As of September 30, 2016 , the Company had aggregate outstanding long-term debt of $2,374.0 million , net of $26.0 million of issuance costs, with varying maturities (the \"Notes\"). Each of the Notes were issued at par and are senior unsecured obligations of the Company. Interest is payable semi-annually at fixed rates. The following table provides a summary of the Company's Notes and the fair values based on quoted market prices in less active markets as of September 30, 2016 and December 31, 2015 : Level 2 Fair Value as of Principal Amount at Par Issuance Date Maturity Interest Due Dates September 30, 2016 December 31, 2015 (in millions) (in millions) 5.50% Senior Notes $ 700.0 February 2015 2022 April 15 and October 15 $ 756.9 $ 717.5 5.875% Senior Notes 800.0 February 2015 2025 April 15 and October 15 866.0 820.0 5.750% Senior Notes 400.0 February 2014 2024 March 1 and September 1 432.0 411.0 5.375% Senior Notes 500.0 February 2013 2021 February 1 and August 1 548.8 525.0 Each of the Notes are repayable in whole or in part upon the occurrence of a change of control, at the option of the holders, at a purchase price in cash equal to 101% of the principal plus accrued interest. The Company may redeem the Notes prior to maturity in whole or in part at an amount equal to the principal amount thereof plus accrued and unpaid interest and an applicable premium. The Notes include, among other terms and conditions, limitations on the Company's ability to create, incur or allow certain liens; enter into sale and lease-back transactions; create, assume, incur or guarantee additional indebtedness of certain of the Company's subsidiaries; and consolidate or merge with, or convey, transfer or lease all or substantially all of the Company's and its subsidiaries assets, to another person. As of September 30, 2016 and December 31, 2015, the Company was in compliance with all related covenants.",
+                "time": "9 months ended",
+                "date": "sep 30 2016"
+            }
+        }
+    },
+    {
+        "title": "Commitments and Contingencies",
+        "Commitments and Contingencies Disclosure [Abstract]": {
+            "Commitments and Contingencies": {
+                "value": "Commitments and Contingencies Streaming Content As of September 30, 2016 , the Company had $14.4 billion of obligations comprised of $3.5 billion included in \"Current content liabilities\" and $3.0 billion of \"Non-current content liabilities\" on the Consolidated Balance Sheets and $7.9 billion of obligations that are not reflected on the Consolidated Balance Sheets as they did not then meet the criteria for recognition. As of December 31, 2015 , the Company had $10.9 billion of obligations comprised of $2.8 billion included in \"Current content liabilities\" and $2.0 billion of \"Non-current content liabilities\" on the Consolidated Balance Sheets and $6.1 billion of obligations that are not reflected on the Consolidated Balance Sheets as they did not then meet the criteria for recognition. The expected timing of payments for these streaming content obligations is as follows: As of September 30, December 31, (in thousands) Less than one year $ 5,895,205 $ 4,703,172 Due after one year and through three years 6,770,007 5,249,147 Due after three years and through five years 1,489,933 891,864 Due after five years 197,900 58,048 Total streaming content obligations $ 14,353,045 $ 10,902,231 Content obligations include amounts related to the acquisition, licensing and production of content. Obligations that are in non U.S. dollar currencies are translated to the U.S. dollar at period end rates. A content obligation for the production of original content includes non-cancellable commitments under creative talent and employment agreements. A content obligation for the acquisition and licensing of content is incurred at the time the Company enters into an agreement to obtain future titles. Once a title becomes available, a content liability is generally recorded on the Consolidated Balance Sheets. Certain agreements include the obligation to license rights for unknown future titles, the ultimate quantity and/or fees for which are not yet determinable as of the reporting date. Traditional film output deals, like the U.S. output deal with Disney, or certain TV series license agreements where the number of seasons to be aired is unknown, are examples of such license agreements. The Company does not include any estimated obligation for these future titles beyond the known minimum amount. However, the unknown obligations are expected to be significant. Legal Proceedings From time to time, in the normal course of its operations, the Company is subject to litigation matters and claims, including claims relating to employee relations, business practices and patent infringement. Litigation can be expensive and disruptive to normal business operations. Moreover, the results of complex legal proceedings are difficult to predict and the Company's view of these matters may change in the future as the litigation and events related thereto unfold. The Company expenses legal fees as incurred. The Company records a provision for contingent losses when it is both probable that a liability has been incurred and the amount of the loss can be reasonably estimated. An unfavorable outcome to any legal matter, if material, could have an adverse effect on the Company's operations or its financial position, liquidity or results of operations. On January 13, 2012, the first of three purported shareholder class action lawsuits was filed in the United States District Court for the Northern District of California against the Company and certain of its officers and directors. Two additional purported shareholder class action lawsuits were filed in the same court on January 27, 2012 and February 29, 2012 alleging substantially similar claims. These lawsuits were consolidated into In re Netflix, Inc., Securities Litigation , Case No. 3:12-cv-00225-SC, and the Court selected lead plaintiffs. On June 26, 2012, lead plaintiffs filed a consolidated complaint which alleged violations of the federal securities laws. The Court dismissed the consolidated complaint with leave to amend on February 13, 2013. Lead plaintiffs filed a first amended consolidated complaint on March 22, 2013. The Court dismissed the first amended consolidated complaint with prejudice on August 20, 2013, and judgment was entered on September 27, 2013. Lead plaintiffs filed a motion to alter or amend the judgment and requested leave to file a second amended complaint on October 25, 2013. On January 17, 2014, the Court denied that motion. On February 18, 2014, lead plaintiffs appealed that decision to the United States Court of Appeals for the Ninth Circuit; oral argument occurred on March 17, 2016. On April 11, 2016, the Ninth Circuit panel affirmed the dismissal of the suit with prejudice. On November 23, 2011, the first of six purported shareholder derivative suits was filed in the Superior Court of California, Santa Clara County, against the Company and certain of its officers and directors. Five additional purported shareholder derivative suits were subsequently filed: two in the Superior Court of California, Santa Clara County on February 9, 2012 and May 2, 2012; and three in the United States District Court for the Northern District of California on February 13, 2012, February 24, 2012 and April 2, 2012. The purported shareholder derivative suits filed in the Northern District of California have been voluntarily dismissed. On July 5, 2012, the purported shareholder derivative suits filed in Santa Clara County were consolidated into In re Netflix, Inc. Shareholder Derivative Litigation , Case No. 1-12-cv-218399, and lead counsel was appointed. A consolidated complaint was filed on December 4, 2012, with plaintiffs seeking compensatory damages and other relief. The consolidated complaint alleges, among other things, that certain of the Company's current and former officers and directors breached their fiduciary duties, issued false and misleading statements primarily regarding the Company's streaming business, violated accounting rules concerning segment reporting, violated provisions of the California Corporations Code, and wasted corporate assets. The consolidated complaint further alleges that the defendants caused the Company to buy back stock at artificially inflated prices to the detriment of the Company and its shareholders while contemporaneously selling personally held Company stock. The Company filed a demurrer to the consolidated complaint and a motion to stay the derivative litigation in favor of the related federal securities class action on February 4, 2013. On June 21, 2013, the Court granted the motion to stay the derivative litigation pending resolution of the related federal securities class action. On August 29, 2016, by stipulation of the parties, the consolidated complaint was dismissed by the Court. The Company is involved in other litigation matters not listed above but does not consider the matters to be material either individually or in the aggregate at this time. The Company's view of the matters not listed may change in the future as the litigation and events related thereto unfold. Indemnification In the ordinary course of business, the Company has entered into contractual arrangements under which it has agreed to provide indemnification of varying scope and terms to business partners and other parties with respect to certain matters, including, but not limited to, losses arising out of the Company\u2019s breach of such agreements and out of intellectual property infringement claims made by third parties. In these circumstances, payment may be conditional on the other party making a claim pursuant to the procedures specified in the particular contract. The Company's obligations under these agreements may be limited in terms of time or amount, and in some instances, the Company may have recourse against third parties for certain payments. In addition, the Company has entered into indemnification agreements with its directors and certain of its officers that will require it, among other things, to indemnify them against certain liabilities that may arise by reason of their status or service as directors or officers. The terms of such obligations vary. It is not possible to make a reasonable estimate of the maximum potential amount of future payments under these or similar agreements due to the conditional nature of the Company\u2019s obligations and the unique facts and circumstances involved in each particular agreement. No amount has been accrued in the accompanying consolidated financial statements with respect to these indemnification obligations.",
+                "time": "9 months ended",
+                "date": "sep 30 2016"
+            }
+        }
+    },
+    {
+        "title": "Stockholders' Equity",
+        "Stockholders' Equity and Stock-based Compensation Disclosure [Abstract]": {
+            "Stockholders' Equity": {
+                "value": "Stockholders\u2019 Equity Stock Split In March 2015, the Company's Board of Directors adopted an amendment to the Company's Certificate of Incorporation, to increase the number of shares of capital stock the Company is authorized to issue from 170,000,000 ( 160,000,000 shares of common stock and 10,000,000 shares of preferred stock), par value $0.001 , to 5,000,000,000 ( 4,990,000,000 shares of common stock and 10,000,000 shares of preferred stock), par value $0.001 . This amendment to the Company's certificate of incorporation was approved by the Company's stockholders at the 2015 Annual Meeting held on June 9, 2015. On June 23, 2015, the Company's Board of Directors declared a seven -for-one stock split in the form of a stock dividend that was paid on July 14, 2015 to all shareholders of record as of July 2, 2015. Stock Option Plan In June 2011, the Company adopted the 2011 Stock Plan. The 2011 Stock Plan provides for the grant of incentive stock options to employees and for the grant of non-statutory stock options, stock appreciation rights, restricted stock and restricted stock units to employees, directors and consultants. As of September 30, 2016 , 14.1 million shares were reserved for future grants under the 2011 Stock Plan. A summary of the activities related to the Company\u2019s stock option plans is as follows: Options Outstanding Shares Number of Weighted- (per share) Weighted-Average Remaining Aggregate Balances as of December 31, 2015 16,845,316 20,995,756 $ 32.39 Granted (2,721,013 ) 2,721,013 98.45 Exercised \u2014 (1,204,583 ) 9.59 Balances as of September 30, 2016 14,124,303 22,512,186 $ 41.59 6.2 $ 1,300,444 Vested and exercisable as of September 30, 2016 22,512,186 $ 41.59 6.2 $ 1,300,444 The aggregate intrinsic value in the table above represents the total pre-tax intrinsic value (the difference between the Company\u2019s closing stock price on the last trading day of the third quarter of 2016 and the exercise price, multiplied by the number of in-the-money options) that would have been received by the option holders had all option holders exercised their options on the last trading day of the third quarter of 2016 . This amount changes based on the fair market value of the Company\u2019s common stock. A summary of the amounts related to option exercises, is as follows: Three Months Ended Nine Months Ended September 30, September 30, September 30, September 30, (in thousands) Total intrinsic value of options exercised $ 35,443 $ 118,259 $ 104,168 $ 313,880 Cash received from options exercised $ 3,819 $ 35,089 $ 11,587 $ 69,809 Stock-based Compensation The following table summarizes the assumptions used to value stock option grants using the lattice-binomial model and the valuation data: Three Months Ended Nine Months Ended September 30, September 30, September 30, September 30, Dividend yield \u2014 % \u2014 % \u2014 % \u2014 % Expected volatility 41 % 45 % 41% - 50% 36% - 45% Risk-free interest rate 1.57 % 2.29 % 1.57% - 2.04% 2.03% - 2.29% Suboptimal exercise factor 2.48 2.48 2.48 2.47 - 2.48 Weighted-average fair value (per share) $ 44.68 $ 50.58 $ 47.79 $ 34.64 Total stock-based compensation expense (in thousands) $ 43,495 $ 32,834 $ 130,029 $ 88,865 Total income tax impact on provision (in thousands) $ 16,294 $ 12,365 $ 48,828 $ 33,553 The Company considers several factors in determining the suboptimal exercise factor, including the historical and estimated option exercise behavior. The Company calculates expected volatility based solely on implied volatility. The Company believes that implied volatility of publicly traded options in its common stock is more reflective of market conditions, and given consistently high trade volumes of the options, can reasonably be expected to be a better indicator of expected volatility than historical volatility of its common stock. In valuing shares issued under the Company\u2019s employee stock option plans, the Company bases the risk-free interest rate on U.S. Treasury zero-coupon issues with terms similar to the contractual term of the options. The Company does not anticipate paying any cash dividends in the foreseeable future and therefore uses an expected dividend yield of zero in the option valuation model. The Company does not use a post-vesting termination rate as options are fully vested upon grant date.",
+                "time": "9 months ended",
+                "date": "sep 30 2016"
+            }
+        }
+    },
+    {
+        "title": "Accumulated Other Comprehensive Loss",
+        "Equity [Abstract]": {
+            "Accumulated Other Comprehensive Loss": {
+                "value": " Accumulated Other Comprehensive Loss The following table summarizes the changes in the accumulated balance of other comprehensive income (loss), net of tax, for the three and nine months ended September 30, 2016 : Foreign currency Change in unrealized gains on available-for-sale securities Total (in thousands) Balance as of June 30, 2016 $ (39,406 ) $ 1,195 $ (38,211 ) Other comprehensive income (loss) before reclassifications 2,357 (676 ) 1,681 Net decrease (increase) in other comprehensive loss 2,357 (676 ) 1,681 Balance as of September 30, 2016 $ (37,049 ) $ 519 $ (36,530 ) Foreign currency Change in unrealized gains on available-for-sale securities Total (in thousands) Balance as of December 31, 2015 $ (42,502 ) $ (806 ) $ (43,308 ) Other comprehensive income before reclassifications 5,453 1,325 6,778 Net decrease in other comprehensive loss 5,453 1,325 6,778 Balance as of September 30, 2016 $ (37,049 ) $ 519 $ (36,530 ) The amounts reclassified from accumulated other comprehensive loss were immaterial for the three and nine months ended September 30, 2016 .",
+                "time": "9 months ended",
+                "date": "sep 30 2016"
+            }
+        }
+    },
+    {
+        "title": "Income Taxes",
+        "Income Tax Disclosure [Abstract]": {
+            "Income Taxes": {
+                "value": " Income Taxes The effective tax rates for the three months ended September 30, 2016 and 2015 were 35% and 30% , respectively. The effective tax rates for the nine months ended September 30, 2016 and 2015 were 30% and 34% , respectively. The effective tax rate for the nine months ended September 30, 2016 differed from the Federal statutory rate primarily due to Federal and California research and development (\"R&D\") credits partially offset by state taxes, foreign taxes and non-deductible expenses. The effective tax rate for the three and nine months ended September 30, 2015 differed from the Federal statutory rate primarily due to the California R&D credit partially offset by state taxes, foreign taxes and non-deductible expenses. The increase in effective tax rate for the three months ended September 30, 2016 as compared to the same period in 2015 was due primarily to increased operating results for the three months ended September 30, 2016. The decrease in effective tax rate for the nine months ended September 30, 2016 as compared to the nine months ended September 30, 2015 was primarily attributable to the permanent reinstatement of the Federal R&D credit in the fourth quarter of 2015. Gross unrecognized tax benefits were $16.5 million and $17.1 million as of September 30, 2016 and December 31, 2015, respectively. The gross unrecognized tax benefits, if recognized by the Company, will result in a reduction of approximately $13.7 million to the provision for income taxes thereby favorably impacting the Company\u2019s effective tax rate. As of September 30, 2016 , the Company had identified gross unrecognized tax benefits of $16.5 million , of which $1.6 million was classified as \u201cOther non-current liabilities\u201d and $14.9 million as a reduction to deferred tax assets which was classified as \"Other non-current assets\" in the Consolidated Balance Sheets. The Company includes interest and penalties related to unrecognized tax benefits within the \"Provision for income taxes\" on the Consolidated Statements of Operations and \u201cOther non-current liabilities\u201d in the Consolidated Balance Sheets. Interest and penalties included in the Company\u2019s \u201cProvision for income taxes\u201d were not material in any of the periods presented. Deferred tax assets include $200.0 million and $180.6 million classified as \u201cOther non-current assets\u201d on the Consolidated Balance Sheets as of September 30, 2016 and December 31, 2015 , respectively. In evaluating its ability to realize the net deferred tax assets, the Company considered all available positive and negative evidence, including its past operating results and the forecast of future market growth, forecasted earnings, future taxable income, and prudent and feasible tax planning strategies. As of September 30, 2016 and December 31, 2015 , it was considered more likely than not that all deferred tax assets would be realized. Income tax benefits attributable to the exercise of employee stock options are recorded in additional paid-in-capital. These benefits amounted to $12.6 million and $37.7 million , during the three months ended September 30, 2016 and 2015, respectively, and amounted to $37.2 million and $105.6 million , during the nine months ended September 30, 2016 and 2015, respectively. The Company files U.S. Federal, state and foreign tax returns. The Company is currently under examination by the IRS for 2014 and 2015. The 2008 through 2015 state tax returns are subject to examination by state tax authorities. The Company has no significant foreign jurisdiction audits underway, and 2011 through 2015 remain subject to examination by foreign tax authorities. Given the potential outcome of the current examinations as well as the impact of the current examinations on the potential expiration of the statute of limitations, it is reasonably possible that the balance of unrecognized tax benefits could significantly change within the next twelve months. At this time, an estimate of the range of reasonably possible adjustments to the balance of unrecognized tax benefits cannot be made.",
+                "time": "9 months ended",
+                "date": "sep 30 2016"
+            }
+        }
+    },
+    {
+        "title": "Segment Information",
+        "Segment Reporting [Abstract]": {
+            "Segment Information": {
+                "value": "Segment Information The Company has three reportable segments: Domestic streaming, International streaming and Domestic DVD. Segment information is presented in the same manner that the Company\u2019s chief operating decision maker (\"CODM\") reviews the operating results in assessing performance and allocating resources. The Company\u2019s CODM reviews revenues and contribution profit (loss) for each of the reportable segments. Contribution profit (loss) is defined as revenues less cost of revenues and marketing expenses incurred by the segment. The Company has aggregated the results of the International operating segments into one reportable segment because these operating segments share similar long-term economic and other qualitative characteristics. The Domestic streaming segment derives revenues from monthly membership fees for services consisting solely of streaming content to members in the United States. The International streaming segment derives revenues from monthly membership fees for services consisting solely of streaming content to members outside the United States. The Domestic DVD segment derives revenues from monthly membership fees for services consisting solely of DVD-by-mail. Revenues and the related payment card fees are attributed to the operating segment based on the nature of the underlying membership (streaming or DVD) and the geographic region from which the membership originates. There are no internal revenue transactions between the Company\u2019s segments. The vast majority of the cost of revenues relate to content expenses, which include the amortization of streaming content assets and other costs associated with the licensing and acquisition of streaming content. In connection with the Company's global expansion, content acquired, licensed, and produced increasingly includes global rights. The Company allocates this content between the International and Domestic streaming segments based on estimated fair market value. Content expenses for each streaming segment thus include both expenses directly incurred by the segment as well as an allocation of expenses incurred for global rights. Other costs of revenues such as delivery costs are primarily attributed to the operating segment based on amounts directly incurred by the segment. Marketing expenses consist primarily of advertising expenses and payments made to device partners which are generally included in the segment in which the expenditures are directly incurred. The Company's long-lived tangible assets were located as follows: As of September 30, December 31, 2015 (in thousands) United States $ 176,271 $ 159,566 International 15,605 13,846 The following table represents segment information for the three and nine months ended September 30, 2016 : As of/ Three Months Ended September 30, 2016 Domestic International Domestic Consolidated (in thousands) Total memberships at end of period (1) 47,497 39,246 4,273 \u2014 Revenues $ 1,304,333 $ 853,480 $ 132,375 $ 2,290,188 Cost of revenues 720,658 748,515 63,671 1,532,844 Marketing 108,495 173,548 \u2014 282,043 Contribution profit (loss) $ 475,180 $ (68,583 ) $ 68,704 $ 475,301 Other operating expenses 369,265 Operating income 106,036 Other income (expense) (26,909 ) Provision for income taxes 27,610 Net income $ 51,517 As of/ Nine Months Ended September 30, 2016 Domestic International Domestic Consolidated (in thousands) Total memberships at end of period (1) 47,497 39,246 4,273 \u2014 Revenues $ 3,673,845 $ 2,263,429 $ 415,854 $ 6,353,128 Cost of revenues 2,094,310 2,076,576 204,596 4,375,482 Marketing 277,243 428,839 \u2014 706,082 Contribution profit (loss) $ 1,302,292 $ (241,986 ) $ 211,258 $ 1,271,564 Other operating expenses 1,045,705 Operating income 225,859 Other income (expense) (55,621 ) Provision for income taxes 50,308 Net income $ 119,930 The following table represents segment information for the three and nine months ended September 30, 2015 : As of/ Three Months Ended September 30, 2015 Domestic International Domestic Consolidated (in thousands) Total memberships at end of period (1) 43,181 25,987 5,060 \u2014 Revenues $ 1,063,961 $ 516,870 $ 157,524 $ 1,738,355 Cost of revenues 644,914 451,251 77,793 1,173,958 Marketing 74,835 133,267 \u2014 208,102 Contribution profit (loss) $ 344,212 $ (67,648 ) $ 79,731 $ 356,295 Other operating expenses 282,654 Operating income 73,641 Other income (expense) (31,403 ) Provision for income taxes 12,806 Net income $ 29,432 As of/ Nine Months Ended September 30, 2015 Domestic International Domestic Consolidated (in thousands) Total memberships at end of period (1) 43,181 25,987 5,060 \u2014 Revenues $ 3,074,406 $ 1,387,030 $ 494,742 $ 4,956,178 Cost of revenues 1,840,134 1,249,495 252,482 3,342,111 Marketing 237,813 362,106 \u2014 599,919 Contribution profit (loss) $ 996,459 $ (224,571 ) $ 242,260 $ 1,014,148 Other operating expenses 768,216 Operating income 245,932 Other income (expense) (124,778 ) Provision for income taxes 41,691 Net income $ 79,463 The following table represents the amortization of content assets: Domestic Streaming International Streaming Domestic DVD Consolidated (in thousands) Three months ended September 30, 2016 $ 597,039 $ 627,069 $ 19,284 $ 1,243,392 2015 493,025 378,378 18,589 889,992 Nine months ended September 30, 2016 1,709,168 1,748,822 59,746 3,517,736 2015 1,387,242 1,056,279 60,587 2,504,108 (1) A membership (also referred to as a subscription or a member) is defined as the right to receive Netflix service following sign-up and a method of payment being provided. Memberships are assigned to territories based on the geographic location used at time of sign-up as determined by the Company's internal systems, which utilize industry standard geo-location technology. The Company offers free-trial memberships to new and certain rejoining members. Total members include those who are on a free-trial as long as a method of payment has been provided. A membership is canceled and ceases to be reflected in the above metrics as of the effective cancellation date. Voluntary cancellations become effective at the end of the prepaid membership period, while involuntary cancellation of the service, as a result of a failed method of payment, becomes effective immediately except in limited circumstances where a short grace period is offered to ensure the streaming service is not interrupted for members who are impacted by payment processing delays by the Company's banks or integrated payment partners. The number of members in a grace period at any given point is not material.",
+                "time": "9 months ended",
+                "date": "sep 30 2016"
+            }
+        }
+    },
+    {
+        "title": "Basis of Presentation and Summary of Significant Accounting Policies (Policies)",
+        "Organization, Consolidation and Presentation of Financial Statements [Abstract]": {
+            "Use of Estimates": {
+                "value": "The preparation of consolidated financial statements in conformity with U.S. generally accepted accounting principles (\u201cGAAP\u201d) requires management to make estimates and judgments that affect the amounts reported in the consolidated financial statements and accompanying notes. Significant items subject to such estimates and assumptions include the streaming content asset amortization policy; the recognition and measurement of income tax assets and liabilities; and the valuation of stock-based compensation. The Company bases its estimates on historical experience and on various other assumptions that the Company believes to be reasonable under the circumstances. On a regular basis, the Company evaluates the assumptions, judgments and estimates. Actual results may differ from these estimates.",
+                "time": "9 months ended",
+                "date": "sep 30 2016"
+            },
+            "New Accounting Pronouncements": {
+                "value": "In May 2014, the Financial Accounting Standards Board (\"FASB\") issued Accounting Standards Update (\"ASU\") 2014-09, Revenue from Contracts with Customers (Topic 606) which amended the existing accounting standards for revenue recognition. ASU 2014-09 establishes principles for recognizing revenue upon the transfer of promised goods or services to customers, in an amount that reflects the expected consideration received in exchange for those goods or services. In July 2015, the FASB deferred the effective date for annual reporting periods beginning after December 15, 2017 (including interim reporting periods within those periods). Early adoption is permitted to the original effective date for annual reporting periods beginning after December 15, 2016 (including interim reporting periods within those periods). The amendments may be applied retrospectively to each prior period (full retrospective) or retrospectively with the cumulative effect recognized as of the date of initial application (modified retrospective). The Company will adopt ASU 2014-09 in the first quarter of 2018 and apply the full retrospective approach. The Company does not expect the impact on its consolidated financial statements to be material. In February 2016, the FASB issued ASU 2016-02, Leases (Topic 842) in order to increase transparency and comparability among organizations by recognizing lease assets and lease liabilities on the balance sheet for those leases classified as operating leases under previous GAAP. ASU 2016-02 requires that a lessee should recognize a liability to make lease payments (the lease liability) and a right-of-use asset representing its right to use the underlying asset for the lease term on the balance sheet. ASU 2016-02 is effective for fiscal years beginning after December 15, 2018 (including interim periods within those periods) using a modified retrospective approach and early adoption is permitted. The Company will adopt ASU 2016-02 in the first quarter of 2019 and is currently in the process of evaluating the impact of adoption of the ASU on its consolidated financial statements. In March 2016, the FASB issued ASU 2016-09, Improvements to Employee Share-Based Payment Accounting , which amends Accounting Standards Codification (\"ASC\") Topic 718, Compensation \u2013 Stock Compensation . ASU 2016-09 simplifies several aspects of the accounting for share-based payment transactions, including the income tax consequences, classification of awards as either equity or liabilities, and classification on the statement of cash flows. ASU 2016-09 is effective for fiscal years beginning after December 15, 2016, and interim periods within those fiscal years and early adoption is permitted. The Company will adopt ASU 2016-09 in the first quarter of 2017 and is currently in the process of evaluating the impact of adoption of the ASU on its consolidated financial statements.",
+                "time": "9 months ended",
+                "date": "sep 30 2016"
+            }
+        }
+    },
+    {
+        "title": "Earnings Per Share (Tables)",
+        "Earnings Per Share [Abstract]": {
+            "Computation of Earnings Per Share": {
+                "value": "The computation of earnings per share is as follows: Three Months Ended Nine Months Ended September 30, September 30, September 30, September 30, (in thousands, except per share data) Basic earnings per share: Net income $ 51,517 $ 29,432 $ 119,930 $ 79,463 Shares used in computation: Weighted-average common shares outstanding 428,937 426,869 428,514 425,289 Basic earnings per share $ 0.12 $ 0.07 $ 0.28 $ 0.19 Diluted earnings per share: Net income $ 51,517 $ 29,432 $ 119,930 $ 79,463 Shares used in computation: Weighted-average common shares outstanding 428,937 426,869 428,514 425,289 Employee stock options 9,452 10,737 9,666 10,560 Weighted-average number of shares 438,389 437,606 438,180 435,849 Diluted earnings per share $ 0.12 $ 0.07 $ 0.27 $ 0.18",
+                "time": "9 months ended",
+                "date": "sep 30 2016"
+            },
+            "Summary of Potential Common Shares Excluded from Diluted Calculation": {
+                "value": "The following table summarizes the potential common shares excluded from the diluted calculation: Three Months Ended Nine Months Ended September 30, September 30, September 30, September 30, (in thousands) Employee stock options 2,559 130 1,942 668",
+                "time": "9 months ended",
+                "date": "sep 30 2016"
+            }
+        }
+    },
+    {
+        "title": "Short-term Investments (Tables)",
+        "Short-Term Investments And Fair Value Measurement [Abstract]": {
+            "Available-For-Sale Securities Reported at Fair Value": {
+                "value": "The following tables summarize, by major security type, the Company\u2019s assets that are measured at fair value on a recurring basis, the category using the fair value hierarchy and where they are classified on the Consolidated Balance Sheets: As of September 30, 2016 Amortized Gross Gross Estimated Cash and cash equivalents Short-term investments Non-current assets (1) (in thousands) Cash $ 920,513 $ \u2014 $ \u2014 $ 920,513 $ 917,936 $ \u2014 $ 2,577 Level 1 securities: Money market funds 52,737 \u2014 \u2014 52,737 51,222 \u2014 1,515 Level 2 securities: Corporate debt securities 220,826 770 (68 ) 221,528 \u2014 221,528 \u2014 Government securities 110,860 159 \u2014 111,019 \u2014 111,019 \u2014 Certificates of deposit/commercial paper 9,817 \u2014 \u2014 9,817 9,817 Agency securities 31,770 4 (40 ) 31,734 \u2014 31,734 \u2014 Total $ 1,346,523 $ 933 $ (108 ) $ 1,347,348 $ 969,158 $ 374,098 $ 4,092 As of December 31, 2015 Amortized Cost Gross Unrealized Gains Gross Unrealized Losses Estimated Fair Value Cash and cash equivalents Short-term investments Non-current assets (1) (in thousands) Cash $ 1,708,220 $ \u2014 $ \u2014 $ 1,708,220 $ 1,706,592 $ \u2014 $ 1,628 Level 1 securities: Money market funds 107,199 \u2014 \u2014 107,199 102,738 \u2014 4,461 Level 2 securities: Corporate debt securities 240,867 154 (409 ) 240,612 \u2014 240,612 \u2014 Government securities 235,252 \u2014 (1,046 ) 234,206 \u2014 234,206 \u2014 Agency securities 26,576 \u2014 (9 ) 26,567 \u2014 26,567 \u2014 Total $ 2,318,114 $ 154 $ (1,464 ) $ 2,316,804 $ 1,809,330 $ 501,385 $ 6,089 (1) Primarily restricted cash that is related to workers compensation deposits and letter of credit agreements. ",
+                "time": "9 months ended",
+                "date": "sep 30 2016"
+            },
+            "Estimated Fair Value of Short-Term Investments by Contractual Maturity": {
+                "value": "The estimated fair value of short-term investments by contractual maturity as of September 30, 2016 is as follows: (in thousands) Due within one year $ 80,355 Due after one year and through five years 293,743 Total short-term investments $ 374,098",
+                "time": "9 months ended",
+                "date": "sep 30 2016"
+            }
+        }
+    },
+    {
+        "title": "Balance Sheet Components (Tables)",
+        "Balance Sheet Components Disclosure [Abstract]": {
+            "Content Assets": {
+                "value": "Content assets consisted of the following: As of September 30, December 31, (in thousands) Licensed content, net $ 9,248,120 $ 6,827,119 Produced content, net Released, less amortization 194,621 61,515 In production 802,552 279,013 In development 40,154 24,651 1,037,327 365,179 DVD, net 24,626 26,517 Total $ 10,310,073 $ 7,218,815 Current content assets, net $ 3,632,399 $ 2,905,998 Non-current content assets, net $ 6,677,674 $ 4,312,817",
+                "time": "9 months ended",
+                "date": "sep 30 2016"
+            },
+            "Property and Equipment, Net": {
+                "value": "Property and equipment and accumulated depreciation consisted of the following: As of September 30, December 31, Estimated Useful Lives (in thousands) Information technology assets $ 206,957 $ 194,054 3 years Furniture and fixtures 32,255 30,914 3 years Building 40,681 40,681 30 years Leasehold improvements 108,820 107,793 Over life of lease DVD operations equipment 76,248 88,471 5 years Capital work-in-progress 40,997 8,845 Property and equipment, gross 505,958 470,758 Less: Accumulated depreciation (314,082 ) (297,346 ) Property and equipment, net $ 191,876 $ 173,412 ",
+                "time": "9 months ended",
+                "date": "sep 30 2016"
+            }
+        }
+    },
+    {
+        "title": "Long-term Debt (Tables)",
+        "Debt Disclosure [Abstract]": {
+            "Summary of Long-term Debt": {
+                "value": "The following table provides a summary of the Company's Notes and the fair values based on quoted market prices in less active markets as of September 30, 2016 and December 31, 2015 : Level 2 Fair Value as of Principal Amount at Par Issuance Date Maturity Interest Due Dates September 30, 2016 December 31, 2015 (in millions) (in millions) 5.50% Senior Notes $ 700.0 February 2015 2022 April 15 and October 15 $ 756.9 $ 717.5 5.875% Senior Notes 800.0 February 2015 2025 April 15 and October 15 866.0 820.0 5.750% Senior Notes 400.0 February 2014 2024 March 1 and September 1 432.0 411.0 5.375% Senior Notes 500.0 February 2013 2021 February 1 and August 1 548.8 525.0",
+                "time": "9 months ended",
+                "date": "sep 30 2016"
+            }
+        }
+    },
+    {
+        "title": "Commitments and Contingencies (Tables)",
+        "Commitments and Contingencies Disclosure [Abstract]": {
+            "Expected Timing of Payments for Commitments": {
+                "value": "The expected timing of payments for these streaming content obligations is as follows: As of September 30, December 31, (in thousands) Less than one year $ 5,895,205 $ 4,703,172 Due after one year and through three years 6,770,007 5,249,147 Due after three years and through five years 1,489,933 891,864 Due after five years 197,900 58,048 Total streaming content obligations $ 14,353,045 $ 10,902,231",
+                "time": "9 months ended",
+                "date": "sep 30 2016"
+            }
+        }
+    },
+    {
+        "title": "Stockholders' Equity (Tables)",
+        "Stockholders' Equity and Stock-based Compensation Disclosure [Abstract]": {
+            "Summary of Activity Related to Stock Option Plans": {
+                "value": "A summary of the activities related to the Company\u2019s stock option plans is as follows: Options Outstanding Shares Number of Weighted- (per share) Weighted-Average Remaining Aggregate Balances as of December 31, 2015 16,845,316 20,995,756 $ 32.39 Granted (2,721,013 ) 2,721,013 98.45 Exercised \u2014 (1,204,583 ) 9.59 Balances as of September 30, 2016 14,124,303 22,512,186 $ 41.59 6.2 $ 1,300,444 Vested and exercisable as of September 30, 2016 22,512,186 $ 41.59 6.2 $ 1,300,444",
+                "time": "9 months ended",
+                "date": "sep 30 2016"
+            },
+            "Summary of Amounts Related to Option Exercises": {
+                "value": "A summary of the amounts related to option exercises, is as follows: Three Months Ended Nine Months Ended September 30, September 30, September 30, September 30, (in thousands) Total intrinsic value of options exercised $ 35,443 $ 118,259 $ 104,168 $ 313,880 Cash received from options exercised $ 3,819 $ 35,089 $ 11,587 $ 69,809",
+                "time": "9 months ended",
+                "date": "sep 30 2016"
+            },
+            "Summary of Assumptions Used to Value Stock Option Grants Using Lattice-Binomial Model": {
+                "value": "The following table summarizes the assumptions used to value stock option grants using the lattice-binomial model and the valuation data: Three Months Ended Nine Months Ended September 30, September 30, September 30, September 30, Dividend yield \u2014 % \u2014 % \u2014 % \u2014 % Expected volatility 41 % 45 % 41% - 50% 36% - 45% Risk-free interest rate 1.57 % 2.29 % 1.57% - 2.04% 2.03% - 2.29% Suboptimal exercise factor 2.48 2.48 2.48 2.47 - 2.48 Weighted-average fair value (per share) $ 44.68 $ 50.58 $ 47.79 $ 34.64 Total stock-based compensation expense (in thousands) $ 43,495 $ 32,834 $ 130,029 $ 88,865 Total income tax impact on provision (in thousands) $ 16,294 $ 12,365 $ 48,828 $ 33,553",
+                "time": "9 months ended",
+                "date": "sep 30 2016"
+            }
+        }
+    },
+    {
+        "title": "Accumulated Other Comprehensive Loss (Tables)",
+        "Equity [Abstract]": {
+            "Schedule of Changes in Accumulated Other Comprehensive Income": {
+                "value": "The following table summarizes the changes in the accumulated balance of other comprehensive income (loss), net of tax, for the three and nine months ended September 30, 2016 : Foreign currency Change in unrealized gains on available-for-sale securities Total (in thousands) Balance as of June 30, 2016 $ (39,406 ) $ 1,195 $ (38,211 ) Other comprehensive income (loss) before reclassifications 2,357 (676 ) 1,681 Net decrease (increase) in other comprehensive loss 2,357 (676 ) 1,681 Balance as of September 30, 2016 $ (37,049 ) $ 519 $ (36,530 ) Foreign currency Change in unrealized gains on available-for-sale securities Total (in thousands) Balance as of December 31, 2015 $ (42,502 ) $ (806 ) $ (43,308 ) Other comprehensive income before reclassifications 5,453 1,325 6,778 Net decrease in other comprehensive loss 5,453 1,325 6,778 Balance as of September 30, 2016 $ (37,049 ) $ 519 $ (36,530 )",
+                "time": "9 months ended",
+                "date": "sep 30 2016"
+            }
+        }
+    },
+    {
+        "title": "Segment Information (Tables)",
+        "Segment Reporting [Abstract]": {
+            "Long-lived Assets by Geographic Areas": {
+                "value": "The Company's long-lived tangible assets were located as follows: As of September 30, December 31, 2015 (in thousands) United States $ 176,271 $ 159,566 International 15,605 13,846",
+                "time": "9 months ended",
+                "date": "sep 30 2016"
+            },
+            "Information on Reportable Segments And Reconciliation To Consolidated Net Income": {
+                "value": "The following table represents segment information for the three and nine months ended September 30, 2016 : As of/ Three Months Ended September 30, 2016 Domestic International Domestic Consolidated (in thousands) Total memberships at end of period (1) 47,497 39,246 4,273 \u2014 Revenues $ 1,304,333 $ 853,480 $ 132,375 $ 2,290,188 Cost of revenues 720,658 748,515 63,671 1,532,844 Marketing 108,495 173,548 \u2014 282,043 Contribution profit (loss) $ 475,180 $ (68,583 ) $ 68,704 $ 475,301 Other operating expenses 369,265 Operating income 106,036 Other income (expense) (26,909 ) Provision for income taxes 27,610 Net income $ 51,517 As of/ Nine Months Ended September 30, 2016 Domestic International Domestic Consolidated (in thousands) Total memberships at end of period (1) 47,497 39,246 4,273 \u2014 Revenues $ 3,673,845 $ 2,263,429 $ 415,854 $ 6,353,128 Cost of revenues 2,094,310 2,076,576 204,596 4,375,482 Marketing 277,243 428,839 \u2014 706,082 Contribution profit (loss) $ 1,302,292 $ (241,986 ) $ 211,258 $ 1,271,564 Other operating expenses 1,045,705 Operating income 225,859 Other income (expense) (55,621 ) Provision for income taxes 50,308 Net income $ 119,930 The following table represents segment information for the three and nine months ended September 30, 2015 : As of/ Three Months Ended September 30, 2015 Domestic International Domestic Consolidated (in thousands) Total memberships at end of period (1) 43,181 25,987 5,060 \u2014 Revenues $ 1,063,961 $ 516,870 $ 157,524 $ 1,738,355 Cost of revenues 644,914 451,251 77,793 1,173,958 Marketing 74,835 133,267 \u2014 208,102 Contribution profit (loss) $ 344,212 $ (67,648 ) $ 79,731 $ 356,295 Other operating expenses 282,654 Operating income 73,641 Other income (expense) (31,403 ) Provision for income taxes 12,806 Net income $ 29,432 As of/ Nine Months Ended September 30, 2015 Domestic International Domestic Consolidated (in thousands) Total memberships at end of period (1) 43,181 25,987 5,060 \u2014 Revenues $ 3,074,406 $ 1,387,030 $ 494,742 $ 4,956,178 Cost of revenues 1,840,134 1,249,495 252,482 3,342,111 Marketing 237,813 362,106 \u2014 599,919 Contribution profit (loss) $ 996,459 $ (224,571 ) $ 242,260 $ 1,014,148 Other operating expenses 768,216 Operating income 245,932 Other income (expense) (124,778 ) Provision for income taxes 41,691 Net income $ 79,463 The following table represents the amortization of content assets: Domestic Streaming International Streaming Domestic DVD Consolidated (in thousands) Three months ended September 30, 2016 $ 597,039 $ 627,069 $ 19,284 $ 1,243,392 2015 493,025 378,378 18,589 889,992 Nine months ended September 30, 2016 1,709,168 1,748,822 59,746 3,517,736 2015 1,387,242 1,056,279 60,587 2,504,108 (1) A membership (also referred to as a subscription or a member) is defined as the right to receive Netflix service following sign-up and a method of payment being provided. Memberships are assigned to territories based on the geographic location used at time of sign-up as determined by the Company's internal systems, which utilize industry standard geo-location technology. The Company offers free-trial memberships to new and certain rejoining members. Total members include those who are on a free-trial as long as a method of payment has been provided. A membership is canceled and ceases to be reflected in the above metrics as of the effective cancellation date. Voluntary cancellations become effective at the end of the prepaid membership period, while involuntary cancellation of the service, as a result of a failed method of payment, becomes effective immediately except in limited circumstances where a short grace period is offered to ensure the streaming service is not interrupted for members who are impacted by payment processing delays by the Company's banks or integrated payment partners. The number of members in a grace period at any given point is not material.",
+                "time": "9 months ended",
+                "date": "sep 30 2016"
+            }
+        }
+    },
+    {
+        "title": "Basis of Presentation and Summary of Significant Accounting Policies (Details) $ in Thousands",
+        "Change in Accounting Estimate [Line Items]": {
+            "Number of reportable segments | segment": {
+                "value": 3,
+                "time": "9 months ended"
+            },
+            "Additions to streaming content assets": [
+                {
+                    "value": 2442080,
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 1304466
+                },
+                {
+                    "value": 6550445,
+                    "time": "9 months ended"
+                },
+                {
+                    "value": 4221326
+                }
+            ],
+            "Reclassification adjustment to other current assets": [
+                {
+                    "value": -10250,
+                    "time": "3 months ended"
+                },
+                {
+                    "value": -66695
+                },
+                {
+                    "value": -48649,
+                    "time": "9 months ended"
+                },
+                {
+                    "value": -81448
+                }
+            ]
+        },
+        "Restatement Adjustment Change in Accounting Estimate [Line Items]": {
+            "Additions to streaming content assets": [
+                {
+                    "value": -4500
+                },
+                {
+                    "value": 26800
+                }
+            ],
+            "Reclassification adjustment to other current assets": [
+                {
+                    "value": -4500
+                },
+                {
+                    "value": 26800
+                }
+            ]
+        }
+    },
+    {
+        "title": "Earnings Per Share - Computation of Net Income Per Share (Details) - USD ($) $ / shares in Units, shares in Thousands, $ in Thousands",
+        "Basic earnings per share:": {
+            "Net income": [
+                {
+                    "value": 51517,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 29432,
+                    "date": "sep 30 2015",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 119930,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 79463,
+                    "date": "sep 30 2015",
+                    "time": "9 months ended"
+                }
+            ],
+            "Weighted-average common shares outstanding (in shares)": [
+                {
+                    "value": 428937,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 426869,
+                    "date": "sep 30 2015",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 428514,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 425289,
+                    "date": "sep 30 2015",
+                    "time": "9 months ended"
+                }
+            ],
+            "Basic earnings per share (in dollars per share)": [
+                {
+                    "value": 0.12,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 0.07,
+                    "date": "sep 30 2015",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 0.28,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 0.19,
+                    "date": "sep 30 2015",
+                    "time": "9 months ended"
+                }
+            ]
+        },
+        "Diluted earnings per share:": {
+            "Net income": [
+                {
+                    "value": 51517,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 29432,
+                    "date": "sep 30 2015",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 119930,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 79463,
+                    "date": "sep 30 2015",
+                    "time": "9 months ended"
+                }
+            ]
+        },
+        "Shares used in computation:": {
+            "Weighted-average common shares outstanding (in shares)": [
+                {
+                    "value": 428937,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 426869,
+                    "date": "sep 30 2015",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 428514,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 425289,
+                    "date": "sep 30 2015",
+                    "time": "9 months ended"
+                }
+            ],
+            "Employee stock options (in shares)": [
+                {
+                    "value": 9452,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 10737,
+                    "date": "sep 30 2015",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 9666,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 10560,
+                    "date": "sep 30 2015",
+                    "time": "9 months ended"
+                }
+            ],
+            "Weighted-average number of shares (in shares)": [
+                {
+                    "value": 438389,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 437606,
+                    "date": "sep 30 2015",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 438180,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 435849,
+                    "date": "sep 30 2015",
+                    "time": "9 months ended"
+                }
+            ],
+            "Diluted earnings per share (in dollars per share)": [
+                {
+                    "value": 0.12,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 0.07,
+                    "date": "sep 30 2015",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 0.27,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 0.18,
+                    "date": "sep 30 2015",
+                    "time": "9 months ended"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Earnings Per Share - Schedule of Antidilutive Securities Excluded from Computation of Earnings Per Share (Details) - shares shares in Thousands",
+        "Employee stock options Antidilutive Securities Excluded from Computation of Earnings Per Share [Line Items]": {
+            "Employee stock options (in shares)": [
+                {
+                    "value": 2559,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 130,
+                    "date": "sep 30 2015",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 1942,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 668,
+                    "date": "sep 30 2015",
+                    "time": "9 months ended"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Short-term Investments - Available-For-Sale Securities Reported At Fair Value (Details) - USD ($) $ in Thousands",
+        "Schedule of Available-for-sale Securities [Line Items]": {
+            "Level 2 securities, Gross Unrealized Gains": [
+                {
+                    "value": 933,
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 154,
+                    "date": "dec 31 2015"
+                }
+            ],
+            "Level 2 securities, Gross Unrealized Losses": [
+                {
+                    "value": -108,
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": -1464,
+                    "date": "dec 31 2015"
+                }
+            ],
+            "Total, amortized cost": [
+                {
+                    "value": 1346523,
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 2318114,
+                    "date": "dec 31 2015"
+                }
+            ],
+            "Total, estimated fair value": [
+                {
+                    "value": 1347348,
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 2316804,
+                    "date": "dec 31 2015"
+                }
+            ]
+        },
+        "Level 1 Securities | Money market funds Schedule of Available-for-sale Securities [Line Items]": {
+            "Cash and money market funds, Amortized Cost": [
+                {
+                    "value": 52737,
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 107199,
+                    "date": "dec 31 2015"
+                }
+            ],
+            "Cash and money market funds, Estimated Fair Value": [
+                {
+                    "value": 52737,
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 107199,
+                    "date": "dec 31 2015"
+                }
+            ]
+        },
+        "Level 2 Securities | Corporate debt securities Schedule of Available-for-sale Securities [Line Items]": {
+            "Level 2 securities, Amortized Cost": [
+                {
+                    "value": 220826,
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 240867,
+                    "date": "dec 31 2015"
+                }
+            ],
+            "Level 2 securities, Gross Unrealized Gains": [
+                {
+                    "value": 770,
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 154,
+                    "date": "dec 31 2015"
+                }
+            ],
+            "Level 2 securities, Gross Unrealized Losses": [
+                {
+                    "value": -68,
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": -409,
+                    "date": "dec 31 2015"
+                }
+            ],
+            "Level 2 securities, Estimated Fair Value": [
+                {
+                    "value": 221528,
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 240612,
+                    "date": "dec 31 2015"
+                }
+            ]
+        },
+        "Level 2 Securities | Government securities Schedule of Available-for-sale Securities [Line Items]": {
+            "Level 2 securities, Amortized Cost": [
+                {
+                    "value": 110860,
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 235252,
+                    "date": "dec 31 2015"
+                }
+            ],
+            "Level 2 securities, Gross Unrealized Gains": [
+                {
+                    "value": 159,
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 0,
+                    "date": "dec 31 2015"
+                }
+            ],
+            "Level 2 securities, Gross Unrealized Losses": [
+                {
+                    "value": 0,
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": -1046,
+                    "date": "dec 31 2015"
+                }
+            ],
+            "Level 2 securities, Estimated Fair Value": [
+                {
+                    "value": 111019,
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 234206,
+                    "date": "dec 31 2015"
+                }
+            ]
+        },
+        "Level 2 Securities | Certificates of deposit/commercial Schedule of Available-for-sale Securities [Line Items]": {
+            "Level 2 securities, Amortized Cost": {
+                "value": 9817,
+                "date": "sep 30 2016"
+            },
+            "Level 2 securities, Estimated Fair Value": {
+                "value": 9817,
+                "date": "sep 30 2016"
+            }
+        },
+        "Level 2 Securities | Agency securities Schedule of Available-for-sale Securities [Line Items]": {
+            "Level 2 securities, Amortized Cost": [
+                {
+                    "value": 31770,
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 26576,
+                    "date": "dec 31 2015"
+                }
+            ],
+            "Level 2 securities, Gross Unrealized Gains": [
+                {
+                    "value": 4,
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 0,
+                    "date": "dec 31 2015"
+                }
+            ],
+            "Level 2 securities, Gross Unrealized Losses": [
+                {
+                    "value": -40,
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": -9,
+                    "date": "dec 31 2015"
+                }
+            ],
+            "Level 2 securities, Estimated Fair Value": [
+                {
+                    "value": 31734,
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 26567,
+                    "date": "dec 31 2015"
+                }
+            ]
+        },
+        "Cash Schedule of Available-for-sale Securities [Line Items]": {
+            "Cash and money market funds, Amortized Cost": [
+                {
+                    "value": 920513,
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 1708220,
+                    "date": "dec 31 2015"
+                }
+            ],
+            "Cash and money market funds, Estimated Fair Value": [
+                {
+                    "value": 920513,
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 1708220,
+                    "date": "dec 31 2015"
+                }
+            ]
+        },
+        "Fair Value, Measurements, Recurring | Level 1 Securities Schedule of Available-for-sale Securities [Line Items]": {
+            "Cash, Cash Equivalents and Restricted Cash, Noncurrent Assets": [
+                {
+                    "value": 1515,
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 4461,
+                    "date": "dec 31 2015"
+                }
+            ]
+        },
+        "Fair Value, Measurements, Recurring | Level 1 Securities | Money market funds Schedule of Available-for-sale Securities [Line Items]": {
+            "Cash and money market funds, Estimated Fair Value": [
+                {
+                    "value": 51222,
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 102738,
+                    "date": "dec 31 2015"
+                }
+            ]
+        },
+        "Fair Value, Measurements, Recurring | Level 2 Securities | Corporate debt securities Schedule of Available-for-sale Securities [Line Items]": {
+            "Level 2 securities, Estimated Fair Value": [
+                {
+                    "value": 221528,
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 240612,
+                    "date": "dec 31 2015"
+                }
+            ]
+        },
+        "Fair Value, Measurements, Recurring | Level 2 Securities | Government securities Schedule of Available-for-sale Securities [Line Items]": {
+            "Level 2 securities, Estimated Fair Value": [
+                {
+                    "value": 111019,
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 234206,
+                    "date": "dec 31 2015"
+                }
+            ]
+        },
+        "Fair Value, Measurements, Recurring | Level 2 Securities | Agency securities Schedule of Available-for-sale Securities [Line Items]": {
+            "Level 2 securities, Estimated Fair Value": [
+                {
+                    "value": 31734,
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 26567,
+                    "date": "dec 31 2015"
+                }
+            ]
+        },
+        "Fair Value, Measurements, Recurring | Cash Schedule of Available-for-sale Securities [Line Items]": {
+            "Cash and money market funds, Estimated Fair Value": [
+                {
+                    "value": 917936,
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 1706592,
+                    "date": "dec 31 2015"
+                }
+            ],
+            "Cash, Cash Equivalents and Restricted Cash, Noncurrent Assets": [
+                {
+                    "value": 2577,
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 1628,
+                    "date": "dec 31 2015"
+                }
+            ]
+        },
+        "Cash and Cash Equivalents | Fair Value, Measurements, Recurring Schedule of Available-for-sale Securities [Line Items]": {
+            "Total, estimated fair value": [
+                {
+                    "value": 969158,
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 1809330,
+                    "date": "dec 31 2015"
+                }
+            ]
+        },
+        "Short-term Investments | Fair Value, Measurements, Recurring Schedule of Available-for-sale Securities [Line Items]": {
+            "Total, estimated fair value": [
+                {
+                    "value": 374098,
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 501385,
+                    "date": "dec 31 2015"
+                }
+            ]
+        },
+        "Non-current Assets | Fair Value, Measurements, Recurring Schedule of Available-for-sale Securities [Line Items]": {
+            "Total, estimated fair value": [
+                {
+                    "value": 4092,
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 6089,
+                    "date": "dec 31 2015"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Short-term Investments - Estimated Fair Value Of Short-Term Investments By Contractual Maturity (Details) $ in Thousands",
+        "Short-Term Investments And Fair Value Measurement [Abstract]": {
+            "Due within one year": {
+                "value": 80355,
+                "header_custom_remainder": "30 2016usd"
+            },
+            "Due after one year and through five years": {
+                "value": 293743,
+                "header_custom_remainder": "30 2016usd"
+            },
+            "Total short-term investments": {
+                "value": 374098,
+                "header_custom_remainder": "30 2016usd"
+            }
+        }
+    },
+    {
+        "title": "Balance Sheet Components - Components of Content Assets (Details) - USD ($) $ in Thousands",
+        "Finite-Lived Intangible Assets [Line Items]": {
+            "Content assets, net": [
+                {
+                    "value": 10310073,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 7218815,
+                    "date": "dec 31 2015",
+                    "time": "9 months ended"
+                }
+            ],
+            "Current content assets, net": [
+                {
+                    "value": 3632399,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 2905998,
+                    "date": "dec 31 2015",
+                    "time": "9 months ended"
+                }
+            ],
+            "Non-current content assets, net": [
+                {
+                    "value": 6677674,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 4312817,
+                    "date": "dec 31 2015",
+                    "time": "9 months ended"
+                }
+            ]
+        },
+        "Licensed content Finite-Lived Intangible Assets [Line Items]": {
+            "Net content": [
+                {
+                    "value": 9248120,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 6827119,
+                    "date": "dec 31 2015",
+                    "time": "9 months ended"
+                }
+            ]
+        },
+        "Produced content Finite-Lived Intangible Assets [Line Items]": {
+            "Net content": [
+                {
+                    "value": 194621,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 61515,
+                    "date": "dec 31 2015",
+                    "time": "9 months ended"
+                }
+            ],
+            "In production": [
+                {
+                    "value": 802552,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 279013,
+                    "date": "dec 31 2015",
+                    "time": "9 months ended"
+                }
+            ],
+            "In development": [
+                {
+                    "value": 40154,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 24651,
+                    "date": "dec 31 2015",
+                    "time": "9 months ended"
+                }
+            ],
+            "Content assets, net": [
+                {
+                    "value": 1037327,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 365179,
+                    "date": "dec 31 2015",
+                    "time": "9 months ended"
+                }
+            ],
+            "Produced content amortization percentage over one year": {
+                "value": "28.00%",
+                "time": "9 months ended",
+                "date": "sep 30 2016"
+            },
+            "Produced content amortization percent over three years": {
+                "value": "82.00%",
+                "time": "9 months ended",
+                "date": "sep 30 2016"
+            }
+        },
+        "DVD Finite-Lived Intangible Assets [Line Items]": {
+            "Content assets, net": [
+                {
+                    "value": 24626,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 26517,
+                    "date": "dec 31 2015",
+                    "time": "9 months ended"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Balance Sheet Components - Property And Equipment And Accumulated Depreciation (Details) - USD ($) $ in Thousands",
+        "Property, Plant and Equipment [Line Items]": {
+            "Property and equipment, gross": [
+                {
+                    "value": 505958,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 470758,
+                    "date": "dec 31 2015",
+                    "time": "9 months ended"
+                }
+            ],
+            "Less: Accumulated depreciation": [
+                {
+                    "value": -314082,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": -297346,
+                    "date": "dec 31 2015",
+                    "time": "9 months ended"
+                }
+            ],
+            "Property and equipment, net": [
+                {
+                    "value": 191876,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 173412,
+                    "date": "dec 31 2015",
+                    "time": "9 months ended"
+                }
+            ]
+        },
+        "Information technology assets Property, Plant and Equipment [Line Items]": {
+            "Property and equipment, gross": [
+                {
+                    "value": 206957,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 194054,
+                    "date": "dec 31 2015",
+                    "time": "9 months ended"
+                }
+            ],
+            "Estimated Useful Lives": {
+                "value": "3 years",
+                "time": "9 months ended",
+                "date": "sep 30 2016"
+            }
+        },
+        "Furniture and fixtures Property, Plant and Equipment [Line Items]": {
+            "Property and equipment, gross": [
+                {
+                    "value": 32255,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 30914,
+                    "date": "dec 31 2015",
+                    "time": "9 months ended"
+                }
+            ],
+            "Estimated Useful Lives": {
+                "value": "3 years",
+                "time": "9 months ended",
+                "date": "sep 30 2016"
+            }
+        },
+        "Building Property, Plant and Equipment [Line Items]": {
+            "Property and equipment, gross": [
+                {
+                    "value": 40681,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 40681,
+                    "date": "dec 31 2015",
+                    "time": "9 months ended"
+                }
+            ],
+            "Estimated Useful Lives": {
+                "value": "30 years",
+                "time": "9 months ended",
+                "date": "sep 30 2016"
+            }
+        },
+        "Leasehold improvements Property, Plant and Equipment [Line Items]": {
+            "Property and equipment, gross": [
+                {
+                    "value": 108820,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 107793,
+                    "date": "dec 31 2015",
+                    "time": "9 months ended"
+                }
+            ]
+        },
+        "DVD operations equipment Property, Plant and Equipment [Line Items]": {
+            "Property and equipment, gross": [
+                {
+                    "value": 76248,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 88471,
+                    "date": "dec 31 2015",
+                    "time": "9 months ended"
+                }
+            ],
+            "Estimated Useful Lives": {
+                "value": "5 years",
+                "time": "9 months ended",
+                "date": "sep 30 2016"
+            }
+        },
+        "Capital work-in-progress Property, Plant and Equipment [Line Items]": {
+            "Property and equipment, gross": [
+                {
+                    "value": 40997,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 8845,
+                    "date": "dec 31 2015",
+                    "time": "9 months ended"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Long-term Debt - Narrative (Details) - USD ($) $ in Thousands",
+        "Debt Disclosure [Abstract]": {
+            "Aggregate outstanding principal": [
+                {
+                    "value": 2373966,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 2371362,
+                    "date": "dec 31 2015",
+                    "time": "9 months ended"
+                }
+            ],
+            "Debt issuance cost": {
+                "value": 26000,
+                "time": "9 months ended",
+                "date": "sep 30 2016"
+            }
+        },
+        "Senior Notes Debt Instrument [Line Items]": {
+            "Redemption prices, percent of outstanding principal": {
+                "value": "101.00%",
+                "time": "9 months ended",
+                "date": "sep 30 2016"
+            }
+        }
+    },
+    {
+        "title": "Long-term Debt - Summary of Long-term Debt (Details) - Senior Notes - USD ($)",
+        "5.50% Senior Notes Debt Instrument [Line Items]": {
+            "Principal amount at par": {
+                "value": 700000000,
+                "date": "sep 30 2016"
+            },
+            "Fair value": [
+                {
+                    "value": 756900000,
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 717500000,
+                    "date": "dec 31 2015"
+                }
+            ],
+            "Interest rate": {
+                "value": "5.50%",
+                "date": "sep 30 2016"
+            }
+        },
+        "5.875% Senior Notes Debt Instrument [Line Items]": {
+            "Principal amount at par": {
+                "value": 800000000,
+                "date": "sep 30 2016"
+            },
+            "Fair value": [
+                {
+                    "value": 866000000,
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 820000000,
+                    "date": "dec 31 2015"
+                }
+            ],
+            "Interest rate": {
+                "value": "5.875%",
+                "date": "sep 30 2016"
+            }
+        },
+        "5.750% Senior Notes Debt Instrument [Line Items]": {
+            "Principal amount at par": {
+                "value": 400000000,
+                "date": "sep 30 2016"
+            },
+            "Fair value": [
+                {
+                    "value": 432000000,
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 411000000,
+                    "date": "dec 31 2015"
+                }
+            ],
+            "Interest rate": {
+                "value": "5.75%",
+                "date": "sep 30 2016"
+            }
+        },
+        "5.375% Senior Notes Debt Instrument [Line Items]": {
+            "Principal amount at par": {
+                "value": 500000000,
+                "date": "sep 30 2016"
+            },
+            "Fair value": [
+                {
+                    "value": 548800000,
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 525000000,
+                    "date": "dec 31 2015"
+                }
+            ],
+            "Interest rate": {
+                "value": "5.375%",
+                "date": "sep 30 2016"
+            }
+        }
+    },
+    {
+        "title": "Commitments and Contingencies - Streaming Content - Narrative (Details) - USD ($) $ in Thousands",
+        "Contractual Obligation [Line Items]": {
+            "Streaming obligations included in current content liabilities": [
+                {
+                    "value": 14353045,
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 10902231,
+                    "date": "dec 31 2015"
+                }
+            ],
+            "Streaming obligations not reflected on Consolidated Balance Sheets": [
+                {
+                    "value": 7900000,
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 6100000,
+                    "date": "dec 31 2015"
+                }
+            ]
+        },
+        "Current Content Liabilities Contractual Obligation [Line Items]": {
+            "Streaming obligations included in non-current content liabilities": [
+                {
+                    "value": 3500000,
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 2800000,
+                    "date": "dec 31 2015"
+                }
+            ]
+        },
+        "Non-current Content Liabilities Contractual Obligation [Line Items]": {
+            "Streaming obligations included in non-current content liabilities": [
+                {
+                    "value": 3000000,
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 2000000,
+                    "date": "dec 31 2015"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Commitments and Contingencies - Expected Timing of Payments for Commitments (Details) - USD ($) $ in Thousands",
+        "Commitments and Contingencies Disclosure [Abstract]": {
+            "Less than one year": [
+                {
+                    "value": 5895205,
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 4703172,
+                    "date": "dec 31 2015"
+                }
+            ],
+            "Due after one year and through three years": [
+                {
+                    "value": 6770007,
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 5249147,
+                    "date": "dec 31 2015"
+                }
+            ],
+            "Due after three years and through five years": [
+                {
+                    "value": 1489933,
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 891864,
+                    "date": "dec 31 2015"
+                }
+            ],
+            "Due after five years": [
+                {
+                    "value": 197900,
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 58048,
+                    "date": "dec 31 2015"
+                }
+            ],
+            "Total streaming content obligations": [
+                {
+                    "value": 14353045,
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 10902231,
+                    "date": "dec 31 2015"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Commitments and Contingencies - Legal Proceedings - Narrative (Details)",
+        "Loss Contingencies [Line Items]": {
+            "Commitments and contingencies | $": {
+                "value": 0,
+                "header_custom_remainder": "30 2016usd"
+            }
+        },
+        "United States District Court for the Northern District of California | Pending Litigation Loss Contingencies [Line Items]": {
+            "Shareholder suits": [
+                {
+                    "value": 1,
+                    "header_custom_remainder": "02 2012lawsuitfiled"
+                },
+                {
+                    "value": 1,
+                    "header_custom_remainder": "29 2012lawsuitfiled"
+                },
+                {
+                    "value": 1,
+                    "header_custom_remainder": "24 2012lawsuitfiled"
+                },
+                {
+                    "value": 1,
+                    "header_custom_remainder": "13 2012lawsuitfiled"
+                },
+                {
+                    "value": 1,
+                    "header_custom_remainder": "27 2012lawsuitfiled"
+                },
+                {
+                    "value": 1,
+                    "header_custom_remainder": "13 2012lawsuitfiled"
+                }
+            ]
+        },
+        "Superior Court of California, Santa Clara County | Pending Litigation Loss Contingencies [Line Items]": {
+            "Shareholder suits": [
+                {
+                    "value": 1,
+                    "header_custom_remainder": "02 2012lawsuitfiled"
+                },
+                {
+                    "value": 1,
+                    "header_custom_remainder": "09 2012lawsuitfiled"
+                },
+                {
+                    "value": 1,
+                    "header_custom_remainder": "23 2011lawsuitfiled"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Stockholders' Equity (Narrative) (Details)",
+        "Components of Stockholders' Equity [Line Items]": {
+            "Number of shares of capital stock authorized": [
+                {
+                    "value": 5000000000,
+                    "date": "mar 31 2015",
+                    "header_custom_remainder": "sharesshares"
+                },
+                {
+                    "value": 170000000,
+                    "date": "feb 28 2015",
+                    "header_custom_remainder": "sharesshares"
+                }
+            ],
+            "Number of common shares authorized": [
+                {
+                    "value": 4990000000,
+                    "date": "sep 30 2016",
+                    "header_custom_remainder": "sharesshares"
+                },
+                {
+                    "value": 4990000000,
+                    "date": "dec 31 2015",
+                    "header_custom_remainder": "sharesshares"
+                },
+                {
+                    "value": 4990000000,
+                    "date": "mar 31 2015",
+                    "header_custom_remainder": "sharesshares"
+                },
+                {
+                    "value": 160000000,
+                    "date": "feb 28 2015",
+                    "header_custom_remainder": "sharesshares"
+                }
+            ],
+            "Number of preferred shares authorized": [
+                {
+                    "value": 10000000,
+                    "date": "mar 31 2015",
+                    "header_custom_remainder": "sharesshares"
+                },
+                {
+                    "value": 10000000,
+                    "date": "feb 28 2015",
+                    "header_custom_remainder": "sharesshares"
+                }
+            ],
+            "Common stock, par value (dollars per share) | $ / shares": [
+                {
+                    "value": 0.001,
+                    "date": "sep 30 2016",
+                    "header_custom_remainder": "sharesshares"
+                },
+                {
+                    "value": 0.001,
+                    "date": "dec 31 2015",
+                    "header_custom_remainder": "sharesshares"
+                },
+                {
+                    "value": 0.001,
+                    "date": "mar 31 2015",
+                    "header_custom_remainder": "sharesshares"
+                },
+                {
+                    "value": 0.001,
+                    "date": "feb 28 2015",
+                    "header_custom_remainder": "sharesshares"
+                }
+            ],
+            "Preferred stock, par value (dollars per share) | $ / shares": [
+                {
+                    "value": 0.001,
+                    "date": "mar 31 2016",
+                    "header_custom_remainder": "shares"
+                },
+                {
+                    "value": 0.001,
+                    "date": "feb 28 2015",
+                    "header_custom_remainder": "sharesshares"
+                }
+            ],
+            "Stock split declared": {
+                "value": 7,
+                "date": "jun 23 2015"
+            }
+        },
+        "2011 Stock Plan Components of Stockholders' Equity [Line Items]": {
+            "Shares reserved for future issuance": {
+                "value": 14100000,
+                "date": "sep 30 2016",
+                "header_custom_remainder": "sharesshares"
+            }
+        }
+    },
+    {
+        "title": "Stockholders' Equity - Summary of Activity Related to Stock Option Plans (Details) $ / shares in Units, $ in Thousands",
+        "Share-based Compensation Arrangement by Share-based Payment Award, Options, Outstanding [Roll Forward]": {
+            "Shares available for grant, beginning balance": {
+                "value": 16845316,
+                "time": "9 months ended"
+            },
+            "Options outstanding, number of shares, beginning balance": {
+                "value": 20995756,
+                "time": "9 months ended"
+            },
+            "Shares available for grant, granted": {
+                "value": -2721013,
+                "time": "9 months ended"
+            },
+            "Options outstanding, number of shares, exercised": {
+                "value": -1204583,
+                "time": "9 months ended"
+            },
+            "Options outstanding, number of shares, ending balance": {
+                "value": 22512186,
+                "time": "9 months ended"
+            },
+            "Shares available for grant, ending balance": {
+                "value": 14124303,
+                "time": "9 months ended"
+            },
+            "Options vested and exercisable, number of shares, ending balance": {
+                "value": 22512186,
+                "time": "9 months ended"
+            }
+        },
+        "Share-based Compensation Arrangement by Share-based Payment Award, Options, Outstanding, Weighted Average Exercise Price [Roll Forward]": {
+            "Options outstanding, weighted-average exercise price, beginning balance (dollars per share) | $ / shares": {
+                "value": 32.39,
+                "time": "9 months ended"
+            },
+            "Options outstanding, weighted-average exercise price, granted (dollars per share) | $ / shares": {
+                "value": 98.45,
+                "time": "9 months ended"
+            },
+            "Options outstanding, weighted-average exercise price, exercised (dollars per share) | $ / shares": {
+                "value": 9.59,
+                "time": "9 months ended"
+            },
+            "Options outstanding, weighted-average exercise price, ending balance (dollars per share) | $ / shares": {
+                "value": 41.59,
+                "time": "9 months ended"
+            },
+            "Options outstanding, weighted-average exercise price, vested and exercisable (dollars per share) | $ / shares": {
+                "value": 41.59,
+                "time": "9 months ended"
+            }
+        },
+        "Share-based Compensation Arrangement by Share-based Payment Award, Options, Additional Disclosures [Abstract]": {
+            "Weighted-average remaining contractual term, ending balance (in years)": {
+                "value": "6 years 2 months 12 days",
+                "time": "9 months ended"
+            },
+            "Weighted-average remaining contractual term, vested and exercisable (in years)": {
+                "value": "6 years 2 months 12 days",
+                "time": "9 months ended"
+            },
+            "Aggregate intrinsic value, ending balance | $": {
+                "value": 1300444,
+                "time": "9 months ended"
+            },
+            "Aggregate intrinsic value, vested and exercisable | $": {
+                "value": 1300444,
+                "time": "9 months ended"
+            }
+        }
+    },
+    {
+        "title": "Stockholders' Equity - Summary of Amounts Related to Option Exercises (Details) - USD ($) $ in Thousands",
+        "Equity [Abstract]": {
+            "Total intrinsic value of options exercised": [
+                {
+                    "value": 35443,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 118259,
+                    "date": "sep 30 2015",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 104168,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 313880,
+                    "date": "sep 30 2015",
+                    "time": "9 months ended"
+                }
+            ],
+            "Cash received from options exercised": [
+                {
+                    "value": 3819,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 35089,
+                    "date": "sep 30 2015",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 11587,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 69809,
+                    "date": "sep 30 2015",
+                    "time": "9 months ended"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Stockholders' Equity - Summary of Assumptions Used to Value Stock Option Grants Using Lattice-Binomial Model (Details) $ / shares in Units, $ in Thousands",
+        "Share-based Compensation Arrangement by Share-based Payment Award [Line Items]": {
+            "Dividend yield": [
+                {
+                    "value": "0.00%",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": "0.00%"
+                },
+                {
+                    "value": "0.00%",
+                    "time": "9 months ended"
+                },
+                {
+                    "value": "0.00%"
+                }
+            ],
+            "Expected volatility": [
+                {
+                    "value": "41.00%",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": "45.00%"
+                }
+            ],
+            "Risk-free interest rate": [
+                {
+                    "value": "1.57%",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": "2.29%"
+                }
+            ],
+            "Suboptimal exercise factor": [
+                {
+                    "value": 2.48,
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 2.48
+                },
+                {
+                    "value": 2.48,
+                    "time": "9 months ended"
+                }
+            ],
+            "Weighted-average fair value (in dollars per share) | $ / shares": [
+                {
+                    "value": 44.68,
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 50.58
+                },
+                {
+                    "value": 47.79,
+                    "time": "9 months ended"
+                },
+                {
+                    "value": 34.64
+                }
+            ],
+            "Stock-based compensation expense": [
+                {
+                    "value": 43495,
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 32834
+                },
+                {
+                    "value": 130029,
+                    "time": "9 months ended"
+                },
+                {
+                    "value": 88865
+                }
+            ],
+            "Total income tax impact on provision (in thousands)": [
+                {
+                    "value": 16294,
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 12365
+                },
+                {
+                    "value": 48828,
+                    "time": "9 months ended"
+                },
+                {
+                    "value": 33553
+                }
+            ]
+        },
+        "Minimum Share-based Compensation Arrangement by Share-based Payment Award [Line Items]": {
+            "Expected volatility": [
+                {
+                    "value": "41.00%",
+                    "time": "9 months ended"
+                },
+                {
+                    "value": "36.00%"
+                }
+            ],
+            "Risk-free interest rate": [
+                {
+                    "value": "1.57%",
+                    "time": "9 months ended"
+                },
+                {
+                    "value": "2.03%"
+                }
+            ],
+            "Suboptimal exercise factor": {
+                "value": 2.47
+            }
+        },
+        "Maximum Share-based Compensation Arrangement by Share-based Payment Award [Line Items]": {
+            "Expected volatility": [
+                {
+                    "value": "50.00%",
+                    "time": "9 months ended"
+                },
+                {
+                    "value": "45.00%"
+                }
+            ],
+            "Risk-free interest rate": [
+                {
+                    "value": "2.04%",
+                    "time": "9 months ended"
+                },
+                {
+                    "value": "2.29%"
+                }
+            ],
+            "Suboptimal exercise factor": {
+                "value": 2.48
+            }
+        }
+    },
+    {
+        "title": "Accumulated Other Comprehensive Loss (Details) - USD ($) $ in Thousands",
+        "Accumulated Other Comprehensive Income (Loss) [Roll Forward]": {
+            "Beginning balance": [
+                {
+                    "value": -38211,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": -43308,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                }
+            ],
+            "Other comprehensive income (loss) before reclassifications": [
+                {
+                    "value": 1681,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 6778,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                }
+            ],
+            "Net decrease (increase) in other comprehensive loss": [
+                {
+                    "value": 1681,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 6778,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                }
+            ],
+            "Ending balance": [
+                {
+                    "value": -36530,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": -36530,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                }
+            ]
+        },
+        "Foreign currency Accumulated Other Comprehensive Income (Loss) [Roll Forward]": {
+            "Beginning balance": [
+                {
+                    "value": -39406,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": -42502,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                }
+            ],
+            "Other comprehensive income (loss) before reclassifications": [
+                {
+                    "value": 2357,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 5453,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                }
+            ],
+            "Net decrease (increase) in other comprehensive loss": [
+                {
+                    "value": 2357,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 5453,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                }
+            ],
+            "Ending balance": [
+                {
+                    "value": -37049,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": -37049,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                }
+            ]
+        },
+        "Change in unrealized gains on available-for-sale securities Accumulated Other Comprehensive Income (Loss) [Roll Forward]": {
+            "Beginning balance": [
+                {
+                    "value": 1195,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": -806,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                }
+            ],
+            "Other comprehensive income (loss) before reclassifications": [
+                {
+                    "value": -676,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 1325,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                }
+            ],
+            "Net decrease (increase) in other comprehensive loss": [
+                {
+                    "value": -676,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 1325,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                }
+            ],
+            "Ending balance": [
+                {
+                    "value": 519,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 519,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Income Taxes (Details) - USD ($) $ in Millions",
+        "Income Tax Disclosure [Abstract]": {
+            "Effective tax rates": [
+                {
+                    "value": "35.00%",
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": "30.00%",
+                    "date": "sep 30 2015",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": "30.00%",
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": "34.00%",
+                    "date": "sep 30 2015",
+                    "time": "9 months ended"
+                }
+            ]
+        },
+        "Income Tax Contingency [Line Items]": {
+            "Unrecognized tax benefits": [
+                {
+                    "value": 16.5,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 16.5,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 17.1,
+                    "date": "dec 31 2015",
+                    "time": "9 months ended"
+                }
+            ],
+            "Reduction in provision for income taxes due to impact of effective tax rate": [
+                {
+                    "value": 13.7,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 13.7,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                }
+            ],
+            "Deferred tax assets classified as other non-current assets": [
+                {
+                    "value": 200,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 200,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 180.6,
+                    "date": "dec 31 2015",
+                    "time": "9 months ended"
+                }
+            ],
+            "Income tax benefits attributable to the exercise of employee stock options recorded directly to Additional paid-in-capital": [
+                {
+                    "value": 12.6,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 37.7,
+                    "date": "sep 30 2015",
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 37.2,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 105.6,
+                    "date": "sep 30 2015",
+                    "time": "9 months ended"
+                }
+            ]
+        },
+        "Other Noncurrent Liabilities Income Tax Contingency [Line Items]": {
+            "Increase in unrecognized tax benefits is reasonably possible": [
+                {
+                    "value": 1.6,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 1.6,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                }
+            ]
+        },
+        "Other Noncurrent Assets Income Tax Contingency [Line Items]": {
+            "Deferred tax assets": [
+                {
+                    "value": 14.9,
+                    "time": "3 months ended",
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 14.9,
+                    "time": "9 months ended",
+                    "date": "sep 30 2016"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Segment Information - Narrative (Details)",
+        "Segment Reporting Information [Line Items]": {
+            "Number of reportable segments": {
+                "value": 3,
+                "time": "9 months ended"
+            }
+        },
+        "International Streaming Segment Reporting Information [Line Items]": {
+            "Number of reportable segments": {
+                "value": 1,
+                "time": "9 months ended"
+            }
+        }
+    },
+    {
+        "title": "Segment Information - Long-lived Assets by Geographical Areas (Details) - USD ($) $ in Thousands",
+        "United States Revenues from External Customers and Long-Lived Assets [Line Items]": {
+            "Long-lived tangible assets": [
+                {
+                    "value": 176271,
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 159566,
+                    "date": "dec 31 2015"
+                }
+            ]
+        },
+        "International Revenues from External Customers and Long-Lived Assets [Line Items]": {
+            "Long-lived tangible assets": [
+                {
+                    "value": 15605,
+                    "date": "sep 30 2016"
+                },
+                {
+                    "value": 13846,
+                    "date": "dec 31 2015"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Segment Information - Information On Reportable Segments And Reconciliation To Consolidated Net Income (Details) subscription in Thousands, $ in Thousands",
+        "Segment Reporting Information [Line Items]": {
+            "Total memberships at end of period | subscription": [
+                {
+                    "value": 0,
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 0
+                },
+                {
+                    "value": 0,
+                    "time": "9 months ended"
+                },
+                {
+                    "value": 0
+                }
+            ],
+            "Revenues": [
+                {
+                    "value": 2290188,
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 1738355
+                },
+                {
+                    "value": 6353128,
+                    "time": "9 months ended"
+                },
+                {
+                    "value": 4956178
+                }
+            ],
+            "Cost of revenues": [
+                {
+                    "value": 1532844,
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 1173958
+                },
+                {
+                    "value": 4375482,
+                    "time": "9 months ended"
+                },
+                {
+                    "value": 3342111
+                }
+            ],
+            "Marketing": [
+                {
+                    "value": 282043,
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 208102
+                },
+                {
+                    "value": 706082,
+                    "time": "9 months ended"
+                },
+                {
+                    "value": 599919
+                }
+            ],
+            "Contribution profit (loss)": [
+                {
+                    "value": 475301,
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 356295
+                },
+                {
+                    "value": 1271564,
+                    "time": "9 months ended"
+                },
+                {
+                    "value": 1014148
+                }
+            ],
+            "Other operating expenses": [
+                {
+                    "value": 369265,
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 282654
+                },
+                {
+                    "value": 1045705,
+                    "time": "9 months ended"
+                },
+                {
+                    "value": 768216
+                }
+            ],
+            "Operating income": [
+                {
+                    "value": 106036,
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 73641
+                },
+                {
+                    "value": 225859,
+                    "time": "9 months ended"
+                },
+                {
+                    "value": 245932
+                }
+            ],
+            "Other income (expense)": [
+                {
+                    "value": -26909,
+                    "time": "3 months ended"
+                },
+                {
+                    "value": -31403
+                },
+                {
+                    "value": -55621,
+                    "time": "9 months ended"
+                },
+                {
+                    "value": -124778
+                }
+            ],
+            "Provision for income taxes": [
+                {
+                    "value": 27610,
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 12806
+                },
+                {
+                    "value": 50308,
+                    "time": "9 months ended"
+                },
+                {
+                    "value": 41691
+                }
+            ],
+            "Net income": [
+                {
+                    "value": 51517,
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 29432
+                },
+                {
+                    "value": 119930,
+                    "time": "9 months ended"
+                },
+                {
+                    "value": 79463
+                }
+            ],
+            "Amortization of content assets": [
+                {
+                    "value": 1243392,
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 889992
+                },
+                {
+                    "value": 3517736,
+                    "time": "9 months ended"
+                },
+                {
+                    "value": 2504108
+                }
+            ]
+        },
+        "Domestic Streaming Segment Reporting Information [Line Items]": {
+            "Total memberships at end of period | subscription": [
+                {
+                    "value": 47497,
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 43181
+                },
+                {
+                    "value": 47497,
+                    "time": "9 months ended"
+                },
+                {
+                    "value": 43181
+                }
+            ],
+            "Revenues": [
+                {
+                    "value": 1304333,
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 1063961
+                },
+                {
+                    "value": 3673845,
+                    "time": "9 months ended"
+                },
+                {
+                    "value": 3074406
+                }
+            ],
+            "Cost of revenues": [
+                {
+                    "value": 720658,
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 644914
+                },
+                {
+                    "value": 2094310,
+                    "time": "9 months ended"
+                },
+                {
+                    "value": 1840134
+                }
+            ],
+            "Marketing": [
+                {
+                    "value": 108495,
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 74835
+                },
+                {
+                    "value": 277243,
+                    "time": "9 months ended"
+                },
+                {
+                    "value": 237813
+                }
+            ],
+            "Contribution profit (loss)": [
+                {
+                    "value": 475180,
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 344212
+                },
+                {
+                    "value": 1302292,
+                    "time": "9 months ended"
+                },
+                {
+                    "value": 996459
+                }
+            ],
+            "Amortization of content assets": [
+                {
+                    "value": 597039,
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 493025
+                },
+                {
+                    "value": 1709168,
+                    "time": "9 months ended"
+                },
+                {
+                    "value": 1387242
+                }
+            ]
+        },
+        "International Streaming Segment Reporting Information [Line Items]": {
+            "Total memberships at end of period | subscription": [
+                {
+                    "value": 39246,
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 25987
+                },
+                {
+                    "value": 39246,
+                    "time": "9 months ended"
+                },
+                {
+                    "value": 25987
+                }
+            ],
+            "Revenues": [
+                {
+                    "value": 853480,
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 516870
+                },
+                {
+                    "value": 2263429,
+                    "time": "9 months ended"
+                },
+                {
+                    "value": 1387030
+                }
+            ],
+            "Cost of revenues": [
+                {
+                    "value": 748515,
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 451251
+                },
+                {
+                    "value": 2076576,
+                    "time": "9 months ended"
+                },
+                {
+                    "value": 1249495
+                }
+            ],
+            "Marketing": [
+                {
+                    "value": 173548,
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 133267
+                },
+                {
+                    "value": 428839,
+                    "time": "9 months ended"
+                },
+                {
+                    "value": 362106
+                }
+            ],
+            "Contribution profit (loss)": [
+                {
+                    "value": -68583,
+                    "time": "3 months ended"
+                },
+                {
+                    "value": -67648
+                },
+                {
+                    "value": -241986,
+                    "time": "9 months ended"
+                },
+                {
+                    "value": -224571
+                }
+            ],
+            "Amortization of content assets": [
+                {
+                    "value": 627069,
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 378378
+                },
+                {
+                    "value": 1748822,
+                    "time": "9 months ended"
+                },
+                {
+                    "value": 1056279
+                }
+            ]
+        },
+        "Domestic DVD Segment Reporting Information [Line Items]": {
+            "Total memberships at end of period | subscription": [
+                {
+                    "value": 4273,
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 5060
+                },
+                {
+                    "value": 4273,
+                    "time": "9 months ended"
+                },
+                {
+                    "value": 5060
+                }
+            ],
+            "Revenues": [
+                {
+                    "value": 132375,
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 157524
+                },
+                {
+                    "value": 415854,
+                    "time": "9 months ended"
+                },
+                {
+                    "value": 494742
+                }
+            ],
+            "Cost of revenues": [
+                {
+                    "value": 63671,
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 77793
+                },
+                {
+                    "value": 204596,
+                    "time": "9 months ended"
+                },
+                {
+                    "value": 252482
+                }
+            ],
+            "Marketing": [
+                {
+                    "value": 0,
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 0
+                },
+                {
+                    "value": 0,
+                    "time": "9 months ended"
+                },
+                {
+                    "value": 0
+                }
+            ],
+            "Contribution profit (loss)": [
+                {
+                    "value": 68704,
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 79731
+                },
+                {
+                    "value": 211258,
+                    "time": "9 months ended"
+                },
+                {
+                    "value": 242260
+                }
+            ],
+            "Amortization of content assets": [
+                {
+                    "value": 19284,
+                    "time": "3 months ended"
+                },
+                {
+                    "value": 18589
+                },
+                {
+                    "value": 59746,
+                    "time": "9 months ended"
+                },
+                {
+                    "value": 60587
+                }
+            ]
+        }
+    }
+]
