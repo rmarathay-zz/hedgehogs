@@ -8,8 +8,15 @@ The current pipeline currently looks something like this:
 In order to run the program do the following:
 * run `python xlsxDownload.py TICKER` to download the .xlsx files
 * run `python xlsx2json.py FILE_NAME` to convert a .xlsx to .json
-* run `python json2mongodb.py FILE_NAME` to send the .json file to a running MongoDB server
+* run `python json2mongodb.py FILE_NAME USERNAME` to send the .json file to a running MongoDB server
 
+
+
+## Development 
+* Become a developer on github
+* Use the jupyterhub for no dependency issues!
+  http://hedgehogs.io/jupyterhub/hub/login 
+* Or pull the repository and install dependencies on your own
 
 ## Installation (deprecated)
 * Install either Miniconda or Anaconda
@@ -24,3 +31,4 @@ In order to run the program do the following:
   * `conda install -c Quantopian zipline`
   * Yes, we are using Quantopian's API..
   
+
