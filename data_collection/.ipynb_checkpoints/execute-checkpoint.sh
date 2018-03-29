@@ -12,6 +12,10 @@ do
     do
         rm "$xlsx"
     done
+    for json in ./fin_data/$ticker/*.json
+    do
+        python json2mongodb.py "$json" "rmarathay"
+    done
     # insert script here to send json to mongodb
     # insert script here to delete json
 done < "$filename"

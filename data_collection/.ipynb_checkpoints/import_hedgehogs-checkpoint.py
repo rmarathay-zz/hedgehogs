@@ -10,6 +10,10 @@ from bs4 import BeautifulSoup
 from io import StringIO
 from pymongo import MongoClient
 from collections import OrderedDict as OD
+from optparse import OptionParser
+from pymongo import MongoClient, bulk
+from bson import json_util
+import collections
 import io
 import urllib
 import pycurl

@@ -20,34 +20,43 @@ class OrderedDictWithKeyEscaping(collections.OrderedDict):
         key = key.replace('.', '<DOT>')
         super(OrderedDictWithKeyEscaping, self).__setitem__(key, value, dict_setitem=dict.__setitem__)
 
-def save_to_mongodb(input_file_name,collectionID,usernameID):
-    with open(input_file_name) as fp:
-        print fp
-        json_ = json.load(fp, encoding='utf-8', object_pairs_hook=OrderedDictWithKeyEscaping)
-
+def save_to_mongodb(input_file_name, collectionID, usernameID):
+    # with open(input_file_name) as fp:
+    #     print(fp)
+    #     json_ = json.loads(fp, encoding='utf-8', object_pairs_hook=OrderedDictWithKeyEscaping)
 
     client = MongoClient(HOST, PORT, username=usernameID, password= '123', authMechanism ='SCRAM-SHA-1')
-    #client.admin.authenticate('jgeorge','123',source= 'SEC_EDGAR')
+    # client.admin.authenticate('jgeorge','123',source= 'SEC_EDGAR')
+    # print("arguments to function:", input_file_name, usernameID, collectionID)
+    collectionID = collectionID[:-5]
     db = client[DB]
     collection = db[collectionID]
-    collection.insert_many(json_)
+    print(type(input_file_name))
+    file = open(input_file_name, "r")
+    data = json.load(file)
+    print(type(data))
+    print(type(file))
+    # data = json_util.loads(file.read())
+    # print(data)
+    collection.insert_many(data)
+    file.close()
 
 def main():
     cli_parser = OptionParser(
-        usage='usage: %prog <input.json>'
+        usage='usage: %prog <input.json> <username>'
         )
     (options, args) = cli_parser.parse_args()
 
     # Input file checks
     if len(args) < 2:
-        cli_parser.error("You have to supply 2 arguments, USAGE: financialJson Username")
+        cli_parser.error("You have to supply 2 arguments, USAGE: .json username")
     input_file_name = args[0]
     if not os.path.exists(input_file_name):
         cli_parser.error("The input file %s you supplied does not exist" % input_file_name)
 
-    COLLECTION = sys.argv[1]
+    collection = (sys.argv[1]).strip('.')
     username = sys.argv[2]
-    save_to_mongodb(input_file_name,COLLECTION,username)
+    save_to_mongodb(input_file_name, collection, username)
 
 if __name__ == "__main__":
 
