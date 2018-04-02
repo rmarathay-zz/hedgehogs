@@ -22,12 +22,12 @@ class OrderedDictWithKeyEscaping(collections.OrderedDict):
         #super(OrderedDictWithKeyEscaping, self).__setitem__
         #super()
 
-def save_to_mongodb(input_file_name, collectionID, usernameID):
+def save_to_mongodb(input_file_name, collectionID, usernameID, passwordID):
     with open(input_file_name) as fp:
         data = fp.read()
         json_ = json.loads(data, encoding='utf-8', object_pairs_hook=OrderedDictWithKeyEscaping)
 
-    client = MongoClient(HOST, PORT, username=usernameID, password= '123', authMechanism ='SCRAM-SHA-1')
+    client = MongoClient(HOST, PORT, username=usernameID, password=passwordID, authMechanism ='SCRAM-SHA-1')
     # client.admin.authenticate('jgeorge','123',source= 'SEC_EDGAR')
     # print("arguments to function:", input_file_name, usernameID, collectionID)
     db = client[DB]
@@ -46,14 +46,36 @@ def save_to_mongodb(input_file_name, collectionID, usernameID):
 def get_collection_name(input_file_name):
     data_list = json.load(open(input_file_name))
     data = dict(data_list[0])
-    year = data.get("Document And Entity Information [Abstract]").get("Document Fiscal Year Focus").get("value")
-    quarter = data.get("Document And Entity Information [Abstract]").get("Document Fiscal Period Focus").get("value")
-    ticker = data.get("Document And Entity Information [Abstract]").get("Entity Trading Symbol").get("value")
+    ticker = "TICKER"
+    quarter = "QUARTER"
+    try:
+        # year = data.get("Document And Entity Information [Abstract]")
+        # print(year)
+        year = data.get("Document And Entity Information [Abstract]").get("Document Fiscal Year Focus").get("value")
+        quarter = data.get("Document And Entity Information [Abstract]").get("Document Fiscal Period Focus").get("value")
+        ticker = data.get("Document And Entity Information [Abstract]").get("Entity Trading Symbol").get("value")
+    except AttributeError:
+        print("[EXCEPT] Issues with ", input_file_namex)
+    
+    
+    # except AttributeError:
+    #     year = data.get("Document And Entity Information").get("Document Fiscal Year Focus").get("value")
+    #     quarter = data.get("Document And Entity Information").get("Document Fiscal Period Focus").get("value")
+    #     try:
+    #         ticker = data.get("Document And Entity Information [Abstract]").get("Entity Trading Symbol").get("value")
+    #     except:
+    #         ticker = data.get("Document And Entity Information [Abstract]").get("Trading Symbol").get("value")
+    # try:
+    #     ticker = data.get("Document And Entity Information [Abstract]").get("Entity Trading Symbol").get("value")
+    # except:
+    #     ticker = data.get("Document And Entity Information [Abstract]").get("Trading Symbol").get("value")
+        
+    # quarter = data.get("Document And Entity Information [Abstract]").get("Document Fiscal Period Focus").get("value")
     return str(ticker) + "_" + str(year) + "_" + str(quarter)
     
 def main():
     cli_parser = OptionParser(
-        usage='usage: %prog <input.json> <username>'
+        usage='usage: %prog <input.json> <username> <password>'
         )
     (options, args) = cli_parser.parse_args()
 
@@ -67,9 +89,10 @@ def main():
     collection = get_collection_name(input_file_name)
     #collection = (sys.argv[1]).strip('.')
     username = sys.argv[2]
+    password = sys.argv[3]
     print("Adding to MongoDB...")
-    save_to_mongodb(input_file_name, collection, username)
+    #save_to_mongodb(input_file_name, collection, username)
 
 if __name__ == "__main__":
-
+    print("[WARNING] STILL UNDER DEVELOPMENT")
     main()
