@@ -25,13 +25,11 @@ class OrderedDictWithKeyEscaping(collections.OrderedDict):
 def save_to_mongodb(input_file_name, collectionID, usernameID):
     with open(input_file_name) as fp:
         data = fp.read()
-        print(type(data))
         json_ = json.loads(data, encoding='utf-8', object_pairs_hook=OrderedDictWithKeyEscaping)
 
     client = MongoClient(HOST, PORT, username=usernameID, password= '123', authMechanism ='SCRAM-SHA-1')
     # client.admin.authenticate('jgeorge','123',source= 'SEC_EDGAR')
     # print("arguments to function:", input_file_name, usernameID, collectionID)
-    collectionID = collectionID[:-5]
     db = client[DB]
     collection = db[collectionID]
     # print(type(input_file_name))
@@ -45,6 +43,14 @@ def save_to_mongodb(input_file_name, collectionID, usernameID):
         collection.insert_one(item)
     # file.close()
 
+def get_collection_name(input_file_name):
+    data_list = json.load(open(input_file_name))
+    data = dict(data_list[0])
+    year = data.get("Document And Entity Information [Abstract]").get("Document Fiscal Year Focus").get("value")
+    quarter = data.get("Document And Entity Information [Abstract]").get("Document Fiscal Period Focus").get("value")
+    ticker = data.get("Document And Entity Information [Abstract]").get("Entity Trading Symbol").get("value")
+    return str(ticker) + "_" + str(year) + "_" + str(quarter)
+    
 def main():
     cli_parser = OptionParser(
         usage='usage: %prog <input.json> <username>'
@@ -58,8 +64,10 @@ def main():
     if not os.path.exists(input_file_name):
         cli_parser.error("The input file %s you supplied does not exist" % input_file_name)
 
-    collection = (sys.argv[1]).strip('.')
+    collection = get_collection_name(input_file_name)
+    #collection = (sys.argv[1]).strip('.')
     username = sys.argv[2]
+    print("Adding to MongoDB...")
     save_to_mongodb(input_file_name, collection, username)
 
 if __name__ == "__main__":
