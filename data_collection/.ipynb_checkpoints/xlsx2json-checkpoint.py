@@ -45,6 +45,7 @@ def remove_punctuation(text):
     for c in text:
         if c.isalnum() or c.isspace():
             res.append(c)
+    #print("return value", ''.join(res))
     return ''.join(res)
 
 
@@ -106,6 +107,7 @@ def get_cell_value(sheet, index):
     value = get_cell(sheet, index).value
     myprint(type(value))
     myprint(value)
+    #print("get_cell_value",value)
     if isinstance(value, BASE_STRING_CLASS):
         value = value.replace(u'\xa0', ' ')
         if value.strip() == "'":
@@ -216,6 +218,7 @@ def parse_col_heading(sheet, col):
 
 def parse_cell(sheet, row, col):
     cell_key = '%s%d' % (NUM2ALPHA[col], row)
+    #print("cell_key", cell_key)
     cell_value = get_cell_value(sheet, cell_key)
     if cell_value not in (None, ''):
         row_element = OD(
@@ -238,7 +241,7 @@ def parse_row(sheet, row):
     """Parse sheet's row with data (i.e. non-heading row)"""
     myprint('Parsing row %d' % row)
     first_cell_key = 'A' + STRING_CLASS(row)
-    # myprint(first_cell_key)
+    #print('first_cell_key', first_cell_key)
     first_cell = get_cell(sheet, first_cell_key)
     row_key = get_cell_value(sheet, first_cell_key)
     # Skip non-valid rows
