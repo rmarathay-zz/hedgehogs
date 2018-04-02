@@ -18,12 +18,15 @@ class OrderedDictWithKeyEscaping(collections.OrderedDict):
         # MongoDB complains when keys contain dots, so we call json.load with
         # a modified OrderedDict class which escapes dots in keys on the fly
         key = key.replace('.', '<DOT>')
-        super(OrderedDictWithKeyEscaping, self).__setitem__(key, value, dict_setitem=dict.__setitem__)
+        super(OrderedDictWithKeyEscaping, self).__setitem__(key, value)#, dict_setitem=dict.__setitem__)
+        #super(OrderedDictWithKeyEscaping, self).__setitem__
+        #super()
 
 def save_to_mongodb(input_file_name, collectionID, usernameID):
-    # with open(input_file_name) as fp:
-    #     print(fp)
-    #     json_ = json.loads(fp, encoding='utf-8', object_pairs_hook=OrderedDictWithKeyEscaping)
+    with open(input_file_name) as fp:
+        data = fp.read()
+        print(type(data))
+        json_ = json.loads(data, encoding='utf-8', object_pairs_hook=OrderedDictWithKeyEscaping)
 
     client = MongoClient(HOST, PORT, username=usernameID, password= '123', authMechanism ='SCRAM-SHA-1')
     # client.admin.authenticate('jgeorge','123',source= 'SEC_EDGAR')
@@ -31,15 +34,16 @@ def save_to_mongodb(input_file_name, collectionID, usernameID):
     collectionID = collectionID[:-5]
     db = client[DB]
     collection = db[collectionID]
-    print(type(input_file_name))
-    file = open(input_file_name, "r")
-    data = json.load(file)
-    print(type(data))
-    print(type(file))
+    # print(type(input_file_name))
+    # file = open(input_file_name, "r")
+    # data = json.load(file)
+    # print(type(data))
+    # print(type(file))
     # data = json_util.loads(file.read())
-    # print(data)
-    collection.insert_many(data)
-    file.close()
+    # print(json_)
+    for item in json_:
+        collection.insert_one(item)
+    # file.close()
 
 def main():
     cli_parser = OptionParser(
