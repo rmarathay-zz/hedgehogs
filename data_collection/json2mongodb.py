@@ -85,7 +85,7 @@ def main():
     input_file_name = args[0]
     if not os.path.exists(input_file_name):
         cli_parser.error("The input file %s you supplied does not exist" % input_file_name)
-
+    # JAROD's FUNCTION
     collection = get_collection_name(input_file_name)
     #collection = (sys.argv[1]).strip('.')
     username = sys.argv[2]
