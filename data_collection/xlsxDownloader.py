@@ -1,6 +1,26 @@
 # v1.0.0
 
+from lxml import html
+from lxml import etree
+from bs4 import BeautifulSoup
+#from StringIO import StringIO
+from io import StringIO
+from optparse import OptionParser
+from pymongo import MongoClient
+from html.parser import HTMLParser
+from openpyxl import load_workbook
+import urllib
+from urllib.request import urlopen
+import datetime
+import pprint
+import html2text
+import sys, os
+import wget
+import pandas
+import xlrd
+
 from import_hedgehogs import *
+
 
 def createTopLevelURLs(ticker):
     top_level_links = []
@@ -24,6 +44,7 @@ def createParseableUrls(top_level_links):
         for xlxs in soup.find_all('a', attrs={'class' : 'xbrlviewer'}):
             if(xlxs.contents[0] == 'View Excel Document'):
                 return_list.append(header_link + str(xlxs['href']))
+
     return return_list
 
 def downloadXlxs(xlxs_links, ticker):
@@ -31,23 +52,40 @@ def downloadXlxs(xlxs_links, ticker):
     os.chdir('fin_data')
     os.mkdir(ticker)
     os.chdir(ticker)
-    counter = 0
     for i in range(0,len(xlxs_links)):
-        file = wget.download(xlxs_links[i], "")
+        filename = wget.download(xlxs_links[i], str(i)+".xlsx")
+        #filename = wget.download(xlxs_links[i],"")
+        print("AHHH")
+        #filename = filename.replace("Financial_Report",str(i))
+        print("This is",filename)
+        
     for i in os.listdir('.'):
-        name = str(counter) + '.xlsx'
-        os.rename(i, name)
-        counter +=1
+        excelFile = pandas.ExcelFile(i)
+        #print(excelFile)
+        print(pandas.ExcelFile(i))
+        sheetNames = excelFile.sheet_names
+        for sheet in sheetNames:
+            print('\n')
+            print("This s1")
+            print(sheet)
+            sheet = excelFile.parse(sheet)
+            print("This s2")
+            print(sheet)
+            print('\n')
+            break
+        break
 
 def initializer():
     cli_parser = OptionParser(
         usage='usage: %prog <input.xlsx> [output.json]'
-        )
+    )
     (options, args) = cli_parser.parse_args()
     # Input file checks
     if len(args) < 1:
         cli_parser.error("You have to supply at least 1 argument")
-    print("Version 2.5.0")
+        print("Version 2.0.1")
+    #print("Version 2.5.0")
+    
     client = MongoClient('localhost', 12345)
     if(client):
         print("Connected to MonogClient: localhost port 12345")
