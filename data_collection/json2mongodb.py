@@ -66,7 +66,7 @@ def standardize(obj):
     
     for key in obj[0]:
         if key == 'title':
-            break
+            continue
         print(key)
         newKey = "Document and Entity Information"
         temp = key
