@@ -79,8 +79,7 @@ def standardize(obj):
     for key in obj[0]:
         if key == 'title':
             continue
-        print(key)
-        newKey = "Document and Entity Information"
+        newKey = "Document And Entity Information"
         temp = key
         if(newKey!=key):
             obj[0][newKey]=obj[0][key]
@@ -104,9 +103,7 @@ def convert_to_json(obj):
     with open('data.txt', 'w') as outfile:
          json.dump(obj, outfile, indent = 4,ensure_ascii = False)
             
-def json2File(obj):
-    with open('data.txt', 'w') as outfile:
-         json.dump(obj, outfile, indent = 4,ensure_ascii = False)
+
         
 def get_collection_name(json_data):
     ticker_flag = False
@@ -152,9 +149,6 @@ def main():
     convert_to_json(temp_json)
     converted_json = temp_json
     #print(type(converted_json))
-    jsonDarulo = getJsonObj(input_file_name)
-    jsonDarulo = standardize(jsonDarulo)
-    json2File(jsonDarulo)
     # JAROD's FUNCTION
     collection = get_collection_name(converted_json)
     print(collection)
@@ -162,7 +156,7 @@ def main():
     username = sys.argv[2]
     password = sys.argv[3]
     print("Adding to MongoDB...")   
-    ##save_to_mongodb(converted_json, collection, username, password)
+    save_to_mongodb(converted_json, collection, username, password)
 
 if __name__ == "__main__":
     print("[WARNING] STILL UNDER DEVELOPMENT")
