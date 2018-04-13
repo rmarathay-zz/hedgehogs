@@ -52,45 +52,59 @@ def getJsonObj(input_file_name):
     
     
 def standardize(obj):
-    standardKeys= ["Document Type"
-    "Amendment Flag"
-    "Document Period End Date"
-    "Document Fiscal Year Focus"
-    "Document Fiscal Period Focus"
-    "Trading Symbol"
-    "Entity Registrant Name"
-    "Entity Central Index Key"
-    "Current Fiscal Year End Date"
-    "Entity Filer Category"
+    """
+    standardKeys= [
+    "Document Type",
+    "Amendment Flag",
+    "Document Period End Date",
+    "Document Fiscal Year Focus",
+    "Document Fiscal Period Focus",
+    "Trading Symbol",
+    "Entity Registrant Name",
+    "Entity Central Index Key",
+    "Current Fiscal Year End Date",
+    "Entity Filer Category",
     "Entity Common Stock, Shares Outstanding"]
-    # delete items from list as you go along ones remaining add to db?
+    all flags
+    """
+    
+    standardKeys= [
+    "Document Type",
+    "Amendment Flag",
+    "Document Period End Date",
+    "Document Fiscal Year Focus",
+    "Document Fiscal Period Focus"]
+    
     
     for key in obj[0]:
-        print('[DEBUG]',key)
         if key == 'title':
             continue
-        newKey = "Document And Entity Information"
+        print(key)
+        newKey = "Document and Entity Information"
         temp = key
         if(newKey!=key):
             obj[0][newKey]=obj[0][key]
             del obj[0][key]
             temp = newKey
-        """
+        
         i=0
-        for nextKey in obj[0][temp]:
+        for nextKey in list(obj[0][temp].keys()):
             newKey = standardKeys[i]
             if(newKey!=nextKey):
                 obj[0][temp][newKey] =obj[0][temp][nextKey]
-                del obj[temp][nextKey]
+                del obj[0][temp][nextKey]
             i+=1
-        """
+            if(i>=5):
+                break
+        
         break
-    #pp = pprint.PrettyPrinter(indent=2)
-    #pp.pprint(dict(obj[0]))
     return obj
             
-            
 def convert_to_json(obj):
+    with open('data.txt', 'w') as outfile:
+         json.dump(obj, outfile, indent = 4,ensure_ascii = False)
+            
+def json2File(obj):
     with open('data.txt', 'w') as outfile:
          json.dump(obj, outfile, indent = 4,ensure_ascii = False)
         
@@ -138,6 +152,9 @@ def main():
     convert_to_json(temp_json)
     converted_json = temp_json
     #print(type(converted_json))
+    jsonDarulo = getJsonObj(input_file_name)
+    jsonDarulo = standardize(jsonDarulo)
+    json2File(jsonDarulo)
     # JAROD's FUNCTION
     collection = get_collection_name(converted_json)
     print(collection)
@@ -145,7 +162,7 @@ def main():
     username = sys.argv[2]
     password = sys.argv[3]
     print("Adding to MongoDB...")   
-    save_to_mongodb(converted_json, collection, username, password)
+    ##save_to_mongodb(converted_json, collection, username, password)
 
 if __name__ == "__main__":
     print("[WARNING] STILL UNDER DEVELOPMENT")

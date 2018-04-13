@@ -1,4 +1,6 @@
 filename="$1"
+username="$2"
+password="$3"
 
 while read -r ticker
 do
@@ -14,7 +16,7 @@ do
     done
     for json in ./fin_data/$ticker/*.json
     do
-        python json2mongodb.py "$json" "rmarathay"
+        python json2mongodb.py "$json" "$username" "$password"
     done
     # insert script here to send json to mongodb
     # insert script here to delete json
