@@ -75,7 +75,7 @@ def standardize(obj):
     "Document Fiscal Year Focus",
     "Document Fiscal Period Focus"]
     
-    
+    """
     for key in obj[0]:
         if key == 'title':
             continue
@@ -97,6 +97,7 @@ def standardize(obj):
                 break
         
         break
+        """
     return obj
             
 def convert_to_json(obj):
