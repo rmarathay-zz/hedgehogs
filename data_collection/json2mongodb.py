@@ -102,11 +102,11 @@ def standardize(obj):
             
 def convert_to_json(obj):
     with open('data.txt', 'w') as outfile:
-         json.dump(obj, outfile, indent = 4,ensure_ascii = False)
+         json.dump(obj, outfile, indent = 4, ensure_ascii = False)
             
 
         
-def get_collection_name(json_data):
+def get_collection_name(json_data, input_file):
     ticker_flag = False
     data = dict(json_data[0])
     year = "YEAR"
@@ -121,11 +121,13 @@ def get_collection_name(json_data):
         print(year)
         quarter = data.get("Document And Entity Information").get("Document Fiscal Period Focus").get("value")
         print(quarter)
-        ticker = data.get("Document And Entity Information").get("Trading Symbol").get("value")
-        if(len(ticker) > 5):
-            item = ticker.strip(' ')
-            items = item.split(',')
-            ticker = items[0]
+        ticker = (str(input_file).split('/'))[3]
+        print(ticker)
+        #data.get("Document And Entity Information").get("Trading Symbol").get("value")
+        # if(len(ticker) > 5):
+        #     item = ticker.strip(' ')
+        #     items = item.split(',')
+        #     ticker = items[0]
     except AttributeError:
         print("[AttributeError] Issues with data")
     except:
@@ -146,12 +148,12 @@ def main():
     if not os.path.exists(input_file_name):
         cli_parser.error("The input file %s you supplied does not exist" % input_file_name)
     temp_json = getJsonObj(input_file_name)
-    temp_json = standardize(temp_json)
+    # temp_json = standardize(temp_json)
     convert_to_json(temp_json)
     converted_json = temp_json
     #print(type(converted_json))
     # JAROD's FUNCTION
-    collection = get_collection_name(converted_json)
+    collection = get_collection_name(converted_json, input_file_name)
     print(collection)
     #collection = (sys.argv[1]).strip('.')
     username = sys.argv[2]
