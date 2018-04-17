@@ -21,9 +21,9 @@ import plotly.graph_objs as go
 
 #30Jeb05NUXNrgxUMSqTK
 # Define the instruments to download. We would like to see Apple, Microsoft and the S&P500 index.
-def get_candleData(filename, start_date, end_date, keys)
+def get_candleData(filename, start_date, end_date, keys):
 	# Dates should be in the format of "year-month-day"
-	for key in keys
+	for key in keys:
 		tickers_enter = []
 		f = open(filename)
 		for tic in f:
@@ -42,10 +42,8 @@ def get_candleData(filename, start_date, end_date, keys)
 				start = start_date,
 				end = end_date
 		)
-
-
 		print(list(panel_data))
-		something = panel_data.ix[sys.argv[4]] #['Open', 'High', 'Low', 'Close', 'Adj Close', 'Volume']
+		something = panel_data.ix[key] #['Open', 'High', 'Low', 'Close', 'Adj Close', 'Volume']
 		# Getting all weekdays between 01/01/2000 and 12/31/2016
 		hourly_dates = pd.date_range(start_date, end_date, freq='D')
 		something = something.reindex(hourly_dates)
@@ -64,7 +62,7 @@ def get_candleData(filename, start_date, end_date, keys)
 		    f.write(line)
 		f.close()
 
-
+get_candleData("tics.txt", "2013-3-2","2016-3-4",['Open', 'High', 'Low', 'Close', 'Volume'])
 #print(ls)
 
 #something = something.fillna(method = 'ffill')
