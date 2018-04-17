@@ -1,3 +1,11 @@
+'''
+COMMAND LINE ARGUMENTS
+
+tics.txt start_date end_date ticker
+
+date format is year-month-date
+
+'''
 import plotly.plotly as py
 #import plotly as py
 from plotly.tools  import FigureFactory as FF
