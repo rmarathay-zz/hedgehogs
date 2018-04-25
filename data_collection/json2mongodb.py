@@ -104,9 +104,29 @@ def convert_to_json(obj):
     with open('data.txt', 'w') as outfile:
          json.dump(obj, outfile, indent = 4, ensure_ascii = False)
             
+"""
+get year function. Has arguments for different formats of each .get argument
+so you can pass in Document And Entity Information and Document And Entity Information[Abstract]
+"""
+def get_year(data_dict,document_entity,document_fiscal_year,value):
+    year = data_dict.get(document_entity).get(document_fiscal_year).get(value)
+    return year
+    
+"""
+same as above but for quarter
+"""
+def get_quarter(data_dict,document_entity,document_fiscal_period,value):
+    quarter = data_dict.get(document_entity).get(document_fiscal_period).get(value)
+    return quarter
+    
 
+    
         
 def get_collection_name(json_data, input_file):
+    document_entity_formats =["Document And Entity Information","Document And Entity Information [Abstract]","Document Information [Line Items]","Document and Entity Information - shares"]
+    document_fiscal_year_formats=["Document Fiscal Year Focus"]
+    document_fiscal_period_formats=["Document Fiscal Period Focus"]
+    value_formats = ["value"]
     ticker_flag = False
     data = dict(json_data[0])
     year = "YEAR"
@@ -115,13 +135,7 @@ def get_collection_name(json_data, input_file):
     #pp = pprint.PrettyPrinter(indent=1)
     #pp.pprint(json_data)
     try:
-        # year = data.get("Document And Entity Information")
-        # print(year)
-        year = data.get("Document And Entity Information").get("Document Fiscal Year Focus").get("value")
-        print(year)
-        quarter = data.get("Document And Entity Information").get("Document Fiscal Period Focus").get("value")
-        print(quarter)
-        ticker = (str(input_file).split('/'))[3]
+        ticker = (str(input_file).split('/'))[2]
         print(ticker)
         #data.get("Document And Entity Information").get("Trading Symbol").get("value")
         # if(len(ticker) > 5):
@@ -132,6 +146,31 @@ def get_collection_name(json_data, input_file):
         print("[AttributeError] Issues with data")
     except:
         print("[ERROR] Unable to create collection name")
+        
+    for d_e_format in document_entity_formats:
+        for year_format in document_fiscal_year_formats:
+            for value in value_formats:
+                try:
+                    year = get_year(data,d_e_format,year_format,value)
+                    print(year)
+
+                except AttributeError:
+                    print("[AttributeError] Issues with data")
+                except:
+                    print("[ERROR] Unable to create collection name")
+    
+    
+    for d_e_format in document_entity_formats:
+        for period_format in document_fiscal_period_formats:
+            for value in value_formats:
+                try:
+                    quarter = get_quarter(data,d_e_format,period_format,value)
+                    print(year)
+
+                except AttributeError:
+                    print("[AttributeError] Issues with data")
+                except:
+                    print("[ERROR] Unable to create collection name")
 
     return str(ticker) + "_" + str(year) + "_" + str(quarter)
     

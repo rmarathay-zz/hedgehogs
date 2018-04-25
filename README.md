@@ -8,8 +8,11 @@ The current pipeline currently looks something like this:
 In order to run the program do the following:
 * run `python xlsxDownload.py TICKER` to download the .xlsx files
 * run `python xlsx2json.py FILE_NAME` to convert a .xlsx to .json
-* run `python json2mongodb.py FILE_NAME USERNAME` to send the .json file to a running MongoDB server
+* run `python json2mongodb.py FILE_NAME USERNAME` to send the .json file to a running MongoDB server. Note FILE_NAME must be in ./fin_data/file.json format for TICKER stripping to work.
 
+If you would like to run a script for the process do the following:
+Enter all the stock's tickers that you would like to process in the tickers.txt file
+* run `./execute.sh tickers.txt USERNAME PASSWORD` which will download xlsx files, convert them to json, then send it to the mongodb server all at one. Note: this requires a username and password to post to the database.
 
 
 ## Development 
