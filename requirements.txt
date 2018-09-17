@@ -1,0 +1,14 @@
+# Non-Version Specific Requirements
+dnsdumpster
+openpyxl
+pymongo
+bs4
+psycopg2-binary
+pandas
+numpy
+uuid
+SSLyze
+pytest
+
+# Version Specific Requirements
+Django
