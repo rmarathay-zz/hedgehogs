@@ -1,13 +1,13 @@
 FROM python:3.6-slim-jessie
 
 ENV REPO /repo
-ENV VARIANT $REPO/variant
+ENV HEDGEHOGS $REPO/hedgehogs
 ENV SLUGIFY_USES_TEXT_UNIDECODE=yes
 
 SHELL ["/bin/bash", "-c"]
-WORKDIR $VARIANT
-COPY . $VARIANT
-RUN cd $VARIANT
+WORKDIR $HEDGEHOGS
+COPY . $HEDGEHOGS
+RUN cd $HEDGEHOGS
 
 RUN apt-get update \
 	&& apt-get install -y less vim \
