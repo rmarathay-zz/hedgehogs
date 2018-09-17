@@ -11,12 +11,12 @@ In order to run the program do the following:
 * run `python json2mongodb.py FILE_NAME USERNAME` to send the .json file to a running MongoDB server
 
 
-
 ## Development 
 * Become a developer on github
-* Use the jupyterhub for no dependency issues!
-  http://hedgehogs.io/jupyterhub/hub/login 
-* Or pull the repository and install dependencies on your own
+* Clone master, switch to develop
+* docker build -t hedgehogs .
+* docker run -it hedgehogs /bin/bash
+* Execute all code in container
 
 ## Installation (deprecated)
 * Install either Miniconda or Anaconda
