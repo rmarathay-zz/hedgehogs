@@ -14,8 +14,8 @@ In order to run the program do the following:
 ## Development 
 * Become a developer on github
 * Clone master, switch to develop
-* docker build -t hedgehogs .
-* docker run -it hedgehogs /bin/bash
+* `docker build -t hedgehogs .`
+* `docker run -it hedgehogs /bin/bash`
 * Execute all code in container
 
 ## Installation (deprecated)
