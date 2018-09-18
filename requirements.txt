@@ -9,6 +9,8 @@ numpy
 uuid
 SSLyze
 pytest
+html2txt
+wget
 
 # Version Specific Requirements
 Django
