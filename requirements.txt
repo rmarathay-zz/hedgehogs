@@ -10,6 +10,7 @@ uuid
 SSLyze
 pytest
 lxml
+pycurl
 
 # Version Specific Requirements
 Django
