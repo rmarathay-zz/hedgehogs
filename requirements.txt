@@ -9,6 +9,7 @@ numpy
 uuid
 SSLyze
 pytest
+lxml
 
 # Version Specific Requirements
 Django
