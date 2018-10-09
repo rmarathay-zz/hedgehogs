@@ -2,12 +2,15 @@ version: '3'
 services:
   db:
     image: "postgres:11"
+    environment:
+      POSTGRES_USER: rcos
+      POSTGRES_PASSWORD: password
+    ports:
+      - 0.0.0.0:5432:5432
 
   data-collection:
     build: .
     volumes:
       - .:/repo/hedgehogs
-    ports:
-      - 5432:5432
     depends_on:
       - db

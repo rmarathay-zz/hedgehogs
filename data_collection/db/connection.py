@@ -10,7 +10,7 @@ def connection():
     conn = None
     #try:
         # conn = psycopg2.connect("host=206.189.181.163 port=5432")
-    conn = psycopg2.connect("host=0.0.0.0 port=5432")
+    conn = psycopg2.connect("host=192.168.99.100 port=5432 user=rcos password=password")
     cur = conn.cursor()
     print('[LOG] Connected!')
     return conn, cur
