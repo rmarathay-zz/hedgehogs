@@ -7,7 +7,7 @@ services:
       POSTGRES_PASSWORD: hedgehogs_rcos
     ports:
       - 0.0.0.0:5432:5432
-
+      
   data-collection:
     build: .
     volumes:
