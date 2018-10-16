@@ -10,8 +10,11 @@ In order to run the program do the following:
 * run `python xlsx2json.py FILE_NAME` to convert a .xlsx to .json
 * run `python json2mongodb.py FILE_NAME USERNAME` to send the .json file to a running MongoDB server
 
+## Run local version using Docker
+* To run the local postgres server and enter the python container's bash, use the command:
+  * `docker-compose run data-collection`
 
-## Development 
+## Development
 * Become a developer on github
 * Clone master, switch to develop
 * `docker build -t hedgehogs .`
@@ -30,5 +33,3 @@ In order to run the program do the following:
 * Install Zipline
   * `conda install -c Quantopian zipline`
   * Yes, we are using Quantopian's API..
-  
-
