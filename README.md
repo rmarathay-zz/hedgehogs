@@ -11,7 +11,12 @@ In order to run the program do the following:
 * run `python json2mongodb.py FILE_NAME USERNAME` to send the .json file to a running MongoDB server
 
 ## Run local version using Docker
-* To run the local postgres server and enter the python container's bash, use the command:
+* The first step is to set up the data_collection/db/config.py file
+  * If you are on windows, and you are running docker through docker-machine:
+    * run the command `docker-machine ip` and replace HOST with your result
+  * If you are on mac or linux, use the command:
+    * `ipconfig getifaddr en0` and replace HOST with your result
+* To run the local postgres server and build and enter the python container's bash, use the command:
   * `docker-compose run data-collection`
 
 ## Development
