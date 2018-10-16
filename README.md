@@ -18,6 +18,7 @@ In order to run the program do the following:
     * `ipconfig getifaddr en0` and replace HOST with your result
 * To run the local postgres server and build and enter the python container's bash, use the command:
   * `docker-compose run data-collection`
+* After the images are built the first time, the command should run a lot faster
 
 ## Development
 * Become a developer on github
