@@ -1,5 +1,5 @@
 import psycopg2
-from config import make_string
+from config import make_conn_string
 
 def connection():
     """
@@ -10,11 +10,10 @@ def connection():
 
     conn = None
     try:
-        conn = psycopg2.connect("host=206.189.181.163 port=5432")
-    conn = psycopg2.connect(make_string())
-    cur = conn.cursor()
-    print('[LOG] Connected!')
-    return conn, cur
+        conn = psycopg2.connect(make_conn_string())
+        cur = conn.cursor()
+        print('[LOG] Connected!')
+        return conn, cur
     except:
         print("[ERROR] Unable to connect. Returning error..")
         return -1, -1
