@@ -8,6 +8,6 @@ HOST = "192.168.99.100"
 PORT = "5432"
 
 def make_conn_string():
-    ret = "host={} port={} user={} password={} dbname={}".format(HOST, PORT, POSTGRES_USER, POSTGRES_PASSWORD, DBNAME)
-    print(ret)
+    ret = "host={} port={} user={} password={} dbname={}"\
+    .format(HOST, PORT, POSTGRES_USER, POSTGRES_PASSWORD, DBNAME)
     return ret
