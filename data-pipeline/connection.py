@@ -14,7 +14,8 @@ def connection():
         cur = conn.cursor()
         print('[LOG] Connected!')
         return conn, cur
-    except:
+    except Exception as e:
+        print(e)
         print("[ERROR] Unable to connect. Returning error..")
         return -1, -1
 

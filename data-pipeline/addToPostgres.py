@@ -1,5 +1,5 @@
 import psycopg2
-import db
+from connection import connection
 from pandas_datareader import data, wb
 import pandas_datareader.data as web
 import datetime
@@ -57,19 +57,20 @@ if __name__ == "__main__":
                 attempts_sql += 1
                 continue
 
-    #SQL
-'''
-    db = MySQLdb.connect(host='localhost',user='root',passwd='roott',db='stocks')
-    c = db.cursor()
-    #c.execute("""truncate data""")
-    db.commit()
+
+    # Postgres
+    # conn is connection c is cursor
+    con, c = connection()
+    c.execute("""Create table tmp""")
+
+    # TODO: NEED TO ADD TMP SCHEMA HERE
+
     for row in biglist:
         try:
-'''
-            #c.execute("""INSERT into big_data (primary_key, symbol, date, open, high, low, close, volume) values (0, %s, %s, %s, %s, %s, %s, %s)""",(row[0],row[1],row[2],row[3],row[4],row[5],row[6],))
-'''
-            db.commit()
-        except:
-            db.rollback()
-    db.close()
-'''
+            c.execute(""""INSERT into tmp (primary_key, symbol, date, open, high, low, close, volume) values (0, %s, %s, %s, %s, %s, %s, %s)""",(row[0],row[1],row[2],row[3],row[4],row[5],row[6],))
+            con.commit()
+        except Exception as e:
+            print(e)
+            con.rollback()
+
+    con.close()
