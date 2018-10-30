@@ -13,6 +13,29 @@ import sys
 from addToPostgres import makeRow
 from connection import connection
 
+# This function grabs the highest primary key from the table and starts
+# the sequence at sequenceName at this value
+def reinitSequence(db, c, sequenceName, tableName):
+    c.execute("select max(primary_key) from {}".format(tableName))
+    max = c.fetchone()[0]
+
+    try:
+        print("[LOG] Dropping sequence {}".format(sequenceName))
+        c.execute("drop sequence {}".format(sequenceName))
+        db.commit()
+    except Exception as e:
+        print(e)
+        db.rollback()
+
+    try:
+        print("[LOG] Reinitializing sequence {}".format(sequenceName))
+        c.execute("Create sequence {} start {} increment 1;"\
+        .format(sequenceName, max))
+        db.commit()
+    except Exception as e:
+        print(e)
+        db.rollback()
+
 if __name__ == "__main__":
 
     tableName = "eod_tmp1"
@@ -21,6 +44,7 @@ if __name__ == "__main__":
     # db is connection c is cursor
     db, c = connection()
 
+    # we want to grab the highest primary_key in the table currently
     '''
     These lines find the latest date in the database
     and make sure we add starting from the next day
@@ -33,6 +57,7 @@ if __name__ == "__main__":
     now = datetime.datetime.now()
     today = now.date()
     if start > today or ((start == today) and now.hour < 17):
+        print("[LOG] No data to add!\n[LOG] Exiting!")
         sys.exit()
 
     f1 = open("sampleWatchlist.txt","r")
@@ -44,6 +69,8 @@ if __name__ == "__main__":
     tot = len(watchlist_f)
     # We loop through each symbol in the watchlist to gather it's data
     for symbol in watchlist_f:
+        if len(symbol) == 0:
+            continue
         connected = False
         i = 1
         while not connected and i < 4:
@@ -77,6 +104,9 @@ if __name__ == "__main__":
 
     # We don't want to reinitialize the table here, instead we
     # add the data we just collected
+
+    #reinitSequence(db, c, sequenceName, tableName)
+
     for row in biglist:
         try:
             c.execute("INSERT into {} (primary_key, symbol, date, open, high, low, close, volume) values (nextVal('{}'), '{}', to_date('{}','YYYY-MM-DD'), {}, {}, {}, {}, {});"\
