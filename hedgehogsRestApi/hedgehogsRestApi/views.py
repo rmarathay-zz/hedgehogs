@@ -3,4 +3,4 @@ from django.http import HttpResponse
 from django.contrib.auth.decorators import login_required
 
 def homepage(request):
-	return render(request, 'base_layout.html')
+	return render(request, 'homepage/homepage.html')
