@@ -2,9 +2,12 @@ version: '3'
 services:
   db:
     image: "postgres:11"
+    volumes:
+      - ./postgres-data:/var/lib/postgresql/data
     environment:
       POSTGRES_USER: rcos
       POSTGRES_PASSWORD: hedgehogs_rcos
+      POSTGRES_DB: rcos
     ports:
       - 0.0.0.0:5432:5432
 
@@ -14,3 +17,9 @@ services:
       - .:/repo/hedgehogs
     depends_on:
       - db
+
+  pgcli:
+    image: "dencold/pgcli"
+    depends_on:
+      - db
+      - data-collection
