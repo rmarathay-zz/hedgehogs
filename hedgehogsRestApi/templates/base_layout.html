@@ -1,17 +1,17 @@
 {% load static %}
-
 <!DOCTYPE html>
+<html>
 	<head>
 		<title>Hedgehogs Home</title>
 		<link rel="stylesheet" href="{% static 'styles.css' %}">
-		{% block stylesheet %}{% endblock %}
+
 	</head>
-	{% block body %}
 	<body>
-		<h2>Hedgehogs Homepage Test</h2>
+		<h2>Hedgehogs</h2>
 		<div class="wrapper">
-			
+			{% block content %}
+			{% endblock %}
 		</div>
 	</body>
-	{% endblock body %}
 </html>
+ 
