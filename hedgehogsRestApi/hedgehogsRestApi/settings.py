@@ -58,6 +58,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
+            os.path.join(BASE_DIR, 'userAuthentication', 'templates'),
             os.path.join(BASE_DIR, 'tools', 'templates'),
             os.path.join(BASE_DIR, 'about', 'templates'),
             os.path.join(BASE_DIR, 'hedgehogsRestApi','templates'),
