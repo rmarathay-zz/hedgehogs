@@ -7,7 +7,7 @@ from datetime import datetime as dt
 
 import sys
 sys.path.insert(0, '../')
-from data-pipeline.connection import connection
+from data/-pipeline.connection import connection
 
 connection()
 

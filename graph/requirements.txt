@@ -1,0 +1,8 @@
+plotly==2.0.11
+dash==0.23.1
+dash_renderer
+dash_html_components
+dash_core_components
+psycopg2-binary
+pandas
+pandas-datareader
