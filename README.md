@@ -5,6 +5,11 @@
 * Navigate to url
 * TODO hedgehogs.io 
 
+## How to connect to database
+* Install pgcli --> sudo apt-get install pgcli
+* pgcli -h 206.189.181.163 -p 5432 -U rcos -d rcos -W
+* \dt to see all tables
+* TABLE [name of table you want to see dont put brackets]
 
 
 ## Run local version using Docker
@@ -17,8 +22,6 @@
   * `docker-compose run data-collection`
 * After the images are built the first time, the command should run a lot faster
 * Note: The compose environment is set up to use volumes. You can change your local python code and the changes should be reflected from within the container
-
-
 
 ## Development (deprecated)
 * Become a developer on github
