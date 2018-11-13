@@ -1,23 +1,19 @@
 from rest_framework import serializers
-from .models import Daily_Price_Info, Company_Info, Time_Series, Fundamentals
+from .models import EndOfDayDataTable, CompanyFundamentalsTable, CompanyInfoTable
 
 
-class Daily_Price_Info_Serializer(serializers.ModelSerializer):
+class company_fundamentals_serializer(serializers.ModelSerializer):
 	class Meta:
-		model = Daily_Price_Info
+		model = CompanyFundamentalsTable
 		fields = '__all__'
 
-class Company_Info_Serializer(serializers.ModelSerializer):
+class company_info_serializer(serializers.ModelSerializer):
 	class Meta:
-		model = Company_Info
+		model = CompanyInfoTable
 		fields = '__all__'
 
-class Time_Series_Serializer(serializers.ModelSerializer):
+class end_of_day_data_serializer(serializers.ModelSerializer):
 	class Meta:
-		model = Time_Series
-		fields = '__all__'  
-
-class Fundamentals_Serializer(serializers.ModelSerializer):
-	class Meta:
-		model = Fundamentals
+		model = EndOfDayDataTable
 		fields = '__all__'
+
