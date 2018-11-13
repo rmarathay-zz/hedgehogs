@@ -1,6 +1,7 @@
 # Hedgehogs
 ## How to run
 * Clone the repository --> git clone https://github.com/rmarathay/hedgehogs.git  
+* (if you don't have docker working pip install Django pip install Django-rest_framework)
 * Run manage.py runserver 
 * Navigate to url
 * TODO hedgehogs.io 
