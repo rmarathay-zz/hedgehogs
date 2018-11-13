@@ -1,14 +1,11 @@
 # Hedgehogs
-
 ## How to run
-* Clone the repository
-* Navigate to hedgehogs/data_collection
-The current pipeline currently looks something like this:
-  xlsxDownloader --> xlsx2json.py --> json2mongodb.py
-In order to run the program do the following:
-* run `python xlsxDownload.py TICKER` to download the .xlsx files
-* run `python xlsx2json.py FILE_NAME` to convert a .xlsx to .json
-* run `python json2mongodb.py FILE_NAME USERNAME` to send the .json file to a running MongoDB server
+* Clone the repository --> git clone https://github.com/rmarathay/hedgehogs.git  
+* Run manage.py runserver 
+* Navigate to url
+* TODO hedgehogs.io 
+
+
 
 ## Run local version using Docker
 * The first step is to set up the data_collection/db/config.py file
@@ -21,7 +18,9 @@ In order to run the program do the following:
 * After the images are built the first time, the command should run a lot faster
 * Note: The compose environment is set up to use volumes. You can change your local python code and the changes should be reflected from within the container
 
-## Development
+
+
+## Development (deprecated)
 * Become a developer on github
 * Clone master, switch to develop
 * `docker build -t hedgehogs .`
@@ -40,3 +39,17 @@ In order to run the program do the following:
 * Install Zipline
   * `conda install -c Quantopian zipline`
   * Yes, we are using Quantopian's API..
+
+
+## How to run (deprecated)
+* All code in the data_collection folder is depricated
+* This was the code from previous RCOS years, it is no longer supported and does not work as intended
+* If you would like to develop this on your own code at your own risk
+* Clone the repository
+* Navigate to hedgehogs/data_collection
+The current pipeline currently looks something like this:
+  xlsxDownloader --> xlsx2json.py --> json2mongodb.py
+In order to run the program do the following:
+* run `python xlsxDownload.py TICKER` to download the .xlsx files
+* run `python xlsx2json.py FILE_NAME` to convert a .xlsx to .json
+* run `python json2mongodb.py FILE_NAME USERNAME` to send the .json file to a running MongoDB server
