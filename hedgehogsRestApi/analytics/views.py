@@ -33,12 +33,4 @@ class endOfDataList(APIView):
 	def post(self):
 		pass
 
-
-def graph_search(request):
-	if request.method == 'POST':
-		req = request.POST
-		return req 
-	else:
-		print("It's a get request!\n")
-	return render(request, "about/about.html")
 # Create your views here.
