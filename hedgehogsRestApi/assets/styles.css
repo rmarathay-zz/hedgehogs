@@ -1,14 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300');
+
 body {
   background-color: #DDDDDD;
   color: black;
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 20px;
   font-weight: bold;
   overflow-x: hidden;
 }
 
 body * {
-  font-family: Ubuntu, Helvetica;
+  font-family: 'Roboto', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
@@ -16,9 +18,9 @@ h1, h2, h3, h4, h5 {
   margin: 0;
 }
 
-a, a:hover, a:visited {
+a, a:hover {
   color: #fff;
-  text-decoration: none;
+  
 }
 
 .wrapper {
