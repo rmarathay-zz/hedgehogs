@@ -23,14 +23,18 @@ from django.conf import settings
 from django.contrib.auth.views import LoginView, LogoutView
 
 urlpatterns = [
+    # @todo implement oauth in the userAuthentication application
+    # @todo figure out a way to delete the null user from the database
+    # @todo map everything to the improved GUI
+
     path('', views.homepage, name = "homepage" ),
     path('about/', include('about.urls', namespace='about')),
     path('tools/', include('tools.urls', namespace='tools')),
-    # path('userauth/', include('userAuthentication.urls', namespace='userauth')),
 
     path('login/', LoginView.as_view(template_name='userauth/login.html'), name='login'),
     path('logout/', views.logout, name='logout'),
-    path('signup/', views.signup, name='signup'),
+    path('loggedout/', LogoutView.as_view(template_name='userauth/logoutSuccess.html'), name='logout'),
+
     path('oauth/', include('social_django.urls', namespace='social')),
     path('admin/', admin.site.urls),
 ]
