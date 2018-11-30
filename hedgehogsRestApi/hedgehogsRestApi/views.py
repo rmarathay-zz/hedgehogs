@@ -12,20 +12,19 @@ from social_django.models import UserSocialAuth
 def homepage(request):
 	return render(request, 'homepage/homepage.html')
 
-<<<<<<< HEAD
 @login_required
 def logout(request):
-    user = request.user
+	user = request.user
 
-    try:
-        github_login = user.social_auth.get(provider='github')
-    except UserSocialAuth.DoesNotExist:
-        github_login = None
+	try:
+	github_login = user.social_auth.get(provider='github')
+	except UserSocialAuth.DoesNotExist:
+	github_login = None
 
-    return render(request, 'userauth/logoutSuccess.html', {
-        'github_login': github_login,
-    })
-=======
+	return render(request, 'userauth/logoutSuccess.html', {
+		'github_login': github_login,
+	})
+
 def graph_search(request):
 	if request.method == 'GET':
 		req = request.GET.get('search_box', None)
@@ -34,4 +33,3 @@ def graph_search(request):
 	else:
 		print("It's a get request!\n")
 	return render(request, "about/about.html")
->>>>>>> e058e2784e23a62453c11f3dd2c6529c11aae0ae
