@@ -1,5 +1,8 @@
 from django.contrib import admin
-from .models import Daily_Price_Info
+from .models import EndOfDayDataTable, CompanyFundamentalsTable, CompanyInfoTable
 
-admin.site.register(Daily_Price_Info)
+admin.site.register(EndOfDayDataTable)
+admin.site.register(CompanyInfoTable)
+admin.site.register(CompanyFundamentalsTable)
+
 # Register your models here.

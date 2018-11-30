@@ -8,5 +8,5 @@ from django.urls import path, include
 app_name = 'tools'
 
 urlpatterns = [
-	path('', views.toolspage),
+	path('', views.toolspage, name=  "toolpage"),
 ]

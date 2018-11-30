@@ -9,6 +9,10 @@ numpy
 uuid
 SSLyze
 pytest
+lxml
+
+# For downloading eod data
+pandas-datareader
 
 # Version Specific Requirements
 Django
