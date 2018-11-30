@@ -20,15 +20,10 @@ from django.urls import path, include
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 from django.conf.urls.static import static
 from django.conf import settings
-<<<<<<< HEAD
 from django.contrib.auth.views import LoginView, LogoutView
-=======
 from analytics import views as analyticViews
->>>>>>> e058e2784e23a62453c11f3dd2c6529c11aae0ae
-
 app_name = 'home'
 urlpatterns = [
-<<<<<<< HEAD
     # @todo implement oauth in the userAuthentication application
     # @todo figure out a way to delete the null user from the database
     # @todo map everything to the improved GUI
@@ -36,6 +31,8 @@ urlpatterns = [
     path('', views.homepage, name = "homepage" ),
     path('about/', include('about.urls', namespace='about')),
     path('tools/', include('tools.urls', namespace='tools')),
+    path('data/', include('analytics.urls')),
+    path('graph/', views.graph_search, name="graph"),
 
     path('login/', LoginView.as_view(template_name='userauth/login.html'), name='login'),
     path('logout/', views.logout, name='logout'),
@@ -43,15 +40,6 @@ urlpatterns = [
 
     path('oauth/', include('social_django.urls', namespace='social')),
     path('admin/', admin.site.urls),
-=======
-    path('admin/', admin.site.urls),
-    path('', views.homepage, name = "homepage"),
-    path('data/', include('analytics.urls')),
-    path('graph/', views.graph_search, name="graph"),
-    path('about/', include('about.urls', namespace='about')),
-    path('tools/', include('tools.urls', namespace='tools')),
-    path('userauth/', include('userAuthentication.urls', namespace='userauth')),
->>>>>>> e058e2784e23a62453c11f3dd2c6529c11aae0ae
 ]
 
 urlpatterns += staticfiles_urlpatterns()
