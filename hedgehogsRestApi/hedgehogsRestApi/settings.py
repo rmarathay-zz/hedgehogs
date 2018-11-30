@@ -40,11 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-<<<<<<< HEAD
     'social_django',
     'about',
-=======
->>>>>>> e058e2784e23a62453c11f3dd2c6529c11aae0ae
     'analytics',
     'about',   
     'rest_framework',
@@ -68,9 +65,6 @@ ROOT_URLCONF = 'hedgehogsRestApi.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-<<<<<<< HEAD
-        'DIRS': ["templates"  ],
-=======
         'DIRS': [
             os.path.join(BASE_DIR, 'userAuthentication', 'templates'),
             os.path.join(BASE_DIR, 'tools', 'templates'),
@@ -78,7 +72,6 @@ TEMPLATES = [
             os.path.join(BASE_DIR, 'hedgehogsRestApi','templates'),
             'templates',
         ],
->>>>>>> e058e2784e23a62453c11f3dd2c6529c11aae0ae
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
