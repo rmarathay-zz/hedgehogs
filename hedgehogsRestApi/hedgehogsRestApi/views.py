@@ -13,23 +13,20 @@ from social_django.models import UserSocialAuth
 from django.core import mail
 import sys
 
-@login_required
 def homepage(request):
-	return render(request, 'homepage/homepage.html')
+	user = request.user
+	context = dict()
+	if user.is_authenticated:
+		try:
+			context["github_login"] = user.social_auth.get(provider='github')
+		except UserSocialAuth.DoesNotExist:
+			context["github_login"] = None
+	return render(request, 'homepage/homepage.html', context)
 
 @login_required
 def logout_view(request):
-	user = request.user
-	print("I am trying!\n")
-	try:
-		github_login = user.social_auth.get(provider='github')
-	except UserSocialAuth.DoesNotExist:
-		github_login = None
-		logout(request)
-
-	return render(request, 'userauth/logout.html', {
-	'github_login': github_login,
-	})
+	logout(request)
+	return redirect("homepage")
 
 def signup_view(request):
 	user = request.user

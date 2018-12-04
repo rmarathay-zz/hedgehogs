@@ -37,8 +37,6 @@ urlpatterns = [
     path('login/', LoginView.as_view(template_name='userauth/login.html'), name='login'),
     path('signup/', views.signup_view, name='signup'),
     path('logout/', views.logout_view, name='logout'),
-    path('loggedout/', LogoutView.as_view(template_name='userauth/logoutSuccess.html'), name='loggedout'),
-
 ]
 
 urlpatterns += staticfiles_urlpatterns()
