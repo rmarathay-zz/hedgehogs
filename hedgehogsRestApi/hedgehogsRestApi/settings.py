@@ -28,6 +28,11 @@ ALLOWED_HOSTS = []
 
 # Application definition
 
+AUTHENTICATION_BACKENDS = (
+    'social_core.backends.github.GithubOAuth2',
+    'django.contrib.auth.backends.ModelBackend',
+)
+
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -35,9 +40,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'django.contrib.postgres',
+    'social_django',
+    'django.contrib.postgres',  
+    'about',
     'analytics',
-    'about',   
     'rest_framework',
     'tools',
     'userAuthentication',
@@ -51,6 +57,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'social_django.middleware.SocialAuthExceptionMiddleware',
 ]
 
 ROOT_URLCONF = 'hedgehogsRestApi.urls'
@@ -72,10 +79,19 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'social_django.context_processors.backends',  
+                'social_django.context_processors.login_redirect', 
+ 
             ],
         },
     },
 ]
+
+
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'static'),
+]
+
 
 WSGI_APPLICATION = 'hedgehogsRestApi.wsgi.application'
 
@@ -113,6 +129,16 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+SOCIAL_AUTH_GITHUB_KEY = '9e3810fbe2b4e7f95d31'
+SOCIAL_AUTH_GITHUB_SECRET = 'ffe27b7e77f2903d9399780cacc26ea2281a91c8'
+SOCIAL_AUTH_COMPLETE_URL_NAME = 'social:complete' 
+SOCIAL_AUTH_ASSOCIATE_URL_NAME = 'social:association_complete'
+SOCIAL_AUTH_LOGIN_ERROR_URL = '/login/'
+SOCIAL_AUTH_RAISE_EXCEPTIONS = False
+
+LOGIN_URL = 'login'
+LOGOUT_URL = 'logout'
+LOGIN_REDIRECT_URL = 'homepage'
 
 # Internationalization
 # https://docs.djangoproject.com/en/2.1/topics/i18n/

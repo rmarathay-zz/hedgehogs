@@ -8,6 +8,5 @@ from django.urls import path, include
 app_name = 'userAuthentication'
 
 urlpatterns = [
-	path('', views.userauthpage, name=  "userauthpage"),
-	path('accounts/', include('django.contrib.auth.urls')),
+
 ]
