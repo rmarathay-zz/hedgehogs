@@ -13,8 +13,6 @@ from social_django.models import UserSocialAuth
 from django.core import mail
 import sys
 
-import sys
-
 @login_required
 def homepage(request):
 	return render(request, 'homepage/homepage.html')
