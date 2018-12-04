@@ -9,6 +9,7 @@ from django.contrib.auth import logout
 
 from social_django.models import UserSocialAuth
 from django.core import mail
+import sys
 
 @login_required
 def homepage(request):
@@ -21,10 +22,14 @@ def logout(request):
 	try:
 		github_login = user.social_auth.get(provider='github')
 		connection = mail.get_connection()
+		message = ""
+		file = open(sys.path[0]+'\\hedgehogsRestAPI\\HedgehogsWelcomeEmail.txt', "r")
+		for line in file:
+			message += line + "\n" 
 		email = mail.EmailMessage(
 		    'Welcome to Hedgehogs!',
-		    'Dear User,\n\nWe are so glad that you have tried out out app!\n-Ranjit',
-		    'kwank2@rpi.edu',
+		   	message,
+		    '',
 		    [user.email],
 		    connection=connection,
 		)
