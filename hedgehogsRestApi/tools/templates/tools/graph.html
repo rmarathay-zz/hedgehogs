@@ -1,0 +1,11 @@
+{% extends 'base_layout.html' %}
+{% block content %}
+<p>This is the graph's page</p>
+{% if graph %}
+{% for item in graph %}
+	<div style="width:600;height:500">
+	{{ item|safe }}
+	</div>
+{% endfor %}
+{% endif %}
+{% endblock %}

@@ -9,4 +9,5 @@ app_name = 'tools'
 
 urlpatterns = [
 	path('', views.toolspage, name=  "toolpage"),
+	path('graph/', views.graph_search, name="graph"),
 ]

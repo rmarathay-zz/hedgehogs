@@ -13,7 +13,7 @@ class CompanyFundamentalsTable(models.Model):
     ticker = models.TextField(blank=True, null=True)
 
     class Meta:
-        db_table = 'company_fundamentals_table'
+        db_table = 'fundamentals_sample'
 
 
 class CompanyInfoTable(models.Model):
@@ -36,3 +36,14 @@ class EndOfDayDataTable(models.Model):
 
     class Meta:
         db_table = 'end_of_day_data_table'
+
+class EodCompanyRelation(models.Model):
+    company_info = models.OneToOneField(
+        CompanyInfoTable, 
+        on_delete = models.CASCADE, 
+        primary_key = True,
+    )
+    
+
+    def __str__(self):
+        return str(company_info.ticker)
