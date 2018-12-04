@@ -35,7 +35,8 @@ urlpatterns = [
     path('oauth/', include('social_django.urls', namespace='social'), name = "oauth"),
     path('admin/', admin.site.urls),
     path('login/', LoginView.as_view(template_name='userauth/login.html'), name='login'),
-    path('logout/', views.logout, name='logout'),
+    path('signup/', views.signup_view, name='signup'),
+    path('logout/', views.logout_view, name='logout'),
     path('loggedout/', LogoutView.as_view(template_name='userauth/logoutSuccess.html'), name='loggedout'),
 
 ]

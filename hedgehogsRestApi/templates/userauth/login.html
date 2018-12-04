@@ -1,5 +1,13 @@
 {% extends 'base_layout.html' %}
 
 {% block content %}
-  	<a href="{% url 'social:begin' 'github' %}">Login with Github</a><br>
+	<form method="post">
+		{% csrf_token %}
+		{{ form.as_p }}
+		<button type="submit">Site Login</button>
+	</form> 
+	<br />
+	<form action="{% url 'social:begin' 'github' %}">
+		<button type="submit">Git Login</button>
+	</form>
 {% endblock %}
