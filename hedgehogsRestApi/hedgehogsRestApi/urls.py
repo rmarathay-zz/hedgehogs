@@ -27,7 +27,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.homepage, name = "homepage"),
     path('data/', include('analytics.urls')),
-    path('graph/', views.graph_search, name="graph"),
     path('about/', include('about.urls', namespace='about')),
     path('tools/', include('tools.urls', namespace='tools')),
     path('userauth/', include('userAuthentication.urls', namespace='userauth')),
