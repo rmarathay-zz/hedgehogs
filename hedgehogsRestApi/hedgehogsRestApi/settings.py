@@ -131,7 +131,8 @@ AUTH_PASSWORD_VALIDATORS = [
 
 SOCIAL_AUTH_GITHUB_KEY = '9e3810fbe2b4e7f95d31'
 SOCIAL_AUTH_GITHUB_SECRET = 'ffe27b7e77f2903d9399780cacc26ea2281a91c8'
-SOCIAL_AUTH_COMPLETE_URL_NAME = 'social:complete' 
+SOCIAL_AUTH_COMPLETE_URL_NAME = 'social:complete'
+SOCIAL_AUTH_GITHUB_SCOPE = ['user:email', 'user']  
 SOCIAL_AUTH_ASSOCIATE_URL_NAME = 'social:association_complete'
 SOCIAL_AUTH_LOGIN_ERROR_URL = '/login/'
 SOCIAL_AUTH_RAISE_EXCEPTIONS = False
@@ -140,6 +141,11 @@ LOGIN_URL = 'login'
 LOGOUT_URL = 'logout'
 LOGIN_REDIRECT_URL = 'homepage'
 
+EMAIL_USE_TLS = True
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'hedgehogsrcos@gmail.com'
+EMAIL_HOST_PASSWORD = 'hedgehogs12110'
+EMAIL_PORT = 587
 # Internationalization
 # https://docs.djangoproject.com/en/2.1/topics/i18n/
 

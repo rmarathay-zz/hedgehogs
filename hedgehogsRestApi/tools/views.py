@@ -63,6 +63,7 @@ class Graph:
         context = div
         return context
 
+@login_required
 def graph_search(request):
     ad_params = ['', 'co', 'inc', 'corp', 'co.', 'inc.', 'corp.'] 
     if request.method == 'GET':

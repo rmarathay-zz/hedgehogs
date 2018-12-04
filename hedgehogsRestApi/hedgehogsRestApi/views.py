@@ -8,8 +8,7 @@ from django.shortcuts import render, redirect
 from django.contrib.auth import logout
 
 from social_django.models import UserSocialAuth
-
-# To make a view require login for access, attach @login_required above it
+from django.core import mail
 
 @login_required
 def homepage(request):
@@ -18,21 +17,25 @@ def homepage(request):
 @login_required
 def logout(request):
 	user = request.user
-
+	print("I am trying!\n")
 	try:
-	github_login = user.social_auth.get(provider='github')
+		github_login = user.social_auth.get(provider='github')
+		connection = mail.get_connection()
+		email = mail.EmailMessage(
+		    'Welcome to Hedgehogs!',
+		    'Dear User,\n\nWe are so glad that you have tried out out app!\n-Ranjit',
+		    'kwank2@rpi.edu',
+		    [user.email],
+		    connection=connection,
+		)
+		email.send() 
+		print(user.email)
 	except UserSocialAuth.DoesNotExist:
-	github_login = None
+		github_login = None
 
 	return render(request, 'userauth/logoutSuccess.html', {
 		'github_login': github_login,
 	})
 
-def graph_search(request):
-	if request.method == 'GET':
-		req = request.GET.get('search_box', None)
-		print(req)
-		return render(request, "about/about.html")
-	else:
-		print("It's a get request!\n")
-	return render(request, "about/about.html")
+
+

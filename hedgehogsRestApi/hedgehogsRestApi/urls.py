@@ -32,14 +32,12 @@ urlpatterns = [
     path('about/', include('about.urls', namespace='about')),
     path('tools/', include('tools.urls', namespace='tools')),
     path('data/', include('analytics.urls')),
-    path('graph/', views.graph_search, name="graph"),
-
+    path('oauth/', include('social_django.urls', namespace='social'), name = "oauth"),
+    path('admin/', admin.site.urls),
     path('login/', LoginView.as_view(template_name='userauth/login.html'), name='login'),
     path('logout/', views.logout, name='logout'),
     path('loggedout/', LogoutView.as_view(template_name='userauth/logoutSuccess.html'), name='logout'),
 
-    path('oauth/', include('social_django.urls', namespace='social')),
-    path('admin/', admin.site.urls),
 ]
 
 urlpatterns += staticfiles_urlpatterns()

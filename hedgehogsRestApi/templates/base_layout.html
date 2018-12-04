@@ -26,17 +26,6 @@
       <li class="nav-item">
         <a class="nav-link" href="{% url 'tools:toolpage'%}">Tools</a>
       </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Tools</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-      </li>
      <!--  <li class="nav-item">
        <a class="nav-link disabled" href="#">Disabled</a>
      </li> -->
@@ -46,9 +35,16 @@
       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
     </form>
     <ul class = "navbar-nav">
+     {% if user.is_authenticated%}
+          <li class="nav-item active">
+            <a class="nav-link" href = "{% url 'logout' %}">Logout</a>
+          </li>
+    {% else %} 
 		<li class="nav-item active">
-	        <a class="nav-link" href="#">Login</a>
+
+	        <a class="nav-link" href="{% url 'login' %}">Login</a>
 	     </li>
+    {% endif %}
  	</ul>
   </div>
 </nav>
