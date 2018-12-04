@@ -11,6 +11,9 @@ SSLyze
 pytest
 lxml
 plotly
+djangorestframework
+social-auth-app-django
+
 
 # For downloading eod data
 pandas-datareader
