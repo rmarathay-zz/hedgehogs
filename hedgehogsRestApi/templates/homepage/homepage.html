@@ -1,9 +1,0 @@
-{% extends 'base_layout.html' %}
-
-{% block content %}
-	<p>Welcome to the homepage!</p>
-	{% if user.is_authenticated %}
-		<p> You are currently logged in as <b> {{ user.username }}</b>. </p>
-	{% endif %}
-	<a href="{% url 'logout' %}">Logout</a><br>
-{% endblock %}
