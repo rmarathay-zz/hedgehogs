@@ -18,10 +18,30 @@ h1, h2, h3, h4, h5 {
   margin: 0;
 }
 
+
+
+.btn {
+  border-color: #007bff !important;
+  background-color: white !important;
+  color: #007bff ;
+
+
+}
+
+.btn:hover, .btn:active, .btn:visited {
+  border-color: #007bff !important;
+  background-color: #007bff !important;
+  color: white ;
+    
+}
+
+
+
 a, a:hover {
   color: #fff;
   
 }
+
 
 .wrapper {
   display: flex;

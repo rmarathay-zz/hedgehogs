@@ -8,10 +8,12 @@ active
 	<form method="post">
 		{% csrf_token %}
 		{{ form.as_p }}
-		<button type="submit">Site Login</button>
+		<h5>
+			<button class="btn btn-primary-outline-success my-2 my-sm-0" type="submit">Site Login</button>
+		</h5>
 	</form> 
 	<br />
 	<form action="{% url 'social:begin' 'github' %}">
-		<button type="submit">Git Login</button>
+		<button class="btn btn-primary-outline-success my-2 my-sm-0" type="submit">Git Login</button>
 	</form>
 {% endblock %}
