@@ -5,24 +5,20 @@ active
 {% endblock %}
 
 {% block content %}
-	<div class="form">
+	<div class="form" align="center">
 
-
-		<div align="center">
-			<h4>Enter login details below</h4>
-			<br>
-			<form method="post">
-				{% csrf_token %}
-				{{ form.as_p }}
-				<h5>
-					<button class="btn btn-primary-outline-success my-2 my-sm-0" type="submit">Site Login</button>
-				</h5>
-			</form> 
-			<form action="{% url 'social:begin' 'github' %}">
-				<button class="btn btn-primary-outline-success my-2 my-sm-0" type="submit">Git Login</button>
-			</form>
-			
-		</div>
+		<h4>Enter login details below</h4>
+		<br>
+		<form method="post">
+			{% csrf_token %}
+			{{ form.as_p }}
+			<h5>
+				<button class="btn btn-primary-outline-success my-2 my-sm-0" type="submit">Site Login</button>
+			</h5>
+		</form> 
+		<form action="{% url 'social:begin' 'github' %}">
+			<button class="btn btn-primary-outline-success my-2 my-sm-0" type="submit">Git Login</button>
+		</form>
 
 	</div>
 {% endblock %}
