@@ -1,8 +1,7 @@
 {% extends 'base_layout.html' %}
 
 {% block content %}
-	<p>Welcome to the homepage!</p>
-	{% if user %}
+<!-- 	{% if user %}
 		{% if user.is_authenticated %}
 			<p> You are currently logged in as <b>
 			{% if github_login %}
@@ -12,9 +11,13 @@
 			{% endif %}
 			</b>. </p>
 		{% endif %}
-	{% endif %}
+	{% endif %} -->
 	<div class="center">
 		<img src="/static/aesthetic_resources/website_graphics/graphanimation.gif" width="100%">
+	</div>
+
+	<div class="center">
+		<img src="/static/aesthetic_resources/website_graphics/aboutus.jpg" width="100%">
 	</div>
 
 {% endblock %}

@@ -27,7 +27,7 @@ img.center {
 
 .blueLine{
   border-bottom:5px solid #007bff;
-  margin-bottom: 15px;
+  margin-bottom:0;
 }
 
 .form { 

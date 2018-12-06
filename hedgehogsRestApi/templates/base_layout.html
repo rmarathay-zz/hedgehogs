@@ -34,9 +34,19 @@
         </li>
 
         {% if user.is_authenticated %}
-          <li class="nav-item">
+
+          <li class ="nav-item">
+          {% if github_login %}
+            <a class ="nav-link" href="https://github.com/{{ github_login.extra_data.login }}/" target="_blank" >{{ github_login.extra_data.login }}</a>
+          {% else %}
+            <a class="nav-link" > ( {{ user.username }} )</a>
+          {% endif %}
+           </li>
+
+           <li class="nav-item">
             <a class="nav-link" href = "{% url 'logout' %}">Logout</a>
           </li>
+
 
         {% else %} 
           <li class="nav-item {% block active3 %}{% endblock %}">
