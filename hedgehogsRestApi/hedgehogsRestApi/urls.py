@@ -28,13 +28,15 @@ urlpatterns = [
     # @todo figure out a way to delete the null user from the database
     # @todo map everything to the improved GUI
 
-    path('', views.homepage, name = "homepage" ),
+    path('', views.homepage, name="homepage"),
     path('about/', include('about.urls', namespace='about')),
     path('tools/', include('tools.urls', namespace='tools')),
     path('data/', include('analytics.urls')),
-    path('oauth/', include('social_django.urls', namespace='social'), name = "oauth"),
+    path('oauth/', include('social_django.urls',
+                           namespace='social'), name="oauth"),
     path('admin/', admin.site.urls),
-    path('login/', LoginView.as_view(template_name='userauth/login.html'), name='login'),
+    path('login/', LoginView.as_view(template_name='userauth/login.html'),
+         name='login'),
     path('signup/', views.signup_view, name='signup'),
     path('logout/', views.logout_view, name='logout'),
 ]
