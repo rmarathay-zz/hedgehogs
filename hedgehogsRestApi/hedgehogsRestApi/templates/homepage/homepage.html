@@ -1,16 +1,16 @@
 {% extends 'base_layout.html' %}
 
 {% block content %}
-	<p>Welcome to the homepage!</p>
-	{% if user %}
-		{% if user.is_authenticated %}
-			<p> You are currently logged in as <b>
-			{% if github_login %}
-				<a href="https://github.com/{{ github_login.extra_data.login }}/" target="_blank">{{ github_login.extra_data.login }}</a>
-			{% else %}
-				{{ user.username }}
-			{% endif %}
-			</b>. </p>
-		{% endif %}
-	{% endif %}
+	<div class="center">
+		<img src="/static/aesthetic_resources/website_graphics/graphanimation.gif" width="100%">
+	</div>
+
+	<div class="center">
+		<img src="/static/aesthetic_resources/website_graphics/aboutus.jpg" width="100%">
+	</div>
+
+		<div class="center">
+		<img src="/static/aesthetic_resources/website_graphics/whatisfinanc.jpg" width="100%">
+	</div>
+
 {% endblock %}

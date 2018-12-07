@@ -67,7 +67,7 @@ class Graph:
 def graph_search(request):
     ad_params = ['', 'co', 'inc', 'corp', 'co.', 'inc.', 'corp.'] 
     if request.method == 'GET':
-        company_names = load_obj(sys.path[0]+'//tools//constituents')
+        company_names = load_obj(sys.path[0]+'\\tools\\constituents')
         graph_object = Graph()
         graph_string = []
         req = request.GET.get('search_box', None)

@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'social_django',
-    'django.contrib.postgres',  
+    'django.contrib.postgres',
     'about',
     'analytics',
     'rest_framework',
@@ -69,7 +69,7 @@ TEMPLATES = [
             os.path.join(BASE_DIR, 'userAuthentication', 'templates'),
             os.path.join(BASE_DIR, 'tools', 'templates'),
             os.path.join(BASE_DIR, 'about', 'templates'),
-            os.path.join(BASE_DIR, 'hedgehogsRestApi','templates'),
+            os.path.join(BASE_DIR, 'hedgehogsRestApi', 'templates'),
             'templates',
         ],
         'APP_DIRS': True,
@@ -79,9 +79,9 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
-                'social_django.context_processors.backends',  
-                'social_django.context_processors.login_redirect', 
- 
+                'social_django.context_processors.backends',
+                'social_django.context_processors.login_redirect',
+
             ],
         },
     },
@@ -132,7 +132,7 @@ AUTH_PASSWORD_VALIDATORS = [
 SOCIAL_AUTH_GITHUB_KEY = '9e3810fbe2b4e7f95d31'
 SOCIAL_AUTH_GITHUB_SECRET = 'ffe27b7e77f2903d9399780cacc26ea2281a91c8'
 SOCIAL_AUTH_COMPLETE_URL_NAME = 'social:complete'
-SOCIAL_AUTH_GITHUB_SCOPE = ['user:email', 'user']  
+SOCIAL_AUTH_GITHUB_SCOPE = ['user:email', 'user']
 SOCIAL_AUTH_ASSOCIATE_URL_NAME = 'social:association_complete'
 SOCIAL_AUTH_LOGIN_ERROR_URL = '/login/'
 SOCIAL_AUTH_RAISE_EXCEPTIONS = False

@@ -1,6 +1,13 @@
 {% extends 'base_layout.html' %}
 
+{% block active4 %}
+active
+{% endblock %}
+
 {% block content %}
+<div class="form">
+  <h4 align="center">Create your account</h4>
+  <br>
   <form method="post">
     {% csrf_token %}
     {% for field in form %}
@@ -15,6 +22,11 @@
         {% endfor %}
       </p>
     {% endfor %}
-    <button type="submit">Sign up</button>
+    <br>
+    <div align="center">
+      <button class="btn btn-primary-outline-success my-2 my-sm-0" type="submit">Sign up</button>
+    </div>
   </form>
+  
+</div>
 {% endblock %}

@@ -13,52 +13,56 @@ from social_django.models import UserSocialAuth
 from django.core import mail
 import sys
 
+
 def homepage(request):
-	user = request.user
-	context = dict()
-	if user.is_authenticated:
-		try:
-			context["github_login"] = user.social_auth.get(provider='github')
-		except UserSocialAuth.DoesNotExist:
-			context["github_login"] = None
-	return render(request, 'homepage/homepage.html', context)
+    user = request.user
+    context = dict()
+    if user.is_authenticated:
+        try:
+            context["github_login"] = user.social_auth.get(provider='github')
+        except UserSocialAuth.DoesNotExist:
+            context["github_login"] = None
+    return render(request, 'homepage/homepage.html', context)
+
 
 @login_required
 def logout_view(request):
-	logout(request)
-	return redirect("homepage")
+    logout(request)
+    return redirect("homepage")
+
 
 def signup_view(request):
-	user = request.user
-	if request.method == 'POST':
-		form = SignUpForm(request.POST)
-	
-		if form.is_valid():
-			form.save()
-			username = form.cleaned_data.get('username')
-			raw_password = form.cleaned_data.get('password1')
-			user = authenticate(username=username, password=raw_password)
-			login(request, user)
+    user = request.user
+    if request.method == 'POST':
+        form = SignUpForm(request.POST)
 
-			connection = mail.get_connection()
-			message = ""
+        if form.is_valid():
+            form.save()
+            username = form.cleaned_data.get('username')
+            raw_password = form.cleaned_data.get('password1')
+            user = authenticate(username=username, password=raw_password)
+            login(request, user)
 
-			file = open(sys.path[0]+'/hedgehogsRestApi/HedgehogsWelcomeEmail.txt',"r")
-			for line in file:
-				message += line + "\n"
+            connection = mail.get_connection()
+            message = ""
 
-			print(message)
+            file = open(
+                sys.path[0]+'/hedgehogsRestApi/HedgehogsWelcomeEmail.txt', "r")
+            for line in file:
+                message += line + "\n"
 
-			email = mail.EmailMessage(
-				"Welcome to Hedgehogs!",
-				message,
-				'hedgehogsrcos@gmail.com',
-				[user.email],
-			)
+            print(message)
 
-			connection=connection
-			email.send() 
-			return redirect('homepage')
-	else:
-		form = SignUpForm()
-	return render(request, 'userauth/signup.html', {'form': form})
+            email = mail.EmailMessage(
+                "Welcome to Hedgehogs!",
+                message,
+                'hedgehogsrcos@gmail.com',
+                [user.email],
+            )
+
+            connection = connection
+            email.send()
+            return redirect('homepage')
+    else:
+        form = SignUpForm()
+    return render(request, 'userauth/signup.html', {'form': form})
