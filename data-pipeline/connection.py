@@ -1,6 +1,7 @@
 import psycopg2
 from config import make_conn_string
 
+
 def connection():
     """
     Function to connect to our local PostgreSQL database
@@ -18,6 +19,7 @@ def connection():
         print(e)
         print("[ERROR] Unable to connect. Returning error..")
         return -1, -1
+
 
 if __name__ == "__main__":
     connection()

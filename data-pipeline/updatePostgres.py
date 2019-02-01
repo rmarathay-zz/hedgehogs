@@ -15,6 +15,8 @@ from connection import connection
 
 # This function grabs the highest primary key from the table and starts
 # the sequence at sequenceName at this value
+
+
 def reinitSequence(db, c, sequenceName, tableName):
     c.execute("select max(primary_key) from {}".format(tableName))
     max = c.fetchone()[0]
@@ -29,12 +31,13 @@ def reinitSequence(db, c, sequenceName, tableName):
 
     try:
         print("[LOG] Reinitializing sequence {}".format(sequenceName))
-        c.execute("Create sequence {} start {} increment 1;"\
-        .format(sequenceName, max))
+        c.execute("Create sequence {} start {} increment 1;"
+                  .format(sequenceName, max))
         db.commit()
     except Exception as e:
         print(e)
         db.rollback()
+
 
 if __name__ == "__main__":
 
@@ -60,7 +63,7 @@ if __name__ == "__main__":
         print("[LOG] No data to add!\n[LOG] Exiting!")
         sys.exit()
 
-    f1 = open("sampleWatchlist.txt","r")
+    f1 = open("sampleWatchlist.txt", "r")
     watchlist_f = set(f1.read()[1:-1].strip('"').split("', '"))
 
     biglist = []
@@ -76,12 +79,13 @@ if __name__ == "__main__":
         while not connected and i < 4:
             try:
                 f = web.DataReader(symbol.lower(), 'yahoo', start)
-                print("connected ",symbol,'(',curr,' of ',tot,')')
+                print("connected ", symbol, '(', curr, ' of ', tot, ')')
                 curr += 1
                 connected = True
             except Exception as e:
 
-                print("couldn't connect to data for: ",symbol, ' (Attempt number ', i,')',sep='')
+                print("couldn't connect to data for: ", symbol,
+                      ' (Attempt number ', i, ')', sep='')
                 i += 1
                 continue
         l = []
@@ -96,7 +100,8 @@ if __name__ == "__main__":
                 biglist.extend(results)
                 rowMade = True
             except Exception as e:
-                print("couldn't add ", symbol, ' to postgres (Attempt number ',attempts_makeRow,')',sep='')
+                print("couldn't add ", symbol,
+                      ' to postgres (Attempt number ', attempts_makeRow, ')', sep='')
                 attempts_makeRow += 1
                 continue
 
@@ -109,8 +114,8 @@ if __name__ == "__main__":
 
     for row in biglist:
         try:
-            c.execute("INSERT into {} (primary_key, symbol, date, open, high, low, close, volume) values (nextVal('{}'), '{}', to_date('{}','YYYY-MM-DD'), {}, {}, {}, {}, {});"\
-            .format(tableName, sequenceName,row[0],row[1],row[2],row[3],row[4],row[5], row[6]))
+            c.execute("INSERT into {} (primary_key, symbol, date, open, high, low, close, volume) values (nextVal('{}'), '{}', to_date('{}','YYYY-MM-DD'), {}, {}, {}, {}, {});"
+                      .format(tableName, sequenceName, row[0], row[1], row[2], row[3], row[4], row[5], row[6]))
             db.commit()
         except Exception as e:
             print(e)

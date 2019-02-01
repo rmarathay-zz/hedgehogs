@@ -9,6 +9,7 @@ from django.db import models
 
 
 class AnalyticsCompanyInfo(models.Model):
+    """stores company info including id, ticker,companyname"""
     company_id = models.FloatField()
     ticker = models.CharField(max_length=250)
     company_name = models.CharField(max_length=250)
@@ -19,6 +20,7 @@ class AnalyticsCompanyInfo(models.Model):
 
 
 class AnalyticsDailyPriceInfo(models.Model):
+    """stores infomation about the price values and data"""
     data = models.CharField(max_length=250)
     open_data = models.FloatField()
     high = models.FloatField()
@@ -37,6 +39,7 @@ class AnalyticsDailyPriceInfo(models.Model):
 
 
 class AnalyticsFundamentals(models.Model):
+    """stores information about fundementals data"""
     c_id = models.FloatField()
     company_name = models.CharField(max_length=250)
     common_shares_outstanding = models.FloatField()
@@ -57,6 +60,7 @@ class AnalyticsFundamentals(models.Model):
 
 
 class AnalyticsTimeSeries(models.Model):
+    """stores time related fields"""
     ts_id = models.FloatField()
     company_id = models.FloatField()
     ticker = models.CharField(max_length=250)
@@ -68,11 +72,13 @@ class AnalyticsTimeSeries(models.Model):
     close = models.FloatField()
 
     class Meta:
+        """meta class"""
         managed = False
         db_table = 'analytics_time_series'
 
 
 class AuthGroup(models.Model):
+    """Authentication field"""
     name = models.CharField(unique=True, max_length=80)
 
     class Meta:
@@ -81,27 +87,32 @@ class AuthGroup(models.Model):
 
 
 class AuthGroupPermissions(models.Model):
+    """permissions field"""
     group = models.ForeignKey(AuthGroup, models.DO_NOTHING)
     permission = models.ForeignKey('AuthPermission', models.DO_NOTHING)
 
     class Meta:
+        """meta class"""
         managed = False
         db_table = 'auth_group_permissions'
         unique_together = (('group', 'permission'),)
 
 
 class AuthPermission(models.Model):
+    """user authentication class"""
     name = models.CharField(max_length=255)
     content_type = models.ForeignKey('DjangoContentType', models.DO_NOTHING)
     codename = models.CharField(max_length=100)
 
     class Meta:
+        """meta class"""
         managed = False
         db_table = 'auth_permission'
         unique_together = (('content_type', 'codename'),)
 
 
 class AuthUser(models.Model):
+    """user authentication data"""
     password = models.CharField(max_length=128)
     last_login = models.DateTimeField(blank=True, null=True)
     is_superuser = models.BooleanField()
@@ -114,31 +125,37 @@ class AuthUser(models.Model):
     date_joined = models.DateTimeField()
 
     class Meta:
+        """meta class"""
         managed = False
         db_table = 'auth_user'
 
 
 class AuthUserGroups(models.Model):
+    """authentication groups"""
     user = models.ForeignKey(AuthUser, models.DO_NOTHING)
     group = models.ForeignKey(AuthGroup, models.DO_NOTHING)
 
     class Meta:
+        """meta class"""
         managed = False
         db_table = 'auth_user_groups'
         unique_together = (('user', 'group'),)
 
 
 class AuthUserUserPermissions(models.Model):
+    """user permissions class"""
     user = models.ForeignKey(AuthUser, models.DO_NOTHING)
     permission = models.ForeignKey(AuthPermission, models.DO_NOTHING)
 
     class Meta:
+        """meta class"""
         managed = False
         db_table = 'auth_user_user_permissions'
         unique_together = (('user', 'permission'),)
 
 
 class CompanyFundamentalsTable(models.Model):
+    """company fundementals data table values"""
     c_id = models.UUIDField(blank=True, null=True)
     indicator = models.TextField(blank=True, null=True)
     day = models.DateField(blank=True, null=True)
@@ -146,21 +163,25 @@ class CompanyFundamentalsTable(models.Model):
     ticker = models.TextField(blank=True, null=True)
 
     class Meta:
+        """meta class"""
         managed = False
         db_table = 'company_fundamentals_table'
 
 
 class CompanyInfoTable(models.Model):
+    """company infromation values class"""
     company_id = models.TextField(primary_key=True)
     ticker = models.TextField(blank=True, null=True)
     ticker_id = models.TextField(blank=True, null=True)
 
     class Meta:
+        """meta class"""
         managed = False
         db_table = 'company_info_table'
 
 
 class DjangoAdminLog(models.Model):
+    """django admin class"""
     action_time = models.DateTimeField()
     object_id = models.TextField(blank=True, null=True)
     object_repr = models.CharField(max_length=200)
@@ -170,41 +191,49 @@ class DjangoAdminLog(models.Model):
     user = models.ForeignKey(AuthUser, models.DO_NOTHING)
 
     class Meta:
+        """meta class"""
         managed = False
         db_table = 'django_admin_log'
 
 
 class DjangoContentType(models.Model):
+    """Django content type modle values"""
     app_label = models.CharField(max_length=100)
     model = models.CharField(max_length=100)
 
     class Meta:
+        """meta class"""
         managed = False
         db_table = 'django_content_type'
         unique_together = (('app_label', 'model'),)
 
 
 class DjangoMigrations(models.Model):
+    """Migrations class for app models"""
     app = models.CharField(max_length=255)
     name = models.CharField(max_length=255)
     applied = models.DateTimeField()
 
     class Meta:
+        """meta class"""
         managed = False
         db_table = 'django_migrations'
 
 
 class DjangoSession(models.Model):
+    """Django session class values"""
     session_key = models.CharField(primary_key=True, max_length=40)
     session_data = models.TextField()
     expire_date = models.DateTimeField()
 
     class Meta:
+        """meta class"""
         managed = False
         db_table = 'django_session'
 
 
 class EndOfDayDataTable(models.Model):
+    """end of day table values"""
     primary_key = models.AutoField(primary_key=True)
     symbol = models.CharField(max_length=7, blank=True, null=True)
     date = models.DateField(blank=True, null=True)
@@ -215,14 +244,17 @@ class EndOfDayDataTable(models.Model):
     volume = models.IntegerField(blank=True, null=True)
 
     class Meta:
+        """meta class"""
         managed = False
         db_table = 'end_of_day_data_table'
 
 
 class Test(models.Model):
+    """test class values"""
     id = models.TextField(primary_key=True)
     name = models.TextField(blank=True, null=True)
 
     class Meta:
+        """meta class"""
         managed = False
         db_table = 'test'

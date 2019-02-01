@@ -19,19 +19,23 @@ import pandas_datareader.data as web
 import datetime
 
 # This function creates a valid row for our database
+
+
 def makeRow(symbol, f, date_list):
     ret = []
     for date in date_list:
         row = [symbol, date]
-        row.append(float(f.loc[date,"Open"]))
-        row.append(float(f.loc[date,"High"]))
-        row.append(float(f.loc[date,"Low"]))
-        row.append(float(f.loc[date,"Close"]))
-        row.append(int(f.loc[date,"Volume"]))
+        row.append(float(f.loc[date, "Open"]))
+        row.append(float(f.loc[date, "High"]))
+        row.append(float(f.loc[date, "Low"]))
+        row.append(float(f.loc[date, "Close"]))
+        row.append(int(f.loc[date, "Volume"]))
         ret.append(row)
     return ret
 
 # This function initializes our table under the given name
+
+
 def init_table(db, c, tableName, sequenceName):
     """
     @params
@@ -71,10 +75,11 @@ def init_table(db, c, tableName, sequenceName):
         print(e)
         db.rollback()
 
+
 if __name__ == "__main__":
 
     # We will add data starting from this date
-    start = datetime.datetime(2017,1,1)
+    start = datetime.datetime(2017, 1, 1)
 
     # The watchlist is located in sampleWatchlist.txt
     # A longer watchlist is in sp500.txt
@@ -102,11 +107,12 @@ if __name__ == "__main__":
         while not connected and i < 4:
             try:
                 f = web.DataReader(symbol.lower(), 'yahoo', start)
-                print("connected ",symbol,'\t\t(',curr,' of ',tot,')')
+                print("connected ", symbol, '\t\t(', curr, ' of ', tot, ')')
                 curr += 1
                 connected = True
             except Exception as e:
-                print("couldn't connect to data for: ",symbol, ' (Attempt number ', i,')',sep='')
+                print("couldn't connect to data for: ", symbol,
+                      ' (Attempt number ', i, ')', sep='')
                 i += 1
                 continue
 
@@ -121,10 +127,11 @@ if __name__ == "__main__":
             try:
                 results = makeRow(symbol, f, l)
                 rowsList.extend(results)
-                #print(results)
+                # print(results)
                 insql = True
             except Exception as e:
-                print("couldn't add ", symbol, ' to mysql (Attempt number ',attempts_sql,')',sep='')
+                print("couldn't add ", symbol,
+                      ' to mysql (Attempt number ', attempts_sql, ')', sep='')
                 attempts_sql += 1
                 continue
 
@@ -156,7 +163,6 @@ if __name__ == "__main__":
         print(e)
         db.rollback()
 
-
     # Here we make a new table
     try:
         init_table(db, c, tableName, sequenceName)
@@ -167,8 +173,8 @@ if __name__ == "__main__":
     # Add each row that we collected in the data_collection section
     for row in rowsList:
         try:
-            c.execute("INSERT into {} (primary_key, symbol, date, open, high, low, close, volume) values (nextVal('{}'), '{}', to_date('{}','YYYY-MM-DD'), {}, {}, {}, {}, {});"\
-            .format(tableName, sequenceName,row[0],row[1],row[2],row[3],row[4],row[5], row[6]))
+            c.execute("INSERT into {} (primary_key, symbol, date, open, high, low, close, volume) values (nextVal('{}'), '{}', to_date('{}','YYYY-MM-DD'), {}, {}, {}, {}, {});"
+                      .format(tableName, sequenceName, row[0], row[1], row[2], row[3], row[4], row[5], row[6]))
             db.commit()
         except Exception as e:
             print(e)

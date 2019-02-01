@@ -4,12 +4,18 @@
 * (if you don't have docker working pip install Django pip install Django-rest_framework)
 * Run manage.py runserver 
 * Navigate to url
-* TODO hedgehogs.io 
+* TODO hedgehogs.io
+
+* At website, search for stock at top right corner search bar
+* You can search by ticker or by stock name
+* Upon search you will be prompted to log in if you have not loged in already 
+* Currently display candelstick stock graph and regular graph aswell
+* Tools page will be where algorithmic trading strategies will be created and tested 
+
 
 ## How to connect to database
 * Install pgcli --> sudo apt-get install pgcli
 * pgcli -h 206.189.181.163 -p 5432 -U rcos -d rcos -W
-* password is hedgehogs_rcos when prompted
 * \dt to see all tables
 * TABLE [name of table you want to see dont put brackets]
 
