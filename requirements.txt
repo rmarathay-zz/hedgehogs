@@ -19,4 +19,3 @@ social-auth-app-django
 pandas-datareader
 
 # Version Specific Requirements
-Django
