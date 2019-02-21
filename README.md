@@ -1,9 +1,9 @@
 # Hedgehogs
-## How to run
+## How To Run
 * Clone the repository ---> `git clone https://github.com/rmarathay/hedgehogs.git`
 * Ensure latest update of pip or pip3 (if using Python3)
   * `pip install --upgrade pip`
-* Navigate to Install dependencies
+* Navigate to hedgehogsRestApi to Install dependencies
   * `pip install -r requirements.txt`  
 * Navigate to hedgehogsRestApi
   * Run `Python manage.py runserver` and follow instructions in terminal
@@ -19,14 +19,14 @@
 * Tools page will be where algorithmic trading strategies will be created and tested
 
 
-## How to connect to database
+## How To Connect To Database
 * Install pgcli --> `sudo apt-get install pgcli`
 * `pgcli -h 206.189.181.163 -p 5432 -U rcos -d rcos -W`
 * `\dt` to see all tables
 * TABLE [name of table you want to see dont put brackets]
 
 
-## Run local version using Docker
+## Run Local Version Using Docker
 * The first step is to set up the data_collection/db/config.py file
   * If you are on windows, and you are running docker through docker-machine:
     * run the command `docker-machine ip` and replace HOST with your result
