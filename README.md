@@ -4,7 +4,7 @@
 * Ensure latest update of pip or pip3 (if using Python3)
   * `pip install --upgrade pip`
 * Navigate to Install dependencies
- * `pip install -r requirements.txt`  
+  * `pip install -r requirements.txt`  
 * Navigate to hedgehogsRestApi
   * Run `Python manage.py runserver` and follow instructions in terminal
 * Navigate to URL
