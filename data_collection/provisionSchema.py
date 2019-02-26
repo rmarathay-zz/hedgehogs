@@ -4,9 +4,9 @@ import psycopg2
 import sys
 
 #Return a connection object with the database
-def connectDB():
+def connectDB(pass):
 	try:
-		conn = psycopg2.connect(host="206.189.181.163", dbname="rcos", user="rcos", password="hedgehogs_rcos")
+		conn = psycopg2.connect(host="206.189.181.163", dbname="rcos", user="rcos", password=pass)
 	except (Exception, psycopg2.DatabaseError) as error:
 		print(error)
 	return conn
@@ -67,12 +67,12 @@ def prepDB(conn, cursor, tableName):
 		closeDB(conn)
 
 def main():
-	conn = connectDB()
-	cursor = conn.cursor()
-	if (len(sys.argv)<2):
+	if (len(sys.argv)<3):
 		sys.exit("Must provide at least one table name")
+	conn = connectDB(sys.argv[1])
+	cursor = conn.cursor()
 	for i in range(len(sys.argv)):
-		tableName = verifyTableName(cursor, sys.argv[0])
+		tableName = verifyTableName(cursor, sys.argv[i])
 		if (tableName=="invalid"):
 			continue
 		prepDB(conn, cursor, tableName)
