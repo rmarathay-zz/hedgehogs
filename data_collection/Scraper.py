@@ -4,25 +4,27 @@ import json
 import psycopg2
 from psycopg2.extensions import AsIs
 from datetime import datetime
+
 def get_company_info(symbol):
     url = "https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol="+ symbol + "&apikey=1BGCK5RG5D5CQCAJ&datatype=json"
     response = json.loads(requests.get(url).text)
     return response
+
 def connect():
     """ Connect to the PostgreSQL database server """
     conn = None
     try:
- 
+
         # connect to the PostgreSQL server
         print('Connecting to the PostgreSQL database...')
         conn = psycopg2.connect(host='206.189.181.163',
                             database="rcos",
                                 user="rcos",
                             password="hedgehogs_rcos")
- 
+
         # create a cursor
         cur = conn.cursor()
-        
+
         # execute a statement
         print('PostgreSQL database version:')
         cur.execute('SELECT version()')
@@ -34,7 +36,7 @@ def connect():
         # display the PostgreSQL database server version
         db_version = cur.fetchone()
         print(db_version)
-       
+
         # close the communication with the PostgreSQL
         cur.close()
 
@@ -53,8 +55,9 @@ def read_input(cur):
         dates = []
         for entry in data['Time Series (Daily)']:
             dates.append(entry)
+
         #sort by date
-        dates.sort(key = lambda date: datetime.strptime(date, '%Y-%m-%d')) 
+        dates.sort(key = lambda date: datetime.strptime(date, '%Y-%m-%d'))
         #SQL command setup to create table
         temp = ("CREATE TABLE %s(date TIMESTAMP, low double precision, high double precision, volume double precision, close double precision, open double precision);" % symbol)
         #execute SQL cmd, with symbol replacing %s
@@ -62,18 +65,17 @@ def read_input(cur):
 
         for date in dates:
             insert = ("INSERT INTO {}(date,low,high,volume,close,open) VALUES ('{}', {}, {}, {}, {}, {})"
-            .format(symbol, date, 
+            .format(symbol, date,
                         data['Time Series (Daily)'][str(date)]['3. low'],
                         data['Time Series (Daily)'][str(date)]['2. high'],
                         data['Time Series (Daily)'][str(date)]['5. volume'],
                         data['Time Series (Daily)'][str(date)]['4. close'],
                         data['Time Series (Daily)'][str(date)]['1. open']))
             cur.execute(insert)
-        
+
         #for date in dates:
          #   print(date, ": closed at",data['Time Series (Daily)'][str(date)]['4. close'])
- 
+
 
 if __name__ == "__main__":
     connect()
-    
