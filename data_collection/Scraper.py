@@ -4,9 +4,11 @@ import json
 import psycopg2
 from psycopg2.extensions import AsIs
 from datetime import datetime
+import time
 def get_company_info(symbol):
     url = "https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol="+ symbol + "&apikey=1BGCK5RG5D5CQCAJ&datatype=json"
     response = json.loads(requests.get(url).text)
+    print("Fetched AlphaVantage json")
     return response
 def connect():
     """ Connect to the PostgreSQL database server """
@@ -19,18 +21,12 @@ def connect():
                             database="rcos",
                                 user="rcos",
                             password="hedgehogs_rcos")
- 
+        conn.autocommit = True
         # create a cursor
         cur = conn.cursor()
         
-        # execute a statement
-        print('PostgreSQL database version:')
-        cur.execute('SELECT version()')
-
         #Send cursor over to read_input to process tickers
-        read_input(cur)
-
-        conn.commit()
+        read_input(cur, conn)
         # display the PostgreSQL database server version
         db_version = cur.fetchone()
         print(db_version)
@@ -46,7 +42,7 @@ def connect():
             print('Database connection closed.')
 
 
-def read_input(cur):
+def read_input(cur, conn):
     lines = [line.rstrip('\n') for line in open('companies.txt')]
     for symbol in lines:
         data = get_company_info(symbol)
@@ -69,7 +65,7 @@ def read_input(cur):
                         data['Time Series (Daily)'][str(date)]['4. close'],
                         data['Time Series (Daily)'][str(date)]['1. open']))
             cur.execute(insert)
-        
+        print("Symbol ", symbol, " added")
         #for date in dates:
          #   print(date, ": closed at",data['Time Series (Daily)'][str(date)]['4. close'])
  
