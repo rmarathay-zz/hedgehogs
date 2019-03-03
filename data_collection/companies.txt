@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 MMM
 AOS
 ABT
@@ -8,3 +9,7 @@ AYI
 ADBE
 AAP
 AMD
+=======
+AAPL
+TSLA
+>>>>>>> 9d834944bcb190ac002bbf41613417247ce7c02f
