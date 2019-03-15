@@ -12,8 +12,6 @@ if __name__ == "__main__":
     text_file = open("companies.txt", "w")
     i = 0
     for company in raw:
-        if(i == 10):
-            break
         text_file.write(company['Symbol'])
         text_file.write('\n')
         i += 1
