@@ -54,6 +54,8 @@ class StockData:
     def simpleMA(self, window):
         # Calculates a simple moving average over the window given.
         # @params: window, a number of days for each avg value
+        if (window > len(self.prices)):
+            return
         try:
             sma = np.cumsum(self.prices, dtype=float)
             sma[window:] = sma[window:] - sma[:-window]
@@ -62,13 +64,16 @@ class StockData:
             print("Window value needs to be an integer.")
 
 
-
-
-
     def expMA(self, window):
         # Calculates an exponential moving average over the window given
         # @params: window, a number of days for each avg value
         # @returns: an np array holding MA values computed with exp.
+
+        # Default window to 10 if it is out of range
+        if (window > len(self.prices)):
+            window = 10
+        if (window <= 0):
+            window = 10
         alpha = np.float64(2.0 / (window + 1.0))
         alpha_rev = np.float64(1-alpha)
         n = self.prices.shape[0]             # n = number of array rows

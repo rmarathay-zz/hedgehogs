@@ -53,8 +53,8 @@ if __name__ == '__main__':
         print("data size: {}\ndates size: {}".format(len(data), len(dates)))
 
         print("\nTESTING...")
-        window_sma = 10
-        window_ema = 5
+        window_sma = 50
+        window_ema = 10
         AAPL = StockData(ticker, column_name, dates, data)
         print(AAPL.getTicker())
         print(AAPL.getIndicator())
