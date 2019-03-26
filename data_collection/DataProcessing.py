@@ -11,6 +11,10 @@ class StockData:
         # Stores the ticker, indicator, a separate np_array of prices
         # for quicker processing, and a list of tuples containing the
         # time stamp and price.
+        # @effects: self.ticker: stores the ticker
+        #           self.indicator: stores the indicator
+        #           self.data: list of tuple holing timestamp and price in
+        #           self.prices: numpy array of only prices
         self.ticker = ticker
         self.indicator = column_type
         self.data = []
@@ -21,12 +25,12 @@ class StockData:
 
 
     def getTicker(self):
-        # Returns the ticker i.e. 'MSFT'
+        # @returns: the ticker i.e. 'MSFT'
         return self.ticker
 
 
     def getIndicator(self):
-        # Returns the indicator i.e. 'open' OR 'high'
+        # @returns: the indicator i.e. 'open' OR 'high'
         return self.indicator
 
 
@@ -41,10 +45,18 @@ class StockData:
             print("Window value needs to be an integer.")
 
 
+    def getMax(self):
+        # @returns: a tuple containing a timestamp and the maximum
+        #           data value in self.data.
+        #           i.e. (10-5-2019, 250.98)
+        # Note: the timestamp is a timestamp object
+        return max(self.data, key = lambda itemitem:[1])
+
+
     def expMA(self, window):
         # Calculates an exponential moving average over the window given
         # @params: window, a number of days for each avg value
-        # @returns:
+        # @returns: an np array holding MA values computed with exp.
         alpha = np.float64(2.0 / (window + 1.0))
         alpha_rev = np.float64(1-alpha)
         n = self.prices.shape[0]             # n = number of array rows
@@ -61,9 +73,10 @@ class StockData:
 
 
     def printData(start, end):
-        # @params: Range of values to print
         # Prints the ticker and the indicator held within self
         # Prints rows of 8 of tuples i.e. ("date", "price")
+        # @params: Range of values to print
+        # @returns: an np array holding MA values computed over window
         length = len(self.data)
         if (start > length and end > length):
             print("Invalid range entered!")

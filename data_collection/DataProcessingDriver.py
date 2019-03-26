@@ -60,6 +60,8 @@ if __name__ == '__main__':
         print(AAPL.getIndicator())
         print("SMA:", AAPL.simpleMA(window_sma))  # should have 5 data points
         print("\nEMA:", AAPL.expMA(window_ema))     # should have 20 data points
+        print("")
+        print(AAPL.getMax())
 
 
 
