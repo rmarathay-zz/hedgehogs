@@ -1,3 +1,4 @@
+from statistics import median
 import matplotlib.pyplot as plt
 import numpy as np
 from numpy import convolve
@@ -35,11 +36,13 @@ class StockData:
 
 
     def getMax(self):
-        # @returns: a tuple containing a timestamp and the maximum
-        #           data value in self.data.
-        #           i.e. (10-5-2019, 250.98)
-        # Note: the timestamp is a timestamp object
-        return max(self.data, key = lambda itemitem:[1])
+        # @returns: a float containing the median price
+        return max(self.prices)
+
+
+    def getMedian(self):
+        # @returns: a float containing the median price
+        return median(self.prices)
 
 
     def getTimeRange(self):

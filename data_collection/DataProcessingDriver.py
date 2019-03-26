@@ -62,6 +62,7 @@ if __name__ == '__main__':
         print("\nEMA:", AAPL.expMA(window_ema))     # should have 20 data points
         print("")
         print("Maximum value:", AAPL.getMax())
+        print("Median value:", AAPL.getMedian())
         print("Time range:", AAPL.getTimeRange())
 
 
