@@ -34,6 +34,20 @@ class StockData:
         return self.indicator
 
 
+    def getMax(self):
+        # @returns: a tuple containing a timestamp and the maximum
+        #           data value in self.data.
+        #           i.e. (10-5-2019, 250.98)
+        # Note: the timestamp is a timestamp object
+        return max(self.data, key = lambda itemitem:[1])
+
+
+    def getTimeRange(self):
+        # @returns: a tuple containing the start timestamp
+        #           and the ending time stamp.
+        return (self.data[0][0], self.data[-1][0])
+
+
     def simpleMA(self, window):
         # Calculates a simple moving average over the window given.
         # @params: window, a number of days for each avg value
@@ -45,12 +59,7 @@ class StockData:
             print("Window value needs to be an integer.")
 
 
-    def getMax(self):
-        # @returns: a tuple containing a timestamp and the maximum
-        #           data value in self.data.
-        #           i.e. (10-5-2019, 250.98)
-        # Note: the timestamp is a timestamp object
-        return max(self.data, key = lambda itemitem:[1])
+
 
 
     def expMA(self, window):
