@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/data_collection.iml" filepath="$PROJECT_DIR$/.idea/data_collection.iml" />
+      <module fileurl="file:///private/var/folders/mn/z506xd4n1_gdsp4sqdqgk2qw0000gn/T/updatePostgres.py/.idea/updatePostgres.py.iml" filepath="/private/var/folders/mn/z506xd4n1_gdsp4sqdqgk2qw0000gn/T/updatePostgres.py/.idea/updatePostgres.py.iml" />
     </modules>
   </component>
 </project>
