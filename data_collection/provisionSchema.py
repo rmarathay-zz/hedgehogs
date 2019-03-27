@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 # * ProvisionSchema initializes the database for Scraper. Arguments in order are db_password, name1, name2,..., namek
 
+=======
+# * ProvisionSchema initializes the database for Scraper and creates the appropriate schema
+>>>>>>> adecac2d679fef6933372d0efa492c91216cf4d7
 import psycopg2
 import sys
 
@@ -42,6 +46,7 @@ def closeDB(conn):
 # 		raise Exception ("Table with name " + tableName + " already exists!")
 # 	else:
 # 		return tableName
+<<<<<<< HEAD
 
 def createSchema(conn, cursor, companyNames):
 	"""createSchema creates the schema and creates a table for each company
@@ -71,6 +76,52 @@ def createSchema(conn, cursor, companyNames):
 		except Exception as e:
 			print(e)
 			conn.rollback()
+=======
+
+def createSchema(conn, cursor, companyName):
+	"""createSchema creates the schema and creates a table for each company
+	Args:
+		cursor: The cursor to the current database session
+        conn: The connection object to the current database session
+        companyName: list of company names
+	"""
+	sql = "CREATE SCHEMA stockData AUTHORIZATION rcos"
+	try:
+		cursor.execute(sql)
+		conn.commit()
+	except Exception as e:
+		print(e)
+		conn.rollback()
+	for i in range(0, len(companyName)):
+		createTable = "CREATE TABLE IF NOT EXISTS stockData.{} (    \
+				open            float(4),   \
+				high            float(4),   \
+				low             float(4),   \
+				close           float(4),   \
+				volume          int \
+				);".format(tableName[i])
+		try:
+			cursor.execute(createTable)
+			conn.commit()
+		except Exception as e:
+			print(e)
+			conn.rollback()
+
+
+
+def restartDB(conn):
+	"""restartDB() restarts the database connection
+    Args:
+        conn: The connection object that is closed
+    Returns:
+        A new connection object to the PostgreSQL database
+    """
+	print("Beginning connection restart")
+	closeDB(conn)
+	conn = connectDB()
+	print("Finished connection restart")
+	return conn
+>>>>>>> adecac2d679fef6933372d0efa492c91216cf4d7
 
 def prepDB(conn, cursor, tableName):
 	"""prepDB() creates the schema for the data
@@ -101,11 +152,17 @@ def main():
 		sys.exit("Must provide at least one table name")
 	conn = connectDB(sys.argv[1])
 	cursor = conn.cursor()
+<<<<<<< HEAD
 	companyNames = sys.argv[2:]
 	print(companyNames)
 	return
 		# prepDB(conn, cursor, tableName)
 	createSchema(conn, cursor, companyNames)
+=======
+	for i in range(2, len(sys.argv)):
+		tableName = sys.argv[i]
+		prepDB(conn, cursor, tableName)
+>>>>>>> adecac2d679fef6933372d0efa492c91216cf4d7
 
 if __name__ == '__main__':
 	main()
