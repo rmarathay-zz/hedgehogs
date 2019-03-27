@@ -7,6 +7,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/provisionSchema.py" beforeDir="false" afterPath="$PROJECT_DIR$/provisionSchema.py" afterDir="false" />
+
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,11 +28,13 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-813">
               <caret line="49" column="42" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
+
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -52,21 +55,22 @@
     <option name="width" value="1680" />
     <option name="height" value="1050" />
   </component>
+
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="js.eslint.eslintPackage" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/DataProcessingDriver.py" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -81,6 +85,7 @@
     </option>
   </component>
   <component name="RunManager">
+
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -101,6 +106,7 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
+
     <configuration name="hedgehogs" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="data_collection" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -134,6 +140,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.DataProcessingDriver" />
         <item itemvalue="Python.hedgehogs" />
       </list>
     </recent_temporary>
@@ -161,11 +168,12 @@
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21515892" />
+
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32555556" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3118162" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -185,6 +193,7 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/parser_db.py" />
@@ -200,6 +209,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-813">
           <caret line="49" column="42" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
+
         </state>
       </provider>
     </entry>
