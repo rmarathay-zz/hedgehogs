@@ -47,14 +47,15 @@ if __name__ == '__main__':
         print("\tdate\n\tlow\n\thigh\n\tvolume\n\tclose\n\topen\n")
 
         ticker = "aapl"
-        open = pullColumn(cursor, ticker, "open")
+        o = pullColumn(cursor, ticker, "open")
         close = pullColumn(cursor, ticker, "close")
         high = pullColumn(cursor, ticker, "high")
         low = pullColumn(cursor, ticker, "low")
         dates = pullColumn(cursor, ticker, "date")
         #print("data size: {}\ndates size: {}".format(len(data), len(dates)))
 
-        displayData.plotCandleStick(dates, open, close, high, low)
+        displayData.plotClose(dates, close)
+        displayData.plotOpen(dates, o)
 
 
     except (Exception, psycopg2.DatabaseError) as error:
