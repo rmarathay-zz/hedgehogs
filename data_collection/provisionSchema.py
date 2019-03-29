@@ -1,9 +1,4 @@
-<<<<<<< HEAD
 # * ProvisionSchema initializes the database for Scraper. Arguments in order are db_password, name1, name2,..., namek
-
-=======
-# * ProvisionSchema initializes the database for Scraper and creates the appropriate schema
->>>>>>> adecac2d679fef6933372d0efa492c91216cf4d7
 import psycopg2
 import sys
 
@@ -46,7 +41,6 @@ def closeDB(conn):
 # 		raise Exception ("Table with name " + tableName + " already exists!")
 # 	else:
 # 		return tableName
-<<<<<<< HEAD
 
 def createSchema(conn, cursor, companyNames):
 	"""createSchema creates the schema and creates a table for each company
@@ -76,7 +70,6 @@ def createSchema(conn, cursor, companyNames):
 		except Exception as e:
 			print(e)
 			conn.rollback()
-=======
 
 def createSchema(conn, cursor, companyName):
 	"""createSchema creates the schema and creates a table for each company
@@ -121,9 +114,8 @@ def restartDB(conn):
 	conn = connectDB()
 	print("Finished connection restart")
 	return conn
->>>>>>> adecac2d679fef6933372d0efa492c91216cf4d7
 
-def prepDB(conn, cursor, tableName):
+#def prepDB(conn, cursor, tableName):
 	"""prepDB() creates the schema for the data
     Args:
         conn: The connection object to the current database session
@@ -132,37 +124,34 @@ def prepDB(conn, cursor, tableName):
     Returns:
         A new connection object to the PostgreSQL database
     """
-	try:
-		cursor.execute("CREATE TABLE IF NOT EXISTS {} (    \
-				open            float(4),   \
-				high            float(4),   \
-				low             float(4),   \
-				close           float(4),   \
-				volume          int \
-				);".format(tableName))
-		conn.commit()
-		conn.close()
-	except Exception as error:
-		print(error)
-		conn.rollback()
-		closeDB(conn)
+	#try:
+		#cursor.execute("CREATE TABLE IF NOT EXISTS {} (    \
+		#		open            float(4),   \
+		#		high            float(4),   \
+		#		low             float(4),   \
+		#		close           float(4),   \
+		#		volume          int \
+		#		);".format(tableName))
+		#conn.commit()
+		#conn.close()
+	#except Exception as error:
+		#print(error)
+		#conn.rollback()
+		#closeDB(conn)
 
 def main():
-	if (len(sys.argv)<2):
+	if (len(sys.argv)<3):
 		sys.exit("Must provide at least one table name")
 	conn = connectDB(sys.argv[1])
 	cursor = conn.cursor()
-<<<<<<< HEAD
 	companyNames = sys.argv[2:]
 	print(companyNames)
 	return
 		# prepDB(conn, cursor, tableName)
 	createSchema(conn, cursor, companyNames)
-=======
 	for i in range(2, len(sys.argv)):
 		tableName = sys.argv[i]
 		prepDB(conn, cursor, tableName)
->>>>>>> adecac2d679fef6933372d0efa492c91216cf4d7
 
 if __name__ == '__main__':
 	main()
