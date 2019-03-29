@@ -5,9 +5,13 @@ import psycopg2
 from psycopg2.extensions import AsIs
 import time
 from datetime import datetime
+#These keys are used to speed up scraping by allowing double of the API limit of 5 calls per 60 seconds
 keychoice = True
 
-def get_company_info(secret1, secret2, symbol):
+#@params: symbol A string representing the ticker symbol.
+#This function grabs the JSON from AlphaVantage and returns the entire file as a JSON object.
+#@returns JSON information of stock data for symbol
+def get_company_info(symbol):
     global keychoice
     key = ""
     if(keychoice == True):
@@ -21,6 +25,8 @@ def get_company_info(secret1, secret2, symbol):
     return response
 
 def connect(secret1, secret2):
+#This is the driver for connecting to the database, and sends the cursor to read_input.
+def connect():
     """ Connect to the PostgreSQL database server """
     conn = None
     try:
@@ -61,6 +67,9 @@ def connect(secret1, secret2):
 
 
 def read_input(secret1, secret2, cur):
+#@param cur The cursor object from psycopg2 used to access the PostgreSQL database.
+#Modifies the database by writing in information from each day to the table corresponding to the ticker.
+def read_input(cur):
     lines = [line.rstrip('\n') for line in open('companies.txt')]
     for symbol in lines:
         data = get_company_info(secret1, secret2, symbol)
@@ -84,14 +93,12 @@ def read_input(secret1, secret2, cur):
                         data['Time Series (Daily)'][str(date)]['1. volume']))
             cur.execute(insert)
         print("added symbol ", symbol)
+        #Deletes symbol when it is added to database.
         with open('companies.txt', 'r') as fin:
             data = fin.read().splitlines(True)
         with open('companies.txt', 'w') as fout:
             fout.writelines(data[1:])
         time.sleep(10)
-        #for date in dates:
-         #   print(date, ": closed at",data['Time Series (Daily)'][str(date)]['4. close'])
- 
 
 if __name__ == "__main__":
     if (len(sys.argv)!=3):
