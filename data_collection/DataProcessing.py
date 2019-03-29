@@ -3,6 +3,10 @@ import matplotlib.pyplot as plt
 import numpy as np
 from numpy import convolve
 
+"""
+get more fluent with what the MA
+calculations are actually doing
+"""
 
 class StockData:
 
@@ -64,6 +68,9 @@ class StockData:
             print("Window value needs to be an integer.")
 
 
+    """
+    NEED TO CALCULATE SMA BEFORE COMPUTING EXPMA I BELIEVE
+    """
     def expMA(self, window):
         # Calculates an exponential moving average over the window given
         # @params: window, a number of days for each avg value
