@@ -32,3 +32,18 @@ def plotOpen(dates, op):
     plt.ylabel("Value ($)")
     plt.title("Daily Open Values")
     plt.show()
+
+#params: cl Closing prices for the last 90 days of a stock
+#returns simple moving average of the closing values
+def calculateSMA(cl):
+    N = 10
+    cumsum, moving_aves = [0], []
+
+    for i, x in enumerate(cl, 1):
+        cumsum.append(cumsum[i - 1] + x)
+        if i >= N:
+            moving_ave = (cumsum[i] - cumsum[i - N]) / N
+            # can do stuff with moving_ave here
+            moving_aves.append(moving_ave)
+    return moving_ave
+    

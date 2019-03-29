@@ -4,6 +4,7 @@ from numpy import convolve
 import matplotlib.pyplot as plt
 from psycopg2 import Error
 from DataProcessing import StockData
+import displayData
 
 ################################################################################
 
@@ -47,15 +48,8 @@ if __name__ == '__main__':
         print("\tdate\n\tlow\n\thigh\n\tvolume\n\tclose\n\topen\n")
 
         ticker = "aapl"
-<<<<<<< HEAD
-        o = pullColumn(cursor, ticker, "open")
-        close = pullColumn(cursor, ticker, "close")
-        high = pullColumn(cursor, ticker, "high")
-        low = pullColumn(cursor, ticker, "low")
-=======
         column_name = "open"
         data = pullColumn(cursor, ticker, column_name)
->>>>>>> f7d0ac211d3f7e27713ceb05f73f20bd2e6ab755
         dates = pullColumn(cursor, ticker, "date")
         print("data size: {}\ndates size: {}".format(len(data), len(dates)))
 
@@ -71,12 +65,9 @@ if __name__ == '__main__':
         print("Maximum value:", AAPL.getMax())
         print("Median value:", AAPL.getMedian())
         print("Time range:", AAPL.getTimeRange())
+        cl = pullColumn(cursor, ticker, "close")
+        displayData.plotClose(dates, cl)
 
-<<<<<<< HEAD
-        displayData.plotClose(dates, close)
-        displayData.plotOpen(dates, o)
-=======
->>>>>>> f7d0ac211d3f7e27713ceb05f73f20bd2e6ab755
 
 
     except (Exception, psycopg2.DatabaseError) as error:
