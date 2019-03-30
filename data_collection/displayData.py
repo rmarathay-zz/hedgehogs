@@ -10,9 +10,7 @@ def plotClose(dates, cl):
     plt.plot(dates, cl, linewidth=2, color='red',
              path_effects=[path_effects.SimpleLineShadow(),
                            path_effects.Normal(offset=(0.0,5.0))])
-    ax = plt.subplot(1, 1, 1)
-    ax.scatter(dates, cl)
-    ax.plot(dates, cl, "or")
+
     plt.xlabel("Date (Month)")
     plt.ylabel("Value ($)")
     plt.title("Daily Closing Values")
