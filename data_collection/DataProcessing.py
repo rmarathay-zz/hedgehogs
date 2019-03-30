@@ -3,13 +3,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 from numpy import convolve
 
-"""
-get more fluent with what the MA
-calculations are actually doing
-"""
 
 class StockData:
-
 
     def __init__(self, ticker, column_type, column_dates, column_data):
         # Expects that column dates correspond with the proper column data
@@ -18,7 +13,7 @@ class StockData:
         # time stamp and price.
         # @effects: self.ticker: stores the ticker
         #           self.indicator: stores the indicator
-        #           self.data: list of tuple holing timestamp and price in
+        #           self.data: list of tuple holding timestamp and price in
         #           self.prices: numpy array of only prices
         self.ticker = ticker
         self.indicator = column_type
@@ -68,11 +63,9 @@ class StockData:
             print("Window value needs to be an integer.")
 
 
-    """
-    NEED TO CALCULATE SMA BEFORE COMPUTING EXPMA I BELIEVE
-    """
     def expMA(self, window):
-        # Calculates an exponential moving average over the window given
+        # Calculates an exponential moving average which supplies
+        # weights to the last 'window' number of days.
         # @params: window, a number of days for each avg value
         # @returns: an np array holding MA values computed with exp.
 
@@ -99,7 +92,7 @@ class StockData:
     def printData(start, end):
         # Prints the ticker and the indicator held within self
         # Prints rows of 8 of tuples i.e. ("date", "price")
-        # @params: Range of values to print
+        # @params: Range of values to print, should be Integers
         # @returns: an np array holding MA values computed over window
         length = len(self.data)
         if (start > length and end > length):
