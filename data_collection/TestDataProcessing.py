@@ -1,7 +1,6 @@
 import pytest
 from DataProcessing import StockData
 
-def set_up(mod):
-  print()
-
-class TestDP:
+"""
+Implement testing for the DataProcessing.py file.
+"""
