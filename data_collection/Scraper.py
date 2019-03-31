@@ -5,13 +5,13 @@ import psycopg2
 from psycopg2.extensions import AsIs
 import time
 from datetime import datetime
+from simpleParser import getAVantageKeys
 #These keys are used to speed up scraping by allowing double of the API limit of 5 calls per 60 seconds
 keychoice = True
-
 #@params: symbol A string representing the ticker symbol.
 #This function grabs the JSON from AlphaVantage and returns the entire file as a JSON object.
 #@returns JSON information of stock data for symbol
-def get_company_info(symbol):
+def get_company_info(secret1, secret2, symbol):
     global keychoice
     key = ""
     if(keychoice == True):
@@ -24,7 +24,6 @@ def get_company_info(symbol):
     response = json.loads(requests.get(url).text)
     return response
 
-def connect(secret1, secret2):
 #This is the driver for connecting to the database, and sends the cursor to read_input.
 def connect():
     """ Connect to the PostgreSQL database server """
@@ -46,7 +45,7 @@ def connect():
         cur.execute('SELECT version()')
 
         #Send cursor over to read_input to process tickers
-        read_input(secret1, secret2, cur)
+        read_input(cur)
 
         # display the PostgreSQL database server version
         db_version = cur.fetchone()
@@ -66,11 +65,13 @@ def connect():
             print('Database connection closed.')
 
 
-def read_input(secret1, secret2, cur):
 #@param cur The cursor object from psycopg2 used to access the PostgreSQL database.
 #Modifies the database by writing in information from each day to the table corresponding to the ticker.
 def read_input(cur):
     lines = [line.rstrip('\n') for line in open('companies.txt')]
+    AVantageKeys = getAVantageKeys()
+    secret1 = AVantageKeys[0]
+    secret2 = AVantageKeys[1]
     for symbol in lines:
         data = get_company_info(secret1, secret2, symbol)
         dates = []
@@ -101,8 +102,5 @@ def read_input(cur):
         time.sleep(10)
 
 if __name__ == "__main__":
-    if (len(sys.argv)!=3):
-        print("usage: secret1, secret2")
-        sys.exit(1)
     connect()
     
