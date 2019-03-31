@@ -85,7 +85,7 @@ def read_input(cur):
         #cur.execute(temp)
         #print("HERE")
         for date in dates:
-            insert = ("INSERT INTO stockData.{}(open,high,low,close,volume) VALUES ({}, {}, {}, {}, {})"
+            insert = ("INSERT INTO stockData.{}(date,open,high,low,close,volume) VALUES ({}, {}, {}, {}, {}, {})"
             .format(symbol, date, 
                         data['Time Series (Daily)'][str(date)]['3. open'],
                         data['Time Series (Daily)'][str(date)]['2. high'],
