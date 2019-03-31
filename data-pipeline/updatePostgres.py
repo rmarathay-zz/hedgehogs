@@ -16,14 +16,13 @@ from connection import connection
 # This function grabs the highest primary key from the table and starts
 # the sequence at sequenceName at this value
 
-
 def reinitSequence(db, c, sequenceName, tableName):
     """
     Args:
-        param 1 (connection object): db, the connection object that is altered.
-        param 2 (cursor): c, the cursor object used for db.
-        param 3 (str): sequenceName describes the sequence.
-        param 4 (str): tableName, name of the table.
+        db (connection object): the connection object that is altered.
+        c (cursor): the cursor object used for db.
+        sequenceName (str): describes the sequence.
+        tableName (str): name of the table.
     Raises:
         ValueError: if committing drop sequence to db wasn't successful.
         ValueError: if committing a new sequence to db wasn't successful.
@@ -93,7 +92,6 @@ if __name__ == "__main__":
                 curr += 1
                 connected = True
             except Exception as e:
-
                 print("couldn't connect to data for: ", symbol,
                       ' (Attempt number ', i, ')', sep='')
                 i += 1
