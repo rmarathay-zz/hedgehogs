@@ -6,12 +6,23 @@ from psycopg2.extensions import AsIs
 import time
 from datetime import datetime
 from simpleParser import getAVantageKeys
-#These keys are used to speed up scraping by allowing double of the API limit of 5 calls per 60 seconds
+
 keychoice = True
-#@params: symbol A string representing the ticker symbol.
-#This function grabs the JSON from AlphaVantage and returns the entire file as a JSON object.
-#@returns JSON information of stock data for symbol
+
 def get_company_info(secret1, secret2, symbol):
+    """
+
+    scrapes data (currently from alphavantage) and returns the response in json format
+
+    Arguments:
+        secret1: one of the API keys to scrape data
+        secret2: a second API key to scrape data
+        symbol: synonymous to ticker
+
+    Returns:
+        company stock data in json format
+
+    """
     global keychoice
     key = ""
     if(keychoice == True):
@@ -24,8 +35,14 @@ def get_company_info(secret1, secret2, symbol):
     response = json.loads(requests.get(url).text)
     return response
 
-#This is the driver for connecting to the database, and sends the cursor to read_input.
 def connect():
+    """
+    
+    primary method to connect to the database and create cursor
+
+
+    """
+
     """ Connect to the PostgreSQL database server """
     conn = None
     try:
@@ -65,9 +82,16 @@ def connect():
             print('Database connection closed.')
 
 
-#@param cur The cursor object from psycopg2 used to access the PostgreSQL database.
-#Modifies the database by writing in information from each day to the table corresponding to the ticker.
 def read_input(cur):
+    """
+        
+    parses json data and places it into the appropriate table in the database
+
+    Argument:
+        cur: cursor object for the database
+
+
+    """
     lines = [line.rstrip('\n') for line in open('companies.txt')]
     AVantageKeys = getAVantageKeys()
     secret1 = AVantageKeys[0]

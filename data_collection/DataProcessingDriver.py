@@ -6,14 +6,21 @@ from psycopg2 import Error
 from DataProcessing import StockData
 import displayData
 
-################################################################################
 
 def pullColumn(cursor, ticker, column_name):
-    # column_name expects [date, open, close, high, low, volume]
-    # @params: a stock ticker
-    # @params: a database cursor and a column name to take data
-    # @returns: column data for the selected column name
+    """
+        
+    retrieves specific column data for the given parameter (column_name)
 
+    Arguments:
+        cursor: cursor object for the database
+        ticker: ticker for which we are collecting data
+        column_name: specific column we want data from
+
+    Returns:
+        column data for the selected column name
+
+    """
     TABLE_QUERY = ('SELECT {} FROM {}'.format(column_name, ticker))
     print("Your query: ", '\'', TABLE_QUERY, '\'', sep="")
     cursor.execute(TABLE_QUERY)
@@ -23,7 +30,6 @@ def pullColumn(cursor, ticker, column_name):
         return_list.append(i[0])
     return return_list
 
-################################################################################
 
 if __name__ == '__main__':
 

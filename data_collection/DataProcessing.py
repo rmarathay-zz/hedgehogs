@@ -7,14 +7,17 @@ from numpy import convolve
 class StockData:
 
     def __init__(self, ticker, column_type, column_dates, column_data):
-        # Expects that column dates correspond with the proper column data
-        # Stores the ticker, indicator, a separate np_array of prices
-        # for quicker processing, and a list of tuples containing the
-        # time stamp and price.
-        # @effects: self.ticker: stores the ticker
-        #           self.indicator: stores the indicator
-        #           self.data: list of tuple holing timestamp and price in
-        #           self.prices: numpy array of only prices
+        """
+
+        constructor to create StockData object
+
+        Arguments:
+            self.ticker: stores the ticker
+            self.indicator: stores the indicator
+            self.data: list of tuple holing timestamp and price in
+            self.prices: numpy array of only prices
+
+        """
         self.ticker = ticker
         self.indicator = column_type
         self.data = []
@@ -25,32 +28,84 @@ class StockData:
 
 
     def getTicker(self):
-        # @returns: the ticker i.e. 'MSFT'
+        """
+
+        method to get ticker for object
+        
+        Returns:
+            the ticker i.e. 'MSFT'
+        
+        """
         return self.ticker
 
 
     def getIndicator(self):
-        # @returns: the indicator i.e. 'open' OR 'high'
+        """
+        
+        method to get indicator for object
+
+        Returns:
+             the indicator i.e. 'open' OR 'high'
+
+        """
         return self.indicator
 
 
     def getMax(self):
-        # @returns: a float containing the median price
+        """
+        
+        returns the maximum price for the stock
+
+        Returns:
+            a float containing the max price
+        
+
+        """
         return max(self.prices)
 
 
     def getMedian(self):
-        # @returns: a float containing the median price
+        """
+        
+        returns the median price for the stock
+
+        Returns:
+            a float containing the median price
+        
+
+        """
         return median(self.prices)
 
 
     def getTimeRange(self):
-        # @returns: a tuple containing the start timestamp
-        #           and the ending time stamp.
+        """
+        
+        returns a tupe containing the start date and end date
+
+        Returns:
+            a tuple containing the start timestamp and the ending time stamp.
+        
+
+        """
         return (self.data[0][0], self.data[-1][0])
 
 
     def simpleMA(self, window):
+        """
+        
+        calculates moving average for the given window
+
+        Arguments:
+            window: a number of days for each avg value
+
+        Raises:
+            ValueError: if window parameter was not integer
+
+        Returns:
+            the moving average
+
+
+        """
         # Calculates a simple moving average over the window given.
         # @params: window, a number of days for each avg value
         if (window > len(self.prices)):
@@ -64,12 +119,16 @@ class StockData:
 
 
     def expMA(self, window):
-        # Calculates an exponential moving average by adding a
-        # weight to the last 'window' days.
-        # @params: window, a number of days for each avg value
-        # @returns: an np array holding MA values computed with exp.
+        """
 
-        # Default window to 10 if it is out of range
+        calculates an exponential moving average by adding a weight to the last 'window' days.
+
+        Arguments:
+            window: a number of days for each avg value (default value 10)
+
+        Returns:
+            an np array holding MA values computed with exp.
+        """
         if (window > len(self.prices)):
             window = 10
         if (window <= 0):
@@ -90,10 +149,16 @@ class StockData:
 
 
     def printData(start, end):
-        # Prints the ticker and the indicator held within self
-        # Prints rows of 8 of tuples i.e. ("date", "price")
-        # @params: Range of values to print
-        # @returns: an np array holding MA values computed over window
+        """
+        
+        prints the ticker and the indicator held within self
+
+        Arguments:
+            start: start date to print data
+            end: end date to print data
+
+
+        """
         length = len(self.data)
         if (start > length and end > length):
             print("Invalid range entered!")
@@ -104,10 +169,7 @@ class StockData:
         if (end > length): # End must be <= len(self.data)
             end = length
         if (start > end):  # Swap if start > end
-            temp = end
-            end = start
-            start = temp
-
+            start, end = end, start
         print( "TICKER:\t {}".format(self.ticker) )
         print( "INDICATOR:\t {}\n".format(self.indicator) )
         counter = 0

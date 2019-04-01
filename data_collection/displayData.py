@@ -2,10 +2,16 @@ import matplotlib.pyplot as plt
 import matplotlib.patheffects as path_effects
 
 
-#params: dates Datetime object list representing stock dates
-#        cl List of floats representing closing values for each date
-# produces a graph of the closing values for each day over 3 months.
 def plotClose(dates, cl):
+    """
+    
+    produces a graph of the closing values for each day over 3 months.
+
+    Arguments:
+        dates: Datetime object list representing stock dates
+#       cl: List of floats representing closing values for each date
+
+    """
     plt.figure(1)
     plt.plot(dates, cl, linewidth=2, color='red',
              path_effects=[path_effects.SimpleLineShadow(),
@@ -18,10 +24,17 @@ def plotClose(dates, cl):
     plt.title("Daily Closing Values")
     plt.show()
 
-#params: dates Datetime object list representing stock dates
-#        op List of floats representing open values for each date
-# produces a graph of the open values for each day over 3 months.
 def plotOpen(dates, op):
+    """
+
+    produces a graph of the open values for each day over 3 months.
+
+    Arguments:
+        dates: Datetime object list representing stock dates
+        op: List of floats representing open values for each date
+
+
+    """
     plt.plot(dates, op, linewidth=2, color='red',
              path_effects=[path_effects.SimpleLineShadow(),
                            path_effects.Normal(offset=(0.0,5.0))])
@@ -33,9 +46,18 @@ def plotOpen(dates, op):
     plt.title("Daily Open Values")
     plt.show()
 
-#params: cl Closing prices for the last 90 days of a stock
-#returns simple moving average of the closing values
 def calculateSMA(cl):
+    """
+    
+    calculates simple moving average
+
+    Arguments:
+        cl: Closing prices for the last 90 days of a stock
+
+    Returns:
+        simple moving average of the closing values
+
+    """
     N = 10
     cumsum, moving_aves = [0], []
 
