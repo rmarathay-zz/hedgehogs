@@ -13,14 +13,21 @@ def pullColumn(cursor, ticker, column_name):
     # @params: a database cursor and a column name to take data
     # @returns: column data for the selected column name
 
-    TABLE_QUERY = ('SELECT {} FROM {}'.format(column_name, ticker))
-    print("Your query: ", '\'', TABLE_QUERY, '\'', sep="")
-    cursor.execute(TABLE_QUERY)
+    TABLE_QUERY_DATA = ('SELECT {} FROM {}'.format(column_name, ticker))
+    TABLE_QUERY_DATE = ('SELECT {} FROM {}'.format("date", ticker))
+    print("Your 1st query: ", '\'', TABLE_QUERY_DATA, '\'', sep="")
+    print("Your 2nd query: ", '\'', TABLE_QUERY_DATE, '\'', sep="")
+    cursor.execute(TABLE_QUERY_DATA)
     column_data = cursor.fetchall()
-    return_list = []
+    cursor.execute(TABLE_QUERY_DATA)
+    column_date = cursor.fetchall()
+
+    data = dates = []
     for i in column_data:
-        return_list.append(i[0])
-    return return_list
+        data.append(i[0])
+    for j in column_date:
+        dates.append(i[0])
+    return data, dates
 
 ################################################################################
 
@@ -42,28 +49,25 @@ if __name__ == '__main__':
         print('PostgreSQL database version:', cursor.execute('SELECT version();'))
         record = cursor.fetchone()
         print('You are connected to - ', record, '\n')
-
         print("COLUMN NAME OPTIONS:")
         print("\tdate\n\tlow\n\thigh\n\tvolume\n\tclose\n\topen\n")
 
-        ticker = "aapl"
+        ticker = "msft"
         column_name = "open"
-        data = pullColumn(cursor, ticker, column_name)
-        dates = pullColumn(cursor, ticker, "date")
+        data, dates = pullColumn(cursor, ticker, column_name)
         print("data size: {}\ndates size: {}".format(len(data), len(dates)))
 
         print("\nTESTING...")
-        window_sma = 50
+        window_sma = 10
         window_ema = 10
         AAPL = StockData(ticker, column_name, dates, data)
         print(AAPL.getTicker())
         print(AAPL.getIndicator())
-        print("SMA:", AAPL.simpleMA(window_sma))  # should have 5 data points
-        print("\nEMA:", AAPL.expMA(window_ema))     # should have 20 data points
+        print("SMA:", AAPL.simpleMA(window_sma))
+        print("\nEMA:", AAPL.expMA(window_ema))
         print("")
-        print("Maximum value:", AAPL.getMax())
-        print("Median value:", AAPL.getMedian())
         print("Time range:", AAPL.getTimeRange())
+
 
 
 
