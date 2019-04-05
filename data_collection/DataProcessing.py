@@ -15,7 +15,6 @@ class StockData:
             self.indicator: stores the indicator
             self.data: list of tuple holing timestamp and price in
             self.prices: numpy array of only prices
-
         """
         self.ticker = ticker
         self.indicator = column_type
@@ -32,7 +31,6 @@ class StockData:
 
         Returns:
             the ticker i.e. 'MSFT'
-
         """
         return self.ticker
 
@@ -43,7 +41,6 @@ class StockData:
 
         Returns:
              the indicator i.e. 'open' OR 'high'
-
         """
         return self.indicator
 
@@ -54,8 +51,6 @@ class StockData:
 
         Returns:
             a float containing the max price
-
-
         """
         return max(self.prices)
 
@@ -66,8 +61,6 @@ class StockData:
 
         Returns:
             a float containing the median price
-
-
         """
         return median(self.prices)
 
@@ -78,8 +71,6 @@ class StockData:
 
         Returns:
             a tuple containing the start timestamp and the ending time stamp.
-
-
         """
         return (self.data[0][0], self.data[-1][0])
 
@@ -96,8 +87,6 @@ class StockData:
 
         Returns:
             the moving average
-
-
         """
         # Calculates a simple moving average over the window given.
         # @params: window, a number of days for each avg value
@@ -143,8 +132,6 @@ class StockData:
         Arguments:
             start: start date to print data
             end: end date to print data
-
-
         """
         length = len(self.data)
         if (start > length and end > length):
