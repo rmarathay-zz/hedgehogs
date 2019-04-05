@@ -8,7 +8,6 @@ class StockData:
 
     def __init__(self, ticker, column_type, column_dates, column_data):
         """
-
         constructor to create StockData object
 
         Arguments:
@@ -29,19 +28,17 @@ class StockData:
 
     def getTicker(self):
         """
-
         method to get ticker for object
-        
+
         Returns:
             the ticker i.e. 'MSFT'
-        
+
         """
         return self.ticker
 
 
     def getIndicator(self):
         """
-        
         method to get indicator for object
 
         Returns:
@@ -53,12 +50,11 @@ class StockData:
 
     def getMax(self):
         """
-        
         returns the maximum price for the stock
 
         Returns:
             a float containing the max price
-        
+
 
         """
         return max(self.prices)
@@ -66,12 +62,11 @@ class StockData:
 
     def getMedian(self):
         """
-        
         returns the median price for the stock
 
         Returns:
             a float containing the median price
-        
+
 
         """
         return median(self.prices)
@@ -79,12 +74,11 @@ class StockData:
 
     def getTimeRange(self):
         """
-        
         returns a tupe containing the start date and end date
 
         Returns:
             a tuple containing the start timestamp and the ending time stamp.
-        
+
 
         """
         return (self.data[0][0], self.data[-1][0])
@@ -92,7 +86,6 @@ class StockData:
 
     def simpleMA(self, window):
         """
-        
         calculates moving average for the given window
 
         Arguments:
@@ -120,7 +113,6 @@ class StockData:
 
     def expMA(self, window):
         """
-
         calculates an exponential moving average by adding a weight to the last 'window' days.
 
         Arguments:
@@ -150,7 +142,6 @@ class StockData:
 
     def printData(start, end):
         """
-        
         prints the ticker and the indicator held within self
 
         Arguments:
