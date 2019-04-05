@@ -119,11 +119,11 @@ if __name__ == '__main__':
 
         # Example Moving Averages for APPL
         window_sma = 50
-        window_ema = 10
+        window_ema = 20
         AAPL = StockData(ticker, column_name, dates, data)
         print("\nChecking ticker", AAPL.getTicker(), "for column:", AAPL.getIndicator())
         print("SMA:", AAPL.simpleMA(window_sma))
-        #print("\nEMA:", AAPL.expMA(window_ema))
+        print("\nEMA:", AAPL.expMA(window_ema))
         print("")
         dates, close = pullColumnAll(cursor, ticker, "close")
         displayData.plotClose(dates, close)

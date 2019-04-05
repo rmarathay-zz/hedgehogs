@@ -125,19 +125,15 @@ class StockData:
             window = 10
         if (window <= 0):
             window = 10
-        alpha = np.float64(2.0 / (window + 1.0))
-        alpha_rev = np.float64(1-alpha)
-        n = self.prices.shape[0]             # n = number of array rows
+        if (len(self.prices) < 2*window):
+            raise ValueError("Data range is too short!")
 
-        pows = alpha_rev ** (np.arange(n+1)) # Build exponents array
-        scale_vector = 1 / pows[:-1]
-        offset = self.prices.data[0]*pows[1:]
-        pw0 = alpha * alpha_rev**(n-1)
+        c = 2.0 / (window+1)
+        current_ema = self.simpleMA(window)
+        for val in self.prices[-window:]:
+            current_ema = (c*val) + ((1-c)*current_ema)
+        return current_ema
 
-        mult = self.prices.data * pw0 * scale_vector
-        cum_sums = mult.cumsum()
-        out_vec = offset + cum_sums*scale_vector[::-1]
-        return out_vec
 
 
     def printData(start, end):
