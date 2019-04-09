@@ -89,8 +89,7 @@ body {
 
 <div class="topnav">
   <a class="active" href="#home">Home</a>
-  <a href="#about">About</a>
-  <a href="#contact">Contact</a>
+  <a class="nav-link" href="{% url 'about:aboutpage' %}">About<span class="sr-only">(current)</span></a>
   <div class="search-container">
     <form action="/searchStock">
       <input type="text" placeholder="Search ticker..." name="search">
