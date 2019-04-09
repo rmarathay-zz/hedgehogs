@@ -1,0 +1,63 @@
+/*  body { 
+  padding-top: 40px; 
+  }*/
+  p{
+    text-indent: 2.0em;
+    font-family: "HelvetiaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, sans-serif;
+  }
+  .nav-bar {
+    background: linear-gradient(0deg, #6CAA24, #24D440);
+    height: 60px;
+    /*margin-bottom: 15px;*/
+  }
+  .center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
+  .tab {
+    overflow: hidden;
+    border: 1px solid #000;
+    background-color: #fff;
+  }
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #6CAA24;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+.tabcontent {
+    animation: fadeEffect 1s; /* Fading effect takes 1 second */
+}
+
+/* Go from zero to full opacity */
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+/*  p {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  }*/

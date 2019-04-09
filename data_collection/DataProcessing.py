@@ -8,7 +8,6 @@ class StockData:
 
     def __init__(self, ticker, column_type, column_dates, column_data):
         """
-
         constructor to create StockData object
 
         Arguments:
@@ -16,7 +15,6 @@ class StockData:
             self.indicator: stores the indicator
             self.data: list of tuple holing timestamp and price in
             self.prices: numpy array of only prices
-
         """
         self.ticker = ticker
         self.indicator = column_type
@@ -29,70 +27,56 @@ class StockData:
 
     def getTicker(self):
         """
-
         method to get ticker for object
-        
+
         Returns:
             the ticker i.e. 'MSFT'
-        
         """
         return self.ticker
 
 
     def getIndicator(self):
         """
-        
         method to get indicator for object
 
         Returns:
              the indicator i.e. 'open' OR 'high'
-
         """
         return self.indicator
 
 
     def getMax(self):
         """
-        
         returns the maximum price for the stock
 
         Returns:
             a float containing the max price
-        
-
         """
         return max(self.prices)
 
 
     def getMedian(self):
         """
-        
         returns the median price for the stock
 
         Returns:
             a float containing the median price
-        
-
         """
         return median(self.prices)
 
 
     def getTimeRange(self):
         """
-        
         returns a tupe containing the start date and end date
 
         Returns:
             a tuple containing the start timestamp and the ending time stamp.
-        
-
         """
         return (self.data[0][0], self.data[-1][0])
 
 
     def simpleMA(self, window):
         """
-        
         calculates moving average for the given window
 
         Arguments:
@@ -103,8 +87,6 @@ class StockData:
 
         Returns:
             the moving average
-
-
         """
         # Calculates a simple moving average over the window given.
         # @params: window, a number of days for each avg value
@@ -120,7 +102,6 @@ class StockData:
 
     def expMA(self, window):
         """
-
         calculates an exponential moving average by adding a weight to the last 'window' days.
 
         Arguments:
@@ -133,31 +114,24 @@ class StockData:
             window = 10
         if (window <= 0):
             window = 10
-        alpha = np.float64(2.0 / (window + 1.0))
-        alpha_rev = np.float64(1-alpha)
-        n = self.prices.shape[0]             # n = number of array rows
+        if (len(self.prices) < 2*window):
+            raise ValueError("Data range is too short!")
 
-        pows = alpha_rev ** (np.arange(n+1)) # Build exponents array
-        scale_vector = 1 / pows[:-1]
-        offset = self.prices.data[0]*pows[1:]
-        pw0 = alpha * alpha_rev**(n-1)
+        c = 2.0 / (window+1)
+        current_ema = self.simpleMA(window)
+        for val in self.prices[-window:]:
+            current_ema = (c*val) + ((1-c)*current_ema)
+        return current_ema
 
-        mult = self.prices.data * pw0 * scale_vector
-        cum_sums = mult.cumsum()
-        out_vec = offset + cum_sums*scale_vector[::-1]
-        return out_vec
 
 
     def printData(start, end):
         """
-        
         prints the ticker and the indicator held within self
 
         Arguments:
             start: start date to print data
             end: end date to print data
-
-
         """
         length = len(self.data)
         if (start > length and end > length):
