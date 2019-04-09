@@ -1,0 +1,17 @@
+# PostgreSQL on Hedgehogs:
+
+
+##### How to Connect on terminal:
+You will need to install pgcli, 
+'''
+pip install pgcli
+'''
+Once complete in the terminal type:
+
+'''
+pgcli postgres://rcos:hedgehogs_rcos@206.189.181.163:5432
+'''
+prompted 
+
+
+In order to create scripts on python for Postgres, you will need to install psycopg2
