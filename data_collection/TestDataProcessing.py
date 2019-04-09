@@ -48,10 +48,19 @@ class TestStockData(object):
                  datetime.datetime(2019,3,22,0,0),datetime.datetime(2019,3,23,0,0),datetime.datetime(2019,3,24,0,0),
                  datetime.datetime(2019,3,25,0,0)]
 
-        # Test 1 data point for simple moving average, WINDOW=1
+        # Test above data
+        sd1 = StockData("EX","open",dates,data)
+        assert(sd1.simpleMA(1) == [])     # 1-Day window
+        assert(sd1.simpleMA(5) == [])     # 5-Day window
+        assert(sd1.simpleMA(10) == [])    # 10-Day window
 
         # Test window out of range
+        assert(sd1.simpleMA(15) == [])    # Window out of range
 
+        # Test 1 data point for simple moving average, WINDOW=1
+        data = [5]
+        dates = [datetime.datetime(2019,3,16,0,0)]
+        assert(sd1.simpleMA(1) == [])
 
 # -----------------------------------------------------------------------------------------------------------------
 
@@ -63,10 +72,18 @@ class TestStockData(object):
                  datetime.datetime(2019,3,22,0,0),datetime.datetime(2019,3,23,0,0),datetime.datetime(2019,3,24,0,0),
                  datetime.datetime(2019,3,25,0,0)]
 
+        # Test above data
+        sd1 = StockData("EX","open",dates,data)
+        assert(sd1.expMA(1) == [])
+        assert(sd1.expMA(5) == [])
+        assert(sd1.expMA(10) == [])
+
+        # Test window out of range
+        assert(sd1.expMA(15) == [])    # Window out of range
+
         # Test 1 data point for exp. moving average, WINDOW=1
         data = [5]
         dates = [datetime.datetime(2019,3,16,0,0)]
-
-        # Test window out of range
+        assert(sd1.expMA(1) == [])
 
 # -----------------------------------------------------------------------------------------------------------------
