@@ -1,6 +1,7 @@
 import datetime
 from DataProcessing import StockData
 
+
 # -----------------------------------------------------------------------------------------------------------------
 
 def Accessors_Test():
