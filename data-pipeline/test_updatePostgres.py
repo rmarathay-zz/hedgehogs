@@ -6,17 +6,20 @@ import pandas_datareader.data as web
 import datetime
 import sys
 import pytest
+import sample
 from addToPostgres import makeRow
 from connection import connection
-
-
-def test_connectBySymbol(symbol):
+    
+def connectBySymbol(symbol):
     """
     Args:
-        param1 (str): symbol, representing the company symbol.
+        param1 (str): symbol, representing the company stock ticker.
     Raises:
         ValueError: if web.DataReader couldn't connect to the data for the 
         symbol.
+    Returns:
+        Panel: f. It represents what the Open, High, Low, Close, and Adj Close prices for the company represented by "symbol" today.
+        
     """    
     connected = False
     i = 1
@@ -26,13 +29,20 @@ def test_connectBySymbol(symbol):
             print("connected ", symbol, '(', curr, ' of ', tot, ')')
             curr += 1
             connected = True
+            return f
         except Exception as e:
             print("couldn't connect to data for: ", symbol,
                   ' (Attempt number ', i, ')', sep='')
             i += 1
-            continue    
-    
-def test_makeRows(symbol):
+            continue
+        
+# test connectBySymbol with an invalid ticker symbol.
+def test_InvalidSymbol():
+    symbol = 'ABCD'
+    try: connectBySymbol(symbol)
+    except NameError: x = None
+
+def makeRows(symbol, f, l):
     """
     Args:
         param1 (str) : symbol representing the company symbol.
@@ -51,7 +61,18 @@ def test_makeRows(symbol):
                   ' to postgres (Attempt number ', attempts_makeRow, ')', sep='')
             attempts_makeRow += 1
             continue
-
+    return None
+# tests makeRows with an valid symbol.
+def test_makeRows():
+    symbol = 'F'
+    f = connectBySymbol(symbol)
+    l = []
+    try:
+        for index in f.index:
+            l.append(index.strftime('%Y-%m-%d'))
+    except:
+        print("Symbol ")
+    
 # This function grabs the highest primary key from the table and starts
 # the sequence at sequenceName at this value
 def reinitSequence(db, c, sequenceName, tableName):
@@ -121,13 +142,14 @@ if __name__ == "__main__":
         if len(symbol) == 0:
             continue
         
-        test_connectBySymbol(symbol)
+        f = connectBySymbol(symbol)
         
         l = []
-        for index in f.index:
-            l.append(index.strftime('%Y-%m-%d'))
+        if f != None:
+            for index in f.index:
+                l.append(index.strftime('%Y-%m-%d'))
 
-        test_makeRows(symbol)
+            makeRows(symbol, f, l)
         
     # Postgres
 
