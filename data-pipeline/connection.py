@@ -5,7 +5,9 @@ from config import make_conn_string
 def connection():
     """
     Function to connect to our local PostgreSQL database
-    :returns a database connection conn and a cursor cur
+
+    Returns:
+        database connection conn and a cursor cur
     """
     print('[LOG] Trying to connect')
 

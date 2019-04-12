@@ -3,6 +3,17 @@
 from import_hedgehogs import *
 
 def createTopLevelURLs(ticker):
+    """
+    
+    forms the links needed to download data later on
+
+    Arguments:
+        ticker: specific company ticker to collect data
+
+    Returns:
+        list of top level links for specific ticker
+
+    """
     top_level_links = []
     top_level_link = "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=" + ticker + "&type=10-Q&dateb=&owner=exclude&count=4"
     tl_link = Link('top_level_link', top_level_link)
@@ -14,6 +25,17 @@ def createTopLevelURLs(ticker):
     return top_level_links
 
 def createParseableUrls(top_level_links):
+    """
+
+    uses BeautifulSoup to create links to place data into xlsx files
+
+    Arguments:
+        top_level_links: top level links which are utilized to download data
+
+    Returns:
+        list of links which are properly formatted to be downloaded
+
+    """
     header_link = "https://www.sec.gov"
     return_list = []
     print("Creating Parseable URLs...")
@@ -27,6 +49,15 @@ def createParseableUrls(top_level_links):
     return return_list
 
 def downloadXlxs(xlxs_links, ticker):
+    """
+    
+    uses xlxs links and downloads them locally and renames them in proper folders
+
+    Arguments:
+        xlxs_links: full links to download stock data
+        ticker: specific company ticker which we are collecting data
+
+    """
     print("Downloading .xlxs files...")
     os.chdir('fin_data')
     os.mkdir(ticker)
@@ -40,6 +71,12 @@ def downloadXlxs(xlxs_links, ticker):
         counter +=1
 
 def initializer():
+    """
+    
+    function which handles main program flow
+
+
+    """
     cli_parser = OptionParser(
         usage='usage: %prog <input.xlsx> [output.json]'
         )
