@@ -22,6 +22,19 @@ import datetime
 
 
 def makeRow(symbol, f, date_list):
+    """
+
+    formats a list (ret) to the proper format to add a row to the database
+
+    Args:
+        symbol (str): symbol is equivalent to the ticker of a company
+        f (pandas Data Reader): used to collect stock data (currently from Yahoo)
+        date_list (list): list of valid stock dates
+
+    Returns:
+        list with row format for the database
+
+    """
     ret = []
     for date in date_list:
         row = [symbol, date]
@@ -38,14 +51,16 @@ def makeRow(symbol, f, date_list):
 
 def init_table(db, c, tableName, sequenceName):
     """
-    @params
-    db              database connection object
-    c               database cursor
-    tableName       string        name of table to initialize
-    sequenceName    string        name of sequence to initialize
 
-    This function creates a new table on the provided db with
-    the eod format as shown
+    creates a new table on the provided db with the eod format as shown
+
+    Args:
+        db (database connection object)              
+        c (database cursor)              
+        tableName (string): name of table to initialize
+        sequenceName (string): name of sequence to initialize
+
+    
     """
     print("[LOG] creating table {}".format(tableName))
 

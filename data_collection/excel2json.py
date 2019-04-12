@@ -1,6 +1,15 @@
 from import_hedgehogs import *
 
 def convert_excel_to_csv(excel_file):
+    """
+    
+    converts xlxs files into csv format to use in database
+
+    Arguments:
+        excel_file: file whose data is being transferred to csv file
+    
+
+    """
     wb = load_workbook(excel_file)
     counter = 0
     for sheet in wb.sheetnames:

@@ -1,32 +1,91 @@
 """
-updatePostgres.py
-This file adds only the missing stock data to our postgres db
-
-It first checks the most recent date that we already have in the db,
-then fills from that date up until today
+Testing updatePostgres.py
 """
-
 import psycopg2
 import pandas_datareader.data as web
 import datetime
 import sys
+import pytest
+import sample
 from addToPostgres import makeRow
 from connection import connection
+    
+def connectBySymbol(symbol):
+    """
+    Args:
+        param1 (str): symbol, representing the company stock ticker.
+    Raises:
+        ValueError: if web.DataReader couldn't connect to the data for the 
+        symbol.
+    Returns:
+        Panel: f. It represents what the Open, High, Low, Close, and Adj Close prices for the company represented by "symbol" today.
+        
+    """    
+    connected = False
+    i = 1
+    while not connected and i < 4:
+        try:
+            f = web.DataReader(symbol.lower(), 'yahoo', start)
+            print("connected ", symbol, '(', curr, ' of ', tot, ')')
+            curr += 1
+            connected = True
+            return f
+        except Exception as e:
+            print("couldn't connect to data for: ", symbol,
+                  ' (Attempt number ', i, ')', sep='')
+            i += 1
+            continue
+        
+# test connectBySymbol with an invalid ticker symbol.
+def test_InvalidSymbol():
+    symbol = 'ABCD'
+    try: connectBySymbol(symbol)
+    except NameError: x = None
 
+def makeRows(symbol, f, l):
+    """
+    Args:
+        param1 (str) : symbol representing the company symbol.
+    Raises:
+        ValueError : if makeRow(symbol, f, l) fails to add the symbol to postgres.
+    """    
+    attempts_makeRow = 1
+    rowMade = False
+    while not rowMade and attempts_makeRow < 4:
+        try:
+            results = makeRow(symbol, f, l)
+            biglist.extend(results)
+            rowMade = True
+        except Exception as e:
+            print("couldn't add ", symbol,
+                  ' to postgres (Attempt number ', attempts_makeRow, ')', sep='')
+            attempts_makeRow += 1
+            continue
+    return None
+# tests makeRows with an valid symbol.
+def test_makeRows():
+    symbol = 'F'
+    f = connectBySymbol(symbol)
+    l = []
+    try:
+        for index in f.index:
+            l.append(index.strftime('%Y-%m-%d'))
+    except:
+        print("Symbol ")
+    
 # This function grabs the highest primary key from the table and starts
 # the sequence at sequenceName at this value
-
 def reinitSequence(db, c, sequenceName, tableName):
     """
     Args:
-        db (connection object): the connection object that is altered.
-        c (cursor): the cursor object used for db.
-        sequenceName (str): describes the sequence.
-        tableName (str): name of the table.
+        param 1 (connection object): db, the connection object that is altered.
+        param 2 (cursor): c, the cursor object used for db.
+        param 3 (str): sequenceName describes the sequence.
+        param 4 (str): tableName, name of the table.
     Raises:
         ValueError: if committing drop sequence to db wasn't successful.
         ValueError: if committing a new sequence to db wasn't successful.
-    """    
+    """
     c.execute("select max(primary_key) from {}".format(tableName))
     max = c.fetchone()[0]
 
@@ -47,15 +106,14 @@ def reinitSequence(db, c, sequenceName, tableName):
         print(e)
         db.rollback()
 
-
 if __name__ == "__main__":
-
     tableName = "eod_tmp1"
     sequenceName = "quote_id"
-
-    # db is connection c is cursor
+    
+    #db is connnection c is cursor
     db, c = connection()
-
+    
+    
     # we want to grab the highest primary_key in the table currently
     '''
     These lines find the latest date in the database
@@ -83,36 +141,16 @@ if __name__ == "__main__":
     for symbol in watchlist_f:
         if len(symbol) == 0:
             continue
-        connected = False
-        i = 1
-        while not connected and i < 4:
-            try:
-                f = web.DataReader(symbol.lower(), 'yahoo', start)
-                print("connected ", symbol, '(', curr, ' of ', tot, ')')
-                curr += 1
-                connected = True
-            except Exception as e:
-                print("couldn't connect to data for: ", symbol,
-                      ' (Attempt number ', i, ')', sep='')
-                i += 1
-                continue
+        
+        f = connectBySymbol(symbol)
+        
         l = []
-        for index in f.index:
-            l.append(index.strftime('%Y-%m-%d'))
+        if f != None:
+            for index in f.index:
+                l.append(index.strftime('%Y-%m-%d'))
 
-        attempts_makeRow = 1
-        rowMade = False
-        while not rowMade and attempts_makeRow < 4:
-            try:
-                results = makeRow(symbol, f, l)
-                biglist.extend(results)
-                rowMade = True
-            except Exception as e:
-                print("couldn't add ", symbol,
-                      ' to postgres (Attempt number ', attempts_makeRow, ')', sep='')
-                attempts_makeRow += 1
-                continue
-
+            makeRows(symbol, f, l)
+        
     # Postgres
 
     # We don't want to reinitialize the table here, instead we
@@ -129,4 +167,4 @@ if __name__ == "__main__":
             print(e)
             db.rollback()
 
-    db.close()
+    db.close()    
