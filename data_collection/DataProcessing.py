@@ -102,7 +102,7 @@ class StockData:
 
     def expMA(self, window):
         """
-        calculates an exponential moving average by adding a weight to the last 'window' days.
+        Calculates an exponential moving average by adding a weight to the last 'window' days.
 
         Arguments:
             window: a number of days for each avg value (default value 10)
