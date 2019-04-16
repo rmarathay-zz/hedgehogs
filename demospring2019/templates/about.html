@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Hedgehogs</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+	<link href="../static/style.css" rel="stylesheet">
+		<link rel="shortcut icon" type="image/png" href="../static/assets/favicon.png"/>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-md bg-light">
+	<div class="container-fluid">
+		<a class = "navbar-logo" href ="{{ url_for('index') }}"><img src="../static/assets/logo.svg"></a>
+		<ul class="nav ml-auto text-secondary">
+			<li class="nav-item">
+				<a class="nav-link" href ="{{ url_for('index') }}" style="color:#888"> Home</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href ="{{ url_for('tools') }}" style="color:#888"> Tools</a>
+			</li>
+			<li class="nav-item-current">
+				<a class="nav-link" href ="{{ url_for('about') }}" style="color:#111"> About</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href ="{{ url_for('login') }}" style="color:#888"> Login</a>
+			</li>
+</div>
+</nav>
+<!--- Image Slider -->
+<!-- <div class="container"> -->
+	<!-- <img class="img-responsive" src="assets/background.png" width="98%" > -->
+<!-- </div> -->
+
+
+<!--- Footer -->
+<!-- <footer>
+	<div class="footer" width="98%">
+		<hr class="light">
+		<p>Hedgehogs | An 
+			<a href="http://rcos.io" title="Rensselaer Center for Open Source">RCOS</a>
+			 project | 
+			<a href="https://github.com/rmarathay/hedgehogs">Github</a>
+		</p>
+	</div>	
+</footer> -->
+
+
+<div class="footer">Hedgehogs | An <a href="http://rcos.io" title="Rensselaer Center for Open Source">RCOS</a> project | <a href="https://github.com/rmarathay/hedgehogs">Github</a></div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+

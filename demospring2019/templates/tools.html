@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Hedgehogs</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+	<link href="../static/style.css" rel="stylesheet">
+		<link rel="shortcut icon" type="image/png" href="../static/assets/hedgehog32x32.png"/>
+	<style>
+.aligncenter {
+    text-align: center;
+}
+</style>
+
+
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-md bg-light">
+	<div class="container-fluid">
+		<a class = "navbar-logo" href ="{{ url_for('index') }}"><img src="../static/assets/logo.svg"></a>
+		<ul class="nav ml-auto text-secondary">
+			<li class="nav-item">
+				<a class="nav-link" href ="{{ url_for('index') }}" style="color:#888"> Home</a>
+			</li>
+			<li class="nav-item-current">
+				<a class="nav-link" href ="{{ url_for('tools') }}" style="color:#111"> Tools</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href ="{{ url_for('about') }}" style="color:#888"> About</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href ="{{ url_for('login') }}" style="color:#888"> Login</a>
+			</li>
+</div>
+</nav>
+
+<form action="{{ url_for('tools') }}" method="post">
+<div class="col-sm-6 offset-sm-3 text-center">
+	<input type="text" name='user_input' class="form-rounded" placeholder="Company Ticker">
+</div>
+
+<div class="form-actions">
+	<center>
+        <button type="submit" class="submit btn btn-primary ">
+            View data <i class="icon-angle-right"></i>
+        </button>
+    </center>
+</div>
+</form>
+
+  {% if url != 0 %}
+  <p class="aligncenter">
+    <img src={{ url}} alt="Chart" height="600" width="600"/>
+  </p>
+  {% endif %}
+
+
+<div class="footer">Hedgehogs | An <a href="http://rcos.io" title="Rensselaer Center for Open Source">RCOS</a> project | <a href="https://github.com/rmarathay/hedgehogs">Github</a></div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
