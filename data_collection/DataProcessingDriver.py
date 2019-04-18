@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 from psycopg2 import Error
 from DataProcessing import StockData
 import displayData
+import sys
 
 
 
@@ -110,10 +111,14 @@ if __name__ == '__main__':
         print('You are connected to - ', record, '\n')
         print("COLUMN NAME OPTIONS:")
         print("\tdate\n\tlow\n\thigh\n\tvolume\n\tclose\n\topen\n")
+        if(len(sys.argv) != 3):
+            print("NOT ENOUGH ARGUMENTS")
 
         # Example for Ticker AAPL
-        ticker = "aapl"
-        column_name = "open"
+        ticker = sys.argv[1]
+        column_name = sys.argv[2]
+        print(ticker)
+        print(column_name)
         dates, data = pullColumnAll(cursor, ticker, column_name)
         print("data size: {}\ndates size: {}".format(len(data), len(dates)))
 
@@ -125,8 +130,8 @@ if __name__ == '__main__':
         print("SMA:", AAPL.simpleMA(window_sma))
         print("\nEMA:", AAPL.expMA(window_ema))
         print("")
-        dates, close = pullColumnAll(cursor, ticker, "close")
-        displayData.plotClose(dates, close)
+        dates, vals = pullColumnAll(cursor, ticker, column_name)
+        displayData.plotValues(dates, vals, column_name, ticker)
 
         # Test Accessor Methods
         #print("Maximum value:", AAPL.getMax())
