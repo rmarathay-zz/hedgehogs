@@ -45,7 +45,18 @@
 <div class="col-sm-6 offset-sm-3 text-center">
 	<input type="text" name='user_input' class="form-rounded" placeholder="Company Ticker">
 </div>
-
+	<fieldset>
+        <div>
+            <input class="radio-input" type="radio" name="data_input" value="open" />
+            <label class="radio-label">Open</label>
+            <input class="radio-input" type="radio" name="data_input" value="close" />
+            <label class="radio-label">Close</label>
+            <input class="radio-input" type="radio" name="data_input" value="high" />
+            <label class="radio-label">High</label>
+            <input class="radio-input" type="radio" name="data_input" value="low" />
+            <label class="radio-label">Low</label>
+        </div>
+    </fieldset>
 <div class="form-actions">
 	<center>
         <button type="submit" class="submit btn btn-primary ">
@@ -57,12 +68,12 @@
 
   {% if url != 0 %}
   <p class="aligncenter">
-    <img src={{ url}} alt="Chart" height="600" width="600"/>
+    <img src={{url}} alt={{url}} height="600" width="600"/>
   </p>
   {% endif %}
 
 
-<div class="footer">Hedgehogs | An <a href="http://rcos.io" title="Rensselaer Center for Open Source">RCOS</a> project | <a href="https://github.com/rmarathay/hedgehogs">Github</a></div>
+<footer class="footer">Hedgehogs | An <a href="http://rcos.io" title="Rensselaer Center for Open Source">RCOS</a> project | <a href="https://github.com/rmarathay/hedgehogs">Github</a></footer>
 </body>
 </html>
 

@@ -3,8 +3,8 @@ from secretParser import getSecret
 from LoginForm import RegistrationForm
 from flask_login import LoginManager, current_user, login_user
 from flask_sqlalchemy import SQLAlchemy
-from DataProcessingDriver import mainMethod
-from graphMatPlotLib import gen_graph
+import os.path
+from DataProcessingDriver import MainWrapper
 
 db = SQLAlchemy()
 
@@ -30,12 +30,12 @@ def register():
 def tools():
 	temp = 0
 	if (request.method == 'POST'):
-		result = request.form['user_input']
-		if (result!=''):
-			mainMethod()
-			# gen_graph(result)
-			# temp = 'static/' + result + '.png'
-			temp = 'static/close2.png'
+		if ('user_input' in request.form and 'data_input' in request.form):
+			result = request.form['user_input']
+			data_input_result = request.form.get('data_input')
+			temp = 'static/' + result + '_' + data_input_result + '.png'
+			if not os.path.isfile(temp):
+				MainWrapper(result, data_input_result)
 	return render_template('tools.html', url = temp)
 
 @app.route('/login')
