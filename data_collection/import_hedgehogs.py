@@ -2,10 +2,10 @@
 #   CONTAINS ALL MODULES AND CLASSES
 
 
-from lxml import html
-from lxml import etree
-from optparse import OptionParser
-from openpyxl import load_workbook
+##from lxml import html
+##from lxml import etree
+##from optparse import OptionParser
+##from openpyxl import load_workbook
 from bs4 import BeautifulSoup
 from io import StringIO
 from pymongo import MongoClient
@@ -16,7 +16,7 @@ from bson import json_util
 import collections
 import io
 import urllib
-import pycurl
+##import pycurl
 import html2text
 import sys
 import os
