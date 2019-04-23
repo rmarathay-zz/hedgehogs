@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01c30118-d367-4aec-83ef-3abbdd586d7d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/DataProcessingDriver.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataProcessingDriver.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/displayData.py" beforeDir="false" afterPath="$PROJECT_DIR$/displayData.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hedgehogsRestApi/tools/templates/tools/tools.html" beforeDir="false" afterPath="$PROJECT_DIR$/../hedgehogsRestApi/tools/templates/tools/tools.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/displayData.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+            <state relative-caret-position="85">
+              <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -32,7 +30,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DataProcessing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
+            <state relative-caret-position="1955">
               <caret line="118" selection-start-line="118" selection-end-line="118" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
@@ -41,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DataProcessingDriver.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="133" column="63" selection-start-line="133" selection-start-column="63" selection-end-line="133" selection-end-column="63" />
+            <state relative-caret-position="204">
+              <caret line="117" column="28" lean-forward="true" selection-start-line="117" selection-start-column="28" selection-end-line="117" selection-end-column="28" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -232,7 +230,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DataProcessingDriver.py" />
-      <option name="PARAMETERS" value="ATVI close" />
+      <option name="PARAMETERS" value="AFL high" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -395,7 +393,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3085339" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3085339" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -416,9 +414,16 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/parser_db.py" />
     <entry file="file://$PROJECT_DIR$/hedgehogs.py" />
+    <entry file="file://$PROJECT_DIR$/displayData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DataProcessing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
+        <state relative-caret-position="1955">
           <caret line="118" selection-start-line="118" selection-end-line="118" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
@@ -428,18 +433,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DataProcessingDriver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="133" column="63" selection-start-line="133" selection-start-column="63" selection-end-line="133" selection-end-column="63" />
+        <state relative-caret-position="204">
+          <caret line="117" column="28" lean-forward="true" selection-start-line="117" selection-start-column="28" selection-end-line="117" selection-end-column="28" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/displayData.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
         </state>
       </provider>
     </entry>
