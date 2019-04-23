@@ -148,7 +148,7 @@ class StockData:
         return increasingList
 
 
-    def decreasingRanges():
+    def decreasingRanges(): # NEEDS TESTING, RETURNS A LIST OF TUPLES (s1, s2) where s1 is start date and s2 is end date
         """
         Finds all of the decreasing runs.
 
@@ -172,7 +172,7 @@ class StockData:
         return decreasingList
 
 
-    def printData(start, end):
+    def printData(start, end): # NEEDS TESTING, RETURNS A LIST OF TUPLES (s1, s2) where s1 is start date and s2 is end date
         """
         prints the ticker and the indicator held within self
 
