@@ -170,7 +170,7 @@ class StockData:
                     dateRange = (startDate, endDate)
                     decreasingList.append(dateRange)
         return decreasingList
-        
+
 
     def printData(start, end):
         """
