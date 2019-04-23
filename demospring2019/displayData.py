@@ -5,31 +5,19 @@ import matplotlib.patheffects as path_effects
 #params: dates Datetime object list representing stock dates
 #        cl List of floats representing closing values for each date
 # produces a graph of the closing values for each day over 3 months.
-def plotClose(dates, cl):
+def plotValues(dates, vals, col_name, ticker):
     plt.figure(1)
-    plt.plot(dates, cl, linewidth=2, color='red',
+    plt.plot(dates, vals, linewidth=2, color='blue',
              path_effects=[path_effects.SimpleLineShadow(),
                            path_effects.Normal(offset=(0.0,5.0))])
 
     plt.xlabel("Date (Month)")
     plt.ylabel("Value ($)")
-    plt.title("Daily Closing Values")
-    plt.savefig('close.png')
-
-#params: dates Datetime object list representing stock dates
-#        op List of floats representing open values for each date
-# produces a graph of the open values for each day over 3 months.
-def plotOpen(dates, op):
-    plt.plot(dates, op, linewidth=2, color='red',
-             path_effects=[path_effects.SimpleLineShadow(),
-                           path_effects.Normal(offset=(0.0,5.0))])
-    ax = plt.subplot(1, 1, 1)
-    ax.scatter(dates, op)
-    ax.plot(dates, op, "or")
-    plt.xlabel("Date (Month)")
-    plt.ylabel("Value ($)")
-    plt.title("Daily Open Values")
-    plt.savefig('open.png')
+    title = str("Daily " +col_name.capitalize() + " Values (" + ticker + ")")
+    plt.title(title)
+    plt.savefig('static/' +ticker +'_' + col_name + '.png')
+    plt.clf()
+    plt.cla()
 
 #params: cl Closing prices for the last 90 days of a stock
 #returns simple moving average of the closing values
@@ -44,6 +32,7 @@ def calculateSMA(cl):
             # can do stuff with moving_ave here
             moving_aves.append(moving_ave)
     return moving_ave
+
 import matplotlib.pyplot as plt
 import matplotlib.patheffects as path_effects
 
@@ -68,7 +57,7 @@ def plotClose(dates, cl):
     plt.xlabel("Date (Month)")
     plt.ylabel("Value ($)")
     plt.title("Daily Closing Values")
-    plt.savefig('static/close2.png')
+    plt.show()
 
 def plotOpen(dates, op):
     """
@@ -90,7 +79,7 @@ def plotOpen(dates, op):
     plt.xlabel("Date (Month)")
     plt.ylabel("Value ($)")
     plt.title("Daily Open Values")
-    plt.savefig('open2.png')
+    plt.show()
 
 def calculateSMA(cl):
     """
