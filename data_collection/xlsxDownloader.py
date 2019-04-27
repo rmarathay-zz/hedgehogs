@@ -1,4 +1,26 @@
-# v1.0.0
+# v0.0.2
+
+from lxml import html
+from lxml import etree
+from bs4 import BeautifulSoup
+from optparse import OptionParser
+from pymongo import MongoClient
+#from HTMLParser import HTMLParser
+from openpyxl import load_workbook
+import urllib
+#import urllib2
+import datetime
+import pprint
+import html2text
+import sys, os
+import wget
+import pandas
+import xlrd
+
+#from import_hedgehogs import Link
+#from import_hedgehogs import Data
+
+
 
 from import_hedgehogs import *
 
@@ -70,6 +92,7 @@ def downloadXlxs(xlxs_links, ticker):
         os.rename(i, name)
         counter +=1
 
+
 def initializer():
     """
     
@@ -82,6 +105,7 @@ def initializer():
         )
     (options, args) = cli_parser.parse_args()
     # Input file checks
+
     if len(args) < 1:
         cli_parser.error("You have to supply at least 1 argument")
     print("Version 2.5.0")
