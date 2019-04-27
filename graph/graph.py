@@ -5,6 +5,13 @@ import dash_html_components as html
 from pandas_datareader import data as web
 from datetime import datetime as dt
 
+import sys
+sys.path.insert(0, '../')
+from data/-pipeline.connection import connection
+
+connection()
+
+"""
 app = dash.Dash()
 
 app.layout = html.Div([
@@ -35,3 +42,4 @@ def update_graph(selected_dropdown_value):
 
 if __name__ == '__main__':
     app.run_server()
+"""
