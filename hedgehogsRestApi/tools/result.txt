@@ -1,0 +1,507 @@
+	 3M Company MMM Industrials
+	 A.O. Smith Corp AOS Industrials
+	 Abbott Laboratories ABT Health Care
+	 AbbVie Inc. ABBV Health Care
+	 ABIOMED Inc ABMD Health Care
+	 Accenture plc ACN Information Technology
+	 Activision Blizzard ATVI Communication Services
+	 Adobe Systems Inc ADBE Information Technology
+	 Advance Auto Parts AAP Consumer Discretionary
+	 Advanced Micro Devices Inc AMD Information Technology
+	 AES Corp AES Utilities
+	 Aetna Inc AET Health Care
+	 Affiliated Managers Group Inc AMG Financials
+	 AFLAC Inc AFL Financials
+	 Agilent Technologies Inc A Health Care
+	 Air Products & Chemicals Inc APD Materials
+	 Akamai Technologies Inc AKAM Information Technology
+	 Alaska Air Group Inc ALK Industrials
+	 Albemarle Corp ALB Materials
+	 Alexandria Real Estate Equities Inc ARE Real Estate
+	 Alexion Pharmaceuticals ALXN Health Care
+	 Align Technology ALGN Health Care
+	 Allegion ALLE Industrials
+	 Allergan, Plc AGN Health Care
+	 Alliance Data Systems ADS Information Technology
+	 Alliant Energy Corp LNT Utilities
+	 Allstate Corp ALL Financials
+	 Alphabet Inc Class A GOOGL Communication Services
+	 Alphabet Inc Class C GOOG Communication Services
+	 Altria Group Inc MO Consumer Staples
+	 Amazon.com Inc. AMZN Consumer Discretionary
+	 Ameren Corp AEE Utilities
+	 American Airlines Group AAL Industrials
+	 American Electric Power AEP Utilities
+	 American Express Co AXP Financials
+	 American International Group, Inc. AIG Financials
+	 American Tower Corp. AMT Real Estate
+	 American Water Works Company Inc AWK Utilities
+	 Ameriprise Financial AMP Financials
+	 AmerisourceBergen Corp ABC Health Care
+	 AMETEK Inc. AME Industrials
+	 Amgen Inc. AMGN Health Care
+	 Amphenol Corp APH Information Technology
+	 Anadarko Petroleum Corp APC Energy
+	 Analog Devices, Inc. ADI Information Technology
+	 ANSYS ANSS Information Technology
+	 Anthem Inc. ANTM Health Care
+	 Aon plc AON Financials
+	 Apache Corporation APA Energy
+	 Apartment Investment & Management (Aimco) AIV Real Estate
+	 Apple Inc. AAPL Information Technology
+	 Applied Materials Inc. AMAT Information Technology
+	 Aptiv Plc APTV Consumer Discretionary
+	 Archer-Daniels-Midland Co ADM Consumer Staples
+	 Arconic Inc. ARNC Industrials
+	 Arista Networks ANET Information Technology
+	 Arthur J. Gallagher & Co. AJG Financials
+	 Assurant Inc. AIZ Financials
+	 AT&T Inc. T Communication Services
+	 Autodesk Inc. ADSK Information Technology
+	 Automatic Data Processing ADP Information Technology
+	 AutoZone Inc AZO Consumer Discretionary
+	 AvalonBay Communities, Inc. AVB Real Estate
+	 Avery Dennison Corp AVY Materials
+	 Baker Hughes, a GE Company BHGE Energy
+	 Ball Corp BLL Materials
+	 Bank of America Corp BAC Financials
+	 Baxter International Inc. BAX Health Care
+	 BB&T Corporation BBT Financials
+	 Becton Dickinson BDX Health Care
+	 Berkshire Hathaway BRK-B Financials
+	 Best Buy Co. Inc. BBY Consumer Discretionary
+	 Biogen Inc. BIIB Health Care
+	 BlackRock BLK Financials
+	 Block H&R HRB Consumer Discretionary
+	 Boeing Company BA Industrials
+	 Booking Holdings Inc BKNG Consumer Discretionary
+	 BorgWarner BWA Consumer Discretionary
+	 Boston Properties BXP Real Estate
+	 Boston Scientific BSX Health Care
+	 Brighthouse Financial Inc BHF Financials
+	 Bristol-Myers Squibb BMY Health Care
+	 Broadcom AVGO Information Technology
+	 Broadridge Financial Solutions BR Information Technology
+	 Brown-Forman Corp. BF-B Consumer Staples
+	 C. H. Robinson Worldwide CHRW Industrials
+	 Cabot Oil & Gas COG Energy
+	 Cadence Design Systems CDNS Information Technology
+	 Campbell Soup CPB Consumer Staples
+	 Capital One Financial COF Financials
+	 Cardinal Health Inc. CAH Health Care
+	 Carmax Inc KMX Consumer Discretionary
+	 Carnival Corp. CCL Consumer Discretionary
+	 Caterpillar Inc. CAT Industrials
+	 Cboe Global Markets CBOE Financials
+	 CBRE Group CBRE Real Estate
+	 CBS Corp. CBS Communication Services
+	 Celgene Corp. CELG Health Care
+	 Centene Corporation CNC Health Care
+	 CenterPoint Energy CNP Utilities
+	 CenturyLink Inc CTL Communication Services
+	 Cerner CERN Health Care
+	 CF Industries Holdings Inc CF Materials
+	 Charles Schwab Corporation SCHW Financials
+	 Charter Communications CHTR Communication Services
+	 Chevron Corp. CVX Energy
+	 Chipotle Mexican Grill CMG Consumer Discretionary
+	 Chubb Limited CB Financials
+	 Church & Dwight CHD Consumer Staples
+	 CIGNA Corp. CI Health Care
+	 Cimarex Energy XEC Energy
+	 Cincinnati Financial CINF Financials
+	 Cintas Corporation CTAS Industrials
+	 Cisco Systems CSCO Information Technology
+	 Citigroup Inc. C Financials
+	 Citizens Financial Group CFG Financials
+	 Citrix Systems CTXS Information Technology
+	 CME Group Inc. CME Financials
+	 CMS Energy CMS Utilities
+	 Coca-Cola Company (The) KO Consumer Staples
+	 Cognizant Technology Solutions CTSH Information Technology
+	 Colgate-Palmolive CL Consumer Staples
+	 Comcast Corp. CMCSA Communication Services
+	 Comerica Inc. CMA Financials
+	 Conagra Brands CAG Consumer Staples
+	 Concho Resources CXO Energy
+	 ConocoPhillips COP Energy
+	 Consolidated Edison ED Utilities
+	 Constellation Brands STZ Consumer Staples
+	 Copart Inc CPRT Industrials
+	 Corning Inc. GLW Information Technology
+	 Costco Wholesale Corp. COST Consumer Staples
+	 Coty, Inc COTY Consumer Staples
+	 Crown Castle International Corp. CCI Real Estate
+	 CSX Corp. CSX Industrials
+	 Cummins Inc. CMI Industrials
+	 CVS Health CVS Health Care
+	 D. R. Horton DHI Consumer Discretionary
+	 Danaher Corp. DHR Health Care
+	 Darden Restaurants DRI Consumer Discretionary
+	 DaVita Inc. DVA Health Care
+	 Deere & Co. DE Industrials
+	 Delta Air Lines Inc. DAL Industrials
+	 Dentsply Sirona XRAY Health Care
+	 Devon Energy Corp. DVN Energy
+	 Digital Realty Trust Inc DLR Real Estate
+	 Discover Financial Services DFS Financials
+	 Discovery Inc. Class A DISCA Communication Services
+	 Discovery Inc. Class C DISCK Communication Services
+	 Dish Network DISH Communication Services
+	 Dollar General DG Consumer Discretionary
+	 Dollar Tree DLTR Consumer Discretionary
+	 Dominion Energy D Utilities
+	 Dover Corp. DOV Industrials
+	 DowDuPont DWDP Materials
+	 DTE Energy Co. DTE Utilities
+	 Duke Energy DUK Utilities
+	 Duke Realty Corp DRE Real Estate
+	 DXC Technology DXC Information Technology
+	 E*Trade ETFC Financials
+	 Eastman Chemical EMN Materials
+	 Eaton Corporation ETN Industrials
+	 eBay Inc. EBAY Consumer Discretionary
+	 Ecolab Inc. ECL Materials
+	 Edison Int'l EIX Utilities
+	 Edwards Lifesciences EW Health Care
+	 Electronic Arts EA Communication Services
+	 Emerson Electric Company EMR Industrials
+	 Entergy Corp. ETR Utilities
+	 EOG Resources EOG Energy
+	 Equifax Inc. EFX Industrials
+	 Equinix EQIX Real Estate
+	 Equity Residential EQR Real Estate
+	 Essex Property Trust, Inc. ESS Real Estate
+	 Estee Lauder Cos. EL Consumer Staples
+	 Everest Re Group Ltd. RE Financials
+	 Evergy EVRG Utilities
+	 Eversource Energy ES Utilities
+	 Exelon Corp. EXC Utilities
+	 Expedia Group EXPE Consumer Discretionary
+	 Expeditors EXPD Industrials
+	 Express Scripts ESRX Health Care
+	 Extra Space Storage EXR Real Estate
+	 Exxon Mobil Corp. XOM Energy
+	 F5 Networks FFIV Information Technology
+	 Facebook, Inc. FB Communication Services
+	 Fastenal Co FAST Industrials
+	 Federal Realty Investment Trust FRT Real Estate
+	 FedEx Corporation FDX Industrials
+	 Fidelity National Information Services FIS Information Technology
+	 Fifth Third Bancorp FITB Financials
+	 FirstEnergy Corp FE Utilities
+	 Fiserv Inc FISV Information Technology
+	 FleetCor Technologies Inc FLT Information Technology
+	 FLIR Systems FLIR Information Technology
+	 Flowserve Corporation FLS Industrials
+	 Fluor Corp. FLR Industrials
+	 FMC Corporation FMC Materials
+	 Foot Locker Inc FL Consumer Discretionary
+	 Ford Motor F Consumer Discretionary
+	 Fortinet FTNT Information Technology
+	 Fortive Corp FTV Industrials
+	 Fortune Brands Home & Security FBHS Industrials
+	 Franklin Resources BEN Financials
+	 Freeport-McMoRan Inc. FCX Materials
+	 Gap Inc. GPS Consumer Discretionary
+	 Garmin Ltd. GRMN Consumer Discretionary
+	 Gartner Inc IT Information Technology
+	 General Dynamics GD Industrials
+	 General Electric GE Industrials
+	 General Mills GIS Consumer Staples
+	 General Motors GM Consumer Discretionary
+	 Genuine Parts GPC Consumer Discretionary
+	 Gilead Sciences GILD Health Care
+	 Global Payments Inc. GPN Information Technology
+	 Goldman Sachs Group GS Financials
+	 Goodyear Tire & Rubber GT Consumer Discretionary
+	 Grainger (W.W.) Inc. GWW Industrials
+	 Halliburton Co. HAL Energy
+	 Hanesbrands Inc HBI Consumer Discretionary
+	 Harley-Davidson HOG Consumer Discretionary
+	 Harris Corporation HRS Industrials
+	 Hartford Financial Svc.Gp. HIG Financials
+	 Hasbro Inc. HAS Consumer Discretionary
+	 HCA Holdings HCA Health Care
+	 HCP Inc. HCP Real Estate
+	 Helmerich & Payne HP Energy
+	 Henry Schein HSIC Health Care
+	 Hess Corporation HES Energy
+	 Hewlett Packard Enterprise HPE Information Technology
+	 Hilton Worldwide Holdings Inc HLT Consumer Discretionary
+	 HollyFrontier Corp HFC Energy
+	 Hologic HOLX Health Care
+	 Home Depot HD Consumer Discretionary
+	 Honeywell Int'l Inc. HON Industrials
+	 Hormel Foods Corp. HRL Consumer Staples
+	 Host Hotels & Resorts HST Real Estate
+	 HP Inc. HPQ Information Technology
+	 Humana Inc. HUM Health Care
+	 Huntington Bancshares HBAN Financials
+	 Huntington Ingalls Industries HII Industrials
+	 IDEXX Laboratories IDXX Health Care
+	 IHS Markit Ltd. INFO Industrials
+	 Illinois Tool Works ITW Industrials
+	 Illumina Inc ILMN Health Care
+	 Incyte INCY Health Care
+	 Ingersoll-Rand PLC IR Industrials
+	 Intel Corp. INTC Information Technology
+	 Intercontinental Exchange ICE Financials
+	 International Business Machines IBM Information Technology
+	 International Paper IP Materials
+	 Interpublic Group IPG Communication Services
+	 Intl Flavors & Fragrances IFF Materials
+	 Intuit Inc. INTU Information Technology
+	 Intuitive Surgical Inc. ISRG Health Care
+	 Invesco Ltd. IVZ Financials
+	 IPG Photonics Corp. IPGP Information Technology
+	 IQVIA Holdings Inc. IQV Health Care
+	 Iron Mountain Incorporated IRM Real Estate
+	 J. B. Hunt Transport Services JBHT Industrials
+	 Jack Henry & Associates Inc JKHY Information Technology
+	 Jacobs Engineering Group JEC Industrials
+	 Jefferies Financial Group JEF Financials
+	 JM Smucker SJM Consumer Staples
+	 Johnson & Johnson JNJ Health Care
+	 Johnson Controls International JCI Industrials
+	 JPMorgan Chase & Co. JPM Financials
+	 Juniper Networks JNPR Information Technology
+	 Kansas City Southern KSU Industrials
+	 Kellogg Co. K Consumer Staples
+	 KeyCorp KEY Financials
+	 Keysight Technologies KEYS Information Technology
+	 Kimberly-Clark KMB Consumer Staples
+	 Kimco Realty KIM Real Estate
+	 Kinder Morgan KMI Energy
+	 KLA-Tencor Corp. KLAC Information Technology
+	 Kohl's Corp. KSS Consumer Discretionary
+	 Kraft Heinz Co KHC Consumer Staples
+	 Kroger Co. KR Consumer Staples
+	 L Brands Inc. LB Consumer Discretionary
+	 L-3 Communications Holdings LLL Industrials
+	 Laboratory Corp. of America Holding LH Health Care
+	 Lam Research LRCX Information Technology
+	 Leggett & Platt LEG Consumer Discretionary
+	 Lennar Corp. LEN Consumer Discretionary
+	 Lilly (Eli) & Co. LLY Health Care
+	 Lincoln National LNC Financials
+	 Linde plc LIN Materials
+	 LKQ Corporation LKQ Consumer Discretionary
+	 Lockheed Martin Corp. LMT Industrials
+	 Loews Corp. L Financials
+	 Lowe's Cos. LOW Consumer Discretionary
+	 LyondellBasell LYB Materials
+	 M&T Bank Corp. MTB Financials
+	 Macerich MAC Real Estate
+	 Macy's Inc. M Consumer Discretionary
+	 Marathon Oil Corp. MRO Energy
+	 Marathon Petroleum MPC Energy
+	 Marriott Int'l. MAR Consumer Discretionary
+	 Marsh & McLennan MMC Financials
+	 Martin Marietta Materials MLM Materials
+	 Masco Corp. MAS Industrials
+	 Mastercard Inc. MA Information Technology
+	 Mattel Inc. MAT Consumer Discretionary
+	 McCormick & Co. MKC Consumer Staples
+	 McDonald's Corp. MCD Consumer Discretionary
+	 McKesson Corp. MCK Health Care
+	 Medtronic plc MDT Health Care
+	 Merck & Co. MRK Health Care
+	 MetLife Inc. MET Financials
+	 Mettler Toledo MTD Health Care
+	 MGM Resorts International MGM Consumer Discretionary
+	 Michael Kors Holdings KORS Consumer Discretionary
+	 Microchip Technology MCHP Information Technology
+	 Micron Technology MU Information Technology
+	 Microsoft Corp. MSFT Information Technology
+	 Mid-America Apartments MAA Real Estate
+	 Mohawk Industries MHK Consumer Discretionary
+	 Molson Coors Brewing Company TAP Consumer Staples
+	 Mondelez International MDLZ Consumer Staples
+	 Monster Beverage MNST Consumer Staples
+	 Moody's Corp MCO Financials
+	 Morgan Stanley MS Financials
+	 Motorola Solutions Inc. MSI Information Technology
+	 MSCI Inc MSCI Financials
+	 Mylan N.V. MYL Health Care
+	 Nasdaq, Inc. NDAQ Financials
+	 National Oilwell Varco Inc. NOV Energy
+	 Nektar Therapeutics NKTR Health Care
+	 NetApp NTAP Information Technology
+	 Netflix Inc. NFLX Communication Services
+	 Newell Brands NWL Consumer Discretionary
+	 Newfield Exploration Co NFX Energy
+	 Newmont Mining Corporation NEM Materials
+	 News Corp. Class A NWSA Communication Services
+	 News Corp. Class B NWS Communication Services
+	 NextEra Energy NEE Utilities
+	 Nielsen Holdings NLSN Industrials
+	 Nike NKE Consumer Discretionary
+	 NiSource Inc. NI Utilities
+	 Noble Energy Inc NBL Energy
+	 Nordstrom JWN Consumer Discretionary
+	 Norfolk Southern Corp. NSC Industrials
+	 Northern Trust Corp. NTRS Financials
+	 Northrop Grumman Corp. NOC Industrials
+	 Norwegian Cruise Line NCLH Consumer Discretionary
+	 NRG Energy NRG Utilities
+	 Nucor Corp. NUE Materials
+	 Nvidia Corporation NVDA Information Technology
+	 O'Reilly Automotive ORLY Consumer Discretionary
+	 Occidental Petroleum OXY Energy
+	 Omnicom Group OMC Communication Services
+	 ONEOK OKE Energy
+	 Oracle Corp. ORCL Information Technology
+	 PACCAR Inc. PCAR Industrials
+	 Packaging Corporation of America PKG Materials
+	 Parker-Hannifin PH Industrials
+	 Paychex Inc. PAYX Information Technology
+	 PayPal PYPL Information Technology
+	 Pentair plc PNR Industrials
+	 People's United Financial PBCT Financials
+	 PepsiCo Inc. PEP Consumer Staples
+	 PerkinElmer PKI Health Care
+	 Perrigo PRGO Health Care
+	 Pfizer Inc. PFE Health Care
+	 PG&E Corp. PCG Utilities
+	 Philip Morris International PM Consumer Staples
+	 Phillips 66 PSX Energy
+	 Pinnacle West Capital PNW Utilities
+	 Pioneer Natural Resources PXD Energy
+	 PNC Financial Services PNC Financials
+	 Polo Ralph Lauren Corp. RL Consumer Discretionary
+	 PPG Industries PPG Materials
+	 PPL Corp. PPL Utilities
+	 Principal Financial Group PFG Financials
+	 Procter & Gamble PG Consumer Staples
+	 Progressive Corp. PGR Financials
+	 Prologis PLD Real Estate
+	 Prudential Financial PRU Financials
+	 Public Serv. Enterprise Inc. PEG Utilities
+	 Public Storage PSA Real Estate
+	 Pulte Homes Inc. PHM Consumer Discretionary
+	 PVH Corp. PVH Consumer Discretionary
+	 Qorvo QRVO Information Technology
+	 QUALCOMM Inc. QCOM Information Technology
+	 Quanta Services Inc. PWR Industrials
+	 Quest Diagnostics DGX Health Care
+	 Raymond James Financial Inc. RJF Financials
+	 Raytheon Co. RTN Industrials
+	 Realty Income Corporation O Real Estate
+	 Red Hat Inc. RHT Information Technology
+	 Regency Centers Corporation REG Real Estate
+	 Regeneron REGN Health Care
+	 Regions Financial Corp. RF Financials
+	 Republic Services Inc RSG Industrials
+	 ResMed RMD Health Care
+	 Robert Half International RHI Industrials
+	 Rockwell Automation Inc. ROK Industrials
+	 Rockwell Collins COL Industrials
+	 Rollins Inc. ROL Industrials
+	 Roper Technologies ROP Industrials
+	 Ross Stores ROST Consumer Discretionary
+	 Royal Caribbean Cruises Ltd RCL Consumer Discretionary
+	 S&P Global, Inc. SPGI Financials
+	 Salesforce.com CRM Information Technology
+	 SBA Communications SBAC Real Estate
+	 SCANA Corp SCG Utilities
+	 Schlumberger Ltd. SLB Energy
+	 Seagate Technology STX Information Technology
+	 Sealed Air SEE Materials
+	 Sempra Energy SRE Utilities
+	 Sherwin-Williams SHW Materials
+	 Simon Property Group Inc SPG Real Estate
+	 Skyworks Solutions SWKS Information Technology
+	 SL Green Realty SLG Real Estate
+	 Snap-on SNA Industrials
+	 Southern Co. SO Utilities
+	 Southwest Airlines LUV Industrials
+	 Stanley Black & Decker SWK Industrials
+	 Starbucks Corp. SBUX Consumer Discretionary
+	 State Street Corp. STT Financials
+	 Stericycle Inc SRCL Industrials
+	 Stryker Corp. SYK Health Care
+	 SunTrust Banks STI Financials
+	 SVB Financial SIVB Financials
+	 Symantec Corp. SYMC Information Technology
+	 Synchrony Financial SYF Financials
+	 Synopsys Inc. SNPS Information Technology
+	 Sysco Corp. SYY Consumer Staples
+	 T. Rowe Price Group TROW Financials
+	 Take-Two Interactive TTWO Communication Services
+	 Tapestry, Inc. TPR Consumer Discretionary
+	 Target Corp. TGT Consumer Discretionary
+	 TE Connectivity Ltd. TEL Information Technology
+	 TechnipFMC FTI Energy
+	 Texas Instruments TXN Information Technology
+	 Textron Inc. TXT Industrials
+	 The Bank of New York Mellon Corp. BK Financials
+	 The Clorox Company CLX Consumer Staples
+	 The Cooper Companies COO Health Care
+	 The Hershey Company HSY Consumer Staples
+	 The Mosaic Company MOS Materials
+	 The Travelers Companies Inc. TRV Financials
+	 The Walt Disney Company DIS Communication Services
+	 Thermo Fisher Scientific TMO Health Care
+	 Tiffany & Co. TIF Consumer Discretionary
+	 TJX Companies Inc. TJX Consumer Discretionary
+	 Torchmark Corp. TMK Financials
+	 Total System Services TSS Information Technology
+	 Tractor Supply Company TSCO Consumer Discretionary
+	 TransDigm Group TDG Industrials
+	 TripAdvisor TRIP Communication Services
+	 Twenty-First Century Fox Class A FOXA Communication Services
+	 Twenty-First Century Fox Class B FOX Communication Services
+	 Twitter, Inc. TWTR Communication Services
+	 Tyson Foods TSN Consumer Staples
+	 U.S. Bancorp USB Financials
+	 UDR Inc UDR Real Estate
+	 Ulta Beauty ULTA Consumer Discretionary
+	 Under Armour Class A UAA Consumer Discretionary
+	 Under Armour Class C UA Consumer Discretionary
+	 Union Pacific UNP Industrials
+	 United Continental Holdings UAL Industrials
+	 United Health Group Inc. UNH Health Care
+	 United Parcel Service UPS Industrials
+	 United Rentals, Inc. URI Industrials
+	 United Technologies UTX Industrials
+	 Universal Health Services, Inc. UHS Health Care
+	 Unum Group UNM Financials
+	 V.F. Corp. VFC Consumer Discretionary
+	 Valero Energy VLO Energy
+	 Varian Medical Systems VAR Health Care
+	 Ventas Inc VTR Real Estate
+	 Verisign Inc. VRSN Information Technology
+	 Verisk Analytics VRSK Industrials
+	 Verizon Communications VZ Communication Services
+
+	 Vertex Pharmaceuticals Inc VRTX Health Care
+	 Viacom Inc. VIAB Communication Services
+	 Visa Inc. V Information Technology
+	 Vornado Realty Trust VNO Real Estate
+	 Vulcan Materials VMC Materials
+	 Walgreens Boots Alliance WBA Consumer Staples
+	 Walmart WMT Consumer Staples
+	 Waste Management Inc. WM Industrials
+	 Waters Corporation WAT Health Care
+	 Wec Energy Group Inc WEC Utilities
+	 WellCare WCG Health Care
+	 Wells Fargo WFC Financials
+	 Welltower Inc. WELL Real Estate
+	 Western Digital WDC Information Technology
+	 Western Union Co WU Information Technology
+	 WestRock WRK Materials
+	 Weyerhaeuser WY Real Estate
+	 Whirlpool Corp. WHR Consumer Discretionary
+	 Williams Cos. WMB Energy
+	 Willis Towers Watson WLTW Financials
+	 Wynn Resorts Ltd WYNN Consumer Discretionary
+	 Xcel Energy Inc XEL Utilities
+	 Xerox XRX Information Technology
+	 Xilinx XLNX Information Technology
+	 Xylem Inc. XYL Industrials
+	 Yum! Brands Inc YUM Consumer Discretionary
+	 Zimmer Biomet Holdings ZBH Health Care
+	 Zions Bancorp ZION Financials
+	 Zoetis ZTS Health Care
+{'Best Buy Co. Inc.': ['BBY', 'Consumer Discretionary'], 'Ingersoll-Rand PLC': ['IR', 'Industrials'], 'Newmont Mining Corporation': ['NEM', 'Materials'], 'Booking Holdings Inc': ['BKNG', 'Consumer Discretionary'], 'Southern Co.': ['SO', 'Utilities'], 'National Oilwell Varco Inc.': ['NOV', 'Energy'], 'Alliant Energy Corp': ['LNT', 'Utilities'], 'M&T Bank Corp.': ['MTB', 'Financials'], 'Activision Blizzard': ['ATVI', 'Communication Services'], 'Constellation Brands': ['STZ', 'Consumer Staples'], 'Thermo Fisher Scientific': ['TMO', 'Health Care'], 'Wynn Resorts Ltd': ['WYNN', 'Consumer Discretionary'], "Edison Int'l": ['EIX', 'Utilities'], 'Assurant Inc.': ['AIZ', 'Financials'], 'Abbott Laboratories': ['ABT', 'Health Care'], 'ResMed': ['RMD', 'Health Care'], 'CBS Corp.': ['CBS', 'Communication Services'], 'Citrix Systems': ['CTXS', 'Information Technology'], 'Sherwin-Williams': ['SHW', 'Materials'], 'Intuit Inc.': ['INTU', 'Information Technology'], 'Marathon Oil Corp.': ['MRO', 'Energy'], 'Home Depot': ['HD', 'Consumer Discretionary'], 'Discover Financial Services': ['DFS', 'Financials'], 'Equinix': ['EQIX', 'Real Estate'], 'Gap Inc.': ['GPS', 'Consumer Discretionary'], 'Gartner Inc': ['IT', 'Information Technology'], 'Arconic Inc.': ['ARNC', 'Industrials'], 'American Electric Power': ['AEP', 'Utilities'], 'Public Storage': ['PSA', 'Real Estate'], 'United Continental Holdings': ['UAL', 'Industrials'], 'Dollar General': ['DG', 'Consumer Discretionary'], 'Duke Realty Corp': ['DRE', 'Real Estate'], 'Wec Energy Group Inc': ['WEC', 'Utilities'], 'Nasdaq, Inc.': ['NDAQ', 'Financials'], 'Accenture plc': ['ACN', 'Information Technology'], 'Qorvo': ['QRVO', 'Information Technology'], 'Mohawk Industries': ['MHK', 'Consumer Discretionary'], 'Expeditors': ['EXPD', 'Industrials'], 'American Airlines Group': ['AAL', 'Industrials'], 'Western Digital': ['WDC', 'Information Technology'], 'Visa Inc.': ['V', 'Information Technology'], 'Union Pacific': ['UNP', 'Industrials'], 'Macerich': ['MAC', 'Real Estate'], 'SBA Communications': ['SBAC', 'Real Estate'], 'Invesco Ltd.': ['IVZ', 'Financials'], 'BlackRock': ['BLK', 'Financials'], 'Hewlett Packard Enterprise': ['HPE', 'Information Technology'], 'JPMorgan Chase & Co.': ['JPM', 'Financials'], 'Alphabet Inc Class C': ['GOOG', 'Communication Services'], 'United Technologies': ['UTX', 'Industrials'], 'Celgene Corp.': ['CELG', 'Health Care'], 'Iron Mountain Incorporated': ['IRM', 'Real Estate'], 'Red Hat Inc.': ['RHT', 'Information Technology'], 'Genuine Parts': ['GPC', 'Consumer Discretionary'], 'Alexion Pharmaceuticals': ['ALXN', 'Health Care'], 'Take-Two Interactive': ['TTWO', 'Communication Services'], 'Alliance Data Systems': ['ADS', 'Information Technology'], 'International Paper': ['IP', 'Materials'], 'Incyte': ['INCY', 'Health Care'], 'CF Industries Holdings Inc': ['CF', 'Materials'], 'Perrigo': ['PRGO', 'Health Care'], 'Merck & Co.': ['MRK', 'Health Care'], 'Eastman Chemical': ['EMN', 'Materials'], 'Stryker Corp.': ['SYK', 'Health Care'], 'Oracle Corp.': ['ORCL', 'Information Technology'], 'Seagate Technology': ['STX', 'Information Technology'], 'Freeport-McMoRan Inc.': ['FCX', 'Materials'], 'Sysco Corp.': ['SYY', 'Consumer Staples'], 'Hess Corporation': ['HES', 'Energy'], 'Capital One Financial': ['COF', 'Financials'], 'Schlumberger Ltd.': ['SLB', 'Energy'], 'T. Rowe Price Group': ['TROW', 'Financials'], 'BB&T Corporation': ['BBT', 'Financials'], 'Dominion Energy': ['D', 'Utilities'], 'Colgate-Palmolive': ['CL', 'Consumer Staples'], 'TechnipFMC': ['FTI', 'Energy'], 'Xilinx': ['XLNX', 'Information Technology'], 'Nike': ['NKE', 'Consumer Discretionary'], 'MGM Resorts International': ['MGM', 'Consumer Discretionary'], 'Tyson Foods': ['TSN', 'Consumer Staples'], 'Advanced Micro Devices Inc': ['AMD', 'Information Technology'], 'Kansas City Southern': ['KSU', 'Industrials'], 'Cisco Systems': ['CSCO', 'Information Technology'], 'Allergan, Plc': ['AGN', 'Health Care'], 'Caterpillar Inc.': ['CAT', 'Industrials'], 'Lilly (Eli) & Co.': ['LLY', 'Health Care'], 'Verisign Inc.': ['VRSN', 'Information Technology'], 'WestRock': ['WRK', 'Materials'], 'Amgen Inc.': ['AMGN', 'Health Care'], 'S&P Global, Inc.': ['SPGI', 'Financials'], 'Interpublic Group': ['IPG', 'Communication Services'], 'IQVIA Holdings Inc.': ['IQV', 'Health Care'], 'Campbell Soup': ['CPB', 'Consumer Staples'], 'SL Green Realty': ['SLG', 'Real Estate'], 'Prudential Financial': ['PRU', 'Financials'], 'Molson Coors Brewing Company': ['TAP', 'Consumer Staples'], 'Masco Corp.': ['MAS', 'Industrials'], 'Salesforce.com': ['CRM', 'Information Technology'], 'Concho Resources': ['CXO', 'Energy'], 'Aetna Inc': ['AET', 'Health Care'], 'QUALCOMM Inc.': ['QCOM', 'Information Technology'], 'Zoetis': ['ZTS', 'Health Care'], 'Rockwell Collins': ['COL', 'Industrials'], 'Ameriprise Financial': ['AMP', 'Financials'], "McDonald's Corp.": ['MCD', 'Consumer Discretionary'], 'United Parcel Service': ['UPS', 'Industrials'], 'American Tower Corp.': ['AMT', 'Real Estate'], 'Lincoln National': ['LNC', 'Financials'], 'Avery Dennison Corp': ['AVY', 'Materials'], 'MSCI Inc': ['MSCI', 'Financials'], 'Harley-Davidson': ['HOG', 'Consumer Discretionary'], 'Marathon Petroleum': ['MPC', 'Energy'], 'Consolidated Edison': ['ED', 'Utilities'], 'Archer-Daniels-Midland Co': ['ADM', 'Consumer Staples'], 'Vornado Realty Trust': ['VNO', 'Real Estate'], 'Fortinet': ['FTNT', 'Information Technology'], 'DTE Energy Co.': ['DTE', 'Utilities'], 'Marsh & McLennan': ['MMC', 'Financials'], 'ABIOMED Inc': ['ABMD', 'Health Care'], '3M Company': ['MMM', 'Industrials'], 'Chipotle Mexican Grill': ['CMG', 'Consumer Discretionary'], 'News Corp. Class B': ['NWS', 'Communication Services'], 'CVS Health': ['CVS', 'Health Care'], 'IHS Markit Ltd.': ['INFO', 'Industrials'], 'Illinois Tool Works': ['ITW', 'Industrials'], 'Anadarko Petroleum Corp': ['APC', 'Energy'], 'Comcast Corp.': ['CMCSA', 'Communication Services'], 'Twitter, Inc.': ['TWTR', 'Communication Services'], 'Garmin Ltd.': ['GRMN', 'Consumer Discretionary'], 'Kroger Co.': ['KR', 'Consumer Staples'], 'Autodesk Inc.': ['ADSK', 'Information Technology'], 'NiSource Inc.': ['NI', 'Utilities'], 'Valero Energy': ['VLO', 'Energy'], 'Alexandria Real Estate Equities Inc': ['ARE', 'Real Estate'], "Kohl's Corp.": ['KSS', 'Consumer Discretionary'], 'Fortive Corp': ['FTV', 'Industrials'], 'Goodyear Tire & Rubber': ['GT', 'Consumer Discretionary'], 'HP Inc.': ['HPQ', 'Information Technology'], 'Entergy Corp.': ['ETR', 'Utilities'], 'Danaher Corp.': ['DHR', 'Health Care'], 'Agilent Technologies Inc': ['A', 'Health Care'], 'Newell Brands': ['NWL', 'Consumer Discretionary'], 'Sempra Energy': ['SRE', 'Utilities'], 'Welltower Inc.': ['WELL', 'Real Estate'], 'Allstate Corp': ['ALL', 'Financials'], 'Foot Locker Inc': ['FL', 'Consumer Discretionary'], 'Applied Materials Inc.': ['AMAT', 'Information Technology'], 'Laboratory Corp. of America Holding': ['LH', 'Health Care'], 'Express Scripts': ['ESRX', 'Health Care'], 'Synchrony Financial': ['SYF', 'Financials'], 'Expedia Group': ['EXPE', 'Consumer Discretionary'], 'Sealed Air': ['SEE', 'Materials'], 'DaVita Inc.': ['DVA', 'Health Care'], 'Mylan N.V.': ['MYL', 'Health Care'], 'Chubb Limited': ['CB', 'Financials'], 'Cerner': ['CERN', 'Health Care'], 'Evergy': ['EVRG', 'Utilities'], 'Simon Property Group Inc': ['SPG', 'Real Estate'], "People's United Financial": ['PBCT', 'Financials'], 'Starbucks Corp.': ['SBUX', 'Consumer Discretionary'], 'Everest Re Group Ltd.': ['RE', 'Financials'], 'Discovery Inc. Class C': ['DISCK', 'Communication Services'], 'Mondelez International': ['MDLZ', 'Consumer Staples'], 'Hilton Worldwide Holdings Inc': ['HLT', 'Consumer Discretionary'], 'Torchmark Corp.': ['TMK', 'Financials'], 'Fluor Corp.': ['FLR', 'Industrials'], 'The Clorox Company': ['CLX', 'Consumer Staples'], 'Vulcan Materials': ['VMC', 'Materials'], 'Target Corp.': ['TGT', 'Consumer Discretionary'], 'Cincinnati Financial': ['CINF', 'Financials'], 'Brown-Forman Corp.': ['BF-B', 'Consumer Staples'], 'Air Products & Chemicals Inc': ['APD', 'Materials'], 'Illumina Inc': ['ILMN', 'Health Care'], 'Goldman Sachs Group': ['GS', 'Financials'], 'Analog Devices, Inc.': ['ADI', 'Information Technology'], 'Prologis': ['PLD', 'Real Estate'], 'Unum Group': ['UNM', 'Financials'], 'American Water Works Company Inc': ['AWK', 'Utilities'], 'Vertex Pharmaceuticals Inc': ['VRTX', 'Health Care'], 'Boeing Company': ['BA', 'Industrials'], 'Edwards Lifesciences': ['EW', 'Health Care'], 'Snap-on': ['SNA', 'Industrials'], 'Principal Financial Group': ['PFG', 'Financials'], 'Cintas Corporation': ['CTAS', 'Industrials'], 'Waters Corporation': ['WAT', 'Health Care'], 'Intl Flavors & Fragrances': ['IFF', 'Materials'], 'Arthur J. Gallagher & Co.': ['AJG', 'Financials'], 'Roper Technologies': ['ROP', 'Industrials'], 'American Express Co': ['AXP', 'Financials'], 'NetApp': ['NTAP', 'Information Technology'], 'Jacobs Engineering Group': ['JEC', 'Industrials'], "Honeywell Int'l Inc.": ['HON', 'Industrials'], 'Nektar Therapeutics': ['NKTR', 'Health Care'], 'Fifth Third Bancorp': ['FITB', 'Financials'], 'Harris Corporation': ['HRS', 'Industrials'], 'Whirlpool Corp.': ['WHR', 'Consumer Discretionary'], 'Cummins Inc.': ['CMI', 'Industrials'], 'News Corp. Class A': ['NWSA', 'Communication Services'], 'Varian Medical Systems': ['VAR', 'Health Care'], 'Philip Morris International': ['PM', 'Consumer Staples'], 'Tractor Supply Company': ['TSCO', 'Consumer Discretionary'], 'Hormel Foods Corp.': ['HRL', 'Consumer Staples'], 'Essex Property Trust, Inc.': ['ESS', 'Real Estate'], 'Mettler Toledo': ['MTD', 'Health Care'], 'Ecolab Inc.': ['ECL', 'Materials'], 'Netflix Inc.': ['NFLX', 'Communication Services'], 'Hologic': ['HOLX', 'Health Care'], 'PACCAR Inc.': ['PCAR', 'Industrials'], "Moody's Corp": ['MCO', 'Financials'], 'Fidelity National Information Services': ['FIS', 'Information Technology'], 'Carnival Corp.': ['CCL', 'Consumer Discretionary'], 'Motorola Solutions Inc.': ['MSI', 'Information Technology'], 'Public Serv. Enterprise Inc.': ['PEG', 'Utilities'], 'Norfolk Southern Corp.': ['NSC', 'Industrials'], 'Northrop Grumman Corp.': ['NOC', 'Industrials'], "O'Reilly Automotive": ['ORLY', 'Consumer Discretionary'], 'McKesson Corp.': ['MCK', 'Health Care'], 'AmerisourceBergen Corp': ['ABC', 'Health Care'], 'Grainger (W.W.) Inc.': ['GWW', 'Industrials'], 'Franklin Resources': ['BEN', 'Financials'], 'Charter Communications': ['CHTR', 'Communication Services'], 'Extra Space Storage': ['EXR', 'Real Estate'], 'Align Technology': ['ALGN', 'Health Care'], 'Quest Diagnostics': ['DGX', 'Health Care'], 'Lockheed Martin Corp.': ['LMT', 'Industrials'], 'AvalonBay Communities, Inc.': ['AVB', 'Real Estate'], 'Regeneron': ['REGN', 'Health Care'], 'Arista Networks': ['ANET', 'Information Technology'], 'Parker-Hannifin': ['PH', 'Industrials'], 'Discovery Inc. Class A': ['DISCA', 'Communication Services'], 'MetLife Inc.': ['MET', 'Financials'], 'Gilead Sciences': ['GILD', 'Health Care'], 'Mastercard Inc.': ['MA', 'Information Technology'], 'Keysight Technologies': ['KEYS', 'Information Technology'], 'Under Armour Class A': ['UAA', 'Consumer Discretionary'], 'Biogen Inc.': ['BIIB', 'Health Care'], 'Amphenol Corp': ['APH', 'Information Technology'], 'Loews Corp.': ['L', 'Financials'], 'Crown Castle International Corp.': ['CCI', 'Real Estate'], 'Newfield Exploration Co': ['NFX', 'Energy'], 'Darden Restaurants': ['DRI', 'Consumer Discretionary'], 'Nielsen Holdings': ['NLSN', 'Industrials'], 'Mattel Inc.': ['MAT', 'Consumer Discretionary'], 'Skyworks Solutions': ['SWKS', 'Information Technology'], 'TransDigm Group': ['TDG', 'Industrials'], 'Xerox': ['XRX', 'Information Technology'], 'Waste Management Inc.': ['WM', 'Industrials'], 'V.F. Corp.': ['VFC', 'Consumer Discretionary'], 'Verisk Analytics': ['VRSK', 'Industrials'], 'American International Group, Inc.': ['AIG', 'Financials'], 'Amazon.com Inc.': ['AMZN', 'Consumer Discretionary'], 'AutoZone Inc': ['AZO', 'Consumer Discretionary'], 'Aon plc': ['AON', 'Financials'], 'Fastenal Co': ['FAST', 'Industrials'], 'Stericycle Inc': ['SRCL', 'Industrials'], 'SunTrust Banks': ['STI', 'Financials'], 'J. B. Hunt Transport Services': ['JBHT', 'Industrials'], 'Carmax Inc': ['KMX', 'Consumer Discretionary'], 'Viacom Inc.': ['VIAB', 'Communication Services'], 'Paychex Inc.': ['PAYX', 'Information Technology'], 'Equity Residential': ['EQR', 'Real Estate'], 'Digital Realty Trust Inc': ['DLR', 'Real Estate'], 'Symantec Corp.': ['SYMC', 'Information Technology'], 'Pulte Homes Inc.': ['PHM', 'Consumer Discretionary'], 'Lennar Corp.': ['LEN', 'Consumer Discretionary'], 'ConocoPhillips': ['COP', 'Energy'], 'Corning Inc.': ['GLW', 'Information Technology'], 'Packaging Corporation of America': ['PKG', 'Materials'], 'Linde plc': ['LIN', 'Materials'], 'Ford Motor': ['F', 'Consumer Discretionary'], 'Exxon Mobil Corp.': ['XOM', 'Energy'], 'Kraft Heinz Co': ['KHC', 'Consumer Staples'], 'Comerica Inc.': ['CMA', 'Financials'], 'HollyFrontier Corp': ['HFC', 'Energy'], 'Martin Marietta Materials': ['MLM', 'Materials'], 'LKQ Corporation': ['LKQ', 'Consumer Discretionary'], 'Phillips 66': ['PSX', 'Energy'], 'Rollins Inc.': ['ROL', 'Industrials'], 'General Mills': ['GIS', 'Consumer Staples'], 'F5 Networks': ['FFIV', 'Information Technology'], 'Noble Energy Inc': ['NBL', 'Energy'], 'Hartford Financial Svc.Gp.': ['HIG', 'Financials'], 'D. R. Horton': ['DHI', 'Consumer Discretionary'], 'Centene Corporation': ['CNC', 'Health Care'], 'Copart Inc': ['CPRT', 'Industrials'], 'Ross Stores': ['ROST', 'Consumer Discretionary'], 'U.S. Bancorp': ['USB', 'Financials'], 'Xylem Inc.': ['XYL', 'Industrials'], 'Wells Fargo': ['WFC', 'Financials'], 'General Dynamics': ['GD', 'Industrials'], 'The Hershey Company': ['HSY', 'Consumer Staples'], 'AFLAC Inc': ['AFL', 'Financials'], 'Leggett & Platt': ['LEG', 'Consumer Discretionary'], 'Synopsys Inc.': ['SNPS', 'Information Technology'], 'DXC Technology': ['DXC', 'Information Technology'], 'CME Group Inc.': ['CME', 'Financials'], 'PNC Financial Services': ['PNC', 'Financials'], "Macy's Inc.": ['M', 'Consumer Discretionary'], 'United Rentals, Inc.': ['URI', 'Industrials'], 'Coty, Inc': ['COTY', 'Consumer Staples'], 'PPL Corp.': ['PPL', 'Utilities'], 'PG&E Corp.': ['PCG', 'Utilities'], 'Procter & Gamble': ['PG', 'Consumer Staples'], 'Kellogg Co.': ['K', 'Consumer Staples'], 'Lam Research': ['LRCX', 'Information Technology'], 'Microchip Technology': ['MCHP', 'Information Technology'], 'Becton Dickinson': ['BDX', 'Health Care'], 'BorgWarner': ['BWA', 'Consumer Discretionary'], 'FLIR Systems': ['FLIR', 'Information Technology'], 'Total System Services': ['TSS', 'Information Technology'], 'Deere & Co.': ['DE', 'Industrials'], 'Boston Scientific': ['BSX', 'Health Care'], 'Northern Trust Corp.': ['NTRS', 'Financials'], 'Willis Towers Watson': ['WLTW', 'Financials'], 'Humana Inc.': ['HUM', 'Health Care'], 'Apartment Investment & Management (Aimco)': ['AIV', 'Real Estate'], 'Cardinal Health Inc.': ['CAH', 'Health Care'], 'AES Corp': ['AES', 'Utilities'], 'Monster Beverage': ['MNST', 'Consumer Staples'], 'PayPal': ['PYPL', 'Information Technology'], 'Altria Group Inc': ['MO', 'Consumer Staples'], 'Under Armour Class C': ['UA', 'Consumer Discretionary'], 'NextEra Energy': ['NEE', 'Utilities'], 'CBRE Group': ['CBRE', 'Real Estate'], 'TE Connectivity Ltd.': ['TEL', 'Information Technology'], 'Block H&R': ['HRB', 'Consumer Discretionary'], 'Adobe Systems Inc': ['ADBE', 'Information Technology'], 'Pinnacle West Capital': ['PNW', 'Utilities'], 'State Street Corp.': ['STT', 'Financials'], 'PVH Corp.': ['PVH', 'Consumer Discretionary'], 'Cabot Oil & Gas': ['COG', 'Energy'], 'Ventas Inc': ['VTR', 'Real Estate'], 'Allegion': ['ALLE', 'Industrials'], 'Ulta Beauty': ['ULTA', 'Consumer Discretionary'], 'Fortune Brands Home & Security': ['FBHS', 'Industrials'], 'Pfizer Inc.': ['PFE', 'Health Care'], 'CenterPoint Energy': ['CNP', 'Utilities'], 'Walgreens Boots Alliance': ['WBA', 'Consumer Staples'], 'Broadcom': ['AVGO', 'Information Technology'], 'SCANA Corp': ['SCG', 'Utilities'], 'Exelon Corp.': ['EXC', 'Utilities'], 'Dollar Tree': ['DLTR', 'Consumer Discretionary'], 'LyondellBasell': ['LYB', 'Materials'], 'Republic Services Inc': ['RSG', 'Industrials'], 'International Business Machines': ['IBM', 'Information Technology'], 'Helmerich & Payne': ['HP', 'Energy'], 'TJX Companies Inc.': ['TJX', 'Consumer Discretionary'], 'Johnson & Johnson': ['JNJ', 'Health Care'], 'Facebook, Inc.': ['FB', 'Communication Services'], 'Occidental Petroleum': ['OXY', 'Energy'], 'Boston Properties': ['BXP', 'Real Estate'], 'AbbVie Inc.': ['ABBV', 'Health Care'], 'IDEXX Laboratories': ['IDXX', 'Health Care'], 'Charles Schwab Corporation': ['SCHW', 'Financials'], 'Textron Inc.': ['TXT', 'Industrials'], 'Royal Caribbean Cruises Ltd': ['RCL', 'Consumer Discretionary'], 'Intel Corp.': ['INTC', 'Information Technology'], 'Dover Corp.': ['DOV', 'Industrials'], 'Broadridge Financial Solutions': ['BR', 'Information Technology'], 'eBay Inc.': ['EBAY', 'Consumer Discretionary'], 'Eaton Corporation': ['ETN', 'Industrials'], 'Citizens Financial Group': ['CFG', 'Financials'], 'Jack Henry & Associates Inc': ['JKHY', 'Information Technology'], 'Intuitive Surgical Inc.': ['ISRG', 'Health Care'], 'Albemarle Corp': ['ALB', 'Materials'], 'General Electric': ['GE', 'Industrials'], 'Bank of America Corp': ['BAC', 'Financials'], 'JM Smucker': ['SJM', 'Consumer Staples'], 'Yum! Brands Inc': ['YUM', 'Consumer Discretionary'], 'Citigroup Inc.': ['C', 'Financials'], 'United Health Group Inc.': ['UNH', 'Health Care'], 'Federal Realty Investment Trust': ['FRT', 'Real Estate'], 'Bristol-Myers Squibb': ['BMY', 'Health Care'], 'Brighthouse Financial Inc': ['BHF', 'Financials'], 'FirstEnergy Corp': ['FE', 'Utilities'], 'The Bank of New York Mellon Corp.': ['BK', 'Financials'], 'A.O. Smith Corp': ['AOS', 'Industrials'], 'Costco Wholesale Corp.': ['COST', 'Consumer Staples'], 'IPG Photonics Corp.': ['IPGP', 'Information Technology'], 'L-3 Communications Holdings': ['LLL', 'Industrials'], 'SVB Financial': ['SIVB', 'Financials'], 'Nordstrom': ['JWN', 'Consumer Discretionary'], 'Hanesbrands Inc': ['HBI', 'Consumer Discretionary'], 'Baxter International Inc.': ['BAX', 'Health Care'], 'The Travelers Companies Inc.': ['TRV', 'Financials'], 'Conagra Brands': ['CAG', 'Consumer Staples'], 'Microsoft Corp.': ['MSFT', 'Information Technology'], 'Medtronic plc': ['MDT', 'Health Care'], 'CIGNA Corp.': ['CI', 'Health Care'], 'Anthem Inc.': ['ANTM', 'Health Care'], 'Halliburton Co.': ['HAL', 'Energy'], 'Tiffany & Co.': ['TIF', 'Consumer Discretionary'], 'Ameren Corp': ['AEE', 'Utilities'], 'Quanta Services Inc.': ['PWR', 'Industrials'], 'Omnicom Group': ['OMC', 'Communication Services'], 'Juniper Networks': ['JNPR', 'Information Technology'], 'HCP Inc.': ['HCP', 'Real Estate'], 'Church & Dwight': ['CHD', 'Consumer Staples'], 'Cadence Design Systems': ['CDNS', 'Information Technology'], 'Southwest Airlines': ['LUV', 'Industrials'], 'Global Payments Inc.': ['GPN', 'Information Technology'], 'McCormick & Co.': ['MKC', 'Consumer Staples'], 'DowDuPont': ['DWDP', 'Materials'], 'Tapestry, Inc.': ['TPR', 'Consumer Discretionary'], 'FedEx Corporation': ['FDX', 'Industrials'], 'Regency Centers Corporation': ['REG', 'Real Estate'], 'Pioneer Natural Resources': ['PXD', 'Energy'], 'Estee Lauder Cos.': ['EL', 'Consumer Staples'], 'Host Hotels & Resorts': ['HST', 'Real Estate'], 'Raymond James Financial Inc.': ['RJF', 'Financials'], 'Norwegian Cruise Line': ['NCLH', 'Consumer Discretionary'], 'NRG Energy': ['NRG', 'Utilities'], 'Advance Auto Parts': ['AAP', 'Consumer Discretionary'], 'Dish Network': ['DISH', 'Communication Services'], 'AT&T Inc.': ['T', 'Communication Services'], 'Xcel Energy Inc': ['XEL', 'Utilities'], 'Affiliated Managers Group Inc': ['AMG', 'Financials'], "Marriott Int'l.": ['MAR', 'Consumer Discretionary'], 'CMS Energy': ['CMS', 'Utilities'], 'Chevron Corp.': ['CVX', 'Energy'], 'Weyerhaeuser': ['WY', 'Real Estate'], 'Cimarex Energy': ['XEC', 'Energy'], 'Hasbro Inc.': ['HAS', 'Consumer Discretionary'], 'Huntington Ingalls Industries': ['HII', 'Industrials'], 'KeyCorp': ['KEY', 'Financials'], 'Kimberly-Clark': ['KMB', 'Consumer Staples'], 'Micron Technology': ['MU', 'Information Technology'], 'Morgan Stanley': ['MS', 'Financials'], 'Kimco Realty': ['KIM', 'Real Estate'], 'Apple Inc.': ['AAPL', 'Information Technology'], 'Kinder Morgan': ['KMI', 'Energy'], 'Polo Ralph Lauren Corp.': ['RL', 'Consumer Discretionary'], 'Nucor Corp.': ['NUE', 'Materials'], 'Devon Energy Corp.': ['DVN', 'Energy'], 'AMETEK Inc.': ['AME', 'Industrials'], 'The Walt Disney Company': ['DIS', 'Communication Services'], 'Duke Energy': ['DUK', 'Utilities'], 'Pentair plc': ['PNR', 'Industrials'], 'EOG Resources': ['EOG', 'Energy'], 'Delta Air Lines Inc.': ['DAL', 'Industrials'], 'The Cooper Companies': ['COO', 'Health Care'], 'ONEOK': ['OKE', 'Energy'], 'Intercontinental Exchange': ['ICE', 'Financials'], 'Twenty-First Century Fox Class A': ['FOXA', 'Communication Services'], 'UDR Inc': ['UDR', 'Real Estate'], 'WellCare': ['WCG', 'Health Care'], 'Electronic Arts': ['EA', 'Communication Services'], 'Realty Income Corporation': ['O', 'Real Estate'], 'L Brands Inc.': ['LB', 'Consumer Discretionary'], 'Flowserve Corporation': ['FLS', 'Industrials'], 'Universal Health Services, Inc.': ['UHS', 'Health Care'], 'Huntington Bancshares': ['HBAN', 'Financials'], 'PepsiCo Inc.': ['PEP', 'Consumer Staples'], 'KLA-Tencor Corp.': ['KLAC', 'Information Technology'], 'Automatic Data Processing': ['ADP', 'Information Technology'], 'Baker Hughes, a GE Company': ['BHGE', 'Energy'], 'Jefferies Financial Group': ['JEF', 'Financials'], 'Texas Instruments': ['TXN', 'Information Technology'], 'Verizon Communications': ['VZ', 'Communication Services\n'], 'Michael Kors Holdings': ['KORS', 'Consumer Discretionary'], 'Stanley Black & Decker': ['SWK', 'Industrials'], 'Twenty-First Century Fox Class B': ['FOX', 'Communication Services'], 'The Mosaic Company': ['MOS', 'Materials'], 'E*Trade': ['ETFC', 'Financials'], 'Western Union Co': ['WU', 'Information Technology'], 'Raytheon Co.': ['RTN', 'Industrials'], 'Coca-Cola Company (The)': ['KO', 'Consumer Staples'], 'Zions Bancorp': ['ZION', 'Financials'], 'ANSYS': ['ANSS', 'Information Technology'], 'Nvidia Corporation': ['NVDA', 'Information Technology'], 'Dentsply Sirona': ['XRAY', 'Health Care'], 'Akamai Technologies Inc': ['AKAM', 'Information Technology'], 'PPG Industries': ['PPG', 'Materials'], 'FleetCor Technologies Inc': ['FLT', 'Information Technology'], "Lowe's Cos.": ['LOW', 'Consumer Discretionary'], 'Regions Financial Corp.': ['RF', 'Financials'], 'CenturyLink Inc': ['CTL', 'Communication Services'], 'FMC Corporation': ['FMC', 'Materials'], 'Cboe Global Markets': ['CBOE', 'Financials'], 'C. H. Robinson Worldwide': ['CHRW', 'Industrials'], 'Robert Half International': ['RHI', 'Industrials'], 'Henry Schein': ['HSIC', 'Health Care'], 'HCA Holdings': ['HCA', 'Health Care'], 'Alphabet Inc Class A': ['GOOGL', 'Communication Services'], 'PerkinElmer': ['PKI', 'Health Care'], 'Zimmer Biomet Holdings': ['ZBH', 'Health Care'], 'Fiserv Inc': ['FISV', 'Information Technology'], 'Johnson Controls International': ['JCI', 'Industrials'], 'Ball Corp': ['BLL', 'Materials'], 'Alaska Air Group Inc': ['ALK', 'Industrials'], 'Walmart': ['WMT', 'Consumer Staples'], 'Mid-America Apartments': ['MAA', 'Real Estate'], 'TripAdvisor': ['TRIP', 'Communication Services'], 'Aptiv Plc': ['APTV', 'Consumer Discretionary'], 'Equifax Inc.': ['EFX', 'Industrials'], 'Williams Cos.': ['WMB', 'Energy'], 'Eversource Energy': ['ES', 'Utilities'], 'Apache Corporation': ['APA', 'Energy'], 'Cognizant Technology Solutions': ['CTSH', 'Information Technology'], 'Berkshire Hathaway': ['BRK-B', 'Financials'], 'Emerson Electric Company': ['EMR', 'Industrials'], 'General Motors': ['GM', 'Consumer Discretionary'], 'Rockwell Automation Inc.': ['ROK', 'Industrials'], 'CSX Corp.': ['CSX', 'Industrials'], 'Progressive Corp.': ['PGR', 'Financials']}

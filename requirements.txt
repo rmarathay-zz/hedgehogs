@@ -1,10 +1,21 @@
-lxml
-bs4
-pymongo
-pycurl
-xlrd
-argparse
-pandas
-wget
-html2text
+# Non-Version Specific Requirements
+dnsdumpster
 openpyxl
+pymongo
+bs4
+psycopg2-binary
+pandas
+numpy
+uuid
+SSLyze
+pytest
+lxml
+plotly
+djangorestframework
+social-auth-app-django
+
+
+# For downloading eod data
+pandas-datareader
+
+# Version Specific Requirements

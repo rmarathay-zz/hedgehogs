@@ -1,15 +1,6 @@
 #-*- coding: utf-8 -*-
-import os
-import io
-import re
-from optparse import OptionParser
-from collections import OrderedDict as OD
-import json
-import string
-import pprint
-import datetime
 
-import openpyxl
+from import_hedgehogs import *
 
 # Dictionary {1: 'A', 2: 'B', ...}
 # Note: we are limiting the allowed columns from A to Z
@@ -27,9 +18,9 @@ RE_PATTERN_YEAR_WORD = re.compile(r'^\d\d\d\d$')
 MONTHS = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'july', 'aug', 'sep', 'oct', 'nov', 'dec']
 
 # Should be changed to str for Python 3+
-BASE_STRING_CLASS = unicode
+BASE_STRING_CLASS = str
 # Should be changed to str for Python 3+
-STRING_CLASS = unicode
+STRING_CLASS = str
 
 
 class InvalidRow(Exception):
@@ -46,30 +37,62 @@ def myprint(*args, **kwargs):
 
 
 def remove_punctuation(text):
-    """Leave only letters, numbers and whitespace chars
-    in text"""
+    """Method used to leave only letters, numbers and whitespace chars in text
+
+    Arguments:
+        text: the string that is currently being nodified
+
+    Returns:
+        res: string after modification 
+    """
     if not isinstance(text, BASE_STRING_CLASS):
         return text
     res = []
     for c in text:
         if c.isalnum() or c.isspace():
             res.append(c)
+    #print("return value", ''.join(res))
     return ''.join(res)
 
 
 def prepare_for_matching(text):
+    """Prepares string to be compared/matched
+
+    Arguments:
+        text: the string that will eventually be compared
+
+    Returns:
+        the string with punctuation removed
+    """
     if not isinstance(text, BASE_STRING_CLASS):
         return text
     return ' '.join(remove_punctuation(text).lower().split())
 
 
 def is_footnote(text):
-    """Is text a footnote of the form '[1]'"""
+    """Determines wheter string is a footnote
+
+    Arguments:
+        text: the string that is being checked
+
+    Returns:
+        true if string is a footnote and false
+    """
     return RE_PATTERN_FOOTNOTE.match(text)
 
 
 def convert_to_number(value):
-    """Try to convert string value to a number"""
+    """Converts string (value) to an integer
+    
+    Arguments:
+        string that will potentially be converted to an integer
+
+    Throws: 
+        ValueError if string cannot be converted to a number
+
+    Returns:
+        the integer value of string
+    """
     value_original = value
     value = ''.join(value.split())
     myprint(value)
@@ -105,16 +128,35 @@ def convert_to_number(value):
 
 
 def get_cell(sheet, index):
-    """Return cell object for sheet and index (of the form "A1")"""
+    """Return cell object for sheet and index (of the form "A1")
+
+    Arguments
+        sheet: the specific xlxs file we are collecting data from
+        index: the index/cell of the file we want
+
+    Returns:
+        the cell object in the xlxs file (sheet) at index (index)
+    """
     return sheet[index]
 
 
 def get_cell_value(sheet, index):
-    """Return cell value for sheet and index (of the form "A1")"""
+    """
+
+    Return cell value for sheet and index (of the form "A1")
+
+    Arguments
+        sheet: the specific xlxs file we are collecting data from
+        index: the index/cell of the file we want
+
+    Returns:
+        the value in the xlxs file (sheet) at index (index)
+    """
     myprint('Getting value of cell %s' % index)
     value = get_cell(sheet, index).value
     myprint(type(value))
     myprint(value)
+    #print("get_cell_value",value)
     if isinstance(value, BASE_STRING_CLASS):
         value = value.replace(u'\xa0', ' ')
         if value.strip() == "'":
@@ -141,8 +183,14 @@ def get_cell_value(sheet, index):
 
 
 def get_heading_row_height(sheet):
-    """Determine the "height" of the header in rows.
-    Based on actual files it can be 1-3"""
+    """Determine the "height" of the header in rows. Based on actual files it can be 1-3
+
+    Arguments:
+        sheet:the sheet (xlxs file) which we are checking
+
+    Returns:
+        1, 2 or 3 depending upon which row the header is located in
+    """
     myprint('Calling get_heading_row_height')
     # First check whether there is header text in the third row
     # cik-0001288776_2012-04-25_an-0001193125-12-182401.xlsx
@@ -183,8 +231,15 @@ def get_heading_row_height(sheet):
 
 
 def parse_col_heading(sheet, col):
-    """Parse "months ended", date and "class stock" info
-    from the column heading"""
+    """Parse "months ended", date and "class stock" info from the column heading
+
+    Arguments:
+        sheet: the sheet (xlxs file) which we are checking
+        col: the column from the sheet that will be parsed
+
+    Returns:
+        data at desired column in xlxs file (sheet)
+    """
     heading_row_height = get_heading_row_height(sheet)
     myprint('Parsing col heading')
     col_heading = ''
@@ -224,7 +279,21 @@ def parse_col_heading(sheet, col):
 
 
 def parse_cell(sheet, row, col):
+    """ Parse value at index row, col in xlxs file (sheet)
+
+    Arguments:
+        sheet: the xlxs file being parsed
+        row: the row with the cell we are checking
+        col: the column with the cell we are checking
+
+    Throws:
+        InvalidCell if cell cannot be parsed
+
+    Returns:
+        list row_element with time, date, and header value in that order
+    """
     cell_key = '%s%d' % (NUM2ALPHA[col], row)
+    #print("cell_key", cell_key)
     cell_value = get_cell_value(sheet, cell_key)
     if cell_value not in (None, ''):
         row_element = OD(
@@ -244,10 +313,22 @@ def parse_cell(sheet, row, col):
 
 
 def parse_row(sheet, row):
-    """Parse sheet's row with data (i.e. non-heading row)"""
+    """Parse sheet's row with data (i.e. non-heading row)
+
+    Arguments:
+        sheet: the xlxs file with the row being parsed
+        row: the row which the function will parse
+
+    Throws:
+        InvalidCell if cell in the row cannot be parsed
+
+    Returns:
+        list with row elements in order and parsed with time,date, and header_data
+
+    """
     myprint('Parsing row %d' % row)
     first_cell_key = 'A' + STRING_CLASS(row)
-    # myprint(first_cell_key)
+    #print('first_cell_key', first_cell_key)
     first_cell = get_cell(sheet, first_cell_key)
     row_key = get_cell_value(sheet, first_cell_key)
     # Skip non-valid rows
@@ -271,11 +352,20 @@ def parse_row(sheet, row):
                 months_ended_old = row_element['time']
             row_elements.append(row_element)
         except InvalidCell as e:
-            myprint(e.message)
+            myprint(e)
     return row_elements
 
 
 def parse_sheet(sheet):
+    """Calls other methods to parse an entire xlxs file
+
+    Arguments:
+        sheet: the xlxs file which will be parsed (getting time, date, and header_data)
+
+    Returns:
+        json sheet with xlxs file data properly formatted
+
+    """
     heading_row_height = get_heading_row_height(sheet)
     # For every col in the heading we merge all rows to get the title
     sheet_title = ''
@@ -298,7 +388,7 @@ def parse_sheet(sheet):
         try:
             row_elements = parse_row(sheet, row)
         except InvalidRow as e:
-            myprint(e.message)
+            myprint(e)
             row_elements_old = []
             continue
         if len(row_elements) == 1:
@@ -351,14 +441,19 @@ def parse_sheet(sheet):
 
 
 def convert(input_file_name, output_file_name):
-    """Main function for converting xlsx files to json"""
+    """Main function for converting xlsx files to json
+
+    Arguments:
+        input_file_name: the xlxs file which we be converted to json
+        output_file_name: the name that the json file (output) will be named
+    """
     myprint('Parsing workbook %s' % input_file_name)
     wb = openpyxl.load_workbook(
         input_file_name,
         guess_types=False,
         data_only=True
     )
-    sheet_names = wb.get_sheet_names()
+    sheet_names = wb.sheetnames
 
     # Main json list
     json_result = []
@@ -377,12 +472,13 @@ def convert(input_file_name, output_file_name):
 
     with io.open(output_file_name, 'w', encoding='utf-8') as output_file:
         output_file.write(
-            unicode(
+            str(
                 json.dumps(
                     json_result,
                     indent=JSON_INDENT,
-                    ensure_ascii=False,
-                    encoding='utf-8'
+# Commented out because str is python3 and accounts for encoding specifications
+#                     ensure_ascii=False,
+#                     encoding='utf-8'
                 )
             )
         )
@@ -415,7 +511,6 @@ def main():
         os.remove(output_file_name)
 
     convert(input_file_name, output_file_name)
-
 
 if __name__ == "__main__":
     main()

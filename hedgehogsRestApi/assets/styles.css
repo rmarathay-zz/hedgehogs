@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300');
+
+body {
+  background-color: #DDDDDD;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  overflow-x: hidden;
+}
+
+body * {
+  font-family: 'Roboto', sans-serif;
+  /*height: 100%;*/
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: normal;
+  margin: 0;
+  
+}
+
+img.center {
+    display: block;
+    margin: 0 auto;
+}
+
+.blueLine{
+  border-bottom:5px solid #007bff;
+  margin-bottom:0;
+}
+
+.form { 
+  border-radius: 50px;
+  border-style: solid;
+  border-color: #ebebeb;
+  width: 685px;
+  padding: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 6%;
+  margin-bottom: 6%;
+  background-color: white;
+
+}
+
+.loginmargin {
+
+}
+
+.btn {
+  border-color: #007bff !important;
+  background-color: white !important;
+  color: #007bff ;
+
+
+}
+
+.btn:hover, .btn:active, .btn:visited {
+  border-color: #007bff !important;
+  background-color: #007bff !important;
+  color: white ;
+    
+}
+
+
+
+a, a:hover {
+  color: #fff;
+  
+}
+
+
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+div.wrapper h1 {
+  text-align: center;
+  margin: 100px auto;
+}
+
+header.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px 0;
+}
+
+nav {
+  justify-self: end;
+}
+
+nav li {
+  display: inline-block;
+}
+
+.center {
+  display: block;
+}
+
+/*# sourceMappingURL=styles.css.map */

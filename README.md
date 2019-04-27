@@ -1,26 +1,38 @@
 # Hedgehogs
+## How To Run
+* Clone the repository ---> `git clone https://github.com/rmarathay/hedgehogs.git`
+* Ensure latest update of pip or pip3 (if using Python3)
+  * `pip install --upgrade pip`
+* Navigate to hedgehogsRestApi to Install dependencies
+  * `pip install -r requirements.txt`  
+* Navigate to hedgehogsRestApi
+  * Run `Python manage.py runserver` and follow instructions in terminal
+* Navigate to URL
+* TODO hedgehogs.io
 
-## How to run
-* Clone the repository
-* Navigate to hedgehogs/data_collection
-The current pipeline currently looks something like this:
-  xlsxDownloader --> xlsx2json.py --> json2mongodb.py
-In order to run the program do the following:
-* run `python xlsxDownload.py TICKER` to download the .xlsx files
-* run `python xlsx2json.py FILE_NAME` to convert a .xlsx to .json
-* run `python json2mongodb.py FILE_NAME` to send the .json file to a running MongoDB server
+
+## Website Usage
+* At website, search for stock at top right corner search bar
+* You can search by ticker or by stock name
+* Upon search you will be prompted to log in if you have not logged in already
+* Currently display candelstick stock graph and regular graph as well
+* Tools page will be where algorithmic trading strategies will be created and tested
 
 
-## Installation (deprecated)
-* Install either Miniconda or Anaconda
-  * Miniconda https://conda.io/miniconda.html
-  * Anaconda https://www.anaconda.com/download/
-* Configure the PATH system variable as such
-  * `export PATH=~/miniconda2/bin:$PATH`
-  * `export PATH=~/anaconda2/bin:$PATH`
-* Verify Installation of Anaconda/Miniconda
-  * `conda --version`
-* Install Zipline
-  * `conda install -c Quantopian zipline`
-  * Yes, we are using Quantopian's API..
-  
+## How To Connect To Database
+* Install pgcli --> `sudo apt-get install pgcli`
+* `pgcli -h 206.189.181.163 -p 5432 -U rcos -d rcos -W`
+* `\dt` to see all tables
+* TABLE [name of table you want to see dont put brackets]
+
+
+## Run Local Version Using Docker
+* The first step is to set up the data_collection/db/config.py file
+  * If you are on windows, and you are running docker through docker-machine:
+    * run the command `docker-machine ip` and replace HOST with your result
+  * If you are on mac or linux, use the command:
+    * `ipconfig getifaddr en0` and replace HOST with your result
+* To run the local postgres server and build and enter the python container's bash, use the command:
+  * `docker-compose run data-collection`
+* After the images are built the first time, the command should run a lot faster
+* Note: The compose environment is set up to use volumes. You can change your local python code and the changes should be reflected from within the container

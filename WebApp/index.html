@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hedgehogs</title>
+<link rel="shortcut icon" type ="image/png" href="charticon.png">
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="app">
+	<div class="nav-bar"></div>
+    <div id="nav">
+        <a href='#' class="tab" v-on:click="makeActive('homeActive')">Hedgehogs</a>
+        <a href='#' class="tab" v-on:click="makeActive('infoActive')">About</a>
+        <a href='#' class="tab" v-on:click="makeActive('githubActive')">GitHub</a>
+
+    </div>
+    <div class="content">
+        <div class="boxes" id="home" v-show="isActiveTab('homeActive')">
+        	<div class="center">
+        		<img id ="mainimage" :src="image" />
+        	</div>
+        	
+        </div>
+        <div class="boxes" id="about" v-show="isActiveTab('infoActive')">
+       		<p>	
+				Hedgehogs is a service that allows users to validate algorithmic trading strategies. It will give users access to end-of-day data along with a plethora of fundamental and technical analysis tools and indicators. These features allow users to gain a competitive edge in the global financial markets all while utilizing Hedgehogs’ comprehensive application. Hedgehogs will allow users to utilize their own hardware to run strategy validation tests.
+       		</p>
+        </div>
+        <div class="boxes" id="github" v-show="isActiveTab('githubActive')">
+        	<a href="url">https://github.com/rmarathay/hedgehogs</a>
+        </div>
+    </div>
+</div>
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	<script src="main.js"></script>
+</body>
+</html>
