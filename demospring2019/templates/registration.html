@@ -33,7 +33,8 @@
 </div>
 </nav>
 
-<div class="col-sm-6 offset-sm-3 text-center">
+<form action="{{ url_for('registration') }}" method="post">
+	<div class="col-sm-6 offset-sm-3 text-center">
 	<div class="form-group">
 		<input type="text"  id="name" name="name" placeholder="username">
 	</div>
@@ -41,7 +42,7 @@
 		<input type="email"  id="email" name="email" placeholder="e-mail">
 	</div>
 	<div class="form-group">
-		<input type="password"  id="pswd" name="pswd" placeholder="password">
+		<input type="password"  id="password" name="password" placeholder="password">
 	</div>
 </div>
 
@@ -52,6 +53,9 @@
         </button>
     </center>
 </div>
+
+
+
 
 
 <div class="footer">Hedgehogs | An <a href="http://rcos.io" title="Rensselaer Center for Open Source">RCOS</a> project | <a href="https://github.com/rmarathay/hedgehogs">Github</a></div>
