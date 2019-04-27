@@ -124,8 +124,55 @@ class StockData:
         return current_ema
 
 
+    def increasingRanges():
+        """
+        Finds all of the increasing runs.
 
-    def printData(start, end):
+        Returns:
+            - A list of tuples where the starting index is the start datetime obj.
+            - The ending index is the datetime obj. where the increase ends.
+        """
+        inreasingList = []
+        for i in range(0, len(self.prices)-1):
+            startDate = self.data[i][0]
+
+            j = i
+            stillIncreasing = true
+            while (stillIncreasing and j < len(self.prices)-1):
+                if (self.data[j+1][1] < self.data[j][1]):
+                    stillIncreasing = false
+                else:
+                    endDate = self.data[j+1][0]
+                    dateRange = (startDate, endDate)
+                    increasingList.append(dateRange)
+        return increasingList
+
+
+    def decreasingRanges(): # NEEDS TESTING, RETURNS A LIST OF TUPLES (s1, s2) where s1 is start date and s2 is end date
+        """
+        Finds all of the decreasing runs.
+
+        Returns:
+            - A list of tuples where the starting index is the start datetime obj.
+            - The ending index is the datetime obj. where the decreasing ends.
+        """
+        decreasingList = []
+        for i in range(0, len(self.prices)-1):
+            startDate = self.data[i][0]
+
+            j = 1
+            stillDecreasing = false
+            while (stillDecreasing and j < len(self.prices)-1):
+                if (self.data[j+1][1] > self.data[j][1]):
+                    stillDecreasing = false
+                else:
+                    endDate = self.data[j+1][0]
+                    dateRange = (startDate, endDate)
+                    decreasingList.append(dateRange)
+        return decreasingList
+
+
+    def printData(start, end): # NEEDS TESTING, RETURNS A LIST OF TUPLES (s1, s2) where s1 is start date and s2 is end date
         """
         prints the ticker and the indicator held within self
 
